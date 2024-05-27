@@ -5846,7 +5846,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: String
                       ModellingRule: Optional
-                      Value: "Combo_box_style"
+                      Value: "Default"
                     - Name: InputFormat
                       Type: BaseDataVariableType
                       DataType: DateTimePickerInputFormatEnum
@@ -6174,7 +6174,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: String
                       ModellingRule: Optional
-                      Value: "Combo_box_style"
+                      Value: "Default"
                     - Name: InputFormat
                       Type: BaseDataVariableType
                       DataType: DateTimePickerInputFormatEnum
@@ -6509,7 +6509,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../S2_TotalConsumption3/Variable1"
+                          Value: "../../../../../Pf Comparision/MaxConsumption3/Variable3"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -6647,7 +6647,7 @@ Children:
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
-                      Value: ""
+                      Value: "SELECT * FROM \"HourlyJaceDataLogger\""
                     - Name: Enabled
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -6750,30 +6750,6 @@ Children:
                             DataType: DynamicLinkMode
                             ModellingRule: Optional
                             Value: 2
-                      - Name: TrendPen1
-                        Type: TrendPen
-                        DataType: BaseDataType
-                        Children:
-                        - Name: Thickness
-                          Type: BaseDataVariableType
-                          DataType: Size
-                          Value: -1.0
-                        - Name: Enabled
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          Value: true
-                        - Name: Thresholds
-                          Type: BaseObjectType
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../CircularGauge1/Value"
-                          Children:
-                          - Name: Mode
-                            Type: BaseVariableType
-                            DataType: DynamicLinkMode
-                            ModellingRule: Optional
-                            Value: 2
                     - Class: Reference
                       Target: ns=5;i=1129
                       Direction: Forward
@@ -6783,11 +6759,16 @@ Children:
                       - Name: Follow
                         Type: BaseDataVariableType
                         DataType: Boolean
-                        Value: true
+                        Value: false
                       - Name: Window
                         Type: BaseDataVariableType
                         DataType: Duration
                         Value: "0:00:00:30.0000000"
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../../../Pf Comparision/MaxConsumption3/Variable3"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -6816,7 +6797,7 @@ Children:
                       - Name: MinValue
                         Type: BaseDataVariableType
                         DataType: Size
-                        Value: 0.0
+                        Value: 50.0
                       - Name: MaxValue
                         Type: BaseDataVariableType
                         DataType: Size
@@ -6865,7 +6846,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 26.0
+                      Value: 19.0
                     - Name: RefreshTime
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -6912,7 +6893,7 @@ Children:
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
-                      Value: ""
+                      Value: "SELECT * FROM \"DailyConsumption\""
                     - Name: Enabled
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -6970,6 +6951,20 @@ Children:
                               Type: BaseDataVariableType
                               DataType: Int32
                               Value: 100
+                    - Name: Model
+                      Type: NodePointer
+                      DataType: NodeId
+                      ModellingRule: Optional
+                      Value: "/Objects/Tata_EMS/DataStores/ODBCDatabase"
+                      Children:
+                      - Name: ItemKind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                   - Name: Trend4
                     Type: Trend
                     Children:
@@ -7023,7 +7018,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../S2_TotalConsumption3/Variable1"
+                          Value: "../../../../../Pf Comparision/MaxConsumption3/Variable3"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -7161,7 +7156,7 @@ Children:
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
-                      Value: ""
+                      Value: "SELECT * FROM \"DailyConsumption\""
                     - Name: Enabled
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -7254,35 +7249,6 @@ Children:
                             DataType: DynamicLinkMode
                             ModellingRule: Optional
                             Value: 2
-                      - Name: TrendPen1
-                        Type: TrendPen
-                        DataType: BaseDataType
-                        Children:
-                        - Name: Thickness
-                          Type: BaseDataVariableType
-                          DataType: Size
-                          Value: -1.0
-                        - Name: Enabled
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          Value: true
-                        - Name: Thresholds
-                          Type: BaseObjectType
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../CircularGauge2/Value"
-                          Children:
-                          - Name: Mode
-                            Type: BaseVariableType
-                            DataType: DynamicLinkMode
-                            ModellingRule: Optional
-                            Value: 2
-                        - Name: Color
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          ModellingRule: Optional
-                          Value: "#ff0000"
                     - Class: Reference
                       Target: ns=5;i=1129
                       Direction: Forward
@@ -7292,11 +7258,16 @@ Children:
                       - Name: Follow
                         Type: BaseDataVariableType
                         DataType: Boolean
-                        Value: true
+                        Value: false
                       - Name: Window
                         Type: BaseDataVariableType
                         DataType: Duration
                         Value: "0:00:00:30.0000000"
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../../../Pf Comparision/MaxConsumption3/Variable3"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -7325,11 +7296,11 @@ Children:
                       - Name: MinValue
                         Type: BaseDataVariableType
                         DataType: Size
-                        Value: 0.0
+                        Value: 50.0
                       - Name: MaxValue
                         Type: BaseDataVariableType
                         DataType: Size
-                        Value: 100.0
+                        Value: 500.0
                       - Name: AutoScale
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -7374,7 +7345,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 26.0
+                      Value: 19.0
                     - Name: RefreshTime
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -7421,7 +7392,7 @@ Children:
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
-                      Value: ""
+                      Value: "SELECT * FROM \"HourlyJaceDataLogger\""
                     - Name: Enabled
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -7479,6 +7450,20 @@ Children:
                               Type: BaseDataVariableType
                               DataType: Int32
                               Value: 0
+                    - Name: Model
+                      Type: NodePointer
+                      DataType: NodeId
+                      ModellingRule: Optional
+                      Value: "/Objects/Tata_EMS/DataStores/ODBCDatabase"
+                      Children:
+                      - Name: ItemKind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                   - Name: Button1
                     Type: Button
                     Children:
@@ -9508,7 +9493,7 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
-                      Value: 0.0
+                      Value: 1.0
                     - Name: Width
                       Type: BaseVariableType
                       DataType: Size
@@ -15879,6 +15864,59 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Duration
                     Value: "0:00:00:0.0000000"
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/ComparisionDashboardInstance/Button1"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Duration
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "0:00:20:0.0000000"
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Duration
+                        ReferenceType: HasParameter
+                        Value: "0:00:00:0.0000000"
+                        Children:
+                        - Name: ExpressionEvaluator1
+                          Type: ExpressionEvaluator
+                          Children:
+                          - Name: Expression
+                            Type: BaseDataVariableType
+                            DataType: String
+                            ReferenceType: HasParameter
+                            ModellingRule: Optional
+                            Value: "{0} == {1}"
+                          - Name: ns=3;Source0
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS/Model/ComparisionDashboardInstance/TimeRange"
+                          - Name: ns=3;Source1
+                            Type: BaseDataVariableType
+                            DataType: BaseDataType
+                            ReferenceType: HasSource
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../.."
                 - Name: S2_TotalConsumption4
                   Type: Label
                   Children:
@@ -16250,7 +16288,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../KWh Comparision/S2_TotalConsumption3/Variable1"
+                          Value: "../../../../../Pf Comparision/MaxConsumption3/Variable3"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -16388,7 +16426,7 @@ Children:
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
-                      Value: ""
+                      Value: "SELECT * FROM \"HourlyJaceDataLogger\""
                     - Name: Enabled
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -16499,7 +16537,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../KWh Comparision/S2_TotalConsumption3/Variable1"
+                          Value: "../../../../../Pf Comparision/MaxConsumption3/Variable3"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -16637,7 +16675,7 @@ Children:
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
-                      Value: ""
+                      Value: "SELECT * FROM \"DailyConsumption\""
                     - Name: Enabled
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -16748,7 +16786,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../KWh Comparision/S2_TotalConsumption3/Variable1"
+                          Value: "../../../../../Pf Comparision/MaxConsumption3/Variable3"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -16886,7 +16924,7 @@ Children:
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
-                      Value: ""
+                      Value: "SELECT * FROM \"DailyConsumption\""
                     - Name: Enabled
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -16997,7 +17035,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../KWh Comparision/S2_TotalConsumption3/Variable1"
+                          Value: "../../../../../Pf Comparision/MaxConsumption3/Variable3"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -17135,7 +17173,7 @@ Children:
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
-                      Value: ""
+                      Value: "SELECT * FROM \"HourlyJaceDataLogger\""
                     - Name: Enabled
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -19222,7 +19260,7 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
-                      Value: 0.0
+                      Value: 1.0
                     - Name: Width
                       Type: BaseVariableType
                       DataType: Size
@@ -25376,6 +25414,2113 @@ Children:
                     DataType: TextVerticalAlignment
                     ModellingRule: Optional
                     Value: 1
+                - Name: MaxConsumption3
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS/Model/ComparisionDashboardInstance/TimeRange"
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 430.0
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: -370.0
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 290.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 28.0
+                  - Name: TextColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: Optional
+                    Value: "#ffffff"
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 25.0
+                  - Name: Variable1
+                    Type: BaseDataVariableType
+                    DataType: Duration
+                    Value: "0:00:00:0.0000000"
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Expression
+                        Type: BaseDataVariableType
+                        DataType: String
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "{0} == {1}"
+                      - Name: ns=3;Source0
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../Text"
+                      - Name: ns=3;Source1
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../../../TextBox1/Text"
+                  - Name: Variable2
+                    Type: BaseDataVariableType
+                    DataType: Duration
+                    Value: "0:00:00:0.0000000"
+                    Children:
+                    - Name: ExpressionEvaluator1
+                      Type: ExpressionEvaluator
+                      Children:
+                      - Name: Expression
+                        Type: BaseDataVariableType
+                        DataType: String
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "{0} == {1}"
+                      - Name: ns=3;Source0
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../Text"
+                      - Name: ns=3;Source1
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../../../TextBox1/Text"
+                  - Name: Variable3
+                    Type: BaseDataVariableType
+                    DataType: Duration
+                    Value: "0:23:59:59.0000000"
+                  - Name: Visible
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ModellingRule: Optional
+                    Value: true
+                - Name: MaxConsumption5
+                  Type: Label
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../MaxConsumption3/Variable1"
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 650.0
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: -370.0
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 290.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 28.0
+                  - Name: TextColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: Optional
+                    Value: "#ffffff"
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 25.0
+                  - Name: Visible
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ModellingRule: Optional
+                    Value: true
+                - Name: meterbutton
+                  Type: Button
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"en-US","Text":"Generate"}
+                  - Name: FontFamily
+                    Type: BaseDataVariableType
+                    DataType: Font
+                    ModellingRule: Optional
+                    Value: "Lucida Fax"
+                  - Name: Visible
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Enabled
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 1340.0
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: -367.0
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 140.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 35.0
+                  - Name: MouseClickEventHandler1
+                    Type: EventHandler
+                    Children:
+                    - Name: ListenEventType
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+                    - Name: MethodsToCall
+                      Type: BaseObjectType
+                      Children:
+                      - Name: MethodContainer1
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../../KWh Comparision/Rectangle4/Trend1/Query@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: String
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: ""
+                            Children:
+                            - Name: StringFormatter1
+                              Type: StringFormatter
+                              Children:
+                              - Name: Format
+                                Type: BaseDataVariableType
+                                DataType: LocalizedText
+                                ReferenceType: HasParameter
+                                ModellingRule: Optional
+                                Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                              - Name: ns=3;Source0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                              - Name: ns=3;Source1
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                              - Name: ns=3;Source2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected1"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer2
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../../KWh Comparision/Rectangle4/Trend3/Query@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: String
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: ""
+                            Children:
+                            - Name: StringFormatter1
+                              Type: StringFormatter
+                              Children:
+                              - Name: Format
+                                Type: BaseDataVariableType
+                                DataType: LocalizedText
+                                ReferenceType: HasParameter
+                                ModellingRule: Optional
+                                Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                              - Name: ns=3;Source0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                              - Name: ns=3;Source1
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                              - Name: ns=3;Source2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected2"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer4
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../Rectangle4/Trend1/Query@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: String
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: ""
+                            Children:
+                            - Name: StringFormatter1
+                              Type: StringFormatter
+                              Children:
+                              - Name: Format
+                                Type: BaseDataVariableType
+                                DataType: LocalizedText
+                                ReferenceType: HasParameter
+                                ModellingRule: Optional
+                                Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                              - Name: ns=3;Source0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                              - Name: ns=3;Source1
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                              - Name: ns=3;Source2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected1"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer5
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../Rectangle4/Trend3/Query@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: String
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: ""
+                            Children:
+                            - Name: StringFormatter1
+                              Type: StringFormatter
+                              Children:
+                              - Name: Format
+                                Type: BaseDataVariableType
+                                DataType: LocalizedText
+                                ReferenceType: HasParameter
+                                ModellingRule: Optional
+                                Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                              - Name: ns=3;Source0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                              - Name: ns=3;Source1
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                              - Name: ns=3;Source2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected2"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer6
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../../Frequency Comparision/Rectangle4/Trend1/Query@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: String
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: ""
+                            Children:
+                            - Name: StringFormatter1
+                              Type: StringFormatter
+                              Children:
+                              - Name: Format
+                                Type: BaseDataVariableType
+                                DataType: LocalizedText
+                                ReferenceType: HasParameter
+                                ModellingRule: Optional
+                                Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                              - Name: ns=3;Source0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                              - Name: ns=3;Source1
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                              - Name: ns=3;Source2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected1"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer7
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../../Frequency Comparision/Rectangle4/Trend3/Query@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: String
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: ""
+                            Children:
+                            - Name: StringFormatter1
+                              Type: StringFormatter
+                              Children:
+                              - Name: Format
+                                Type: BaseDataVariableType
+                                DataType: LocalizedText
+                                ReferenceType: HasParameter
+                                ModellingRule: Optional
+                                Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                              - Name: ns=3;Source0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                              - Name: ns=3;Source1
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                              - Name: ns=3;Source2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected2"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer8
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../KWh Comparision/Rectangle4/Trend3@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer9
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../KWh Comparision/Rectangle4/Trend2@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer10
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../KWh Comparision/Rectangle4/Trend4@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer11
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../KWh Comparision/Rectangle4/Trend1@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer12
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../Rectangle4/Trend3@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer13
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../Rectangle4/Trend2@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer14
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../Rectangle4/Trend4@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer15
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../Rectangle4/Trend1@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer16
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../Frequency Comparision/Rectangle4/Trend3@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer17
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../Frequency Comparision/Rectangle4/Trend2@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer18
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../Frequency Comparision/Rectangle4/Trend4@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer19
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../Frequency Comparision/Rectangle4/Trend1@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer20
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: "/Objects/Tata_EMS/Model/ComparisionDashboardInstance/Button1"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: true
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer3
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../MaxConsumption3/Variable3@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: Duration
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: "0:00:00:0.0000000"
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS/Model/ComparisionDashboardInstance/TimeRange"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                    - Name: EventArguments
+                      Type: MouseClickEvent
+                      Children:
+                      - Name: EventId
+                        Type: PropertyType
+                        DataType: ByteString
+                        Value: ""
+                      - Name: EventType
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      - Name: SourceNode
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      - Name: SourceName
+                        Type: PropertyType
+                        DataType: String
+                        Value: ""
+                      - Name: Time
+                        Type: PropertyType
+                        DataType: UtcTime
+                        Value: "1601-01-01T00:00:00.0000000"
+                      - Name: ReceiveTime
+                        Type: PropertyType
+                        DataType: UtcTime
+                        Value: "1601-01-01T00:00:00.0000000"
+                      - Name: Message
+                        Type: PropertyType
+                        DataType: LocalizedText
+                        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                      - Name: Severity
+                        Type: PropertyType
+                        DataType: UInt16
+                        Value: 0
+                - Name: meterbutton1
+                  Type: Button
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"en-US","Text":"Generate"}
+                  - Name: FontFamily
+                    Type: BaseDataVariableType
+                    DataType: Font
+                    ModellingRule: Optional
+                    Value: "Lucida Fax"
+                  - Name: Visible
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Enabled
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 1180.0
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: -367.0
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 140.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 35.0
+                  - Name: MouseClickEventHandler1
+                    Type: EventHandler
+                    Children:
+                    - Name: ListenEventType
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+                    - Name: MethodsToCall
+                      Type: BaseObjectType
+                      Children:
+                      - Name: MethodContainer20
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: "/Objects/Tata_EMS/Model/ComparisionDashboardInstance/Button2"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: true
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer8
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../MaxConsumption3/Variable3@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: Duration
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: "0:00:00:0.0000000"
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS/Model/ComparisionDashboardInstance/TimeRange"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer1
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../../KWh Comparision/Rectangle4/Trend2/Query@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: String
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: ""
+                            Children:
+                            - Name: StringFormatter1
+                              Type: StringFormatter
+                              Children:
+                              - Name: Format
+                                Type: BaseDataVariableType
+                                DataType: LocalizedText
+                                ReferenceType: HasParameter
+                                ModellingRule: Optional
+                                Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"DailyConsumption\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Meter =  {2:sql_literal}"}
+                              - Name: ns=3;Source0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                              - Name: ns=3;Source1
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                              - Name: ns=3;Source2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Meterselected1"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer2
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../../KWh Comparision/Rectangle4/Trend4/Query@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: String
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: ""
+                            Children:
+                            - Name: StringFormatter1
+                              Type: StringFormatter
+                              Children:
+                              - Name: Format
+                                Type: BaseDataVariableType
+                                DataType: LocalizedText
+                                ReferenceType: HasParameter
+                                ModellingRule: Optional
+                                Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"DailyConsumption\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Meter =  {2:sql_literal}"}
+                              - Name: ns=3;Source0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                              - Name: ns=3;Source1
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                              - Name: ns=3;Source2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Meterselected2"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer3
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../../KWh Comparision/S2_TotalConsumption3/Variable1@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: Duration
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: "0:00:00:0.0000000"
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "/Objects/Tata_EMS/Model/ComparisionDashboardInstance/TimeRange"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer4
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../Rectangle4/Trend2/Query@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: String
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: ""
+                            Children:
+                            - Name: StringFormatter1
+                              Type: StringFormatter
+                              Children:
+                              - Name: Format
+                                Type: BaseDataVariableType
+                                DataType: LocalizedText
+                                ReferenceType: HasParameter
+                                ModellingRule: Optional
+                                Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"DailyConsumption\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Meter =  {2:sql_literal}"}
+                              - Name: ns=3;Source0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                              - Name: ns=3;Source1
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                              - Name: ns=3;Source2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Meterselected1"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer5
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../Rectangle4/Trend4/Query@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: String
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: ""
+                            Children:
+                            - Name: StringFormatter1
+                              Type: StringFormatter
+                              Children:
+                              - Name: Format
+                                Type: BaseDataVariableType
+                                DataType: LocalizedText
+                                ReferenceType: HasParameter
+                                ModellingRule: Optional
+                                Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"DailyConsumption\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Meter =  {2:sql_literal}"}
+                              - Name: ns=3;Source0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                              - Name: ns=3;Source1
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                              - Name: ns=3;Source2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Meterselected2"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer6
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../../Frequency Comparision/Rectangle4/Trend4/Query@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: String
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: ""
+                            Children:
+                            - Name: StringFormatter1
+                              Type: StringFormatter
+                              Children:
+                              - Name: Format
+                                Type: BaseDataVariableType
+                                DataType: LocalizedText
+                                ReferenceType: HasParameter
+                                ModellingRule: Optional
+                                Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"DailyConsumption\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Meter =  {2:sql_literal}"}
+                              - Name: ns=3;Source0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                              - Name: ns=3;Source1
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                              - Name: ns=3;Source2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Meterselected2"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer7
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: "/Objects/Commands/VariableCommands"
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Set"
+                        - Name: InputArguments
+                          Type: BaseObjectType
+                          Children:
+                          - Name: VariableToModify
+                            Type: BaseDataVariableType
+                            DataType: VariablePointer
+                            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                            Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            Children:
+                            - Name: DynamicLink
+                              Type: DynamicLink
+                              DataType: NodePath
+                              Value: "../../../../../../../Frequency Comparision/Rectangle4/Trend2/Query@NodeId"
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: String
+                            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                            Value: ""
+                            Children:
+                            - Name: StringFormatter1
+                              Type: StringFormatter
+                              Children:
+                              - Name: Format
+                                Type: BaseDataVariableType
+                                DataType: LocalizedText
+                                ReferenceType: HasParameter
+                                ModellingRule: Optional
+                                Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"DailyConsumption\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Meter =  {2:sql_literal}"}
+                              - Name: ns=3;Source0
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                              - Name: ns=3;Source1
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                              - Name: ns=3;Source2
+                                Type: BaseDataVariableType
+                                DataType: BaseDataType
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Meterselected1"
+                          - Name: ArrayIndex
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                            ValueRank: ScalarOrOneDimension
+                            Value: 0
+                      - Name: MethodContainer9
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../KWh Comparision/Rectangle4/Trend3@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer10
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../KWh Comparision/Rectangle4/Trend2@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer11
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../KWh Comparision/Rectangle4/Trend4@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer12
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../KWh Comparision/Rectangle4/Trend1@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer13
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../Rectangle4/Trend3@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer14
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../Rectangle4/Trend2@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer15
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../Rectangle4/Trend4@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer16
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../Rectangle4/Trend1@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer17
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../Frequency Comparision/Rectangle4/Trend3@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer18
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../Frequency Comparision/Rectangle4/Trend2@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer19
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../Frequency Comparision/Rectangle4/Trend4@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                      - Name: MethodContainer21
+                        Type: BaseObjectType
+                        Children:
+                        - Name: ns=3;ObjectPointer
+                          Type: NodePointer
+                          DataType: NodeId
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: Kind
+                            Type: PropertyType
+                            DataType: NodeId
+                            Value: "/Types/ObjectTypes/BaseObjectType"
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../Frequency Comparision/Rectangle4/Trend1@NodeId"
+                            Children:
+                            - Name: Mode
+                              Type: BaseVariableType
+                              DataType: DynamicLinkMode
+                              ModellingRule: Optional
+                              Value: 2
+                        - Name: ns=3;Method
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: "Refresh"
+                    - Name: EventArguments
+                      Type: MouseClickEvent
+                      Children:
+                      - Name: EventId
+                        Type: PropertyType
+                        DataType: ByteString
+                        Value: ""
+                      - Name: EventType
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      - Name: SourceNode
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      - Name: SourceName
+                        Type: PropertyType
+                        DataType: String
+                        Value: ""
+                      - Name: Time
+                        Type: PropertyType
+                        DataType: UtcTime
+                        Value: "1601-01-01T00:00:00.0000000"
+                      - Name: ReceiveTime
+                        Type: PropertyType
+                        DataType: UtcTime
+                        Value: "1601-01-01T00:00:00.0000000"
+                      - Name: Message
+                        Type: PropertyType
+                        DataType: LocalizedText
+                        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                      - Name: Severity
+                        Type: PropertyType
+                        DataType: UInt16
+                        Value: 0
               - Name: Frequency Comparision
                 Type: Rectangle
                 Children:
@@ -25700,7 +27845,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../KWh Comparision/S2_TotalConsumption3/Variable1"
+                          Value: "../../../../../Pf Comparision/MaxConsumption3/Variable3"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -25838,7 +27983,7 @@ Children:
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
-                      Value: ""
+                      Value: "SELECT * FROM \"HourlyJaceDataLogger\""
                     - Name: Enabled
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -25949,7 +28094,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../KWh Comparision/S2_TotalConsumption3/Variable1"
+                          Value: "../../../../../Pf Comparision/MaxConsumption3/Variable3"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -26087,7 +28232,7 @@ Children:
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
-                      Value: ""
+                      Value: "SELECT * FROM \"DailyConsumption\""
                     - Name: Enabled
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -26198,7 +28343,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../KWh Comparision/S2_TotalConsumption3/Variable1"
+                          Value: "../../../../../Pf Comparision/MaxConsumption3/Variable3"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -26336,7 +28481,7 @@ Children:
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
-                      Value: ""
+                      Value: "SELECT * FROM \"DailyConsumption\""
                     - Name: Enabled
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -26447,7 +28592,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../KWh Comparision/S2_TotalConsumption3/Variable1"
+                          Value: "../../../../../Pf Comparision/MaxConsumption3/Variable3"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -26585,7 +28730,7 @@ Children:
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
-                      Value: ""
+                      Value: "SELECT * FROM \"HourlyJaceDataLogger\""
                     - Name: Enabled
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -28672,7 +30817,7 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Double
-                      Value: 0.0
+                      Value: 1.0
                     - Name: Width
                       Type: BaseVariableType
                       DataType: Size
@@ -34946,678 +37091,6 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: -40.0
-              - Name: meterbutton
-                Type: MomentaryButton
-                Children:
-                - Name: Active
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  AccessLevel: Read
-                  Value: false
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_EMS/Model/ComparisionDashboardInstance/Button1"
-                    Children:
-                    - Name: Mode
-                      Type: BaseVariableType
-                      DataType: DynamicLinkMode
-                      ModellingRule: Optional
-                      Value: 1
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"en-US","Text":"Generate"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 1346.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 160.0
-                - Name: MaxHoldTime
-                  Type: BaseDataVariableType
-                  DataType: Duration
-                  ModellingRule: Optional
-                  Value: "0:00:00:2.0000000"
-                - Name: ButtonStatus
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: false
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../Active"
-                    Children:
-                    - Name: Mode
-                      Type: BaseVariableType
-                      DataType: DynamicLinkMode
-                      ModellingRule: Optional
-                      Value: 2
-                - Name: MinHoldTime
-                  Type: BaseDataVariableType
-                  DataType: Duration
-                  ModellingRule: Optional
-                  Value: "0:00:00:0.1000000"
-                - Name: Visible
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                  Children:
-                  - Name: KeyValueConverter1
-                    Type: ValueMapConverter
-                    Children:
-                    - Name: Source
-                      Type: BaseDataVariableType
-                      DataType: BaseDataType
-                      ReferenceType: HasSource
-                      Children:
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Comparision_Selection"
-                    - Name: Pairs
-                      Type: BaseObjectType
-                      Children:
-                      - Name: Pair
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 1
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          Value: false
-                      - Name: Pair1
-                        Type: ValueMapPair
-                        Children:
-                        - Name: Key
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Boolean
-                          Value: true
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                - Name: FontFamily
-                  Type: BaseDataVariableType
-                  DataType: Font
-                  ModellingRule: Optional
-                  Value: "Lucida Fax"
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 140.0
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 35.0
-                - Name: MouseClickEventHandler1
-                  Type: EventHandler
-                  Children:
-                  - Name: ListenEventType
-                    Type: PropertyType
-                    DataType: NodeId
-                    Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-                  - Name: MethodsToCall
-                    Type: BaseObjectType
-                    Children:
-                    - Name: MethodContainer1
-                      Type: BaseObjectType
-                      Children:
-                      - Name: ns=3;ObjectPointer
-                        Type: NodePointer
-                        DataType: NodeId
-                        Value: "/Objects/Commands/VariableCommands"
-                        Children:
-                        - Name: Kind
-                          Type: PropertyType
-                          DataType: NodeId
-                          Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: ns=3;Method
-                        Type: BaseDataVariableType
-                        DataType: String
-                        Value: "Set"
-                      - Name: InputArguments
-                        Type: BaseObjectType
-                        Children:
-                        - Name: VariableToModify
-                          Type: BaseDataVariableType
-                          DataType: VariablePointer
-                          Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                          Value: {"IdType":0,"Id":0,"Namespace":-1}
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "../../../../../../KWh Comparision/Rectangle4/Trend1/Query@NodeId"
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                          Value: ""
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Format
-                              Type: BaseDataVariableType
-                              DataType: LocalizedText
-                              ReferenceType: HasParameter
-                              ModellingRule: Optional
-                              Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
-                            - Name: ns=3;Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
-                            - Name: ns=3;Source1
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
-                            - Name: ns=3;Source2
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected1"
-                        - Name: ArrayIndex
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                          ValueRank: ScalarOrOneDimension
-                          Value: 0
-                    - Name: MethodContainer2
-                      Type: BaseObjectType
-                      Children:
-                      - Name: ns=3;ObjectPointer
-                        Type: NodePointer
-                        DataType: NodeId
-                        Value: "/Objects/Commands/VariableCommands"
-                        Children:
-                        - Name: Kind
-                          Type: PropertyType
-                          DataType: NodeId
-                          Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: ns=3;Method
-                        Type: BaseDataVariableType
-                        DataType: String
-                        Value: "Set"
-                      - Name: InputArguments
-                        Type: BaseObjectType
-                        Children:
-                        - Name: VariableToModify
-                          Type: BaseDataVariableType
-                          DataType: VariablePointer
-                          Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                          Value: {"IdType":0,"Id":0,"Namespace":-1}
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "../../../../../../KWh Comparision/Rectangle4/Trend3/Query@NodeId"
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                          Value: ""
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Format
-                              Type: BaseDataVariableType
-                              DataType: LocalizedText
-                              ReferenceType: HasParameter
-                              ModellingRule: Optional
-                              Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
-                            - Name: ns=3;Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
-                            - Name: ns=3;Source1
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
-                            - Name: ns=3;Source2
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected2"
-                        - Name: ArrayIndex
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                          ValueRank: ScalarOrOneDimension
-                          Value: 0
-                    - Name: MethodContainer3
-                      Type: BaseObjectType
-                      Children:
-                      - Name: ns=3;ObjectPointer
-                        Type: NodePointer
-                        DataType: NodeId
-                        Value: "/Objects/Commands/VariableCommands"
-                        Children:
-                        - Name: Kind
-                          Type: PropertyType
-                          DataType: NodeId
-                          Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: ns=3;Method
-                        Type: BaseDataVariableType
-                        DataType: String
-                        Value: "Set"
-                      - Name: InputArguments
-                        Type: BaseObjectType
-                        Children:
-                        - Name: VariableToModify
-                          Type: BaseDataVariableType
-                          DataType: VariablePointer
-                          Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                          Value: {"IdType":0,"Id":0,"Namespace":-1}
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "../../../../../../KWh Comparision/S2_TotalConsumption3/Variable1@NodeId"
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: Duration
-                          Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                          Value: "0:00:00:0.0000000"
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_EMS/Model/ComparisionDashboardInstance/TimeRange"
-                        - Name: ArrayIndex
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                          ValueRank: ScalarOrOneDimension
-                          Value: 0
-                    - Name: MethodContainer4
-                      Type: BaseObjectType
-                      Children:
-                      - Name: ns=3;ObjectPointer
-                        Type: NodePointer
-                        DataType: NodeId
-                        Value: "/Objects/Commands/VariableCommands"
-                        Children:
-                        - Name: Kind
-                          Type: PropertyType
-                          DataType: NodeId
-                          Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: ns=3;Method
-                        Type: BaseDataVariableType
-                        DataType: String
-                        Value: "Set"
-                      - Name: InputArguments
-                        Type: BaseObjectType
-                        Children:
-                        - Name: VariableToModify
-                          Type: BaseDataVariableType
-                          DataType: VariablePointer
-                          Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                          Value: {"IdType":0,"Id":0,"Namespace":-1}
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "../../../../../../Pf Comparision/Rectangle4/Trend1/Query@NodeId"
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                          Value: ""
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Format
-                              Type: BaseDataVariableType
-                              DataType: LocalizedText
-                              ReferenceType: HasParameter
-                              ModellingRule: Optional
-                              Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
-                            - Name: ns=3;Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
-                            - Name: ns=3;Source1
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
-                            - Name: ns=3;Source2
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected1"
-                        - Name: ArrayIndex
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                          ValueRank: ScalarOrOneDimension
-                          Value: 0
-                    - Name: MethodContainer5
-                      Type: BaseObjectType
-                      Children:
-                      - Name: ns=3;ObjectPointer
-                        Type: NodePointer
-                        DataType: NodeId
-                        Value: "/Objects/Commands/VariableCommands"
-                        Children:
-                        - Name: Kind
-                          Type: PropertyType
-                          DataType: NodeId
-                          Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: ns=3;Method
-                        Type: BaseDataVariableType
-                        DataType: String
-                        Value: "Set"
-                      - Name: InputArguments
-                        Type: BaseObjectType
-                        Children:
-                        - Name: VariableToModify
-                          Type: BaseDataVariableType
-                          DataType: VariablePointer
-                          Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                          Value: {"IdType":0,"Id":0,"Namespace":-1}
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "../../../../../../Pf Comparision/Rectangle4/Trend3/Query@NodeId"
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                          Value: ""
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Format
-                              Type: BaseDataVariableType
-                              DataType: LocalizedText
-                              ReferenceType: HasParameter
-                              ModellingRule: Optional
-                              Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
-                            - Name: ns=3;Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
-                            - Name: ns=3;Source1
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
-                            - Name: ns=3;Source2
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected2"
-                        - Name: ArrayIndex
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                          ValueRank: ScalarOrOneDimension
-                          Value: 0
-                    - Name: MethodContainer6
-                      Type: BaseObjectType
-                      Children:
-                      - Name: ns=3;ObjectPointer
-                        Type: NodePointer
-                        DataType: NodeId
-                        Value: "/Objects/Commands/VariableCommands"
-                        Children:
-                        - Name: Kind
-                          Type: PropertyType
-                          DataType: NodeId
-                          Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: ns=3;Method
-                        Type: BaseDataVariableType
-                        DataType: String
-                        Value: "Set"
-                      - Name: InputArguments
-                        Type: BaseObjectType
-                        Children:
-                        - Name: VariableToModify
-                          Type: BaseDataVariableType
-                          DataType: VariablePointer
-                          Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                          Value: {"IdType":0,"Id":0,"Namespace":-1}
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "../../../../../../Frequency Comparision/Rectangle4/Trend1/Query@NodeId"
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                          Value: ""
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Format
-                              Type: BaseDataVariableType
-                              DataType: LocalizedText
-                              ReferenceType: HasParameter
-                              ModellingRule: Optional
-                              Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
-                            - Name: ns=3;Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
-                            - Name: ns=3;Source1
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
-                            - Name: ns=3;Source2
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected1"
-                        - Name: ArrayIndex
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                          ValueRank: ScalarOrOneDimension
-                          Value: 0
-                    - Name: MethodContainer7
-                      Type: BaseObjectType
-                      Children:
-                      - Name: ns=3;ObjectPointer
-                        Type: NodePointer
-                        DataType: NodeId
-                        Value: "/Objects/Commands/VariableCommands"
-                        Children:
-                        - Name: Kind
-                          Type: PropertyType
-                          DataType: NodeId
-                          Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: ns=3;Method
-                        Type: BaseDataVariableType
-                        DataType: String
-                        Value: "Set"
-                      - Name: InputArguments
-                        Type: BaseObjectType
-                        Children:
-                        - Name: VariableToModify
-                          Type: BaseDataVariableType
-                          DataType: VariablePointer
-                          Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                          Value: {"IdType":0,"Id":0,"Namespace":-1}
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "../../../../../../Frequency Comparision/Rectangle4/Trend3/Query@NodeId"
-                        - Name: Value
-                          Type: BaseDataVariableType
-                          DataType: String
-                          Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                          Value: ""
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Format
-                              Type: BaseDataVariableType
-                              DataType: LocalizedText
-                              ReferenceType: HasParameter
-                              ModellingRule: Optional
-                              Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
-                            - Name: ns=3;Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
-                            - Name: ns=3;Source1
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
-                            - Name: ns=3;Source2
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected2"
-                        - Name: ArrayIndex
-                          Type: BaseDataVariableType
-                          DataType: UInt32
-                          Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                          ValueRank: ScalarOrOneDimension
-                          Value: 0
-                  - Name: EventArguments
-                    Type: MouseClickEvent
-                    Children:
-                    - Name: EventId
-                      Type: PropertyType
-                      DataType: ByteString
-                      Value: ""
-                    - Name: EventType
-                      Type: PropertyType
-                      DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
-                    - Name: SourceNode
-                      Type: PropertyType
-                      DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
-                    - Name: SourceName
-                      Type: PropertyType
-                      DataType: String
-                      Value: ""
-                    - Name: Time
-                      Type: PropertyType
-                      DataType: UtcTime
-                      Value: "1601-01-01T00:00:00.0000000"
-                    - Name: ReceiveTime
-                      Type: PropertyType
-                      DataType: UtcTime
-                      Value: "1601-01-01T00:00:00.0000000"
-                    - Name: Message
-                      Type: PropertyType
-                      DataType: LocalizedText
-                      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                    - Name: Severity
-                      Type: PropertyType
-                      DataType: UInt16
-                      Value: 0
               - Name: meterbutton1
                 Type: MomentaryButton
                 Children:
@@ -36253,6 +37726,589 @@ Children:
                           Type: BaseDataVariableType
                           DataType: UInt32
                           Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                          ValueRank: ScalarOrOneDimension
+                          Value: 0
+                  - Name: EventArguments
+                    Type: MouseClickEvent
+                    Children:
+                    - Name: EventId
+                      Type: PropertyType
+                      DataType: ByteString
+                      Value: ""
+                    - Name: EventType
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    - Name: SourceNode
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    - Name: SourceName
+                      Type: PropertyType
+                      DataType: String
+                      Value: ""
+                    - Name: Time
+                      Type: PropertyType
+                      DataType: UtcTime
+                      Value: "1601-01-01T00:00:00.0000000"
+                    - Name: ReceiveTime
+                      Type: PropertyType
+                      DataType: UtcTime
+                      Value: "1601-01-01T00:00:00.0000000"
+                    - Name: Message
+                      Type: PropertyType
+                      DataType: LocalizedText
+                      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    - Name: Severity
+                      Type: PropertyType
+                      DataType: UInt16
+                      Value: 0
+              - Name: meterbutton
+                Type: MomentaryButton
+                Children:
+                - Name: Active
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  AccessLevel: Read
+                  Value: false
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"Generate"}
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 1346.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 160.0
+                - Name: MaxHoldTime
+                  Type: BaseDataVariableType
+                  DataType: Duration
+                  ModellingRule: Optional
+                  Value: "0:00:00:2.0000000"
+                - Name: MinHoldTime
+                  Type: BaseDataVariableType
+                  DataType: Duration
+                  ModellingRule: Optional
+                  Value: "0:00:00:0.1000000"
+                - Name: Visible
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                  Children:
+                  - Name: KeyValueConverter1
+                    Type: ValueMapConverter
+                    Children:
+                    - Name: Source
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Comparision_Selection"
+                    - Name: Pairs
+                      Type: BaseObjectType
+                      Children:
+                      - Name: Pair
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 1
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: false
+                      - Name: Pair1
+                        Type: ValueMapPair
+                        Children:
+                        - Name: Key
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          Value: 0
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: true
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: FontFamily
+                  Type: BaseDataVariableType
+                  DataType: Font
+                  ModellingRule: Optional
+                  Value: "Lucida Fax"
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 140.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 35.0
+                - Name: MouseClickEventHandler1
+                  Type: EventHandler
+                  Children:
+                  - Name: ListenEventType
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+                  - Name: MethodsToCall
+                    Type: BaseObjectType
+                    Children:
+                    - Name: MethodContainer1
+                      Type: BaseObjectType
+                      Children:
+                      - Name: ns=3;ObjectPointer
+                        Type: NodePointer
+                        DataType: NodeId
+                        Value: "/Objects/Commands/VariableCommands"
+                        Children:
+                        - Name: Kind
+                          Type: PropertyType
+                          DataType: NodeId
+                          Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: ns=3;Method
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "Set"
+                      - Name: InputArguments
+                        Type: BaseObjectType
+                        Children:
+                        - Name: VariableToModify
+                          Type: BaseDataVariableType
+                          DataType: VariablePointer
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../KWh Comparision/Rectangle4/Trend1/Query@NodeId"
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: ""
+                          Children:
+                          - Name: StringFormatter1
+                            Type: StringFormatter
+                            Children:
+                            - Name: Format
+                              Type: BaseDataVariableType
+                              DataType: LocalizedText
+                              ReferenceType: HasParameter
+                              ModellingRule: Optional
+                              Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                            - Name: ns=3;Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                            - Name: ns=3;Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                            - Name: ns=3;Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected1"
+                        - Name: ArrayIndex
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          ValueRank: ScalarOrOneDimension
+                          Value: 0
+                    - Name: MethodContainer2
+                      Type: BaseObjectType
+                      Children:
+                      - Name: ns=3;ObjectPointer
+                        Type: NodePointer
+                        DataType: NodeId
+                        Value: "/Objects/Commands/VariableCommands"
+                        Children:
+                        - Name: Kind
+                          Type: PropertyType
+                          DataType: NodeId
+                          Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: ns=3;Method
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "Set"
+                      - Name: InputArguments
+                        Type: BaseObjectType
+                        Children:
+                        - Name: VariableToModify
+                          Type: BaseDataVariableType
+                          DataType: VariablePointer
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../KWh Comparision/Rectangle4/Trend3/Query@NodeId"
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: ""
+                          Children:
+                          - Name: StringFormatter1
+                            Type: StringFormatter
+                            Children:
+                            - Name: Format
+                              Type: BaseDataVariableType
+                              DataType: LocalizedText
+                              ReferenceType: HasParameter
+                              ModellingRule: Optional
+                              Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                            - Name: ns=3;Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                            - Name: ns=3;Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                            - Name: ns=3;Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected2"
+                        - Name: ArrayIndex
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          ValueRank: ScalarOrOneDimension
+                          Value: 0
+                    - Name: MethodContainer4
+                      Type: BaseObjectType
+                      Children:
+                      - Name: ns=3;ObjectPointer
+                        Type: NodePointer
+                        DataType: NodeId
+                        Value: "/Objects/Commands/VariableCommands"
+                        Children:
+                        - Name: Kind
+                          Type: PropertyType
+                          DataType: NodeId
+                          Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: ns=3;Method
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "Set"
+                      - Name: InputArguments
+                        Type: BaseObjectType
+                        Children:
+                        - Name: VariableToModify
+                          Type: BaseDataVariableType
+                          DataType: VariablePointer
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../Pf Comparision/Rectangle4/Trend1/Query@NodeId"
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: ""
+                          Children:
+                          - Name: StringFormatter1
+                            Type: StringFormatter
+                            Children:
+                            - Name: Format
+                              Type: BaseDataVariableType
+                              DataType: LocalizedText
+                              ReferenceType: HasParameter
+                              ModellingRule: Optional
+                              Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                            - Name: ns=3;Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                            - Name: ns=3;Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                            - Name: ns=3;Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected1"
+                        - Name: ArrayIndex
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          ValueRank: ScalarOrOneDimension
+                          Value: 0
+                    - Name: MethodContainer5
+                      Type: BaseObjectType
+                      Children:
+                      - Name: ns=3;ObjectPointer
+                        Type: NodePointer
+                        DataType: NodeId
+                        Value: "/Objects/Commands/VariableCommands"
+                        Children:
+                        - Name: Kind
+                          Type: PropertyType
+                          DataType: NodeId
+                          Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: ns=3;Method
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "Set"
+                      - Name: InputArguments
+                        Type: BaseObjectType
+                        Children:
+                        - Name: VariableToModify
+                          Type: BaseDataVariableType
+                          DataType: VariablePointer
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../Pf Comparision/Rectangle4/Trend3/Query@NodeId"
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: ""
+                          Children:
+                          - Name: StringFormatter1
+                            Type: StringFormatter
+                            Children:
+                            - Name: Format
+                              Type: BaseDataVariableType
+                              DataType: LocalizedText
+                              ReferenceType: HasParameter
+                              ModellingRule: Optional
+                              Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                            - Name: ns=3;Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                            - Name: ns=3;Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                            - Name: ns=3;Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected2"
+                        - Name: ArrayIndex
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          ValueRank: ScalarOrOneDimension
+                          Value: 0
+                    - Name: MethodContainer6
+                      Type: BaseObjectType
+                      Children:
+                      - Name: ns=3;ObjectPointer
+                        Type: NodePointer
+                        DataType: NodeId
+                        Value: "/Objects/Commands/VariableCommands"
+                        Children:
+                        - Name: Kind
+                          Type: PropertyType
+                          DataType: NodeId
+                          Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: ns=3;Method
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "Set"
+                      - Name: InputArguments
+                        Type: BaseObjectType
+                        Children:
+                        - Name: VariableToModify
+                          Type: BaseDataVariableType
+                          DataType: VariablePointer
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../Frequency Comparision/Rectangle4/Trend1/Query@NodeId"
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: ""
+                          Children:
+                          - Name: StringFormatter1
+                            Type: StringFormatter
+                            Children:
+                            - Name: Format
+                              Type: BaseDataVariableType
+                              DataType: LocalizedText
+                              ReferenceType: HasParameter
+                              ModellingRule: Optional
+                              Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                            - Name: ns=3;Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                            - Name: ns=3;Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                            - Name: ns=3;Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected1"
+                        - Name: ArrayIndex
+                          Type: BaseDataVariableType
+                          DataType: UInt32
+                          ValueRank: ScalarOrOneDimension
+                          Value: 0
+                    - Name: MethodContainer7
+                      Type: BaseObjectType
+                      Children:
+                      - Name: ns=3;ObjectPointer
+                        Type: NodePointer
+                        DataType: NodeId
+                        Value: "/Objects/Commands/VariableCommands"
+                        Children:
+                        - Name: Kind
+                          Type: PropertyType
+                          DataType: NodeId
+                          Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: ns=3;Method
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "Set"
+                      - Name: InputArguments
+                        Type: BaseObjectType
+                        Children:
+                        - Name: VariableToModify
+                          Type: BaseDataVariableType
+                          DataType: VariablePointer
+                          Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "../../../../../../Frequency Comparision/Rectangle4/Trend3/Query@NodeId"
+                        - Name: Value
+                          Type: BaseDataVariableType
+                          DataType: String
+                          Value: ""
+                          Children:
+                          - Name: StringFormatter1
+                            Type: StringFormatter
+                            Children:
+                            - Name: Format
+                              Type: BaseDataVariableType
+                              DataType: LocalizedText
+                              ReferenceType: HasParameter
+                              ModellingRule: Optional
+                              Value: {"LocaleId":"en-US","Text":"SELECT * FROM \"HourlyJaceDataLogger\" WHERE Timestamp BETWEEN {0:sql_literal} AND {1:sql_literal} AND Jace =  {2:sql_literal}"}
+                            - Name: ns=3;Source0
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Datefrom"
+                            - Name: ns=3;Source1
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Dateto"
+                            - Name: ns=3;Source2
+                              Type: BaseDataVariableType
+                              DataType: BaseDataType
+                              ReferenceType: HasSource
+                              Children:
+                              - Name: DynamicLink
+                                Type: DynamicLink
+                                DataType: NodePath
+                                Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/Jaceselected2"
+                        - Name: ArrayIndex
+                          Type: BaseDataVariableType
+                          DataType: UInt32
                           ValueRank: ScalarOrOneDimension
                           Value: 0
                   - Name: EventArguments

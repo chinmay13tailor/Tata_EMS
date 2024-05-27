@@ -773,7 +773,7 @@ Children:
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
+        Value: "#000000"
     - Name: GaugeStyle1
       Type: GaugeStyle
       Children:
@@ -933,7 +933,7 @@ Children:
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
+        Value: "#000000"
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color

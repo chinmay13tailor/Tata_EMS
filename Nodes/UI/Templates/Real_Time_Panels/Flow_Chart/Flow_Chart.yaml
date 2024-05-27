@@ -15408,7 +15408,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "../../../../../../../../../../Panel1/Switch1/Checked"
+                      Value: "../../../../../../../Panel1/Switch1/Checked"
                   - Name: TrueValue
                     Type: BaseDataVariableType
                     DataType: LocalizedText
@@ -20276,7 +20276,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../../../../../../Panel1/Switch1/Checked"
+                          Value: "../../../../../../../../../Panel1/Switch1/Checked"
                       - Name: TrueValue
                         Type: BaseDataVariableType
                         DataType: LocalizedText
@@ -20452,7 +20452,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../../../../../../Panel1/Switch1/Checked"
+                          Value: "../../../../../../../../../Panel1/Switch1/Checked"
                       - Name: TrueValue
                         Type: BaseDataVariableType
                         DataType: LocalizedText
@@ -20535,7 +20535,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../../../../../../Panel1/Switch1/Checked"
+                          Value: "../../../../../../../../../Panel1/Switch1/Checked"
                       - Name: TrueValue
                         Type: BaseDataVariableType
                         DataType: LocalizedText
@@ -20618,7 +20618,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../../../../../../Panel1/Switch1/Checked"
+                          Value: "../../../../../../../../../Panel1/Switch1/Checked"
                       - Name: TrueValue
                         Type: BaseDataVariableType
                         DataType: LocalizedText
@@ -20691,7 +20691,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../../../../../../Panel1/Switch1/Checked"
+                          Value: "../../../../../../../../../Panel1/Switch1/Checked"
                       - Name: TrueValue
                         Type: BaseDataVariableType
                         DataType: LocalizedText
@@ -20774,7 +20774,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../../../../../../Panel1/Switch1/Checked"
+                          Value: "../../../../../../../../../Panel1/Switch1/Checked"
                       - Name: TrueValue
                         Type: BaseDataVariableType
                         DataType: LocalizedText
@@ -20857,7 +20857,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../../../../../../Panel1/Switch1/Checked"
+                          Value: "../../../../../../../../../Panel1/Switch1/Checked"
                       - Name: TrueValue
                         Type: BaseDataVariableType
                         DataType: LocalizedText

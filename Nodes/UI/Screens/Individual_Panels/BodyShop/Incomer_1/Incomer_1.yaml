@@ -720,7 +720,7 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge3/Value"
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge4/Value"
       - Name: HorizontalLayout2
         Type: RowLayout
         Children:

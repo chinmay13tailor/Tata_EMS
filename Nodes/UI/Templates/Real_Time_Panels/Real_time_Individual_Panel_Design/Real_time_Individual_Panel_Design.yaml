@@ -3302,7 +3302,7 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge3/Value"
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge4/Value"
                       - Name: HorizontalAlignment
                         Type: BaseVariableType
                         DataType: HorizontalAlignment

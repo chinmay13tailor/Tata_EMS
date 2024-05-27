@@ -30230,7 +30230,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_EMS/Model/HomePageNew1/Consumption"
+                    Value: "/Objects/Tata_EMS/Model/HomePageNewInstance/Consumption"
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -30420,7 +30420,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/AverageVoltageLL"
+                    Value: "/Objects/Tata_EMS/Model/HomePageNewInstance/AvgLL"
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -30590,7 +30590,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_EMS/Model/eCharts/eCharts5/Day1"
+                    Value: "/Objects/Tata_EMS/Model/HomePageNewInstance/AvgLN"
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size

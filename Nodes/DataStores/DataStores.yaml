@@ -879,6 +879,14 @@ Children:
           Type: StoreColumn
           DataType: Float
           Value: 0.0
+        - Name: Voltage_LL
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Voltage_LN
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
     - Name: HourlyJaceDataLogger
       Type: ODBCStoreTable
       Children:

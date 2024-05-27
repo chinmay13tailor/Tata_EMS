@@ -1,0 +1,102 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: DB_0_01_1F1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "DB_0_01_1F1"
+- Name: SPP_EDB_0_01_1F1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "SPP_EDB_0_01_1F1"
+- Name: SPP_MVS_IN2
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "SPP_MVS_IN2"
+- Name: SPP_MVS_OG1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "SPP_MVS_OG1"
+- Name: SPP_MVS_OG2
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "SPP_MVS_OG2"
+- Name: SPP_SWB_01_1F1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "SPP_SWB_01_1F1"
+- Name: SPP_SWB_01_4F1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "SPP_SWB_01_4F1"
+- Name: SPP_SWB_02_1F1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "SPP_SWB_02_1F1"
+- Name: SSP_MVS_IN1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "SSP_MVS_IN1"

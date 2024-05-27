@@ -1,0 +1,212 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: PNT_MVS_01_IN_F1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_MVS_01_IN_F1"
+- Name: PNT_MVS_01_IN_F2
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_MVS_01_IN_F2"
+- Name: PNT_MVS_01_OG_F10
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_MVS_01_OG_F10"
+- Name: PNT_MVS_01_OG_F11
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_MVS_01_OG_F11"
+- Name: PNT_MVS_01_OG_F4
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_MVS_01_OG_F4"
+- Name: PNT_MVS_01_OG_F5
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_MVS_01_OG_F5"
+- Name: PNT_MVS_01_OG_F6
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_MVS_01_OG_F6"
+- Name: PNT_MVS_01_OG_F7
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_MVS_01_OG_F7"
+- Name: PNT_MVS_01_OG_F8
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_MVS_01_OG_F8"
+- Name: PNT_MVS_01_OG_F9
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_MVS_01_OG_F9"
+- Name: PNT_SWB_01_IN1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_SWB_01_IN1"
+- Name: PNT_SWB_02_IN1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_SWB_02_IN1"
+- Name: PNT_SWB_03_IN1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_SWB_03_IN1"
+- Name: PNT_SWB_04_IN1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_SWB_04_IN1"
+- Name: PNT_SWB_05_IN1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_SWB_05_IN1"
+- Name: PNT_SWB_06_IN1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_SWB_06_IN1"
+- Name: PNT_SWB_06_OG4
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_SWB_06_OG4"
+- Name: PNT_SWB_07_IN1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_SWB_07_IN1"
+- Name: PNT_SWB_07_OG3
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PNT_SWB_07_OG3"

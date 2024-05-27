@@ -1,0 +1,53 @@
+Name: eCharts5
+Type: FolderType
+Children:
+- Name: Day1
+  Type: BaseDataVariableType
+  DataType: Float
+  Description: {"NamespaceIndex":36,"TextId":"PowerFactor"}
+  Value: 50.5
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../HomePageNewInstance/AvgPF"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Day2
+  Type: BaseDataVariableType
+  DataType: Float
+  Description: {"LocaleId":"en-US","Text":"Frequency"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../HomePageNewInstance/Frequency"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Day3
+  Type: BaseDataVariableType
+  DataType: Float
+  Description: {"LocaleId":"en-US","Text":"TODConsumption"}
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../HomePageNewInstance/TODConsumption"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Day4
+  Type: BaseDataVariableType
+  DataType: String
+  Description: {"NamespaceIndex":36,"TextId":"Title"}
+  Value: "TATA ENERGY MONITORING SYSTEM"

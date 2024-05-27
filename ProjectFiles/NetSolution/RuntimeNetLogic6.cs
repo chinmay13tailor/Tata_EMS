@@ -119,7 +119,7 @@ public class RuntimeNetLogic6 : BaseNetLogic
         if (button == true)
         {
 
-            if (counter <= 210)
+            if (counter <= 211)
 
             {
                 DateTime currentTime = DateTime.Now;

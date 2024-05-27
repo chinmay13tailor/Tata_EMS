@@ -63,7 +63,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Tata_EMS/UI/NavigationSystem/Home_Page"
+          Value: "/Objects/Tata_EMS/UI/NavigationSystem/HomePage2"
           Children:
           - Name: Kind
             Type: PropertyType

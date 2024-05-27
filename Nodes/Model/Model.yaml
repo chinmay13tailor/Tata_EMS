@@ -2592,10 +2592,12 @@ Children:
   - Name: RuntimeNetLogic3
     Type: NetLogic
   - Name: Button1
+    Id: g=38a10a43aac2311dc5b7fa005d236e05
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: Button2
+    Id: g=a86e72cf2d95a23f86d1b9eb925c35b3
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false

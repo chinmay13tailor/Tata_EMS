@@ -337,7 +337,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: ""
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_04_O_G_3F2/Avg_PF"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -1045,7 +1045,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_04_O_G_3F2/Avg_PF"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -1254,7 +1254,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_04_O_G_3F2/Frequency"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float

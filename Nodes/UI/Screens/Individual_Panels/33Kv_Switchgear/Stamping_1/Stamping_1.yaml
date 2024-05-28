@@ -311,12 +311,17 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 451.0
+              Value: 125.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
               Value: 40.0
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -170.0
           - Name: CircularGauge3
             Type: CircularGauge
             Children:
@@ -382,7 +387,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: ""
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/33KVMeters/Stamping_1/Avg_Current"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -1095,7 +1100,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/33KVMeters/Stamping_1/Avg_PF"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -1214,7 +1219,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/33KVMeters/Stamping_1/Active_Energy_Total"
             - Name: Rectangle1
               Type: Rectangle
               Children:
@@ -1246,7 +1251,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/33KVMeters/Stamping_1/Apparent_Energy_Total"
             - Name: Rectangle2
               Type: Rectangle
               Children:
@@ -1278,7 +1283,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/33KVMeters/Stamping_1/Reactive_Energy_Total"
           - Name: VerticalLayout3
             Type: ColumnLayout
             Children:
@@ -1304,7 +1309,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/33KVMeters/Stamping_1/Frequency"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float

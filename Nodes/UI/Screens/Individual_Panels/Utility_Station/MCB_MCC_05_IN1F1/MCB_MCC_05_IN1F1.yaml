@@ -276,7 +276,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 451.0
+              Value: 120.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -332,7 +332,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 501.0
+              Value: 40.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -357,7 +357,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: ""
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_05_IN1F1/Avg_Current"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -1055,7 +1055,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_05_IN1F1/Avg_PF"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -1264,7 +1264,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_05_IN1F1/Frequency"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float

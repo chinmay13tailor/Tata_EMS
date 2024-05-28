@@ -337,7 +337,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: ""
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/33KVMeters/TCF_2/Avg_Current"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -1035,7 +1035,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/33KVMeters/TCF_2/Avg_PF"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -1154,7 +1154,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/33KVMeters/TCF_2/Active_Energy_Total"
             - Name: Rectangle1
               Type: Rectangle
               Children:
@@ -1186,7 +1186,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/33KVMeters/TCF_2/Apparent_Energy_Total"
             - Name: Rectangle2
               Type: Rectangle
               Children:
@@ -1218,7 +1218,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/33KVMeters/TCF_2/Reactive_Energy_Total"
           - Name: VerticalLayout3
             Type: ColumnLayout
             Children:
@@ -1244,7 +1244,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/33KVMeters/TCF_2/Frequency"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float

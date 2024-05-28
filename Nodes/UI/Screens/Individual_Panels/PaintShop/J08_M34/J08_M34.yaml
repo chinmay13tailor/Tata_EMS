@@ -337,7 +337,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: ""
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/PaintShop/J08_M34/Avg_Current"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -1035,7 +1035,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/PaintShop/J08_M34/Avg_PF"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -1155,6 +1155,11 @@ Children:
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/PaintShop/J08_M34/Active_Energy_Total"
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 5.0
             - Name: Rectangle1
               Type: Rectangle
               Children:
@@ -1244,7 +1249,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/PaintShop/J08_M34/Frequency"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float

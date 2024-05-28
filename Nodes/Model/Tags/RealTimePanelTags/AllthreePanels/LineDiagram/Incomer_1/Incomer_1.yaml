@@ -45,7 +45,7 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       ReferenceType: HasParameter
-      Value: "({0} / {1} )* 100"
+      Value: "({0} / {1} ) * 100"
     - Name: ns=3;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType

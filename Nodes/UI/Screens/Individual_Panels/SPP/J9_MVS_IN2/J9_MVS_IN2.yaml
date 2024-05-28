@@ -59,7 +59,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Active_Power_Total"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Active_Power_Total"
             - Name: Label2
               Type: Label
           - Name: Rectangle4
@@ -93,7 +93,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Apparent_Power_Total"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Apparent_Power_Total"
           - Name: Rectangle5
             Type: Rectangle
             Children:
@@ -125,7 +125,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Reactive_Power_Total"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Reactive_Power_Total"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -199,7 +199,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Phase_R_Current"
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Phase_R_Current"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -245,7 +245,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Phase_Y_Current"
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Phase_Y_Current"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -291,7 +291,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Phase_B_Current"
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Phase_B_Current"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -337,7 +337,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: ""
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Avg_Current"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -622,7 +622,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Voltage_RY"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Voltage_RY"
           - Name: Rectangle1
             Type: Rectangle
             Children:
@@ -652,7 +652,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Voltage_YB"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Voltage_YB"
             - Name: Label1
               Type: Label
             - Name: Button1
@@ -776,7 +776,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Voltage_BR"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Voltage_BR"
             - Name: Label1
               Type: Label
           - Name: Rectangle3
@@ -808,7 +808,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Avg_Voltage_LL"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Avg_Voltage_LL"
             - Name: Label1
               Type: Label
       - Name: Rectangle1
@@ -858,7 +858,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Voltage_RN"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Voltage_RN"
             - Name: Label1
               Type: Label
           - Name: Rectangle11
@@ -890,7 +890,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Voltage_YN"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Voltage_YN"
             - Name: Label1
               Type: Label
           - Name: Rectangle12
@@ -922,7 +922,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Voltage_BN"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Voltage_BN"
             - Name: Label1
               Type: Label
           - Name: Rectangle13
@@ -954,7 +954,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Avg_Voltage_LN"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Avg_Voltage_LN"
             - Name: Label1
               Type: Label
       - Name: Rectangle3
@@ -1035,7 +1035,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Avg_PF"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -1154,7 +1154,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Active_Energy_Total"
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Active_Energy_Total"
             - Name: Rectangle1
               Type: Rectangle
               Children:
@@ -1186,7 +1186,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Apparent_Energy_Total"
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Apparent_Energy_Total"
             - Name: Rectangle2
               Type: Rectangle
               Children:
@@ -1218,7 +1218,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Reactive_Energy_Total"
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Reactive_Energy_Total"
           - Name: VerticalLayout3
             Type: ColumnLayout
             Children:
@@ -1244,7 +1244,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/SPP/J9_MVS_IN2/Frequency"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float

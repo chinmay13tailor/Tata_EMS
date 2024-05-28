@@ -337,7 +337,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: ""
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/PaintShop/PNT_MVS_01_OG_F10/Avg_Current"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -1035,7 +1035,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/PaintShop/PNT_MVS_01_OG_F10/Avg_PF"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -1244,7 +1244,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: ""
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/PaintShop/PNT_MVS_01_OG_F10/Frequency"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float

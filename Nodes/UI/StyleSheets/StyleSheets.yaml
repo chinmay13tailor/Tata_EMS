@@ -648,7 +648,7 @@ Children:
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
-        Value: 16.0
+        Value: 12.0
       - Name: SelectionTextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -1003,11 +1003,11 @@ Children:
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
-        Value: 10.0
+        Value: 8.0
       - Name: HeaderFontSize
         Type: BaseDataVariableType
         DataType: Size
-        Value: 12.0
+        Value: 5.0
       - Name: SelectionTextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -1072,7 +1072,7 @@ Children:
       - Name: Size
         Type: BaseDataVariableType
         DataType: Size
-        Value: 10.0
+        Value: 5.0
       - Name: HandleColor
         Type: BaseDataVariableType
         DataType: Color
@@ -1245,6 +1245,10 @@ Children:
     Type: BaseDataVariableType
     DataType: Color
     Value: "#ffffff"
+  - Name: FontFamily
+    Type: BaseDataVariableType
+    DataType: Font
+    Value: ""
 - Name: MaterialDark
   Type: StyleSheet
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel

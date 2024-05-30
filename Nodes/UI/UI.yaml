@@ -3118,7 +3118,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS/UI/Screens/HistoricalDashboards/Comparison_Dashboard"
+                      Value: "/Objects/Tata_EMS/UI/Screens/HistoricalDashboards/Comparison_Dashboard2"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -3260,7 +3260,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS/UI/Screens/HistoricalDashboards/HistoDasboard"
+                      Value: "/Objects/Tata_EMS/UI/Screens/HistoricalDashboards/HistoDasboard2"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId

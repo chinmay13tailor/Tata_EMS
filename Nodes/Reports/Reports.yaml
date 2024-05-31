@@ -170,7 +170,7 @@ Children:
       - Name: HeaderBackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#e6e6e6"
+        Value: "#4d869c"
   - Name: ToolTipStyles
     Type: BaseObjectType
     Children:
@@ -1675,7 +1675,7 @@ Children:
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 27.0
+        Value: 26.999996185302734
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -1802,7 +1802,7 @@ Children:
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 70.90833282470703
+        Value: 82.28541564941406
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -1852,7 +1852,7 @@ Children:
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 26.722917556762695
+        Value: 26.45833396911621
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -1979,7 +1979,7 @@ Children:
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 133.35000610351563
+        Value: 140.2291717529297
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -2029,7 +2029,7 @@ Children:
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 26.987499237060547
+        Value: 26.45833396911621
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -2174,7 +2174,7 @@ Children:
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 51.858333587646484
+        Value: 52.12291717529297
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -2229,6 +2229,10 @@ Children:
         Type: BaseVariableType
         DataType: TextVerticalAlignment
         Value: 1
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 12.0
     - Name: Label5
       Type: ReportLabel
       Children:
@@ -2269,94 +2273,7 @@ Children:
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 86.51875305175781
-        Children:
-        - Name: EngineeringUnits
-          Type: EUInformationType
-          DataType: EUInformation
-          Children:
-          - Name: UnitId
-            Type: BaseVariableType
-            DataType: Int32
-            ReferenceType: HasProperty
-            AccessLevel: Read
-            Value: 5066068
-          - Name: DisplayName
-            Type: BaseVariableType
-            DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Description
-            Type: BaseVariableType
-            DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      - Name: TopMargin
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: 28.045833587646484
-        Children:
-        - Name: EngineeringUnits
-          Type: EUInformationType
-          DataType: EUInformation
-          Children:
-          - Name: UnitId
-            Type: BaseVariableType
-            DataType: Int32
-            ReferenceType: HasProperty
-            AccessLevel: Read
-            Value: 5066068
-          - Name: DisplayName
-            Type: BaseVariableType
-            DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Description
-            Type: BaseVariableType
-            DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-    - Name: Label6
-      Type: ReportLabel
-      Children:
-      - Name: Width
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: 57.41458511352539
-        Children:
-        - Name: EngineeringUnits
-          Type: EUInformationType
-          DataType: EUInformation
-          Children:
-          - Name: UnitId
-            Type: BaseVariableType
-            DataType: Int32
-            ReferenceType: HasProperty
-            AccessLevel: Read
-            Value: 5066068
-          - Name: DisplayName
-            Type: BaseVariableType
-            DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Description
-            Type: BaseVariableType
-            DataType: LocalizedText
-            ReferenceType: HasProperty
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../../../../Model/Reports/Daily Date To"
-      - Name: LeftMargin
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: 148.96041870117188
+        Value: 97.89583587646484
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -2403,6 +2320,109 @@ Children:
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 12.0
+      - Name: TextVerticalAlignment
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        Value: 1
+    - Name: Label6
+      Type: ReportLabel
+      Children:
+      - Name: Width
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 57.41458511352539
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../Model/Reports/Daily Date To"
+      - Name: LeftMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 155.04583740234375
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: TopMargin
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 27.78125
+        Children:
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            AccessLevel: Read
+            Value: 5066068
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 12.0
+      - Name: TextVerticalAlignment
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        Value: 1
     - Name: Label3
       Type: ReportLabel
       Children:
@@ -2498,6 +2518,10 @@ Children:
         Type: BaseVariableType
         DataType: TextVerticalAlignment
         Value: 1
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 12.0
   - Name: Sections
     Type: ReportColumnLayout
     Children:
@@ -2570,7 +2594,7 @@ Children:
           - Name: Width
             Type: BaseDataVariableType
             DataType: Size
-            Value: 17.780000686645508
+            Value: 22.860000610351563
             Children:
             - Name: EngineeringUnits
               Type: EUInformationType
@@ -2626,7 +2650,7 @@ Children:
           - Name: Width
             Type: BaseDataVariableType
             DataType: Size
-            Value: 12.699999809265137
+            Value: 17.27199935913086
             Children:
             - Name: EngineeringUnits
               Type: EUInformationType
@@ -2732,7 +2756,7 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Consumption"
-        - Name: Active_Power_Total
+        - Name: Active_Power
           Type: ReportDataGridColumn
           Children:
           - Name: Width
@@ -2788,7 +2812,7 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Active_Power_Total"
-        - Name: Apparent_Power_Total
+        - Name: Apparent_Power
           Type: ReportDataGridColumn
           Children:
           - Name: Width
@@ -2844,7 +2868,7 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Apparent_Power_Total"
-        - Name: Reactive_Power_Total
+        - Name: Reactive_Power
           Type: ReportDataGridColumn
           Children:
           - Name: Width
@@ -2962,7 +2986,7 @@ Children:
           - Name: Width
             Type: BaseDataVariableType
             DataType: Size
-            Value: -1.0
+            Value: 13.970000267028809
             Children:
             - Name: EngineeringUnits
               Type: EUInformationType
@@ -3018,7 +3042,7 @@ Children:
           - Name: Width
             Type: BaseDataVariableType
             DataType: Size
-            Value: -1.0
+            Value: 12.699999809265137
             Children:
             - Name: EngineeringUnits
               Type: EUInformationType
@@ -3074,7 +3098,7 @@ Children:
           - Name: Width
             Type: BaseDataVariableType
             DataType: Size
-            Value: -1.0
+            Value: 12.699999809265137
             Children:
             - Name: EngineeringUnits
               Type: EUInformationType
@@ -3130,7 +3154,7 @@ Children:
           - Name: Width
             Type: BaseDataVariableType
             DataType: Size
-            Value: -1.0
+            Value: 12.192000389099121
             Children:
             - Name: EngineeringUnits
               Type: EUInformationType
@@ -17302,7 +17326,7 @@ Children:
     Id: g=18e3257f5fb14cbd5978ca80ac2fc9e6
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Tata_EMS/Reports/StyleSheet2"
+    Value: "/Objects/Tata_EMS/Reports/StyleSheet1"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -17876,7 +17900,7 @@ Children:
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 5.291666507720947
+        Value: 5.027083396911621
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -17905,7 +17929,7 @@ Children:
       - Name: RightMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 3.7041666507720947
+        Value: 6.085416793823242
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -18545,7 +18569,7 @@ Children:
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 118.00416564941406
+        Value: 111.91874694824219
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -18722,7 +18746,7 @@ Children:
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 164.57083129882813
+        Value: 161.9250030517578
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -18917,7 +18941,7 @@ Children:
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 138.1125030517578
+        Value: 126.73542022705078
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -18942,7 +18966,7 @@ Children:
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 28.31041717529297
+        Value: 27.516666412353516
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -18964,6 +18988,10 @@ Children:
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 12.0
     - Name: Label6
       Type: ReportLabel
       Children:
@@ -19004,7 +19032,7 @@ Children:
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 176.21249389648438
+        Value: 171.9791717529297
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -19029,7 +19057,7 @@ Children:
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 27.78125
+        Value: 27.25208282470703
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -19051,6 +19079,10 @@ Children:
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 12.0
     - Name: Label3
       Type: ReportLabel
       Children:
@@ -19091,7 +19123,7 @@ Children:
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 18.52083396911621
+        Value: 16.933332443237305
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -19116,7 +19148,7 @@ Children:
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 26.45833396911621
+        Value: 27.25208282470703
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -19280,7 +19312,7 @@ Children:
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 52.91666793823242
+        Value: 52.12291717529297
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -19305,7 +19337,7 @@ Children:
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 26.722917556762695
+        Value: 27.25208282470703
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -19465,7 +19497,7 @@ Children:
       - Name: LeftMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 94.19166564941406
+        Value: 97.36666870117188
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -19490,7 +19522,7 @@ Children:
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
-        Value: 27.516666412353516
+        Value: 28.045833587646484
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -19565,7 +19597,7 @@ Children:
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
-            Value: 0
+            Value: 1
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -19621,7 +19653,7 @@ Children:
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
-            Value: 0
+            Value: 1
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -19677,7 +19709,7 @@ Children:
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
-            Value: 0
+            Value: 1
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -19733,7 +19765,7 @@ Children:
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
-            Value: 0
+            Value: 1
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -19789,7 +19821,7 @@ Children:
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
-            Value: 0
+            Value: 1
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment

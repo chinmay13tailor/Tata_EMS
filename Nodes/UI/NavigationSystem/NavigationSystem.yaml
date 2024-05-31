@@ -13970,7 +13970,7 @@ Children:
           - Name: Tile_Icon
             Type: BaseDataVariableType
             DataType: ResourceUri
-            Value: "file:///D:/PROJECTS/Tata/Optix Scada/02 April/Tata_EMS_Solution_Updated/ProjectFiles/imgs/icons/Features/XyChart.svg"
+            Value: "ns=36;%PROJECTDIR%/imgs/icons/Features/XyChart.svg"
           - Name: Tile_Open_Panel
             Type: BaseDataVariableType
             DataType: NodeId
@@ -20731,7 +20731,7 @@ Children:
           - Name: Tile_Icon
             Type: BaseDataVariableType
             DataType: ResourceUri
-            Value: "file:///D:/PROJECTS/Tata/Optix Scada/02 April/Tata_EMS_Solution_Updated/ProjectFiles/daily report.png"
+            Value: "ns=36;%PROJECTDIR%/daily report.png"
           - Name: Tile_Open_Panel
             Type: BaseDataVariableType
             DataType: NodeId

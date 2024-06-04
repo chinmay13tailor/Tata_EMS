@@ -97489,3 +97489,7 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+- Name: ProductionCount1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

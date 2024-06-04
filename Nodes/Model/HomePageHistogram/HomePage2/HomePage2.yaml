@@ -1073,39 +1073,39 @@ Children:
 - Name: Target33KV
   Type: BaseDataVariableType
   DataType: Float
-  Value: 1.0
+  Value: 0.0
 - Name: TargetUtility
   Type: BaseDataVariableType
   DataType: Float
-  Value: 2.0
+  Value: 0.0
 - Name: TargetPumpRoom
   Type: BaseDataVariableType
   DataType: Float
-  Value: 3.0
+  Value: 0.0
 - Name: TargetPaintShop
   Type: BaseDataVariableType
   DataType: Float
-  Value: 4.0
+  Value: 0.0
 - Name: TargetBodyshop
   Type: BaseDataVariableType
   DataType: Float
-  Value: 5.0
+  Value: 0.0
 - Name: TargetTCF
   Type: BaseDataVariableType
   DataType: Float
-  Value: 6.0
+  Value: 0.0
 - Name: TargetStamping
   Type: BaseDataVariableType
   DataType: Float
-  Value: 7.0
+  Value: 0.0
 - Name: TargetAdmin
   Type: BaseDataVariableType
   DataType: Float
-  Value: 8.0
+  Value: 0.0
 - Name: TargetSPP
   Type: BaseDataVariableType
   DataType: Float
-  Value: 9.0
+  Value: 0.0
 - Name: Consumption33KV
   Type: BaseDataVariableType
   DataType: Float

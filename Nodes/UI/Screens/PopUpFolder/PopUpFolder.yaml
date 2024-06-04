@@ -6611,7 +6611,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 640.0
+          Value: 650.0
         - Name: Height
           Type: BaseVariableType
           DataType: Size
@@ -6631,7 +6631,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 5.0
+          Value: -1.0
       - Name: Label1
         Type: Label
         Children:
@@ -6639,12 +6639,12 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 115.0
+          Value: 117.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 10.0
+          Value: 6.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6680,6 +6680,11 @@ Children:
           DataType: TextVerticalAlignment
           ModellingRule: Optional
           Value: 1
+        - Name: FontWeight
+          Type: BaseDataVariableType
+          DataType: FontWeightEnum
+          ModellingRule: Optional
+          Value: 700
       - Name: Button3
         Type: Button
         Children:
@@ -6752,12 +6757,12 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 17.0
+          Value: 6.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 6.0
+          Value: 2.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6792,7 +6797,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 25.0
+        Value: 0.0
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
@@ -7039,7 +7044,7 @@ Children:
               Type: BaseDataVariableType
               DataType: FontWeightEnum
               ModellingRule: Optional
-              Value: 600
+              Value: 700
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -7072,7 +7077,7 @@ Children:
               Type: BaseDataVariableType
               DataType: FontWeightEnum
               ModellingRule: Optional
-              Value: 600
+              Value: 700
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -7105,7 +7110,7 @@ Children:
               Type: BaseDataVariableType
               DataType: FontWeightEnum
               ModellingRule: Optional
-              Value: 600
+              Value: 700
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -7138,7 +7143,7 @@ Children:
               Type: BaseDataVariableType
               DataType: FontWeightEnum
               ModellingRule: Optional
-              Value: 600
+              Value: 700
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -7171,7 +7176,7 @@ Children:
               Type: BaseDataVariableType
               DataType: FontWeightEnum
               ModellingRule: Optional
-              Value: 600
+              Value: 700
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -7204,7 +7209,7 @@ Children:
               Type: BaseDataVariableType
               DataType: FontWeightEnum
               ModellingRule: Optional
-              Value: 600
+              Value: 700
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -7237,7 +7242,7 @@ Children:
               Type: BaseDataVariableType
               DataType: FontWeightEnum
               ModellingRule: Optional
-              Value: 600
+              Value: 700
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -7270,7 +7275,7 @@ Children:
               Type: BaseDataVariableType
               DataType: FontWeightEnum
               ModellingRule: Optional
-              Value: 600
+              Value: 700
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -7303,7 +7308,7 @@ Children:
               Type: BaseDataVariableType
               DataType: FontWeightEnum
               ModellingRule: Optional
-              Value: 600
+              Value: 700
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -7336,7 +7341,7 @@ Children:
               Type: BaseDataVariableType
               DataType: FontWeightEnum
               ModellingRule: Optional
-              Value: 600
+              Value: 700
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -7402,7 +7407,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 6.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -7463,6 +7468,21 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: false
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: ValueChangeBehaviour
+              Type: BaseDataVariableType
+              DataType: ValueChangeBehaviour
+              ModellingRule: Optional
+              Value: 0
+            - Name: PlaceholderText
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"Production"}
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -7561,6 +7581,21 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: false
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: ValueChangeBehaviour
+              Type: BaseDataVariableType
+              DataType: ValueChangeBehaviour
+              ModellingRule: Optional
+              Value: 0
+            - Name: PlaceholderText
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"33KV Target"}
           - Name: Production2
             Type: TextBox
             Children:
@@ -7654,6 +7689,21 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: false
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: ValueChangeBehaviour
+              Type: BaseDataVariableType
+              DataType: ValueChangeBehaviour
+              ModellingRule: Optional
+              Value: 0
+            - Name: PlaceholderText
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"Utility Target"}
           - Name: Production3
             Type: TextBox
             Children:
@@ -7747,6 +7797,26 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: false
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: ValueChangeBehaviour
+              Type: BaseDataVariableType
+              DataType: ValueChangeBehaviour
+              ModellingRule: Optional
+              Value: 0
+            - Name: PlaceholderText
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"Stamping Target"}
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#000000"
           - Name: Production4
             Type: TextBox
             Children:
@@ -7840,13 +7910,28 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: false
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: ValueChangeBehaviour
+              Type: BaseDataVariableType
+              DataType: ValueChangeBehaviour
+              ModellingRule: Optional
+              Value: 0
+            - Name: PlaceholderText
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"Paintshop Target"}
           - Name: Production5
             Type: TextBox
             Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Value: {"LocaleId":"en-US","Text":"#####"}
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -7922,6 +8007,21 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: false
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: ValueChangeBehaviour
+              Type: BaseDataVariableType
+              DataType: ValueChangeBehaviour
+              ModellingRule: Optional
+              Value: 0
+            - Name: PlaceholderText
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"Pumproom Target"}
           - Name: Production6
             Type: TextBox
             Children:
@@ -8015,6 +8115,21 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: false
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: ValueChangeBehaviour
+              Type: BaseDataVariableType
+              DataType: ValueChangeBehaviour
+              ModellingRule: Optional
+              Value: 0
+            - Name: PlaceholderText
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"SPP Target"}
           - Name: Production7
             Type: TextBox
             Children:
@@ -8108,6 +8223,21 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: false
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: ValueChangeBehaviour
+              Type: BaseDataVariableType
+              DataType: ValueChangeBehaviour
+              ModellingRule: Optional
+              Value: 0
+            - Name: PlaceholderText
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"BodyShop Target"}
           - Name: Production8
             Type: TextBox
             Children:
@@ -8201,6 +8331,21 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: false
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: ValueChangeBehaviour
+              Type: BaseDataVariableType
+              DataType: ValueChangeBehaviour
+              ModellingRule: Optional
+              Value: 0
+            - Name: PlaceholderText
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"TCF Target"}
           - Name: Production9
             Type: TextBox
             Children:
@@ -8294,6 +8439,21 @@ Children:
                   ReferenceType: HasParameter
                   ModellingRule: Optional
                   Value: false
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: ValueChangeBehaviour
+              Type: BaseDataVariableType
+              DataType: ValueChangeBehaviour
+              ModellingRule: Optional
+              Value: 0
+            - Name: PlaceholderText
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"Admin Target"}
       - Name: Submit1
         Type: Button
         Children:
@@ -8431,7 +8591,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
+      Value: 30.0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment

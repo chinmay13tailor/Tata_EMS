@@ -336,7 +336,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         var myStore25 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
 
         // For Paintshop
-         var myStore26 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
+        var myStore26 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
         var myStore27 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
         var myStore28 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
         var myStore29 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
@@ -350,7 +350,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         var myStore35 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
 
         // For Spare
-         var myStore36 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
+        var myStore36 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
         var myStore37 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
         var myStore38 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
         var myStore39 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
@@ -358,13 +358,13 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
         // For 33KV
-         var myStore41 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
+        var myStore41 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
         var myStore42 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
         var myStore43 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
         var myStore44 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
         var myStore45 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
-     //////////////////////////////////Target Update////////////////////////////////////////////////
-       
+                                                                                         //////////////////////////////////Target Update////////////////////////////////////////////////
+
 
 
         ////////////////////////////////*********************************************///////////////////////////////////////////////////////////////////////////
@@ -381,7 +381,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         string[] header5;
 
         // For Stamping
-         object[,] resultSet6;
+        object[,] resultSet6;
         string[] header6;
         object[,] resultSet7;
         string[] header7;
@@ -485,10 +485,11 @@ public class HomePageComparisionLogic : BaseNetLogic
 
             DateTime currentTime = DateTime.Now;
             string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
-         
+
             // Calculate start and end times for the current day
             DateTime startTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 0, 0, 0);
-            DateTime endTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 7, 59, 59).AddDays(1);
+            DateTime endTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 0, 0, 0).AddDays(-1);
+            string new321 = endTime.ToString("yyyy-MM-dd");
 
             string new123 = startTime.ToString("yyyy-MM-dd");
             string month123 = startTime.ToString("yyyy-MM");
@@ -536,7 +537,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
             // For Bodyshop
-            string query16 = $" UPDATE HomePage SET Target = '" +  targetbodyshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'BODYSHOP' ";
+            string query16 = $" UPDATE HomePage SET Target = '" + targetbodyshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'BODYSHOP' ";
             string query17 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'BODYSHOP' ";
 
             string query18 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'BODYSHOP' ";
@@ -564,7 +565,7 @@ public class HomePageComparisionLogic : BaseNetLogic
             string query30 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'PAINTSHOP' ";
 
             // For Spp
-            string query31 = $" UPDATE HomePage SET Target = '" + targetpaintshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'SPP' ";
+            string query31 = $" UPDATE HomePage SET Target = '" + targetspp1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'SPP' ";
             string query32 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'SPP' ";
 
             string query33 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'SPP' ";
@@ -579,7 +580,7 @@ public class HomePageComparisionLogic : BaseNetLogic
             string query40 = $"SELECT Consumption FROM ConsumptionDistribution WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'Utility' ";
 
             // For 33KV
-            string query41 =  $" UPDATE HomePage SET Target = '" + target33KV + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = '33KV' ";
+            string query41 = $" UPDATE HomePage SET Target = '" + target33KV + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = '33KV' ";
             string query42 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = '33KV' ";
 
             string query43 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = '33KV' ";
@@ -590,7 +591,7 @@ public class HomePageComparisionLogic : BaseNetLogic
             ////////////////////////////////*********************************************/////////////////////////////////////////////////////////////////////////// 
             // For Utility
             myStore1.Query(query1, out header1, out resultSet1);
-           // myStore1.Query(query1, out string[] header1, out object[,] resultSet1);
+            // myStore1.Query(query1, out string[] header1, out object[,] resultSet1);
             myStore2.Query(query2, out header2, out resultSet2);
             myStore3.Query(query3, out header3, out resultSet3);
             myStore4.Query(query4, out header4, out resultSet4);
@@ -1141,7 +1142,7 @@ public class HomePageComparisionLogic : BaseNetLogic
             float tcfP = (consumptiontcf * 100) / consumption33kv;
             float engineP = (consumptionengineshop * 100) / consumption33kv;
 
-           
+
             utilitypercentage = utilityP;
             stampingpercentage = stampingP;
             tcfpercentage = tcfP;

@@ -33955,7 +33955,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 245.0
+            Value: 250.0
           - Name: FillColor
             Type: BaseDataVariableType
             DataType: Color
@@ -34045,6 +34045,126 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Boolean
                     Value: false
+          - Name: Save_Submit
+            Type: Button
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Enter Productipon and Target"}
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 328.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 1145.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -24.0
+            - Name: MouseClickEventHandler1
+              Type: EventHandler
+              Children:
+              - Name: ListenEventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+              - Name: MethodsToCall
+                Type: BaseObjectType
+                Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/UICommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "OpenDialog"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: Dialog
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      Value: "/Objects/Tata_EMS/UI/Screens/PopUpFolder/ProductionCount"
+                    - Name: AliasNode
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      ValueRank: ScalarOrOneDimension
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    - Name: ParentItem
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../..@NodeId"
+                  - Name: OutputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: DialogNodeId
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: EventArguments
+                Type: MouseClickEvent
+                Children:
+                - Name: EventId
+                  Type: PropertyType
+                  DataType: ByteString
+                  Value: ""
+                - Name: EventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceNode
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceName
+                  Type: PropertyType
+                  DataType: String
+                  Value: ""
+                - Name: Time
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: ReceiveTime
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: Message
+                  Type: PropertyType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                - Name: Severity
+                  Type: PropertyType
+                  DataType: UInt16
+                  Value: 0
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 27.0
           - Name: Outgoing_panel_1
             Type: Rectangle
             Children:
@@ -34798,12 +34918,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 149.0
+                    Value: 1532.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 260.0
+                    Value: 569.0
                   - Name: TextHorizontalAlignment
                     Type: BaseVariableType
                     DataType: TextHorizontalAlignment
@@ -35595,12 +35715,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 150.0
+                    Value: 1551.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 260.0
+                    Value: 579.0
                   - Name: TextHorizontalAlignment
                     Type: BaseVariableType
                     DataType: TextHorizontalAlignment
@@ -36413,12 +36533,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 150.0
+                    Value: 1551.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 260.0
+                    Value: 579.0
                   - Name: TextHorizontalAlignment
                     Type: BaseVariableType
                     DataType: TextHorizontalAlignment
@@ -37231,12 +37351,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 152.0
+                    Value: 1582.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 260.0
+                    Value: 569.0
                   - Name: TextHorizontalAlignment
                     Type: BaseVariableType
                     DataType: TextHorizontalAlignment
@@ -37408,7 +37528,7 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Engine Shop
+              - Name: Admin
                 Type: Image
                 Children:
                 - Name: Path
@@ -37445,14 +37565,14 @@ Children:
                   DataType: FillModeEnum
                   ModellingRule: Optional
                   Value: 1
-                - Name: Engine Shop
+                - Name: Admin
                   Type: Label
                   Children:
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"en-US","Text":"ENGINESHOP"}
+                    Value: {"LocaleId":"en-US","Text":"ADMIN"}
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -38135,12 +38255,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 143.0
+                    Value: 1543.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 260.0
+                    Value: 573.0
                   - Name: TextHorizontalAlignment
                     Type: BaseVariableType
                     DataType: TextHorizontalAlignment
@@ -38953,12 +39073,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 146.0
+                    Value: 1562.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 260.0
+                    Value: 583.0
                   - Name: TextHorizontalAlignment
                     Type: BaseVariableType
                     DataType: TextHorizontalAlignment
@@ -39776,12 +39896,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 146.0
+                    Value: 1542.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 260.0
+                    Value: 573.0
                   - Name: TextHorizontalAlignment
                     Type: BaseVariableType
                     DataType: TextHorizontalAlignment
@@ -39867,7 +39987,7 @@ Children:
                     DataType: Size
                     ModellingRule: Optional
                     Value: 20.0
-              - Name: SPP Shop1
+              - Name: TCF
                 Type: Image
                 Children:
                 - Name: Path
@@ -39904,14 +40024,14 @@ Children:
                   DataType: FillModeEnum
                   ModellingRule: Optional
                   Value: 1
-                - Name: SPP
+                - Name: TCF
                   Type: Label
                   Children:
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"en-US","Text":"PUMPROOM"}
+                    Value: {"LocaleId":"en-US","Text":"TCF"}
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -39992,7 +40112,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: ""
+                          Value: "/Objects/Tata_EMS/Model/HomePageComparisionPanelInstance/ConsumptionTcf"
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -40068,7 +40188,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: ""
+                          Value: "/Objects/Tata_EMS/Model/HomePageComparisionPanelInstance/TargetTcf"
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -40129,7 +40249,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: ""
+                          Value: "/Objects/Tata_EMS/Model/HomePageComparisionPanelInstance/YearlowestTcf"
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -40190,7 +40310,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: ""
+                          Value: "/Objects/Tata_EMS/Model/HomePageComparisionPanelInstance/MonthlowestTcf"
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -40251,7 +40371,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: ""
+                          Value: "/Objects/Tata_EMS/Model/HomePageComparisionPanelInstance/AverageTcf"
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -40409,12 +40529,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 0.0
+                    Value: -2.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 100.0
+                    Value: 83.0
                   - Name: VerticalAlignment
                     Type: BaseVariableType
                     DataType: VerticalAlignment
@@ -40562,7 +40682,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/Target"
+                      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetTCF"
                       Children:
                       - Name: Mode
                         Type: BaseVariableType
@@ -40583,12 +40703,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 150.0
+                    Value: 1573.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 260.0
+                    Value: 573.0
                   - Name: TextHorizontalAlignment
                     Type: BaseVariableType
                     DataType: TextHorizontalAlignment
@@ -42253,270 +42373,6 @@ Children:
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 3
-          - Name: Edit_Change
-            Type: Button
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Edit/Change"}
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 170.0
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 1240.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: -10.0
-            - Name: MouseClickEventHandler1
-              Type: EventHandler
-              Children:
-              - Name: ListenEventType
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-              - Name: MethodsToCall
-                Type: BaseObjectType
-                Children:
-                - Name: MethodContainer1
-                  Type: BaseObjectType
-                  Children:
-                  - Name: ns=3;ObjectPointer
-                    Type: NodePointer
-                    DataType: NodeId
-                    Value: "/Objects/Commands/VariableCommands"
-                    Children:
-                    - Name: Kind
-                      Type: PropertyType
-                      DataType: NodeId
-                      Value: "/Types/ObjectTypes/BaseObjectType"
-                  - Name: ns=3;Method
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Set"
-                  - Name: InputArguments
-                    Type: BaseObjectType
-                    Children:
-                    - Name: VariableToModify
-                      Type: BaseDataVariableType
-                      DataType: VariablePointer
-                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                      Value: true
-                    - Name: ArrayIndex
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                      ValueRank: ScalarOrOneDimension
-                      Value: 0
-              - Name: EventArguments
-                Type: MouseClickEvent
-                Children:
-                - Name: EventId
-                  Type: PropertyType
-                  DataType: ByteString
-                  Value: ""
-                - Name: EventType
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceNode
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceName
-                  Type: PropertyType
-                  DataType: String
-                  Value: ""
-                - Name: Time
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: ReceiveTime
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: Message
-                  Type: PropertyType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                - Name: Severity
-                  Type: PropertyType
-                  DataType: UInt16
-                  Value: 0
-            - Name: Visible
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-              Children:
-              - Name: ConditionalConverter1
-                Type: ConditionalConverter
-                Children:
-                - Name: Condition
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasSource
-                  Value: false
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
-                - Name: TrueValue
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasParameter
-                  ModellingRule: Optional
-                  Value: false
-                - Name: FalseValue
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasParameter
-                  ModellingRule: Optional
-                  Value: true
-          - Name: Save_Submit
-            Type: Button
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Save/Submit"}
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 170.0
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 1240.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: -12.0
-            - Name: MouseClickEventHandler1
-              Type: EventHandler
-              Children:
-              - Name: ListenEventType
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-              - Name: MethodsToCall
-                Type: BaseObjectType
-                Children:
-                - Name: MethodContainer1
-                  Type: BaseObjectType
-                  Children:
-                  - Name: ns=3;ObjectPointer
-                    Type: NodePointer
-                    DataType: NodeId
-                    Value: "/Objects/Commands/VariableCommands"
-                    Children:
-                    - Name: Kind
-                      Type: PropertyType
-                      DataType: NodeId
-                      Value: "/Types/ObjectTypes/BaseObjectType"
-                  - Name: ns=3;Method
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "Set"
-                  - Name: InputArguments
-                    Type: BaseObjectType
-                    Children:
-                    - Name: VariableToModify
-                      Type: BaseDataVariableType
-                      DataType: VariablePointer
-                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                      Value: false
-                    - Name: ArrayIndex
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                      ValueRank: ScalarOrOneDimension
-                      Value: 0
-              - Name: EventArguments
-                Type: MouseClickEvent
-                Children:
-                - Name: EventId
-                  Type: PropertyType
-                  DataType: ByteString
-                  Value: ""
-                - Name: EventType
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceNode
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
-                - Name: SourceName
-                  Type: PropertyType
-                  DataType: String
-                  Value: ""
-                - Name: Time
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: ReceiveTime
-                  Type: PropertyType
-                  DataType: UtcTime
-                  Value: "1601-01-01T00:00:00.0000000"
-                - Name: Message
-                  Type: PropertyType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                - Name: Severity
-                  Type: PropertyType
-                  DataType: UInt16
-                  Value: 0
-            - Name: Visible
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-              Children:
-              - Name: ConditionalConverter1
-                Type: ConditionalConverter
-                Children:
-                - Name: Condition
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasSource
-                  Value: false
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
-                - Name: TrueValue
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasParameter
-                  ModellingRule: Optional
-                  Value: true
-                - Name: FalseValue
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasParameter
-                  ModellingRule: Optional
-                  Value: false
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color

@@ -293,6 +293,10 @@ Children:
           Type: StoreColumn
           DataType: Float
           Value: 0.0
+        - Name: Production
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
     - Name: MonthlyConsumptionReport
       Type: ODBCStoreTable
       Children:

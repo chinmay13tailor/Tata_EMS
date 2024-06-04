@@ -97481,3 +97481,7 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "J3_WTK-1-PMCC-0-01"
+- Name: Target
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0

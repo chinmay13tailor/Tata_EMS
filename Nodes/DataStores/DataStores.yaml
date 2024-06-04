@@ -289,6 +289,10 @@ Children:
           Type: StoreColumn
           DataType: Float
           Value: 0.0
+        - Name: Target
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
     - Name: MonthlyConsumptionReport
       Type: ODBCStoreTable
       Children:

@@ -29155,12 +29155,12 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Double
                 ModellingRule: Optional
-                Value: 1.0
+                Value: 0.0
               - Name: MaxValue
                 Type: BaseDataVariableType
                 DataType: Double
                 ModellingRule: Optional
-                Value: 9.0
+                Value: 8.0
               - Name: TextColor
                 Type: BaseDataVariableType
                 DataType: Color

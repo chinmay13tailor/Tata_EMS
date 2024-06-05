@@ -289,14 +289,14 @@ Children:
           Type: StoreColumn
           DataType: Float
           Value: 0.0
-        - Name: Target
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
         - Name: Production
           Type: StoreColumn
           DataType: Int32
           Value: 0
+        - Name: Target1
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
     - Name: MonthlyConsumptionReport
       Type: ODBCStoreTable
       Children:
@@ -695,6 +695,10 @@ Children:
           Type: StoreColumn
           DataType: Int32
           Value: 0
+        - Name: Target1
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
     - Name: EMSHourlyDataTable
       Type: ODBCStoreTable
       Children:

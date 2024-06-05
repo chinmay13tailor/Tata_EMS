@@ -29155,12 +29155,12 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Double
                 ModellingRule: Optional
-                Value: 0.0
+                Value: 1.0
               - Name: MaxValue
                 Type: BaseDataVariableType
                 DataType: Double
                 ModellingRule: Optional
-                Value: 8.0
+                Value: 9.0
               - Name: TextColor
                 Type: BaseDataVariableType
                 DataType: Color
@@ -29224,32 +29224,6 @@ Children:
                       Value: "Refresh"
                     - Name: InputArguments
                       Type: BaseObjectType
-                  - Name: MethodContainer2
-                    Type: BaseObjectType
-                    Children:
-                    - Name: ns=3;ObjectPointer
-                      Type: NodePointer
-                      DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
-                      Children:
-                      - Name: Kind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../../../../../eChartTestLogic@NodeId"
-                        Children:
-                        - Name: Mode
-                          Type: BaseVariableType
-                          DataType: DynamicLinkMode
-                          ModellingRule: Optional
-                          Value: 2
-                    - Name: ns=3;Method
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "OnRefreshButtonClicked"
                   - Name: MethodContainer3
                     Type: BaseObjectType
                     Children:
@@ -29278,32 +29252,6 @@ Children:
                       Value: "Refresh"
                     - Name: InputArguments
                       Type: BaseObjectType
-                  - Name: MethodContainer4
-                    Type: BaseObjectType
-                    Children:
-                    - Name: ns=3;ObjectPointer
-                      Type: NodePointer
-                      DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
-                      Children:
-                      - Name: Kind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../../../../../Rectangle2/HorizontalLayout1/Voltage Trend/eChartTest1Logic@NodeId"
-                        Children:
-                        - Name: Mode
-                          Type: BaseVariableType
-                          DataType: DynamicLinkMode
-                          ModellingRule: Optional
-                          Value: 2
-                    - Name: ns=3;Method
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "OnRefreshButtonClicked"
                   - Name: MethodContainer5
                     Type: BaseObjectType
                     Children:
@@ -29332,32 +29280,6 @@ Children:
                       Value: "Refresh"
                     - Name: InputArguments
                       Type: BaseObjectType
-                  - Name: MethodContainer6
-                    Type: BaseObjectType
-                    Children:
-                    - Name: ns=3;ObjectPointer
-                      Type: NodePointer
-                      DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
-                      Children:
-                      - Name: Kind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../../../../../Rectangle4/HorizontalLayout1/PF Trend/eChartTest3Logic@NodeId"
-                        Children:
-                        - Name: Mode
-                          Type: BaseVariableType
-                          DataType: DynamicLinkMode
-                          ModellingRule: Optional
-                          Value: 2
-                    - Name: ns=3;Method
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "OnRefreshButtonClicked"
                   - Name: MethodContainer7
                     Type: BaseObjectType
                     Children:
@@ -29386,32 +29308,6 @@ Children:
                       Value: "Refresh"
                     - Name: InputArguments
                       Type: BaseObjectType
-                  - Name: MethodContainer8
-                    Type: BaseObjectType
-                    Children:
-                    - Name: ns=3;ObjectPointer
-                      Type: NodePointer
-                      DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
-                      Children:
-                      - Name: Kind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../../../../../Rectangle3/HorizontalLayout1/Current Trend/eChartTest2Logic@NodeId"
-                        Children:
-                        - Name: Mode
-                          Type: BaseVariableType
-                          DataType: DynamicLinkMode
-                          ModellingRule: Optional
-                          Value: 2
-                    - Name: ns=3;Method
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "OnRefreshButtonClicked"
                   - Name: MethodContainer9
                     Type: BaseObjectType
                     Children:
@@ -29440,32 +29336,6 @@ Children:
                       Value: "Refresh"
                     - Name: InputArguments
                       Type: BaseObjectType
-                  - Name: MethodContainer10
-                    Type: BaseObjectType
-                    Children:
-                    - Name: ns=3;ObjectPointer
-                      Type: NodePointer
-                      DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
-                      Children:
-                      - Name: Kind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../../../../../Rectangle2/HorizontalLayout1/PF Gauge/eChartTest5Logic@NodeId"
-                        Children:
-                        - Name: Mode
-                          Type: BaseVariableType
-                          DataType: DynamicLinkMode
-                          ModellingRule: Optional
-                          Value: 2
-                    - Name: ns=3;Method
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "OnRefreshButtonClicked"
                   - Name: MethodContainer11
                     Type: BaseObjectType
                     Children:
@@ -29494,32 +29364,6 @@ Children:
                       Value: "Refresh"
                     - Name: InputArguments
                       Type: BaseObjectType
-                  - Name: MethodContainer12
-                    Type: BaseObjectType
-                    Children:
-                    - Name: ns=3;ObjectPointer
-                      Type: NodePointer
-                      DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
-                      Children:
-                      - Name: Kind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../../../../../Rectangle3/HorizontalLayout1/Frequency Gauge/eChartTest6Logic@NodeId"
-                        Children:
-                        - Name: Mode
-                          Type: BaseVariableType
-                          DataType: DynamicLinkMode
-                          ModellingRule: Optional
-                          Value: 2
-                    - Name: ns=3;Method
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "OnRefreshButtonClicked"
                   - Name: MethodContainer13
                     Type: BaseObjectType
                     Children:
@@ -29548,32 +29392,6 @@ Children:
                       Value: "Refresh"
                     - Name: InputArguments
                       Type: BaseObjectType
-                  - Name: MethodContainer14
-                    Type: BaseObjectType
-                    Children:
-                    - Name: ns=3;ObjectPointer
-                      Type: NodePointer
-                      DataType: NodeId
-                      Value: {"IdType":0,"Id":0,"Namespace":-1}
-                      Children:
-                      - Name: Kind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: "/Types/ObjectTypes/BaseObjectType"
-                      - Name: DynamicLink
-                        Type: DynamicLink
-                        DataType: NodePath
-                        Value: "../../../../../../Rectangle4/HorizontalLayout1/TOD Gauge/eChartTest7Logic@NodeId"
-                        Children:
-                        - Name: Mode
-                          Type: BaseVariableType
-                          DataType: DynamicLinkMode
-                          ModellingRule: Optional
-                          Value: 2
-                    - Name: ns=3;Method
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "OnRefreshButtonClicked"
                 - Name: EventArguments
                   Type: UserValueChanged
                   Children:
@@ -29836,6 +29654,261 @@ Children:
                 DataType: FontWeightEnum
                 ModellingRule: Optional
                 Value: 700
+            - Name: Button1
+              Type: Button
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"Button1"}
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 150.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 51.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 1190.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 160.0
+              - Name: MouseClickEventHandler1
+                Type: EventHandler
+                Children:
+                - Name: ListenEventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+                - Name: MethodsToCall
+                  Type: BaseObjectType
+                  Children:
+                  - Name: MethodContainer14
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=3;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../Rectangle4/HorizontalLayout1/TOD Gauge/eChartTest7Logic@NodeId"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ns=3;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "OnRefreshButtonClicked"
+                  - Name: MethodContainer2
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=3;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../eChartTestLogic@NodeId"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ns=3;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "OnRefreshButtonClicked"
+                  - Name: MethodContainer4
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=3;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../Rectangle2/HorizontalLayout1/Voltage Trend/eChartTest1Logic@NodeId"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ns=3;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "OnRefreshButtonClicked"
+                  - Name: MethodContainer6
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=3;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../Rectangle4/HorizontalLayout1/PF Trend/eChartTest3Logic@NodeId"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ns=3;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "OnRefreshButtonClicked"
+                  - Name: MethodContainer8
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=3;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../Rectangle3/HorizontalLayout1/Current Trend/eChartTest2Logic@NodeId"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ns=3;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "OnRefreshButtonClicked"
+                  - Name: MethodContainer10
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=3;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../Rectangle2/HorizontalLayout1/PF Gauge/eChartTest5Logic@NodeId"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ns=3;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "OnRefreshButtonClicked"
+                  - Name: MethodContainer12
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=3;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../Rectangle3/HorizontalLayout1/Frequency Gauge/eChartTest6Logic@NodeId"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ns=3;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "OnRefreshButtonClicked"
+                - Name: EventArguments
+                  Type: MouseClickEvent
+                  Children:
+                  - Name: EventId
+                    Type: PropertyType
+                    DataType: ByteString
+                    Value: ""
+                  - Name: EventType
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: SourceNode
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: SourceName
+                    Type: PropertyType
+                    DataType: String
+                    Value: ""
+                  - Name: Time
+                    Type: PropertyType
+                    DataType: UtcTime
+                    Value: "1601-01-01T00:00:00.0000000"
+                  - Name: ReceiveTime
+                    Type: PropertyType
+                    DataType: UtcTime
+                    Value: "1601-01-01T00:00:00.0000000"
+                  - Name: Message
+                    Type: PropertyType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  - Name: Severity
+                    Type: PropertyType
+                    DataType: UInt16
+                    Value: 0
           - Name: FillColor
             Type: BaseDataVariableType
             DataType: Color

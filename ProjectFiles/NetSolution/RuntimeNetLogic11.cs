@@ -27,17 +27,11 @@ using FTOptix.AuditSigning;
 using FTOptix.Alarm;
 #endregion
 
-public class HomePageTagsLogic : BaseNetLogic
+public class RuntimeNetLogic11 : BaseNetLogic
 {
-    private IUAVariable todayConsumptionVariable;
-    private IUAVariable todayConsumptionCostVariable;
-    private IUAVariable averageFrequencyVariable;
-    private IUAVariable avgPowerFactorVariable;
-    private IUAVariable maxDemandVariable;
-    private IUAVariable monthConsumptionVariable;
-    private IUAVariable monthConsumptionCostVariable;
+
     private IUAVariable buttonVariable;
-    private IUAVariable guageMaxVariable;
+
     private IUAVariable day1Variable;
     private IUAVariable day2Variable;
     private IUAVariable day3Variable;
@@ -75,26 +69,20 @@ public class HomePageTagsLogic : BaseNetLogic
     public override void Start()
     {
         // Insert code to be executed when the user-defined logic is started
-        var owner = (HomePageTags)LogicObject.Owner;
+        var owner = (YphaseVoltage)LogicObject.Owner;
 
-        todayConsumptionVariable = owner.TodayConsumptionVariable;
-        todayConsumptionCostVariable = owner.TodayConsumptionCostVariable;
-        averageFrequencyVariable = owner.AverageFrequencyVariable;
-        avgPowerFactorVariable = owner.AvgPowerFactorVariable;
-        maxDemandVariable = owner.MaxDemandVariable;
-        monthConsumptionVariable = owner.MonthConsumptionVariable;
-        monthConsumptionCostVariable = owner.MonthConsumptionCostVariable;
+
         buttonVariable = owner.ButtonVariable;
-        guageMaxVariable = owner.GuageMaxVariable;
+
         day1Variable = owner.Day1Variable;
         day2Variable = owner.Day2Variable;
         day3Variable = owner.Day3Variable;
         day4Variable = owner.Day4Variable;
         day5Variable = owner.Day5Variable;
         day6Variable = owner.Day6Variable;
-        day7Variable =  owner.Day7Variable;
+        day7Variable = owner.Day7Variable;
         day8Variable = owner.Day8Variable;
-        day9Variable =  owner.Day9Variable;
+        day9Variable = owner.Day9Variable;
         day10Variable = owner.Day10Variable;
         day11Variable = owner.Day11Variable;
         day12Variable = owner.Day12Variable;
@@ -131,18 +119,10 @@ public class HomePageTagsLogic : BaseNetLogic
 
     public void HomePageCalculationTask()
     {
-        float todayconsumption = todayConsumptionVariable.Value;
-        float monthconsumption = monthConsumptionVariable.Value;
-        float monthconsumptioncost = monthConsumptionCostVariable.Value;
-        float todayconsumptioncost = todayConsumptionCostVariable.Value;
-        float averagefrequency = averageFrequencyVariable.Value;
-        float avgpowerfactor = avgPowerFactorVariable.Value;
+
         bool button = buttonVariable.Value;
-        int guagemax = guageMaxVariable.Value;
-        float IN1Consumption = 0; // Declare outside the if block
-        float IN2Consumption = 0; // Declare outside the if block
-        float MIN1Consumption = 0; // Declare outside the if block
-        float MIN2Consumption = 0; // Declare outside the if block
+
+
         float day1 = day1Variable.Value;
         float day2 = day2Variable.Value;
         float day3 = day3Variable.Value;
@@ -211,13 +191,7 @@ public class HomePageTagsLogic : BaseNetLogic
         var myStore29 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
         var myStore30 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
         var myStore31 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore32 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore33 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore34 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore35 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore36 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore37 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        //var myStore37 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
+        
 
 
         object[,] resultSet1;
@@ -311,23 +285,6 @@ public class HomePageTagsLogic : BaseNetLogic
         object[,] resultSet31;
         string[] header31;
 
-        object[,] resultSet32;
-        string[] header32;
-
-        object[,] resultSet33;
-        string[] header33;
-
-        object[,] resultSet34;
-        string[] header34;
-
-        object[,] resultSet35;
-        string[] header35;
-
-        object[,] resultSet36;
-        string[] header36;
-
-        object[,] resultSet37;
-        string[] header37;
 
 
 
@@ -348,44 +305,39 @@ public class HomePageTagsLogic : BaseNetLogic
             string new1 = startTime.ToString("dd");
             string jace1 = jace.ToString();
 
-            string query1 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
-            string query2 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER2'";
-            string query3 =  $"SELECT Frequency FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
-            string query4 =  $"SELECT Avg_PF FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
-            string query5 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE MonthYear = '" + new12 + "' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
-            string query6 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE MonthYear = '" + new12 + "' AND Jace = '33KV' AND Meter = 'J1_INCOMER2'";
-            string query7 =  $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '1' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query8 =  $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '2' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query9 =  $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '3' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query10 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '4' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query11 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '5' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query12 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '6' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query13 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '7' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query14 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '8' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query15 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '9' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query16 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '10' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query17 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '11' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query18 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '12' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query19 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '13' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query20 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '14' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query21 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '15' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query22 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '16' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query23 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '17' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query24 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '18' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query25 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '19' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query26 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '20' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query27 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '21' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query28 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '22' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query29 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '23' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query30 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '24' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query31 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '25' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query32 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '26' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query33 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '27' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query34 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '28' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query35 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '29' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query36 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '30' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query37 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '31' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            
+
+            string query1 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '1' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query2 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '2' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query3 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '3' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query4 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '4' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query5 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '5' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query6 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '6' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query7 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '7' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query8 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '8' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query9 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '9' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query10 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '10' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query11 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '11' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query12 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '12' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query13 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '13' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query14 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '14' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query15 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '15' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query16 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '16' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query17 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '17' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query18 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '18' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query19 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '19' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query20 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '20' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query21 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '21' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query22 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '22' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query23 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '23' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query24 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '24' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query25 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '25' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query26 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '26' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query27 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '27' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query28 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '28' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query29 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '29' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query30 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '30' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query31 = $"SELECT Voltage_YN FROM DailyJaceDataLogger WHERE Day = '31' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+
 
 
 
@@ -424,185 +376,153 @@ public class HomePageTagsLogic : BaseNetLogic
 
             myStore30.Query(query30, out header30, out resultSet30);
             myStore31.Query(query31, out header31, out resultSet31);
-            myStore32.Query(query32, out header32, out resultSet32);
-            myStore33.Query(query33, out header33, out resultSet33);
-            myStore34.Query(query34, out header34, out resultSet34);
-            myStore35.Query(query35, out header35, out resultSet35);
-            myStore36.Query(query36, out header36, out resultSet36);
-            myStore37.Query(query37, out header37, out resultSet37);
+
 
 
 
             if (resultSet1 != null && resultSet1.GetLength(0) > 0 && header1 != null && header1.Length > 0)
             {
-                float.TryParse(resultSet1[0, 0]?.ToString(), out IN1Consumption);
+                float.TryParse(resultSet1[0, 0]?.ToString(), out day1);
             }
 
             if (resultSet2 != null && resultSet2.GetLength(0) > 0 && header2 != null && header2.Length > 0)
             {
-                float.TryParse(resultSet2[0, 0]?.ToString(), out IN2Consumption);
+                float.TryParse(resultSet2[0, 0]?.ToString(), out day2);
             }
             // Process resultSet3 (Frequency)
             if (resultSet3 != null && resultSet3.GetLength(0) > 0 && header3 != null && header3.Length > 0)
             {
-                float.TryParse(resultSet3[0, 0]?.ToString(), out averagefrequency);
+                float.TryParse(resultSet3[0, 0]?.ToString(), out day3);
             }
 
             // Process resultSet4 (Avg_PF)
             if (resultSet4 != null && resultSet4.GetLength(0) > 0 && header4 != null && header4.Length > 0)
             {
-                float.TryParse(resultSet4[0, 0]?.ToString(), out avgpowerfactor);
+                float.TryParse(resultSet4[0, 0]?.ToString(), out day4);
             }
 
             if (resultSet5 != null && resultSet5.GetLength(0) > 0 && header5 != null && header5.Length > 0)
             {
-                float.TryParse(resultSet5[0, 0]?.ToString(), out MIN1Consumption);
+                float.TryParse(resultSet5[0, 0]?.ToString(), out day5);
             }
 
             if (resultSet6 != null && resultSet6.GetLength(0) > 0 && header6 != null && header6.Length > 0)
             {
-                float.TryParse(resultSet6[0, 0]?.ToString(), out MIN2Consumption);
+                float.TryParse(resultSet6[0, 0]?.ToString(), out day6);
             }
 
             if (resultSet7 != null && resultSet7.GetLength(0) > 0 && header7 != null && header7.Length > 0)
             {
-                float.TryParse(resultSet7[0, 0]?.ToString(), out day1);
+                float.TryParse(resultSet7[0, 0]?.ToString(), out day7);
             }
             if (resultSet8 != null && resultSet8.GetLength(0) > 0 && header8 != null && header8.Length > 0)
             {
-                float.TryParse(resultSet8[0, 0]?.ToString(), out day2);
+                float.TryParse(resultSet8[0, 0]?.ToString(), out day8);
             }
 
 
             if (resultSet9 != null && resultSet9.GetLength(0) > 0 && header9 != null && header9.Length > 0)
             {
-                float.TryParse(resultSet9[0, 0]?.ToString(), out day3);
+                float.TryParse(resultSet9[0, 0]?.ToString(), out day9);
             }
             if (resultSet10 != null && resultSet10.GetLength(0) > 0 && header10 != null && header10.Length > 0)
             {
-                float.TryParse(resultSet10[0, 0]?.ToString(), out day4);
+                float.TryParse(resultSet10[0, 0]?.ToString(), out day10);
             }
 
             if (resultSet11 != null && resultSet11.GetLength(0) > 0 && header11 != null && header11.Length > 0)
             {
-                float.TryParse(resultSet11[0, 0]?.ToString(), out day5);
+                float.TryParse(resultSet11[0, 0]?.ToString(), out day11);
             }
             if (resultSet12 != null && resultSet12.GetLength(0) > 0 && header12 != null && header12.Length > 0)
             {
-                float.TryParse(resultSet12[0, 0]?.ToString(), out day6);
+                float.TryParse(resultSet12[0, 0]?.ToString(), out day12);
             }
 
             if (resultSet13 != null && resultSet13.GetLength(0) > 0 && header13 != null && header13.Length > 0)
             {
-                float.TryParse(resultSet13[0, 0]?.ToString(), out day7);
+                float.TryParse(resultSet13[0, 0]?.ToString(), out day13);
             }
             if (resultSet14 != null && resultSet14.GetLength(0) > 0 && header14 != null && header14.Length > 0)
             {
-                float.TryParse(resultSet14[0, 0]?.ToString(), out day8);
+                float.TryParse(resultSet14[0, 0]?.ToString(), out day14);
             }
 
             if (resultSet15 != null && resultSet15.GetLength(0) > 0 && header15 != null && header15.Length > 0)
             {
-                float.TryParse(resultSet15[0, 0]?.ToString(), out day9);
+                float.TryParse(resultSet15[0, 0]?.ToString(), out day15);
             }
             if (resultSet16 != null && resultSet16.GetLength(0) > 0 && header16 != null && header16.Length > 0)
             {
-                float.TryParse(resultSet16[0, 0]?.ToString(), out day10);
+                float.TryParse(resultSet16[0, 0]?.ToString(), out day16);
             }
 
             if (resultSet17 != null && resultSet17.GetLength(0) > 0 && header17 != null && header17.Length > 0)
             {
-                float.TryParse(resultSet17[0, 0]?.ToString(), out day11);
+                float.TryParse(resultSet17[0, 0]?.ToString(), out day17);
             }
             if (resultSet18 != null && resultSet18.GetLength(0) > 0 && header18 != null && header18.Length > 0)
             {
-                float.TryParse(resultSet18[0, 0]?.ToString(), out day12);
+                float.TryParse(resultSet18[0, 0]?.ToString(), out day18);
             }
 
             if (resultSet19 != null && resultSet19.GetLength(0) > 0 && header19 != null && header19.Length > 0)
             {
-                float.TryParse(resultSet19[0, 0]?.ToString(), out day13);
+                float.TryParse(resultSet19[0, 0]?.ToString(), out day19);
             }
             if (resultSet20 != null && resultSet20.GetLength(0) > 0 && header20 != null && header20.Length > 0)
             {
-                float.TryParse(resultSet20[0, 0]?.ToString(), out day14);
+                float.TryParse(resultSet20[0, 0]?.ToString(), out day20);
             }
 
             if (resultSet21 != null && resultSet21.GetLength(0) > 0 && header21 != null && header21.Length > 0)
             {
-                float.TryParse(resultSet21[0, 0]?.ToString(), out day15);
+                float.TryParse(resultSet21[0, 0]?.ToString(), out day21);
             }
             if (resultSet22 != null && resultSet22.GetLength(0) > 0 && header22 != null && header22.Length > 0)
             {
-                float.TryParse(resultSet22[0, 0]?.ToString(), out day16);
+                float.TryParse(resultSet22[0, 0]?.ToString(), out day22);
             }
 
             if (resultSet23 != null && resultSet23.GetLength(0) > 0 && header23 != null && header23.Length > 0)
             {
-                float.TryParse(resultSet23[0, 0]?.ToString(), out day17);
+                float.TryParse(resultSet23[0, 0]?.ToString(), out day23);
             }
             if (resultSet24 != null && resultSet24.GetLength(0) > 0 && header24 != null && header24.Length > 0)
             {
-                float.TryParse(resultSet24[0, 0]?.ToString(), out day18);
+                float.TryParse(resultSet24[0, 0]?.ToString(), out day24);
             }
 
             if (resultSet25 != null && resultSet25.GetLength(0) > 0 && header25 != null && header25.Length > 0)
             {
-                float.TryParse(resultSet25[0, 0]?.ToString(), out day19);
+                float.TryParse(resultSet25[0, 0]?.ToString(), out day25);
             }
             if (resultSet26 != null && resultSet26.GetLength(0) > 0 && header26 != null && header26.Length > 0)
             {
-                float.TryParse(resultSet26[0, 0]?.ToString(), out day20);
+                float.TryParse(resultSet26[0, 0]?.ToString(), out day26);
             }
 
             if (resultSet27 != null && resultSet27.GetLength(0) > 0 && header27 != null && header27.Length > 0)
             {
-                float.TryParse(resultSet27[0, 0]?.ToString(), out day21);
+                float.TryParse(resultSet27[0, 0]?.ToString(), out day27);
             }
             if (resultSet28 != null && resultSet28.GetLength(0) > 0 && header28 != null && header28.Length > 0)
             {
-                float.TryParse(resultSet28[0, 0]?.ToString(), out day22);
+                float.TryParse(resultSet28[0, 0]?.ToString(), out day28);
             }
 
             if (resultSet29 != null && resultSet29.GetLength(0) > 0 && header29 != null && header29.Length > 0)
             {
-                float.TryParse(resultSet29[0, 0]?.ToString(), out day23);
+                float.TryParse(resultSet29[0, 0]?.ToString(), out day29);
             }
             if (resultSet30 != null && resultSet30.GetLength(0) > 0 && header30 != null && header30.Length > 0)
             {
-                float.TryParse(resultSet30[0, 0]?.ToString(), out day24);
+                float.TryParse(resultSet30[0, 0]?.ToString(), out day30);
             }
 
             if (resultSet31 != null && resultSet31.GetLength(0) > 0 && header31 != null && header31.Length > 0)
             {
-                float.TryParse(resultSet31[0, 0]?.ToString(), out day25);
-            }
-            if (resultSet32 != null && resultSet32.GetLength(0) > 0 && header32 != null && header32.Length > 0)
-            {
-                float.TryParse(resultSet32[0, 0]?.ToString(), out day26);
-            }
-
-            if (resultSet33 != null && resultSet33.GetLength(0) > 0 && header33 != null && header33.Length > 0)
-            {
-                float.TryParse(resultSet33[0, 0]?.ToString(), out day27);
-            }
-            if (resultSet34 != null && resultSet34.GetLength(0) > 0 && header34 != null && header34.Length > 0)
-            {
-                float.TryParse(resultSet34[0, 0]?.ToString(), out day28);
-            }
-
-            if (resultSet35 != null && resultSet35.GetLength(0) > 0 && header35 != null && header35.Length > 0)
-            {
-                float.TryParse(resultSet35[0, 0]?.ToString(), out day29);
-            }
-            if (resultSet36 != null && resultSet36.GetLength(0) > 0 && header36 != null && header36.Length > 0)
-            {
-                float.TryParse(resultSet36[0, 0]?.ToString(), out day30);
-            }
-
-            if (resultSet37 != null && resultSet37.GetLength(0) > 0 && header37 != null && header37.Length > 0)
-            {
-                float.TryParse(resultSet37[0, 0]?.ToString(), out day31);
+                float.TryParse(resultSet31[0, 0]?.ToString(), out day31);
             }
 
 
@@ -629,57 +549,14 @@ public class HomePageTagsLogic : BaseNetLogic
 
 
 
-            // Calculate today consumption based on IN1Consumption and IN2Consumption
-            todayconsumption = IN1Consumption + IN2Consumption;
-            monthconsumption = MIN1Consumption + MIN2Consumption;
 
-            // Calculate today consumption cost
-            todayconsumptioncost = todayconsumption * 752;
-            todayconsumptioncost = todayconsumptioncost / 100 + 1608.4f;
-            monthconsumptioncost = monthconsumption * 752;
-            monthconsumptioncost = monthconsumptioncost / 100 + 1608.4f;
 
-            if (monthconsumption < 99)
-            {
-                guagemax = 100;
-            } 
-            else if (monthconsumption > 99 && monthconsumption < 999)
-            {
-                guagemax = 1000;
-            }
-            else if (monthconsumption > 999 && monthconsumption < 9999)
-            {
-                guagemax = 10000;
-            }
-            else if (monthconsumption > 9999 && monthconsumption < 99999)
-            {
-                guagemax = 100000;
-            }
-            else if (monthconsumption > 99999 && monthconsumption < 999999)
-            {
-                guagemax = 1000000;
-            }
-            else if (monthconsumption > 999999 && monthconsumption < 9999999)
-            {
-                guagemax = 1000000;
-            }
-            else if (monthconsumption > 9999999 && monthconsumption < 99999999)
-            {
-                guagemax = 100000000;
-            }
-                  
+
         }
 
 
         // Update variable values
-        buttonVariable.Value = button;
-        todayConsumptionVariable.Value = todayconsumption;
-        todayConsumptionCostVariable.Value = todayconsumptioncost;
-        averageFrequencyVariable.Value = averagefrequency;
-        avgPowerFactorVariable.Value = avgpowerfactor;
-        monthConsumptionVariable.Value = monthconsumption;  
-        monthConsumptionCostVariable.Value =monthconsumptioncost;
-        guageMaxVariable.Value = guagemax;
+
         day1Variable.Value = day1;
         day2Variable.Value = day2;
         day3Variable.Value = day3;

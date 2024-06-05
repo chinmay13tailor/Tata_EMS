@@ -11816,12 +11816,12 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1399.0
+          Value: 10.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1110.0
+          Value: 661.0
         - Name: AutoRefreshTime
           Type: BaseDataVariableType
           DataType: Duration
@@ -13970,7 +13970,7 @@ Children:
           - Name: Tile_Icon
             Type: BaseDataVariableType
             DataType: ResourceUri
-            Value: "file:///D:/PROJECTS/Tata/Optix Scada/02 April/Tata_EMS_Solution_Updated/ProjectFiles/imgs/icons/Features/XyChart.svg"
+            Value: "ns=36;%PROJECTDIR%/imgs/icons/Features/XyChart.svg"
           - Name: Tile_Open_Panel
             Type: BaseDataVariableType
             DataType: NodeId
@@ -20731,7 +20731,7 @@ Children:
           - Name: Tile_Icon
             Type: BaseDataVariableType
             DataType: ResourceUri
-            Value: "file:///D:/PROJECTS/Tata/Optix Scada/02 April/Tata_EMS_Solution_Updated/ProjectFiles/daily report.png"
+            Value: "ns=36;%PROJECTDIR%/daily report.png"
           - Name: Tile_Open_Panel
             Type: BaseDataVariableType
             DataType: NodeId
@@ -29069,7 +29069,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1.0
+            Value: 0.0
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -33945,7 +33945,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1.0
+            Value: 0.0
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -33955,7 +33955,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 245.0
+            Value: 250.0
           - Name: FillColor
             Type: BaseDataVariableType
             DataType: Color
@@ -34045,6 +34045,126 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Boolean
                     Value: false
+          - Name: Save_Submit
+            Type: Button
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Enter Productipon and Target"}
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 328.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 1145.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -24.0
+            - Name: MouseClickEventHandler1
+              Type: EventHandler
+              Children:
+              - Name: ListenEventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+              - Name: MethodsToCall
+                Type: BaseObjectType
+                Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/UICommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "OpenDialog"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: Dialog
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      Value: "/Objects/Tata_EMS/UI/Screens/PopUpFolder/ProductionCount"
+                    - Name: AliasNode
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      ValueRank: ScalarOrOneDimension
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    - Name: ParentItem
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../..@NodeId"
+                  - Name: OutputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: DialogNodeId
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: EventArguments
+                Type: MouseClickEvent
+                Children:
+                - Name: EventId
+                  Type: PropertyType
+                  DataType: ByteString
+                  Value: ""
+                - Name: EventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceNode
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceName
+                  Type: PropertyType
+                  DataType: String
+                  Value: ""
+                - Name: Time
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: ReceiveTime
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: Message
+                  Type: PropertyType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                - Name: Severity
+                  Type: PropertyType
+                  DataType: UInt16
+                  Value: 0
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 27.0
           - Name: Outgoing_panel_1
             Type: Rectangle
             Children:
@@ -34111,7 +34231,7 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 50.0
-              - Name: Utility Shop
+              - Name: 33KV
                 Type: Image
                 Children:
                 - Name: Path
@@ -34148,7 +34268,7 @@ Children:
                   DataType: FillModeEnum
                   ModellingRule: Optional
                   Value: 1
-                - Name: Utility
+                - Name: 33KV
                   Type: Label
                   Children:
                   - Name: Text
@@ -34271,7 +34391,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: Height
                     Type: BaseVariableType
                     DataType: Size
@@ -34322,7 +34442,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -34383,7 +34503,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -34444,7 +34564,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -34505,7 +34625,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -34726,7 +34846,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontWeight
                     Type: BaseDataVariableType
                     DataType: FontWeightEnum
@@ -34766,7 +34886,139 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 10.0
-              - Name: Stamping Shop
+                - Name: 33KVTarget
+                  Type: TextBox
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/Target33KV"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 169.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 30.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 1532.0
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 569.0
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: Visible
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Enabled
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: false
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#9ad5ef"
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#000000"
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#00000000"
+                  - Name: Opacity
+                    Type: BaseVariableType
+                    DataType: Float
+                    ModellingRule: Optional
+                    Value: 1230.0
+                  - Name: TextColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    ModellingRule: Optional
+                    Value: "#000000"
+                  - Name: Style
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default2"
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 20.0
+              - Name: Utility
                 Type: Image
                 Children:
                 - Name: Path
@@ -34803,7 +35055,7 @@ Children:
                   DataType: FillModeEnum
                   ModellingRule: Optional
                   Value: 1
-                - Name: Stamping
+                - Name: Utility
                   Type: Label
                   Children:
                   - Name: Text
@@ -34926,7 +35178,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: Height
                     Type: BaseVariableType
                     DataType: Size
@@ -34962,7 +35214,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "/Objects/Tata_EMS/Model/ComparisionInstance/TargetStamping"
+                          Value: "/Objects/Tata_EMS/Model/HomePageComparisionPanelInstance/Target"
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -34977,7 +35229,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -35033,7 +35285,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -35089,7 +35341,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -35431,7 +35683,130 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 10.0
-              - Name: Tcf Shop
+                - Name: UtilityTarget
+                  Type: TextBox
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetUtility"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 169.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 30.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 1551.0
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 579.0
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: Enabled
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: false
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#00000000"
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#000000"
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#00000000"
+                  - Name: Style
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default2"
+                  - Name: Opacity
+                    Type: BaseVariableType
+                    DataType: Float
+                    ModellingRule: Optional
+                    Value: 1230.0
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 20.0
+              - Name: Bodyshop
                 Type: Image
                 Children:
                 - Name: Path
@@ -35468,7 +35843,7 @@ Children:
                   DataType: FillModeEnum
                   ModellingRule: Optional
                   Value: 1
-                - Name: Tcf
+                - Name: Bodyshop
                   Type: Label
                   Children:
                   - Name: Text
@@ -35591,7 +35966,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: Height
                     Type: BaseVariableType
                     DataType: Size
@@ -35647,7 +36022,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -35708,7 +36083,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -35769,7 +36144,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -35830,7 +36205,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -36126,7 +36501,130 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 10.0
-              - Name: Body Shop
+                - Name: BodyshopTarget
+                  Type: TextBox
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetBodyshop"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 169.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 30.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 1551.0
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 579.0
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: Enabled
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: false
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#00000000"
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#000000"
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#00000000"
+                  - Name: Style
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default2"
+                  - Name: Opacity
+                    Type: BaseVariableType
+                    DataType: Float
+                    ModellingRule: Optional
+                    Value: 1230.0
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 20.0
+              - Name: Stamping
                 Type: Image
                 Children:
                 - Name: Path
@@ -36163,7 +36661,7 @@ Children:
                   DataType: FillModeEnum
                   ModellingRule: Optional
                   Value: 1
-                - Name: Body Shop
+                - Name: Stamping
                   Type: Label
                   Children:
                   - Name: Text
@@ -36286,7 +36784,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: Height
                     Type: BaseVariableType
                     DataType: Size
@@ -36342,7 +36840,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -36403,7 +36901,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -36464,7 +36962,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -36525,7 +37023,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -36790,7 +37288,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "/Objects/Tata_EMS/Model/HomePageComparisionPanelInstance/Bodyshoppercentage"
+                          Value: "/Objects/Tata_EMS/Model/HomePageComparisionPanelInstance/Stampingpercentage"
                   - Name: HorizontalAlignment
                     Type: BaseVariableType
                     DataType: HorizontalAlignment
@@ -36821,6 +37319,129 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 10.0
+                - Name: StampingTarget
+                  Type: TextBox
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetStamping"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 169.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 30.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 1582.0
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 569.0
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: Enabled
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: false
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#00000000"
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#000000"
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#00000000"
+                  - Name: Style
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default2"
+                  - Name: Opacity
+                    Type: BaseVariableType
+                    DataType: Float
+                    ModellingRule: Optional
+                    Value: 1230.0
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 20.0
               - Name: HorizontalAlignment
                 Type: BaseVariableType
                 DataType: HorizontalAlignment
@@ -36907,7 +37528,7 @@ Children:
                 DataType: VerticalAlignment
                 ModellingRule: Optional
                 Value: 3
-              - Name: Engine Shop
+              - Name: Admin
                 Type: Image
                 Children:
                 - Name: Path
@@ -36944,24 +37565,24 @@ Children:
                   DataType: FillModeEnum
                   ModellingRule: Optional
                   Value: 1
-                - Name: Engine Shop
+                - Name: Admin
                   Type: Label
                   Children:
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"en-US","Text":"ENGINESHOP"}
+                    Value: {"LocaleId":"en-US","Text":"ADMIN"}
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 0.0
+                    Value: -10.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 30.0
+                    Value: 25.0
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -37067,7 +37688,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: Height
                     Type: BaseVariableType
                     DataType: Size
@@ -37123,7 +37744,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -37184,7 +37805,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -37245,7 +37866,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -37306,7 +37927,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -37602,6 +38223,129 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 10.0
+                - Name: EngineshopTarget
+                  Type: TextBox
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/Target33KV"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 169.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 30.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 1543.0
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 573.0
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: Enabled
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: false
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#00000000"
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#000000"
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#00000000"
+                  - Name: Style
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default2"
+                  - Name: Opacity
+                    Type: BaseVariableType
+                    DataType: Float
+                    ModellingRule: Optional
+                    Value: 1230.0
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 20.0
               - Name: Paint Shop
                 Type: Image
                 Children:
@@ -37762,7 +38506,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: Height
                     Type: BaseVariableType
                     DataType: Size
@@ -37818,7 +38562,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -37879,7 +38623,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -37940,7 +38684,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -38001,7 +38745,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -38297,6 +39041,134 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 10.0
+                - Name: PaintshopTarget
+                  Type: TextBox
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetPaintShop"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 169.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 30.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 1562.0
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 583.0
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: Enabled
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: false
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#00000000"
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#000000"
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#00000000"
+                  - Name: Style
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default2"
+                  - Name: Opacity
+                    Type: BaseVariableType
+                    DataType: Float
+                    ModellingRule: Optional
+                    Value: 1230.0
+                  - Name: Rotation
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 0.0
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 20.0
               - Name: SPP Shop
                 Type: Image
                 Children:
@@ -38457,7 +39329,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: Height
                     Type: BaseVariableType
                     DataType: Size
@@ -38513,7 +39385,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -38574,7 +39446,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -38635,7 +39507,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -38696,7 +39568,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -38992,7 +39864,130 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 10.0
-              - Name: SPP Shop1
+                - Name: SPPTarget
+                  Type: TextBox
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSPP"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 169.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 30.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 1542.0
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 573.0
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: Enabled
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: false
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#00000000"
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#000000"
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#00000000"
+                  - Name: Style
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default2"
+                  - Name: Opacity
+                    Type: BaseVariableType
+                    DataType: Float
+                    ModellingRule: Optional
+                    Value: 1230.0
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 20.0
+              - Name: TCF
                 Type: Image
                 Children:
                 - Name: Path
@@ -39029,14 +40024,14 @@ Children:
                   DataType: FillModeEnum
                   ModellingRule: Optional
                   Value: 1
-                - Name: SPP
+                - Name: TCF
                   Type: Label
                   Children:
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
                     ModellingRule: Optional
-                    Value: {"LocaleId":"en-US","Text":"PUMPROOM"}
+                    Value: {"LocaleId":"en-US","Text":"TCF"}
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -39117,7 +40112,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: ""
+                          Value: "/Objects/Tata_EMS/Model/HomePageComparisionPanelInstance/ConsumptionTcf"
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -39152,7 +40147,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: Height
                     Type: BaseVariableType
                     DataType: Size
@@ -39193,7 +40188,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: ""
+                          Value: "/Objects/Tata_EMS/Model/HomePageComparisionPanelInstance/TargetTcf"
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -39208,7 +40203,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -39254,7 +40249,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: ""
+                          Value: "/Objects/Tata_EMS/Model/HomePageComparisionPanelInstance/YearlowestTcf"
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -39269,7 +40264,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -39315,7 +40310,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: ""
+                          Value: "/Objects/Tata_EMS/Model/HomePageComparisionPanelInstance/MonthlowestTcf"
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -39330,7 +40325,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -39376,7 +40371,7 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: ""
+                          Value: "/Objects/Tata_EMS/Model/HomePageComparisionPanelInstance/AverageTcf"
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -39391,7 +40386,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: Color
                     ModellingRule: Optional
-                    Value: "#01042c"
+                    Value: "#000000"
                   - Name: FontSize
                     Type: BaseDataVariableType
                     DataType: Size
@@ -39534,12 +40529,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 0.0
+                    Value: -2.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 100.0
+                    Value: 83.0
                   - Name: VerticalAlignment
                     Type: BaseVariableType
                     DataType: VerticalAlignment
@@ -39676,6 +40671,129 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 10.0
+                - Name: SPP1TArget
+                  Type: TextBox
+                  Children:
+                  - Name: Text
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetTCF"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: Width
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 169.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 30.0
+                  - Name: LeftMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 1573.0
+                  - Name: TopMargin
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 573.0
+                  - Name: TextHorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: TextHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: TextVerticalAlignment
+                    Type: BaseVariableType
+                    DataType: TextVerticalAlignment
+                    ModellingRule: Optional
+                    Value: 1
+                  - Name: Enabled
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: true
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: false
+                  - Name: BorderColor
+                    Type: BaseDataVariableType
+                    DataType: Color
+                    Value: "#00000000"
+                    Children:
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSubmit"
+                      - Name: TrueValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#000000"
+                      - Name: FalseValue
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: "#00000000"
+                  - Name: Style
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: Optional
+                    Value: "Default2"
+                  - Name: Opacity
+                    Type: BaseVariableType
+                    DataType: Float
+                    ModellingRule: Optional
+                    Value: 1230.0
+                  - Name: FontSize
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 20.0
           - Name: BorderColor
             Type: BaseDataVariableType
             DataType: Color

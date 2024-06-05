@@ -1007,6 +1007,18 @@ Children:
     - Name: Layout
       Type: Rectangle
       Children:
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (192).png"
+        - Name: Label1
+          Type: Label
       - Name: Rectangle2
         Type: Rectangle
         Children:

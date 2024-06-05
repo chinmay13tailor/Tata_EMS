@@ -26535,13 +26535,19 @@ Children:
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "GeneratePdf"
+                - Name: OutputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: OperationId
+                    Type: BaseDataVariableType
+                    DataType: Guid
+                    Value: "00000000000000000000000000000000"
                 - Name: InputArguments
                   Type: BaseObjectType
                   Children:
                   - Name: OutputPath
                     Type: BaseDataVariableType
                     DataType: ResourceUri
-                    Description: {"NamespaceIndex":17,"TextId":"GeneratePdfOutputPathDescription"}
                     Value: ""
                     Children:
                     - Name: StringFormatter1
@@ -26565,16 +26571,7 @@ Children:
                   - Name: LocaleId
                     Type: BaseDataVariableType
                     DataType: LocaleId
-                    Description: {"NamespaceIndex":17,"TextId":"GeneratePdfLocaleIdDescription"}
                     Value: ""
-                - Name: OutputArguments
-                  Type: BaseObjectType
-                  Children:
-                  - Name: OperationId
-                    Type: BaseDataVariableType
-                    DataType: Guid
-                    Description: {"NamespaceIndex":17,"TextId":"GeneratePdfOperationIdDescription"}
-                    Value: "00000000000000000000000000000000"
             - Name: EventArguments
               Type: MouseClickEvent
               Children:

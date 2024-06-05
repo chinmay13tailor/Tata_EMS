@@ -301,27 +301,27 @@ public class HomePageComparisionLogic : BaseNetLogic
 
         var project = FTOptix.HMIProject.Project.Current;
         // For Utility
-        //var myStore1 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
+        var myStore1 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
         var myStore2 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
         var myStore3 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//monthlowest
         var myStore4 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
         var myStore5 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
         // For Stamping
-        //var myStore6 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
+        var myStore6 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
         var myStore7 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
         var myStore8 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
         var myStore9 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
         var myStore10 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
 
         // For TCF
-        // var myStore11 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
+        var myStore11 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
         var myStore12 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
         var myStore13 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
         var myStore14 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
         var myStore15 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
 
         // For Bodyshop
-        // var myStore16 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
+        var myStore16 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
         var myStore17 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
         var myStore18 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
         var myStore19 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
@@ -329,28 +329,28 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
         // For Engineshop
-        // var myStore21 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
+        var myStore21 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
         var myStore22 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
         var myStore23 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
         var myStore24 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
         var myStore25 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
 
         // For Paintshop
-        // var myStore26 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
+        var myStore26 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
         var myStore27 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
         var myStore28 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
         var myStore29 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
         var myStore30 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
 
         // For Spp
-        //var myStore31 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
+        var myStore31 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
         var myStore32 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
         var myStore33 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
         var myStore34 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
         var myStore35 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
 
         // For Spare
-        // var myStore36 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
+        var myStore36 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
         var myStore37 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
         var myStore38 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
         var myStore39 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
@@ -358,16 +358,19 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
         // For 33KV
-        // var myStore41 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
+        var myStore41 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
         var myStore42 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
         var myStore43 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
         var myStore44 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
         var myStore45 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
+                                                                                         //////////////////////////////////Target Update////////////////////////////////////////////////
+
+
 
         ////////////////////////////////*********************************************///////////////////////////////////////////////////////////////////////////
         // For Utility
-        //object[,] resultSet1;
-        // string[] header1;
+        object[,] resultSet1;
+        string[] header1;
         object[,] resultSet2;
         string[] header2;
         object[,] resultSet3;
@@ -378,8 +381,8 @@ public class HomePageComparisionLogic : BaseNetLogic
         string[] header5;
 
         // For Stamping
-        // object[,] resultSet6;
-        // string[] header6;
+        object[,] resultSet6;
+        string[] header6;
         object[,] resultSet7;
         string[] header7;
         object[,] resultSet8;
@@ -390,8 +393,8 @@ public class HomePageComparisionLogic : BaseNetLogic
         string[] header10;
 
         // For TCF
-        // object[,] resultSet11;
-        // string[] header11;
+        object[,] resultSet11;
+        string[] header11;
         object[,] resultSet12;
         string[] header12;
         object[,] resultSet13;
@@ -403,8 +406,8 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
         // For Bodyshop
-        //object[,] resultSet16;
-        //string[] header16;
+        object[,] resultSet16;
+        string[] header16;
         object[,] resultSet17;
         string[] header17;
         object[,] resultSet18;
@@ -415,8 +418,8 @@ public class HomePageComparisionLogic : BaseNetLogic
         string[] header20;
 
         // For Engineshop
-        //object[,] resultSet21;
-        //string[] header21;
+        object[,] resultSet21;
+        string[] header21;
         object[,] resultSet22;
         string[] header22;
         object[,] resultSet23;
@@ -427,8 +430,8 @@ public class HomePageComparisionLogic : BaseNetLogic
         string[] header25;
 
         // For Paintshop
-        // object[,] resultSet26;
-        // string[] header26;
+        object[,] resultSet26;
+        string[] header26;
         object[,] resultSet27;
         string[] header27;
         object[,] resultSet28;
@@ -439,8 +442,8 @@ public class HomePageComparisionLogic : BaseNetLogic
         string[] header30;
 
         // For Spp
-        //object[,] resultSet31;
-        // string[] header31;
+        object[,] resultSet31;
+        string[] header31;
         object[,] resultSet32;
         string[] header32;
         object[,] resultSet33;
@@ -451,8 +454,8 @@ public class HomePageComparisionLogic : BaseNetLogic
         string[] header35;
 
         // For Spare
-        //object[,] resultSet36;
-        //string[] header36;
+        object[,] resultSet36;
+        string[] header36;
         object[,] resultSet37;
         string[] header37;
         object[,] resultSet38;
@@ -464,8 +467,8 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
         // For 33KV
-        // object[,] resultSet41;
-        // string[] header41;
+        object[,] resultSet41;
+        string[] header41;
         object[,] resultSet42;
         string[] header42;
         object[,] resultSet43;
@@ -482,18 +485,28 @@ public class HomePageComparisionLogic : BaseNetLogic
 
             DateTime currentTime = DateTime.Now;
             string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
-         
+
             // Calculate start and end times for the current day
             DateTime startTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 0, 0, 0);
-            DateTime endTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 7, 59, 59).AddDays(1);
+            DateTime endTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 0, 0, 0).AddDays(-1);
+            string new321 = endTime.ToString("yyyy-MM-dd");
 
             string new123 = startTime.ToString("yyyy-MM-dd");
-           string month123 = startTime.ToString("yyyy-MM");
+            string month123 = startTime.ToString("yyyy-MM");
             string year123 = startTime.ToString("yyyy");
+            float target33KV = target33kvVariable.Value;
+            float targetstamping1 = targetstampingVariable.Value;
+            float targettcf1 = targettcfVariable.Value;
+            float targetbodyshop1 = targetbodyshopVariable.Value;
+            float targetengineshop1 = targetengineshopVariable.Value;
+            float targetpaintshop1 = targetpaintshopVariable.Value;
+            float targetspp1 = targetsppVariable.Value;
+            float targetutility1 = targetVariable.Value;
+
 
 
             // For Utility
-            //string query1 = $"SELECT Target FROM ConsumptionDistribution WHERE LocalTimestamp BETWEEN '" + st + " 08:00:00' AND '" + st + " 07:59:59' AND Jace = 'UTILITY' ";
+            string query1 = $" UPDATE HomePage SET Target = '" + targetutility1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'UTILITY' ";
             string query2 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'UTILITY' ";
 
             string query3 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'UTILITY' ";
@@ -503,7 +516,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
             // For Stamping
-            //string query6 = $"SELECT Target FROM ConsumptionDistribution WHERE LocalTimestamp BETWEEN '" + st + " 08:00:00' AND '" + st + " 07:59:59' AND Jace = 'STAMPING' ";
+            string query6 = $" UPDATE HomePage SET Target = '" + targetstamping1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'Stamping' ";
             string query7 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'Stamping' ";
 
             string query8 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'STAMPING' ";
@@ -513,7 +526,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
             // For TCF
-            //string query11 = $"SELECT Target FROM ConsumptionDistribution WHERE LocalTimestamp BETWEEN '" + st + " 08:00:00' AND '" + st + " 07:59:59' AND Jace = 'TCF' ";
+            string query11 = $" UPDATE HomePage SET Target = '" + targettcf1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'TCF' ";
             string query12 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'TCF' ";
 
             string query13 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'TCF' ";
@@ -524,7 +537,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
             // For Bodyshop
-            //string query16 = $"SELECT Target FROM ConsumptionDistribution WHERE LocalTimestamp BETWEEN '" + st + " 08:00:00' AND '" + st + " 07:59:59' AND Jace = 'BODYSHOP' ";
+            string query16 = $" UPDATE HomePage SET Target = '" + targetbodyshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'BODYSHOP' ";
             string query17 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'BODYSHOP' ";
 
             string query18 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'BODYSHOP' ";
@@ -535,7 +548,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
             // For Engineshop
-            string query21 = $"SELECT Target FROM ConsumptionDistribution WHERE LocalTimestamp BETWEEN '" + new123 + " 08:00:00' AND '" + new123 + " 07:59:59' AND Jace = 'ENGINESHOP' ";
+            string query21 = $" UPDATE HomePage SET Target = '" + targetbodyshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'ENGINESHOP' ";
             string query22 = $"SELECT MIN(Consumption) FROM ConsumptionDistribution WHERE Year = '" + year123 + "' AND Jace = 'ENGINESHOP' ";
             string query23 = $"SELECT MIN(Consumption) FROM ConsumptionDistribution WHERE MonthYear = '" + month123 + "' AND Jace = 'ENGINESHOP' ";
             string query24 = $"SELECT AVG(Consumption) FROM ConsumptionDistribution WHERE MonthYear = '" + month123 + "' AND Jace = 'ENGINESHOP' ";
@@ -543,7 +556,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
             // For Paintshop
-            //string query26 = $"SELECT Target FROM ConsumptionDistribution WHERE LocalTimestamp BETWEEN '" + st + " 08:00:00' AND '" + st + " 07:59:59' AND Jace = 'PAINTSHOP' ";
+            string query26 = $" UPDATE HomePage SET Target = '" + targetpaintshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'PAINTSHOP' ";
             string query27 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'PAINTSHOP' ";
 
             string query28 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'PAINTSHOP' ";
@@ -552,7 +565,7 @@ public class HomePageComparisionLogic : BaseNetLogic
             string query30 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'PAINTSHOP' ";
 
             // For Spp
-            //string query31 = $"SELECT Target FROM ConsumptionDistribution WHERE LocalTimestamp BETWEEN '" + st + " 08:00:00' AND '" + st + " 07:59:59' AND Jace = 'SPP' ";
+            string query31 = $" UPDATE HomePage SET Target = '" + targetspp1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'SPP' ";
             string query32 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'SPP' ";
 
             string query33 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'SPP' ";
@@ -567,7 +580,7 @@ public class HomePageComparisionLogic : BaseNetLogic
             string query40 = $"SELECT Consumption FROM ConsumptionDistribution WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'Utility' ";
 
             // For 33KV
-            //string query41 = $"SELECT Target FROM ConsumptionDistribution WHERE LocalTimestamp BETWEEN '" + st + " 08:00:00' AND '" + st + " 07:59:59' AND Jace = '33KV' ";
+            string query41 = $" UPDATE HomePage SET Target = '" + target33KV + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = '33KV' ";
             string query42 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = '33KV' ";
 
             string query43 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = '33KV' ";
@@ -577,20 +590,21 @@ public class HomePageComparisionLogic : BaseNetLogic
 
             ////////////////////////////////*********************************************/////////////////////////////////////////////////////////////////////////// 
             // For Utility
-            // myStore1.Query(query1, out header1, out resultSet1);
+            myStore1.Query(query1, out header1, out resultSet1);
+            // myStore1.Query(query1, out string[] header1, out object[,] resultSet1);
             myStore2.Query(query2, out header2, out resultSet2);
             myStore3.Query(query3, out header3, out resultSet3);
             myStore4.Query(query4, out header4, out resultSet4);
             myStore5.Query(query5, out header5, out resultSet5);
             // For Stamping
-            //myStore6.Query(query6, out header6, out resultSet6);
+            myStore6.Query(query6, out header6, out resultSet6);
             myStore7.Query(query7, out header7, out resultSet7);
             myStore8.Query(query8, out header8, out resultSet8);
             myStore9.Query(query9, out header9, out resultSet9);
             myStore10.Query(query10, out header10, out resultSet10);
 
             // For Tcf
-            //myStore11.Query(query11, out header11, out resultSet11);
+            myStore11.Query(query11, out header11, out resultSet11);
             myStore12.Query(query12, out header12, out resultSet12);
             myStore13.Query(query13, out header13, out resultSet13);
             myStore14.Query(query14, out header14, out resultSet14);
@@ -598,7 +612,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
             // For Bodyshop
-            //myStore16.Query(query16, out header16, out resultSet16);
+            myStore16.Query(query16, out header16, out resultSet16);
             myStore17.Query(query17, out header17, out resultSet17);
             myStore18.Query(query18, out header18, out resultSet18);
             myStore19.Query(query19, out header19, out resultSet19);
@@ -607,14 +621,14 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
             // For Engineshop
-            // myStore21.Query(query21, out header21, out resultSet21);
+            myStore21.Query(query21, out header21, out resultSet21);
             myStore22.Query(query22, out header22, out resultSet22);
             myStore23.Query(query23, out header23, out resultSet23);
             myStore24.Query(query24, out header24, out resultSet24);
             myStore25.Query(query25, out header25, out resultSet25);
 
             // For Paintshop
-            // myStore26.Query(query26, out header26, out resultSet26);
+            myStore26.Query(query26, out header26, out resultSet26);
             myStore27.Query(query27, out header27, out resultSet27);
             myStore28.Query(query28, out header28, out resultSet28);
             myStore29.Query(query29, out header29, out resultSet29);
@@ -622,7 +636,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
             // For Spp
-            // myStore31.Query(query31, out header31, out resultSet31);
+            myStore31.Query(query31, out header31, out resultSet31);
             myStore32.Query(query32, out header32, out resultSet32);
             myStore33.Query(query33, out header33, out resultSet33);
             myStore34.Query(query34, out header34, out resultSet34);
@@ -630,7 +644,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
             // For Spare
-            //myStore36.Query(query36, out header36, out resultSet36);
+            myStore36.Query(query36, out header36, out resultSet36);
             myStore37.Query(query37, out header37, out resultSet37);
             myStore38.Query(query38, out header38, out resultSet38);
             myStore39.Query(query39, out header39, out resultSet39);
@@ -639,7 +653,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
             // For 33KV
-            //myStore41.Query(query41, out header41, out resultSet41);
+            myStore41.Query(query41, out header41, out resultSet41);
             myStore42.Query(query42, out header42, out resultSet42);
             myStore43.Query(query43, out header43, out resultSet43);
             myStore44.Query(query44, out header44, out resultSet44);
@@ -1128,7 +1142,7 @@ public class HomePageComparisionLogic : BaseNetLogic
             float tcfP = (consumptiontcf * 100) / consumption33kv;
             float engineP = (consumptionengineshop * 100) / consumption33kv;
 
-           
+
             utilitypercentage = utilityP;
             stampingpercentage = stampingP;
             tcfpercentage = tcfP;

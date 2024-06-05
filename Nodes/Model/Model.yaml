@@ -16002,6 +16002,17 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 2500
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetUtility"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
   - Name: Yearlowest
     Type: BaseDataVariableType
     DataType: Int32
@@ -16029,7 +16040,18 @@ Children:
   - Name: TargetStamping
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1500
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetStamping"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
   - Name: YearlowestStamping
     Type: BaseDataVariableType
     DataType: Int32
@@ -16053,7 +16075,18 @@ Children:
   - Name: TargetTcf
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 2560
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetTCF"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
   - Name: MonthlowestTcf
     Type: BaseDataVariableType
     DataType: Int32
@@ -16077,7 +16110,18 @@ Children:
   - Name: TargetBodyshop
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1300
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetBodyshop"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
   - Name: YearlowestBodyshop
     Type: BaseDataVariableType
     DataType: Int32
@@ -16101,7 +16145,7 @@ Children:
   - Name: TargetEngineshop
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 3000
+    Value: 0
   - Name: YearlowestEngineshop
     Type: BaseDataVariableType
     DataType: Int32
@@ -16125,7 +16169,18 @@ Children:
   - Name: TargetPaintshop
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1500
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetPaintShop"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
   - Name: YearlowestPaintshop
     Type: BaseDataVariableType
     DataType: Int32
@@ -16145,7 +16200,18 @@ Children:
   - Name: TargetSpp
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1400
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSPP"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
   - Name: YearlowestSpp
     Type: BaseDataVariableType
     DataType: Int32
@@ -16169,7 +16235,7 @@ Children:
   - Name: TargetSpare
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1300
+    Value: 0
   - Name: YearlowestSpare
     Type: BaseDataVariableType
     DataType: Int32
@@ -16193,7 +16259,18 @@ Children:
   - Name: Target33KV
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 21000
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/Target33KV"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
   - Name: Yearlowest33KV
     Type: BaseDataVariableType
     DataType: Int32
@@ -16265,6 +16342,10 @@ Children:
     DataType: Int32
     Value: 0
   - Name: Meter
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ProductionCount
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
@@ -16279,6 +16360,11 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 2500
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetUtility"
   - Name: Yearlowest
     Type: BaseDataVariableType
     DataType: Int32
@@ -16306,7 +16392,12 @@ Children:
   - Name: TargetStamping
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1500
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetStamping"
   - Name: YearlowestStamping
     Type: BaseDataVariableType
     DataType: Int32
@@ -16330,7 +16421,12 @@ Children:
   - Name: TargetTcf
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 2560
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetTCF"
   - Name: MonthlowestTcf
     Type: BaseDataVariableType
     DataType: Int32
@@ -16354,7 +16450,12 @@ Children:
   - Name: TargetBodyshop
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1300
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetBodyshop"
   - Name: YearlowestBodyshop
     Type: BaseDataVariableType
     DataType: Int32
@@ -16378,7 +16479,7 @@ Children:
   - Name: TargetEngineshop
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 3000
+    Value: 0
   - Name: YearlowestEngineshop
     Type: BaseDataVariableType
     DataType: Int32
@@ -16402,7 +16503,12 @@ Children:
   - Name: TargetPaintshop
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1500
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetPaintShop"
   - Name: YearlowestPaintshop
     Type: BaseDataVariableType
     DataType: Int32
@@ -16422,7 +16528,12 @@ Children:
   - Name: TargetSpp
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1400
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSPP"
   - Name: YearlowestSpp
     Type: BaseDataVariableType
     DataType: Int32
@@ -16446,7 +16557,7 @@ Children:
   - Name: TargetSpare
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1300
+    Value: 0
   - Name: YearlowestSpare
     Type: BaseDataVariableType
     DataType: Int32
@@ -16470,7 +16581,12 @@ Children:
   - Name: Target33KV
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 21000
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/Target33KV"
   - Name: Yearlowest33KV
     Type: BaseDataVariableType
     DataType: Int32
@@ -16542,6 +16658,10 @@ Children:
     DataType: Int32
     Value: 0
   - Name: Meter
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ProductionCount
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
@@ -16555,7 +16675,12 @@ Children:
   - Name: Target
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 2500
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../HomePageHistogram/HomePage2/TargetUtility"
   - Name: Yearlowest
     Type: BaseDataVariableType
     DataType: Int32
@@ -16583,7 +16708,12 @@ Children:
   - Name: TargetStamping
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1500
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetStamping"
   - Name: YearlowestStamping
     Type: BaseDataVariableType
     DataType: Int32
@@ -16607,7 +16737,12 @@ Children:
   - Name: TargetTcf
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 2560
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetTCF"
   - Name: MonthlowestTcf
     Type: BaseDataVariableType
     DataType: Int32
@@ -16631,7 +16766,12 @@ Children:
   - Name: TargetBodyshop
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1300
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetBodyshop"
   - Name: YearlowestBodyshop
     Type: BaseDataVariableType
     DataType: Int32
@@ -16655,7 +16795,17 @@ Children:
   - Name: TargetEngineshop
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 3000
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../HomePageHistogram/HomePage2/TargetAdmin"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: YearlowestEngineshop
     Type: BaseDataVariableType
     DataType: Int32
@@ -16679,7 +16829,12 @@ Children:
   - Name: TargetPaintshop
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1500
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetPaintShop"
   - Name: YearlowestPaintshop
     Type: BaseDataVariableType
     DataType: Int32
@@ -16699,7 +16854,12 @@ Children:
   - Name: TargetSpp
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1400
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSPP"
   - Name: YearlowestSpp
     Type: BaseDataVariableType
     DataType: Int32
@@ -16723,7 +16883,7 @@ Children:
   - Name: TargetSpare
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1300
+    Value: 0
   - Name: YearlowestSpare
     Type: BaseDataVariableType
     DataType: Int32
@@ -16747,7 +16907,12 @@ Children:
   - Name: Target33KV
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 21000
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/Target33KV"
   - Name: Yearlowest33KV
     Type: BaseDataVariableType
     DataType: Int32
@@ -16819,6 +16984,10 @@ Children:
     DataType: Int32
     Value: 0
   - Name: Meter
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ProductionCount
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
@@ -25708,8 +25877,8 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
-- Name: ConsumptionDistributionReportLogic1
-  Type: ConsumptionDistributionReportLogic
+- Name: ConsumptionDistributionReportLogic1Instance
+  Type: ConsumptionDistributionReportLogic1
   Children:
   - Name: Date
     Type: BaseDataVariableType
@@ -26002,3 +26171,406 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+- Name: TargetUpdate
+  Type: BaseObjectType
+  Children:
+  - Name: 33KVTarget
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Variable3
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Variable4
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Variable5
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Variable6
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Variable7
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Variable8
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Variable9
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Variable10
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Variable11
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+- Name: ConsumptionDistributionReportLogic1
+  Id: g=b4af02912cc67511755a93bb6a04cdfc
+  Supertype: ConsumptionDistributionReportLogic
+  Children:
+  - Name: Date
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/Reports/Third Report/Date1"
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Target
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Yearlowest
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Monthlowest
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Average
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Consumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: GBUTTON
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: JaceStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionStamping
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionTcf
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionBodyshop
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionEngineshop
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JacePaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetPaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestPaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestPaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AveragePaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionPaintshop
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionSpp
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: JaceSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TargetSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: YearlowestSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MonthlowestSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AverageSpare
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: ConsumptionSpare
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Jace33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Target33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Yearlowest33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Monthlowest33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Average33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Consumption33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Utilitypercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Stampingpercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Bodyshoppercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Engineshoppercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Paintshoppercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Spppercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Sparepercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Tcfpercentage
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: INFO
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Monthyear
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Year
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Date1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Test
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Test1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: RuntimeLogicConsumption
+    Type: NetLogic
+  - Name: AverageSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: ProductionCount1Instance
+  Type: ProductionCount1
+  Children:
+  - Name: ProductionCount
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/Datalogtag/ProductionCount"
+  - Name: RuntimeNetLogic9
+    Type: NetLogic
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: ProductionCount1
+  Id: g=7586f0fb6d26a6c03f9ad3dbb8b406e8
+  Supertype: BaseObjectType
+  Children:
+  - Name: ProductionCount
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/Datalogtag/ProductionCount"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: RuntimeNetLogic9
+    Type: NetLogic
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: ProductionCount2
+  Type: ProductionCount1
+  Children:
+  - Name: ProductionCount
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/Datalogtag/ProductionCount"
+  - Name: RuntimeNetLogic9
+    Type: NetLogic
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

@@ -5,371 +5,1301 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 51
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day1"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day2
   Type: BaseDataVariableType
   DataType: Int32
   Value: 102
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day2"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day3
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day3"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day4
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day4"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day5
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day5"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day6
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day6"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day7
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day7"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day8
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day8"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day9
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day9"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day10
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day10"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day11
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day11"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day12
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day12"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day13
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day13"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day14
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day14"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day15
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day15"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day16
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day16"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day17
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day17"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day18
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day18"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day19
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day19"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day20
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day20"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day21
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day21"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day22
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day22"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day23
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day23"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day24
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day24"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day25
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day25"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day26
   Type: BaseDataVariableType
   DataType: Int32
   Value: 152
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day26"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day27
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day27"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day28
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day28"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day29
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day29"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day30
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day30"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day31
   Type: BaseDataVariableType
   DataType: Int32
   Value: 85
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../RphaseVoltageInstance/Day31"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day32
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day1"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day33
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day2"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day34
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day3"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day35
   Type: BaseDataVariableType
   DataType: Int32
   Value: 54
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day4"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day36
   Type: BaseDataVariableType
   DataType: Int32
   Value: 135
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day5"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day37
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day6"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day38
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day7"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day39
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day8"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day40
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day9"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day41
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day10"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day42
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day11"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day43
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day12"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day44
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day13"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day45
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day14"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day46
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day15"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day47
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day16"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day48
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day17"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day49
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day18"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day50
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day19"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day51
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day20"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day52
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day21"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day53
   Type: BaseDataVariableType
   DataType: Int32
   Value: 156
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day22"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day54
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day23"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day55
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day24"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day56
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day25"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day57
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day26"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day58
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day27"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day59
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day28"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day60
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day29"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day61
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day30"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day62
   Type: BaseDataVariableType
   DataType: Int32
   Value: 150
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../YphaseVoltageInstance/Day31"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day63
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day1"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day64
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day2"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day65
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day3"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day66
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day4"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day67
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day5"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day68
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 125
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day6"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day69
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day7"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day70
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 152
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day8"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day71
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day9"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day72
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day10"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day73
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day11"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day74
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day12"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day75
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day13"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day76
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day14"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day77
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day15"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day78
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day16"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day79
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day17"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day80
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day18"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day81
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day19"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day82
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day20"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day83
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day21"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day84
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 201
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day22"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day85
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day23"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day86
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day24"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day87
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day25"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day88
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day26"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day89
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 74
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day27"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day90
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day28"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day91
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day29"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day92
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day30"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day93
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 40
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../BphaseVoltageInstance/Day31"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

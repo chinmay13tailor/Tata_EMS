@@ -547,12 +547,12 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
 
-            // For Engineshop
-            string query21 = $" UPDATE HomePage SET Target = '" + targetbodyshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'ENGINESHOP' ";
-            string query22 = $"SELECT MIN(Consumption) FROM ConsumptionDistribution WHERE Year = '" + year123 + "' AND Jace = 'ENGINESHOP' ";
-            string query23 = $"SELECT MIN(Consumption) FROM ConsumptionDistribution WHERE MonthYear = '" + month123 + "' AND Jace = 'ENGINESHOP' ";
-            string query24 = $"SELECT AVG(Consumption) FROM ConsumptionDistribution WHERE MonthYear = '" + month123 + "' AND Jace = 'ENGINESHOP' ";
-            string query25 = $"SELECT Consumption FROM ConsumptionDistribution WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'ENGINESHOP' ";
+            // For Engineshop ( Code for Admin)
+            string query21 = $" UPDATE HomePage SET Target = '" + targetengineshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'ADMIN' ";
+            string query22 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'ADMIN' ";
+            string query23 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'ADMIN' ";
+            string query24 = $"SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'ADMIN' ";
+            string query25 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'ADMIN' ";
 
 
             // For Paintshop

@@ -22,7 +22,7 @@ public class eChartTest1Logic : BaseNetLogic
     public override void Start()
     {
         // Insert code to be executed when the user-defined logic is started
-        refreshTimer = new System.Timers.Timer(10000000); // 5000 milliseconds = 10 seconds
+        refreshTimer = new System.Timers.Timer(1000000); // 5000 milliseconds = 10 seconds
 
         refreshTimer.Elapsed += RefreshTimerElapsed; // Hook up the elapsed event
         refreshTimer.AutoReset = true; // Set the timer to repeat
@@ -80,7 +80,7 @@ public class eChartTest1Logic : BaseNetLogic
         // Insert values
         for (int i = 1; i < 94; i++)
         {
-            text = text.Replace(i < 10 ? "$0" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/eCharts1/Day" + i).Value * 1).ToString());
+            text = text.Replace(i < 10 ? "$0" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/eCharts1/Day" + i).Value * 1.0).ToString("0.0"));
         }
 
         // Write to file

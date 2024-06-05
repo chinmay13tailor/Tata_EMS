@@ -29686,7 +29686,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 521.0
+                Value: 0.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -29836,6 +29836,11 @@ Children:
                 DataType: FontWeightEnum
                 ModellingRule: Optional
                 Value: 700
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
           - Name: FillColor
             Type: BaseDataVariableType
             DataType: Color

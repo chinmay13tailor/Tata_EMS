@@ -24106,6 +24106,11 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/MeterSelectionForPanels1"
   - Name: Min1
     Type: BaseDataVariableType
     DataType: Int32
@@ -24696,6 +24701,17 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/MeterSelectionForPanels1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
   - Name: Min1
     Type: BaseDataVariableType
     DataType: Int32

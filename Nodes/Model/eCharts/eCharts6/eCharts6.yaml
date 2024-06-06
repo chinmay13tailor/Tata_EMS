@@ -19,6 +19,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 25
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../VoltagePanelTagsInstance/Min2"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min3
   Type: BaseDataVariableType
   DataType: Int32
@@ -401,10 +411,30 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 30
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../VoltagePanelTagsInstance/Min30"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min31
   Type: BaseDataVariableType
   DataType: Int32
   Value: 36
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../VoltagePanelTagsInstance/Min31"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min32
   Type: BaseDataVariableType
   DataType: Int32
@@ -423,6 +453,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 50
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../VoltagePanelTagsInstance/Min33"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min34
   Type: BaseDataVariableType
   DataType: Int32
@@ -511,6 +551,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 40
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../VoltagePanelTagsInstance/Min40"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min41
   Type: BaseDataVariableType
   DataType: Int32
@@ -585,6 +635,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 46
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../VoltagePanelTagsInstance/Min46"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min47
   Type: BaseDataVariableType
   DataType: Int32
@@ -631,6 +691,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 50
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../VoltagePanelTagsInstance/Min50"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min51
   Type: BaseDataVariableType
   DataType: Int32
@@ -901,6 +971,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 70
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../VoltagePanelTagsInstance/Min70"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min71
   Type: BaseDataVariableType
   DataType: Int32
@@ -1161,6 +1241,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 90
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../VoltagePanelTagsInstance/Min90"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min91
   Type: BaseDataVariableType
   DataType: Int32
@@ -1431,6 +1521,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 110
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../VoltagePanelTagsInstance/Min110"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min111
   Type: BaseDataVariableType
   DataType: Int32

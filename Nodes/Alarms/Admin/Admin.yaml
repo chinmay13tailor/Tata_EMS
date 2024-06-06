@@ -30,11 +30,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Admin"
+    Value: "ADMIN"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J8_ADM_DB_01_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -93,11 +93,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Admin"
+    Value: "ADMIN"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J8_ADM_DB_01_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -168,11 +168,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Admin"
+    Value: "ADMIN"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J8_ADM_DB_01_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -243,11 +243,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Admin"
+    Value: "ADMIN"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J8_ADM_DB_01_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -310,11 +310,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Admin"
+    Value: "ADMIN"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J8_ADM_EDB_01_INF2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -373,11 +373,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Admin"
+    Value: "ADMIN"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J8_ADM_EDB_01_INF2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -448,11 +448,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Admin"
+    Value: "ADMIN"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J8_ADM_EDB_01_INF2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -523,11 +523,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Admin"
+    Value: "ADMIN"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J8_ADM_EDB_01_INF2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String

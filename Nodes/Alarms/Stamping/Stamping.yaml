@@ -30,11 +30,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_IN_F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -93,11 +93,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_IN_F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -168,11 +168,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_IN_F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -243,11 +243,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_IN_F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -310,11 +310,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_IN_F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -373,11 +373,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_IN_F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -448,11 +448,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_IN_F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -523,11 +523,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_IN_F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -590,11 +590,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F4"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -653,11 +653,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F4"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -728,11 +728,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F4"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -803,11 +803,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F4"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -870,11 +870,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F5"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -933,11 +933,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F5"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1008,11 +1008,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F5"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1083,11 +1083,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F5"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1150,11 +1150,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F6"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1213,11 +1213,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F6"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1288,11 +1288,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F6"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1363,11 +1363,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F6"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1430,11 +1430,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F7"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1493,11 +1493,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F7"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1568,11 +1568,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F7"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1647,7 +1647,7 @@ Children:
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F7"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1710,11 +1710,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F8"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1773,11 +1773,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F8"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1848,11 +1848,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F8"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1923,11 +1923,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_MVS_01_OG_F8"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -1990,11 +1990,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_01_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2053,11 +2053,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_01_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2128,11 +2128,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_01_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2203,11 +2203,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_01_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2270,11 +2270,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_01_OG_3F"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2333,11 +2333,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_01_OG_3F"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2408,11 +2408,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_01_OG_3F"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2483,11 +2483,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_01_OG_3F"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2550,11 +2550,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2613,11 +2613,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2688,11 +2688,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2763,11 +2763,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2830,11 +2830,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_2F"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2893,11 +2893,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_2F"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -2968,11 +2968,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_2F"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3043,11 +3043,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_2F"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3110,11 +3110,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_3F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3173,11 +3173,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_3F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3248,11 +3248,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_3F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3323,11 +3323,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_3F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3390,11 +3390,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_3F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3453,11 +3453,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_3F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3528,11 +3528,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_3F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3603,11 +3603,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_3F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3670,11 +3670,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_4F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3733,11 +3733,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_4F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3808,11 +3808,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_4F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3883,11 +3883,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_4F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -3950,11 +3950,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_4F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4013,11 +4013,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_4F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4088,11 +4088,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_4F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4163,11 +4163,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_4F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4230,11 +4230,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_5F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4293,11 +4293,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_5F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4368,11 +4368,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_5F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4443,11 +4443,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_02_OG_5F1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4510,11 +4510,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_03_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4573,11 +4573,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_03_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4648,11 +4648,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_03_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4723,11 +4723,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_03_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4790,11 +4790,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_04_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4853,11 +4853,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_04_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -4928,11 +4928,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_04_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -5003,11 +5003,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_04_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -5070,11 +5070,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_05_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -5133,11 +5133,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_05_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -5208,11 +5208,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_05_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -5283,11 +5283,11 @@ Children:
   - Name: Jace
     Type: BaseDataVariableType
     DataType: String
-    Value: "Stamping"
+    Value: "STAMPING"
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "Incomer_1"
+    Value: "J7_STP_SWB_05_INF1"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String

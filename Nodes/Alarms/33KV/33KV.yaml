@@ -21,7 +21,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_1[17]"
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -84,7 +84,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -159,7 +164,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -234,7 +244,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -301,7 +316,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -364,7 +384,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -439,7 +464,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -514,7 +544,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/INCOMER_2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -581,7 +616,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG1_IN1_SPARE[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -644,7 +684,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG1_IN1_SPARE[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -719,7 +764,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG1_IN1_SPARE[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -794,7 +844,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG1_IN1_SPARE[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -861,7 +916,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG2_IN1_UTILITY[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -924,7 +984,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG2_IN1_UTILITY[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -999,7 +1064,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG2_IN1_UTILITY[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1074,7 +1144,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG2_IN1_UTILITY[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1141,7 +1216,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG3_IN1_STAMPING[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1204,7 +1284,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG3_IN1_STAMPING[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1279,7 +1364,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG3_IN1_STAMPING[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1354,7 +1444,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG3_IN1_STAMPING[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1421,7 +1516,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG4_IN1_TCF[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1484,7 +1584,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG4_IN1_TCF[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1559,7 +1664,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG4_IN1_TCF[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1634,7 +1744,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG4_IN1_TCF[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1701,7 +1816,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG5_IN1_BODY_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1764,7 +1884,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG5_IN1_BODY_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1839,7 +1964,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG5_IN1_BODY_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1914,7 +2044,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG5_IN1_BODY_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1981,7 +2116,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG6_IN1_ENGINE_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2044,7 +2184,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG6_IN1_ENGINE_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2119,7 +2264,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG6_IN1_ENGINE_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2194,7 +2344,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG6_IN1_ENGINE_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2261,7 +2416,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG7_IN1_PAINT_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2324,7 +2484,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG7_IN1_PAINT_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2399,7 +2564,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG7_IN1_PAINT_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2474,7 +2644,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG7_IN1_PAINT_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2541,7 +2716,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG8_IN2_PAINT_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2604,7 +2784,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG8_IN2_PAINT_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2679,7 +2864,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG8_IN2_PAINT_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2754,7 +2944,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG8_IN2_PAINT_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2821,7 +3016,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG9_IN2_ENGINE_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2884,7 +3084,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG9_IN2_ENGINE_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2959,7 +3164,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG9_IN2_ENGINE_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3034,7 +3244,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG9_IN2_ENGINE_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3101,7 +3316,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG10_IN2_BODY_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3164,7 +3384,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG10_IN2_BODY_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3239,7 +3464,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG10_IN2_BODY_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3314,7 +3544,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG10_IN2_BODY_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3381,7 +3616,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG11_IN2_TCF[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3444,7 +3684,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG11_IN2_TCF[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3519,7 +3764,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG11_IN2_TCF[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3594,7 +3844,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG11_IN2_TCF[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3661,7 +3916,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG12_IN2_STAMPING[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3724,7 +3984,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG12_IN2_STAMPING[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3799,7 +4064,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG12_IN2_STAMPING[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3874,7 +4144,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG12_IN2_STAMPING[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3941,7 +4216,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG13_IN2_UTILITY[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4004,7 +4284,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG13_IN2_UTILITY[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4079,7 +4364,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG13_IN2_UTILITY[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4154,7 +4444,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG13_IN2_UTILITY[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4221,7 +4516,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG14_IN2_SPARE[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4284,7 +4584,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG14_IN2_SPARE[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4359,7 +4664,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG14_IN2_SPARE[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4434,7 +4744,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG14_IN2_SPARE[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4501,7 +4816,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG15_IN2_SPP_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4564,7 +4884,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG15_IN2_SPP_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4639,7 +4964,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG15_IN2_SPP_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4714,7 +5044,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG15_IN2_SPP_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4781,7 +5116,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG16_IN1_SPP_SHOP[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4844,7 +5184,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG16_IN1_SPP_SHOP[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4919,7 +5264,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG16_IN1_SPP_SHOP[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4994,7 +5344,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG16_IN1_SPP_SHOP[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5061,7 +5416,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/EB_IN1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5124,7 +5484,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/EB_IN1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5199,7 +5564,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/EB_IN1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5274,7 +5644,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/EB_IN1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5341,7 +5716,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/DG_IN2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5404,7 +5784,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/DG_IN2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5479,7 +5864,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/DG_IN2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5554,7 +5944,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/33KVmeters/MicroControllerStation1/Tags/DG_IN2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType

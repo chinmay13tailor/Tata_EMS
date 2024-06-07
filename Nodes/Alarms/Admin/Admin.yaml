@@ -21,7 +21,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/AdminMeters/MicroControllerStation1/Tags/ADM_DB_01_INF1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -84,7 +89,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/AdminMeters/MicroControllerStation1/Tags/ADM_DB_01_INF1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -159,7 +169,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/AdminMeters/MicroControllerStation1/Tags/ADM_DB_01_INF1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -234,7 +249,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/AdminMeters/MicroControllerStation1/Tags/ADM_DB_01_INF1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -301,7 +321,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/AdminMeters/MicroControllerStation1/Tags/ADM_EDB_01_INF2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -364,7 +389,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/AdminMeters/MicroControllerStation1/Tags/ADM_EDB_01_INF2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -439,7 +469,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/AdminMeters/MicroControllerStation1/Tags/ADM_EDB_01_INF2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -514,7 +549,12 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
+      Value: "../../../../CommDrivers/AdminMeters/MicroControllerStation1/Tags/ADM_EDB_01_INF2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType

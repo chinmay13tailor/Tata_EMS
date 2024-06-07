@@ -18,17 +18,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
-    Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "/Objects/Tata_EMS/Model/Test Alarm"
-      Children:
-      - Name: Mode
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        ModellingRule: Optional
-        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType

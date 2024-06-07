@@ -17,6 +17,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_IN1F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -75,6 +85,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_IN1F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -145,6 +165,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_IN1F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -215,6 +245,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_IN1F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -277,6 +317,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_2F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -335,6 +385,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_2F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -405,6 +465,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_2F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -475,6 +545,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_2F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -537,6 +617,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_2F2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -595,6 +685,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_2F2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -665,6 +765,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_2F2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -735,6 +845,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_2F2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -797,6 +917,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_3F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -855,6 +985,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_3F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -925,6 +1065,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_3F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -995,6 +1145,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_3F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1057,6 +1217,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_3F2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1115,6 +1285,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_3F2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1185,6 +1365,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_3F2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1255,6 +1445,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_3F2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1317,6 +1517,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_4F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1375,6 +1585,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_4F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1445,6 +1665,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_4F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1515,6 +1745,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_4F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1577,6 +1817,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_5F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1635,6 +1885,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_5F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1705,6 +1965,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_5F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1775,6 +2045,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_5F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1837,6 +2117,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_6F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1895,6 +2185,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_6F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -1965,6 +2265,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_6F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2035,6 +2345,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_6F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2097,6 +2417,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_6F4[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2155,6 +2485,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_6F4[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2225,6 +2565,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_6F4[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2295,6 +2645,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_6F4[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2357,6 +2717,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_7F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2415,6 +2785,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_7F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2485,6 +2865,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_7F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2555,6 +2945,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_7F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2617,6 +3017,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_7F4[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2675,6 +3085,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_7F4[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2745,6 +3165,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_7F4[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2815,6 +3245,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_7F4[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2877,6 +3317,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_8F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -2935,6 +3385,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_8F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3005,6 +3465,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_8F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3075,6 +3545,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_8F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3137,6 +3617,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_8F4[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3195,6 +3685,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_8F4[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3265,6 +3765,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_8F4[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3335,6 +3845,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_01_OG_8F4[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3397,6 +3917,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_IN1F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3455,6 +3985,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_IN1F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3525,6 +4065,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_IN1F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3595,6 +4145,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_IN1F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3657,6 +4217,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_2F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3715,6 +4285,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_2F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3785,6 +4365,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_2F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3855,6 +4445,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_2F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3917,6 +4517,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_3F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -3975,6 +4585,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_3F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4045,6 +4665,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_3F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4115,6 +4745,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_3F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4177,6 +4817,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_4F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4235,6 +4885,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_4F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4305,6 +4965,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_4F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4375,6 +5045,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_4F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4437,6 +5117,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_5F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4495,6 +5185,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_5F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4565,6 +5265,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_5F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4635,6 +5345,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_5F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4697,6 +5417,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_6F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4755,6 +5485,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_6F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4825,6 +5565,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_6F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4895,6 +5645,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_6F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -4957,6 +5717,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_7F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5015,6 +5785,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_7F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5085,6 +5865,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_7F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5155,6 +5945,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_7F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5217,6 +6017,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_8F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5275,6 +6085,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_8F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5345,6 +6165,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_8F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5415,6 +6245,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_03_OG_8F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5477,6 +6317,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_IN1F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5535,6 +6385,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_IN1F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5605,6 +6465,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_IN1F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5675,6 +6545,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_IN1F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5737,6 +6617,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_2F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5795,6 +6685,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_2F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5865,6 +6765,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_2F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5935,6 +6845,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_2F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -5997,6 +6917,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_2F2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6055,6 +6985,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_2F2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6125,6 +7065,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_2F2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6195,6 +7145,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_2F2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6257,6 +7217,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_3F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6315,6 +7285,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_3F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6385,6 +7365,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_3F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6455,6 +7445,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_3F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6517,6 +7517,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_3F2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6575,6 +7585,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_3F2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6645,6 +7665,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_3F2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6715,6 +7745,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_3F2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6777,6 +7817,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_4F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6835,6 +7885,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_4F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6905,6 +7965,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_4F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -6975,6 +8045,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_4F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7037,6 +8117,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_4F2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7095,6 +8185,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_4F2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7165,6 +8265,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_4F2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7235,6 +8345,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_4F2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7297,6 +8417,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_5F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7355,6 +8485,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_5F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7425,6 +8565,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_5F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7495,6 +8645,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_5F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7557,6 +8717,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_5F2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7615,6 +8785,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_5F2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7685,6 +8865,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_5F2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7755,6 +8945,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_5F2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7817,6 +9017,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_6F2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7875,6 +9085,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_6F2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -7945,6 +9165,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_6F2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8015,6 +9245,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_04_OG_6F2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8077,6 +9317,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_IN1F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8135,6 +9385,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_IN1F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8205,6 +9465,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_IN1F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8275,6 +9545,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_IN1F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8337,6 +9617,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_2F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8395,6 +9685,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_2F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8465,6 +9765,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_2F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8535,6 +9845,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_2F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8597,6 +9917,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_3F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8655,6 +9985,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_3F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8725,6 +10065,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_3F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8795,6 +10145,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_3F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8857,6 +10217,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_4F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8915,6 +10285,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_4F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -8985,6 +10365,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_4F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9055,6 +10445,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_4F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9117,6 +10517,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_5F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9175,6 +10585,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_5F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9245,6 +10665,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_5F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9315,6 +10745,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_5F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9377,6 +10817,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_6F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9435,6 +10885,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_6F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9505,6 +10965,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_6F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9575,6 +11045,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_6F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9637,6 +11117,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_7F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9695,6 +11185,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_7F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9765,6 +11265,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_7F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9835,6 +11345,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_7F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9897,6 +11417,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_8F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -9955,6 +11485,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_8F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10025,6 +11565,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_8F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10095,6 +11645,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MCC_05_OG_8F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10157,6 +11717,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_IN1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10215,6 +11785,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_IN1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10285,6 +11865,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_IN1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10355,6 +11945,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_IN1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10417,6 +12017,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_IN2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10475,6 +12085,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_IN2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10545,6 +12165,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_IN2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10615,6 +12245,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_IN2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10677,6 +12317,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F4[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10735,6 +12385,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F4[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10805,6 +12465,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F4[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10875,6 +12545,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F4[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10937,6 +12617,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F5[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -10995,6 +12685,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F5[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11065,6 +12765,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F5[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11135,6 +12845,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F5[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11197,6 +12917,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F6[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11255,6 +12985,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F6[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11325,6 +13065,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F6[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11395,6 +13145,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F6[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11457,6 +13217,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F7[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11515,6 +13285,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F7[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11585,6 +13365,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F7[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11655,6 +13445,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F7[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11717,6 +13517,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F8[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11775,6 +13585,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F8[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11845,6 +13665,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F8[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11915,6 +13745,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_01_OG_F8[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -11977,6 +13817,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_IN1F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12035,6 +13885,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_IN1F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12105,6 +13965,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_IN1F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12175,6 +14045,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_IN1F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12237,6 +14117,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F3[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12295,6 +14185,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F3[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12365,6 +14265,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F3[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12435,6 +14345,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F3[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12497,6 +14417,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F4[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12555,6 +14485,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F4[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12625,6 +14565,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F4[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12695,6 +14645,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F4[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12757,6 +14717,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F5[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12815,6 +14785,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F5[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12885,6 +14865,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F5[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -12955,6 +14945,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F5[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13017,6 +15017,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F6[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13075,6 +15085,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F6[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13145,6 +15165,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F6[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13215,6 +15245,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F6[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13277,6 +15317,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F7[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13335,6 +15385,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F7[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13405,6 +15465,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F7[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13475,6 +15545,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F7[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13537,6 +15617,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F8[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13595,6 +15685,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F8[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13665,6 +15765,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F8[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13735,6 +15845,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F8[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13797,6 +15917,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F9[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13855,6 +15985,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F9[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13925,6 +16065,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F9[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -13995,6 +16145,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_02_OG_F9[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14057,6 +16217,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_IN1F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14115,6 +16285,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_IN1F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14185,6 +16365,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_IN1F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14255,6 +16445,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_IN1F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14317,6 +16517,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_OG_F3[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14375,6 +16585,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_OG_F3[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14445,6 +16665,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_OG_F3[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14515,6 +16745,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_OG_F3[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14577,6 +16817,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_OG_F4[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14635,6 +16885,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_OG_F4[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14705,6 +16965,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_OG_F4[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14775,6 +17045,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_OG_F4[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14837,6 +17117,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_OG_F5[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14895,6 +17185,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_OG_F5[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -14965,6 +17265,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_OG_F5[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15035,6 +17345,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_MVS_03_OG_F5[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15097,6 +17417,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_IN1F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15155,6 +17485,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_IN1F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15225,6 +17565,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_IN1F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15295,6 +17645,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_IN1F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15357,6 +17717,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_2F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15415,6 +17785,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_2F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15485,6 +17865,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_2F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15555,6 +17945,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_2F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15617,6 +18017,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_3F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15675,6 +18085,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_3F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15745,6 +18165,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_3F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15815,6 +18245,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_3F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15877,6 +18317,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_4F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -15935,6 +18385,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_4F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16005,6 +18465,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_4F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16075,6 +18545,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_4F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16137,6 +18617,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_5F2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16195,6 +18685,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_5F2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16265,6 +18765,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_5F2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16335,6 +18845,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_5F2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16397,6 +18917,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_4F2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16409,7 +18939,7 @@ Children:
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "J2_MCB_SWB_01_O/G_4F1"
+    Value: "J2_MCB_SWB_01_O/G_4F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -16455,6 +18985,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_4F2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16467,7 +19007,7 @@ Children:
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "J2_MCB_SWB_01_O/G_4F1"
+    Value: "J2_MCB_SWB_01_O/G_4F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -16525,6 +19065,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_4F2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16537,7 +19087,7 @@ Children:
   - Name: Meter
     Type: BaseDataVariableType
     DataType: String
-    Value: "J2_MCB_SWB_01_O/G_4F1"
+    Value: "J2_MCB_SWB_01_O/G_4F2"
   - Name: Parameter
     Type: BaseDataVariableType
     DataType: String
@@ -16595,6 +19145,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_01_OG_4F2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16657,6 +19217,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_IN1F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16715,6 +19285,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_IN1F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16785,6 +19365,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_IN1F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16855,6 +19445,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_IN1F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16917,6 +19517,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_2F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -16975,6 +19585,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_2F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17045,6 +19665,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_2F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17115,6 +19745,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_2F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17177,6 +19817,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_2F2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17235,6 +19885,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_2F2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17305,6 +19965,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_2F2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17375,6 +20045,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_2F2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17437,6 +20117,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_3F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17495,6 +20185,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_3F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17565,6 +20265,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_3F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17635,6 +20345,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_3F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17697,6 +20417,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_3F2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17755,6 +20485,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_3F2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17825,6 +20565,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_3F2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17895,6 +20645,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_3F2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -17957,6 +20717,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_4F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18015,6 +20785,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_4F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18085,6 +20865,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_4F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18155,6 +20945,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_4F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18217,6 +21017,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_4F2[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18275,6 +21085,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_4F2[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18345,6 +21165,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_4F2[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18415,6 +21245,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_4F2[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18477,6 +21317,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_5F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18535,6 +21385,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_5F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18605,6 +21465,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_5F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18675,6 +21545,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_02_OG_5F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18737,6 +21617,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_03_IN1F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18795,6 +21685,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_03_IN1F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18865,6 +21765,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_03_IN1F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18935,6 +21845,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_03_IN1F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -18997,6 +21917,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_03_OG_2F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -19055,6 +21985,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_03_OG_2F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -19125,6 +22065,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_03_OG_2F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -19195,6 +22145,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_03_OG_2F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -19257,6 +22217,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_03_OG_3F1[17]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -19315,6 +22285,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_03_OG_3F1[18]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -19385,6 +22365,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_03_OG_3F1[19]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType
@@ -19455,6 +22445,16 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/UtilityMeters/MicroControllerStation1/Tags/MCB_SWB_03_OG_3F1[6]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Type: BaseDataVariableType
     DataType: BaseDataType

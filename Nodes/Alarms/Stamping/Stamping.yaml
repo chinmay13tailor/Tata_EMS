@@ -3849,7 +3849,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../CommDrivers/StampingMeters/MicroControllerStation1/Tags/STP_SWB_02_OG_3F2[6"
+      Value: "../../../../CommDrivers/StampingMeters/MicroControllerStation1/Tags/STP_SWB_02_OG_3F2[6]"
       Children:
       - Name: Mode
         Type: BaseVariableType

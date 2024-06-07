@@ -5,6 +5,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 10
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../EnergyPanelTagsInstance/Min1"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min2
   Type: BaseDataVariableType
   DataType: Int32
@@ -820,7 +830,17 @@ Children:
 - Name: Min60
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 60
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../EnergyPanelTagsInstance/Min60"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min61
   Type: BaseDataVariableType
   DataType: Int32
@@ -843,7 +863,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min62"
+    Value: "../../../EnergyPanelTagsInstance/Min52"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1067,7 +1087,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min78"
+    Value: "../../../EnergyPanelTagsInstance/Min77"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1081,7 +1101,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min79"
+    Value: "../../../EnergyPanelTagsInstance/Min78"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1095,7 +1115,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min80"
+    Value: "../../../EnergyPanelTagsInstance/Min79"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1109,7 +1129,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min81"
+    Value: "../../../EnergyPanelTagsInstance/Min80"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1123,7 +1143,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min82"
+    Value: "../../../EnergyPanelTagsInstance/Min81"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1137,7 +1157,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min83"
+    Value: "../../../EnergyPanelTagsInstance/Min82"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1151,7 +1171,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min84"
+    Value: "../../../EnergyPanelTagsInstance/Min83"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1165,7 +1185,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min85"
+    Value: "../../../EnergyPanelTagsInstance/Min84"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1179,7 +1199,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min86"
+    Value: "../../../EnergyPanelTagsInstance/Min85"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1193,7 +1213,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min87"
+    Value: "../../../EnergyPanelTagsInstance/Min86"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1207,7 +1227,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min88"
+    Value: "../../../EnergyPanelTagsInstance/Min87"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1221,7 +1241,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min89"
+    Value: "../../../EnergyPanelTagsInstance/Min88"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1235,7 +1255,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min90"
+    Value: "../../../EnergyPanelTagsInstance/Min89"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1249,7 +1269,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min91"
+    Value: "../../../EnergyPanelTagsInstance/Min90"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1263,7 +1283,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min92"
+    Value: "../../../EnergyPanelTagsInstance/Min91"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1277,7 +1297,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min93"
+    Value: "../../../EnergyPanelTagsInstance/Min92"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1291,7 +1311,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min94"
+    Value: "../../../EnergyPanelTagsInstance/Min93"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1305,7 +1325,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min95"
+    Value: "../../../EnergyPanelTagsInstance/Min94"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1319,7 +1339,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min96"
+    Value: "../../../EnergyPanelTagsInstance/Min95"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1333,7 +1353,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min97"
+    Value: "../../../EnergyPanelTagsInstance/Min96"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1347,7 +1367,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min98"
+    Value: "../../../EnergyPanelTagsInstance/Min97"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1361,7 +1381,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min99"
+    Value: "../../../EnergyPanelTagsInstance/Min98"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1375,7 +1395,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min100"
+    Value: "../../../EnergyPanelTagsInstance/Min99"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1389,7 +1409,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min101"
+    Value: "../../../EnergyPanelTagsInstance/Min100"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1403,7 +1423,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min102"
+    Value: "../../../EnergyPanelTagsInstance/Min101"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1417,7 +1437,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min103"
+    Value: "../../../EnergyPanelTagsInstance/Min102"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1431,7 +1451,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min104"
+    Value: "../../../EnergyPanelTagsInstance/Min103"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1445,7 +1465,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min105"
+    Value: "../../../EnergyPanelTagsInstance/Min104"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1459,7 +1479,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min106"
+    Value: "../../../EnergyPanelTagsInstance/Min105"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1473,7 +1493,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min107"
+    Value: "../../../EnergyPanelTagsInstance/Min106"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -1487,7 +1507,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../EnergyPanelTagsInstance/Min108"
+    Value: "../../../EnergyPanelTagsInstance/Min107"
     Children:
     - Name: Mode
       Type: BaseVariableType

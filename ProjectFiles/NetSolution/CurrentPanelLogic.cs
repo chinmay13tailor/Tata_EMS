@@ -1794,6 +1794,73 @@ public class CurrentPanelLogic : BaseNetLogic
                 float.TryParse(resultSet79[0, 0]?.ToString(), out min79);
             }
 
+            if (resultSet80 != null && resultSet80.GetLength(0) > 0 && header80 != null && header80.Length > 0)
+            {
+                float.TryParse(resultSet80[0, 0]?.ToString(), out min80);
+            }
+
+            if (resultSet81 != null && resultSet81.GetLength(0) > 0 && header81 != null && header81.Length > 0)
+            {
+                float.TryParse(resultSet81[0, 0]?.ToString(), out min81);
+            }
+            if (resultSet82 != null && resultSet82.GetLength(0) > 0 && header82 != null && header82.Length > 0)
+            {
+                float.TryParse(resultSet82[0, 0]?.ToString(), out min82);
+            }
+            if (resultSet83 != null && resultSet83.GetLength(0) > 0 && header83 != null && header83.Length > 0)
+            {
+                float.TryParse(resultSet83[0, 0]?.ToString(), out min83);
+            }
+            if (resultSet84 != null && resultSet84.GetLength(0) > 0 && header84 != null && header84.Length > 0)
+            {
+                float.TryParse(resultSet84[0, 0]?.ToString(), out min84);
+            }
+            if (resultSet85 != null && resultSet85.GetLength(0) > 0 && header85 != null && header85.Length > 0)
+            {
+                float.TryParse(resultSet85[0, 0]?.ToString(), out min85);
+            }
+
+            if (resultSet86 != null && resultSet86.GetLength(0) > 0 && header86 != null && header86.Length > 0)
+            {
+                float.TryParse(resultSet86[0, 0]?.ToString(), out min86);
+            }
+
+            if (resultSet87 != null && resultSet87.GetLength(0) > 0 && header87 != null && header87.Length > 0)
+            {
+                float.TryParse(resultSet87[0, 0]?.ToString(), out min87);
+            }
+
+            if (resultSet88 != null && resultSet88.GetLength(0) > 0 && header88 != null && header88.Length > 0)
+            {
+                float.TryParse(resultSet88[0, 0]?.ToString(), out min88);
+            }
+
+            if (resultSet89 != null && resultSet89.GetLength(0) > 0 && header89 != null && header89.Length > 0)
+            {
+                float.TryParse(resultSet89[0, 0]?.ToString(), out min89);
+            }
+            if (resultSet90 != null && resultSet90.GetLength(0) > 0 && header90 != null && header90.Length > 0)
+            {
+                float.TryParse(resultSet90[0, 0]?.ToString(), out min90);
+            }
+            if (resultSet91 != null && resultSet91.GetLength(0) > 0 && header91 != null && header91.Length > 0)
+            {
+                float.TryParse(resultSet91[0, 0]?.ToString(), out min91);
+            }
+            if (resultSet92 != null && resultSet92.GetLength(0) > 0 && header92 != null && header92.Length > 0)
+            {
+                float.TryParse(resultSet92[0, 0]?.ToString(), out min92);
+            }
+            if (resultSet93 != null && resultSet93.GetLength(0) > 0 && header93 != null && header93.Length > 0)
+            {
+                float.TryParse(resultSet93[0, 0]?.ToString(), out min93);
+            }
+
+            if (resultSet94 != null && resultSet94.GetLength(0) > 0 && header94 != null && header94.Length > 0)
+            {
+                float.TryParse(resultSet94[0, 0]?.ToString(), out min94);
+            }
+
             // Day 94
             if (resultSet95 != null && resultSet95.GetLength(0) > 0 && header95 != null && header95.Length > 0)
             {
@@ -2164,9 +2231,9 @@ public class CurrentPanelLogic : BaseNetLogic
         min66Variable.Value = min66;
         min67Variable.Value = min67;
         min68Variable.Value = min68;
-        min69Variable.Value = min68;
-        min70Variable.Value = min69;
-        min71Variable.Value = min70;
+        min69Variable.Value = min69;
+        min70Variable.Value = min70;
+        min71Variable.Value = min71;
         min72Variable.Value = min72;
         min73Variable.Value = min73;
         min74Variable.Value = min74;

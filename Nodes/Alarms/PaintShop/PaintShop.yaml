@@ -5649,7 +5649,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../CommDrivers/PaintshopMeters/MicroControllerStation1/Tags/PNT_SWB_07_OG3[20]"
+      Value: "../../../../CommDrivers/PaintshopMeters/MicroControllerStation1/Tags/PNT_SWB_07_OG3[6]"
       Children:
       - Name: Mode
         Type: BaseVariableType

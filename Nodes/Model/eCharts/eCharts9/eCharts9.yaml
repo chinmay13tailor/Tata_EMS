@@ -19,6 +19,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 20
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CurrentPanelTagsInstance/Min2"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min3
   Type: BaseDataVariableType
   DataType: Int32
@@ -261,6 +271,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 25
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CurrentPanelTagsInstance/Min20"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min21
   Type: BaseDataVariableType
   DataType: Int32
@@ -671,6 +691,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 55
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CurrentPanelTagsInstance/Min50"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min51
   Type: BaseDataVariableType
   DataType: Int32
@@ -1543,6 +1573,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 113
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CurrentPanelTagsInstance/Min113"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Min114
   Type: BaseDataVariableType
   DataType: Int32

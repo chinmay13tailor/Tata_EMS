@@ -1174,6 +1174,11 @@ Children:
           - Class: Method
             Name: OnRefreshButtonClicked
             Id: g=f0e9aa17c388ce78762b9ea2a225cfec
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#f0f0f0"
   - Name: FillColor
     Type: BaseDataVariableType
     DataType: Color

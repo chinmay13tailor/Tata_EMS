@@ -6593,7 +6593,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 850.0
+    Value: 750.0
   - Name: Rectangle1
     Type: Rectangle
     Children:
@@ -6840,7 +6840,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 800.0
+          Value: 705.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -7067,7 +7067,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 45.0
+              Value: 35.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -7100,7 +7100,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 45.0
+              Value: 35.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -7133,7 +7133,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 45.0
+              Value: 35.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -7166,7 +7166,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 45.0
+              Value: 35.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -7199,7 +7199,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 45.0
+              Value: 35.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -7232,7 +7232,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 45.0
+              Value: 35.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -7265,7 +7265,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 45.0
+              Value: 35.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -7298,7 +7298,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 45.0
+              Value: 35.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -7331,7 +7331,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 45.0
+              Value: 35.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -7520,7 +7520,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 30.0
+              Value: 20.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -7628,7 +7628,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 30.0
+              Value: 20.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -7736,7 +7736,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 30.0
+              Value: 20.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -7849,7 +7849,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 30.0
+              Value: 20.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -7946,7 +7946,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 30.0
+              Value: 20.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -8054,7 +8054,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 30.0
+              Value: 20.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -8162,7 +8162,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 30.0
+              Value: 20.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -8270,7 +8270,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 30.0
+              Value: 20.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -8378,7 +8378,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 30.0
+              Value: 20.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -8471,7 +8471,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 800.0
+          Value: 705.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -8644,3 +8644,8 @@ Children:
       DataType: Float
       ModellingRule: Optional
       Value: 20.0
+  - Name: TopMargin
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0

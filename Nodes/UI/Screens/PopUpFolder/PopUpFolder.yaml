@@ -1866,6 +1866,16 @@ Children:
           DataType: Font
           ModellingRule: Optional
           Value: ""
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 25.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 115.0
       - Name: Button2
         Type: Button
         Children:
@@ -3886,6 +3896,16 @@ Children:
           DataType: Font
           ModellingRule: Optional
           Value: ""
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 25.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 115.0
       - Name: Button2
         Type: Button
         Children:
@@ -4250,6 +4270,16 @@ Children:
               Type: PropertyType
               DataType: UInt16
               Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 25.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 115.0
       - Name: Button2
         Type: Button
         Children:
@@ -5144,6 +5174,16 @@ Children:
               Type: PropertyType
               DataType: UInt16
               Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 25.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 115.0
       - Name: Button2
         Type: Button
         Children:

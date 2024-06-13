@@ -1346,7 +1346,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/33KVMeters/SPP_1/Active_Energy_Total"
+                        Value: "/Objects/Tata_EMS/CommDrivers/33KVmeters/MicroControllerStation1/Tags/OG16_IN1_SPP_SHOP[3]"
             - Name: Rectangle1
               Type: Rectangle
               Children:

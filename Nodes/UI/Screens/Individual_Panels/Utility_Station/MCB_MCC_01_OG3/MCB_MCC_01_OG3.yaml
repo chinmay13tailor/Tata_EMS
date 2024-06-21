@@ -59,7 +59,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Active_Power_Total"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Active_Power_Total"
             - Name: Label2
               Type: Label
           - Name: Rectangle4
@@ -93,7 +93,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Apparent_Power_Total"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Apparent_Power_Total"
           - Name: Rectangle5
             Type: Rectangle
             Children:
@@ -125,7 +125,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Reactive_Power_Total"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Reactive_Power_Total"
         - Name: Button1
           Type: Button
           Children:
@@ -161,6 +161,26 @@ Children:
                   Value: "Refresh"
                 - Name: InputArguments
                   Type: BaseObjectType
+              - Name: MethodContainer2
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../Rectangle3/eChartTest11Logic@NodeId"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OnRefreshButtonClicked"
             - Name: EventArguments
               Type: MouseClickEvent
               Children:
@@ -269,7 +289,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Phase_R_Current"
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Phase_R_Current"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -315,7 +335,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Phase_Y_Current"
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Phase_Y_Current"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -361,7 +381,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Phase_B_Current"
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Phase_B_Current"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -417,7 +437,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Avg_Current"
+                    Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Avg_Current"
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Float
@@ -610,6 +630,96 @@ Children:
                           Type: DynamicLink
                           DataType: NodePath
                           Value: "../../../../../../../../../Rectangle2/HorizontalLayout1/CircularGauge4/Value"
+        - Name: Button1
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../HorizontalLayout2/WebBrowser@NodeId"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "Refresh"
+                - Name: InputArguments
+                  Type: BaseObjectType
+              - Name: MethodContainer2
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../HorizontalLayout2/eChartTest9Logic@NodeId"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OnRefreshButtonClicked"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: Object1
         Type: BaseObjectType
         Children:
@@ -702,7 +812,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Voltage_RY"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Voltage_RY"
           - Name: Rectangle1
             Type: Rectangle
             Children:
@@ -732,7 +842,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Voltage_YB"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Voltage_YB"
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -866,7 +976,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Voltage_BR"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Voltage_BR"
             - Name: Label1
               Type: Label
           - Name: Rectangle3
@@ -898,7 +1008,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Avg_Voltage_LL"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Avg_Voltage_LL"
             - Name: Label1
               Type: Label
       - Name: Rectangle1
@@ -948,7 +1058,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Voltage_RN"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Voltage_RN"
             - Name: Label1
               Type: Label
           - Name: Rectangle11
@@ -980,7 +1090,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Voltage_YN"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Voltage_YN"
             - Name: Label1
               Type: Label
           - Name: Rectangle12
@@ -1012,7 +1122,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Voltage_BN"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Voltage_BN"
             - Name: Label1
               Type: Label
           - Name: Rectangle13
@@ -1044,7 +1154,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Avg_Voltage_LN"
+                      Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Avg_Voltage_LN"
             - Name: Label1
               Type: Label
         - Name: Button1
@@ -1227,7 +1337,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Avg_PF"
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Avg_PF"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -1346,7 +1456,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Active_Energy_Total"
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Active_Energy_Total"
             - Name: Rectangle1
               Type: Rectangle
               Children:
@@ -1378,7 +1488,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Apparent_Energy_Total"
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Apparent_Energy_Total"
             - Name: Rectangle2
               Type: Rectangle
               Children:
@@ -1410,7 +1520,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Reactive_Energy_Total"
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Reactive_Energy_Total"
           - Name: VerticalLayout3
             Type: ColumnLayout
             Children:
@@ -1436,7 +1546,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG3/Frequency"
+                        Value: "/Objects/Tata_EMS/Model/Tags/RealTimePanelTags/UtilityMeters/MCB_MCC_01_OG_3F1/Frequency"
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -1523,6 +1633,96 @@ Children:
                             Value: "../../../../../../CircularGauge2/Value"
               - Name: Frequency
                 Type: Label
+        - Name: Button1
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../Rectangle3/WebBrowser@NodeId"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "Refresh"
+                - Name: InputArguments
+                  Type: BaseObjectType
+              - Name: MethodContainer2
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../Rectangle3/eChartTest10Logic@NodeId"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OnRefreshButtonClicked"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: Rectangle3
         Type: Rectangle
         Children:

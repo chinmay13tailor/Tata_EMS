@@ -23478,7 +23478,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "../../../../../../../../../../Panel1/Switch1/Checked"
+                              Value: "../../../../../../../Panel1/Switch1/Checked"
                     - Name: 33KV_In2
                       Type: Button
                       Children:
@@ -23608,7 +23608,7 @@ Children:
                             - Name: DynamicLink
                               Type: DynamicLink
                               DataType: NodePath
-                              Value: "../../../../../../../../../../Panel1/Switch1/Checked"
+                              Value: "../../../../../../../Panel1/Switch1/Checked"
                   - Name: Panel1
                     Type: Panel
                     Children:

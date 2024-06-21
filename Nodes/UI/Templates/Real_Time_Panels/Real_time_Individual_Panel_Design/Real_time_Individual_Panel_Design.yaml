@@ -1000,7 +1000,7 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"Button1"}
+            Value: {"NamespaceIndex":36,"TextId":"Refresh"}
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -1059,6 +1059,32 @@ Children:
                   Value: "Refresh"
                 - Name: InputArguments
                   Type: BaseObjectType
+              - Name: MethodContainer2
+                Type: BaseObjectType
+                Children:
+                - Name: ns=3;ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../Rectangle3/eChartTest11Logic@NodeId"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
+                - Name: ns=3;Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OnRefreshButtonClicked"
             - Name: EventArguments
               Type: MouseClickEvent
               Children:
@@ -3038,6 +3064,133 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#00000000"
+        - Name: Button1
+          Type: Button
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"Generate/Refresh"}
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 250.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 35.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 1610.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -300.0
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ns=3;ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../HorizontalLayout2/WebBrowser@NodeId"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
+                - Name: ns=3;Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "Refresh"
+                - Name: InputArguments
+                  Type: BaseObjectType
+              - Name: MethodContainer2
+                Type: BaseObjectType
+                Children:
+                - Name: ns=3;ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../HorizontalLayout2/eChartTest9Logic@NodeId"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
+                - Name: ns=3;Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OnRefreshButtonClicked"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: Object1
         Type: BaseObjectType
         Children:
@@ -7586,6 +7739,133 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 100.0
+        - Name: Button1
+          Type: Button
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"Generate/Refresh"}
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 250.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 35.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 990.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -30.0
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ns=3;ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../Rectangle3/WebBrowser@NodeId"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
+                - Name: ns=3;Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "Refresh"
+                - Name: InputArguments
+                  Type: BaseObjectType
+              - Name: MethodContainer2
+                Type: BaseObjectType
+                Children:
+                - Name: ns=3;ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../Rectangle3/eChartTest10Logic@NodeId"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
+                - Name: ns=3;Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OnRefreshButtonClicked"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: Rectangle3
         Type: Rectangle
         Children:

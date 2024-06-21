@@ -161,6 +161,26 @@ Children:
                   Value: "Refresh"
                 - Name: InputArguments
                   Type: BaseObjectType
+              - Name: MethodContainer2
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../Rectangle3/eChartTest11Logic@NodeId"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OnRefreshButtonClicked"
             - Name: EventArguments
               Type: MouseClickEvent
               Children:
@@ -620,6 +640,96 @@ Children:
                           Type: DynamicLink
                           DataType: NodePath
                           Value: "../../../../../../../../../Rectangle2/HorizontalLayout1/CircularGauge4/Value"
+        - Name: Button1
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../HorizontalLayout2/WebBrowser@NodeId"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "Refresh"
+                - Name: InputArguments
+                  Type: BaseObjectType
+              - Name: MethodContainer2
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../HorizontalLayout2/eChartTest9Logic@NodeId"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OnRefreshButtonClicked"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: Object1
         Type: BaseObjectType
         Children:
@@ -1538,6 +1648,96 @@ Children:
                             Value: "../../../../../../CircularGauge2/Value"
               - Name: Frequency
                 Type: Label
+        - Name: Button1
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../Rectangle3/WebBrowser@NodeId"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "Refresh"
+                - Name: InputArguments
+                  Type: BaseObjectType
+              - Name: MethodContainer2
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../Rectangle3/eChartTest10Logic@NodeId"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "OnRefreshButtonClicked"
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: Rectangle3
         Type: Rectangle
         Children:

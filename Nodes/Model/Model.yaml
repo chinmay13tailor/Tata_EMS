@@ -30134,3 +30134,13 @@ Children:
   Type: BaseDataVariableType
   DataType: DateTime
   Value: "2024-01-01T00:00:00.0000000"
+- Name: VoltagePanel_DateTime_Selection
+  Id: g=f989583a322711b8190cc5822625323f
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2024-01-01T00:00:00.0000000"
+- Name: Current_Panel_DateTime_Selection
+  Id: g=a95e0ff12111b53bae6ba84967ddcd92
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2024-01-01T00:00:00.0000000"

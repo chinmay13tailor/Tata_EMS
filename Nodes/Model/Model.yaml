@@ -30125,3 +30125,12 @@ Children:
             Value: "SPP"
   - Name: RuntimeNetLogic16
     Type: NetLogic
+- Name: Panel_Meter_Selection_For_Graph
+  Id: g=899bd5a9b60a4b769f6d1e4b5ac01085
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: EnergyPanel_DateTime_Selection
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2024-01-01T00:00:00.0000000"

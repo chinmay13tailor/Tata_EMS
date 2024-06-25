@@ -96083,7 +96083,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: String
-          Value: "J2_MCB_SWB_01_O/G_5F2"
+          Value: "J2_MCB_SWB_01_O/G_4F2"
       - Name: Pair83
         Type: ValueMapPair
         Children:
@@ -96094,7 +96094,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: String
-          Value: "J2_MCB_SWB_01_O/G_4F2"
+          Value: "J2_MCB_SWB_01_O/G_5F2"
       - Name: Pair85
         Type: ValueMapPair
         Children:

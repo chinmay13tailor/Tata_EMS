@@ -9446,6 +9446,41 @@ Children:
                                 DataType: NodeId
                                 ValueRank: ScalarOrOneDimension
                                 Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          - Name: MethodContainer3
+                            Type: BaseObjectType
+                            Children:
+                            - Name: ObjectPointer
+                              Type: NodePointer
+                              DataType: NodeId
+                              Value: "/Objects/Commands/VariableCommands"
+                              Children:
+                              - Name: Kind
+                                Type: PropertyType
+                                DataType: NodeId
+                                Value: "/Types/ObjectTypes/BaseObjectType"
+                            - Name: Method
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Set"
+                            - Name: InputArguments
+                              Type: BaseObjectType
+                              Children:
+                              - Name: VariableToModify
+                                Type: BaseDataVariableType
+                                DataType: VariablePointer
+                                Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: String
+                                Value: ""
+                                Children:
+                                - Name: StringFormatter1
+                                  Type: StringFormatter
+                              - Name: ArrayIndex
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                ValueRank: ScalarOrOneDimension
+                                Value: 0
                         - Name: EventArguments
                           Type: MouseClickEvent
                           Children:
@@ -9576,6 +9611,41 @@ Children:
                                 DataType: NodeId
                                 ValueRank: ScalarOrOneDimension
                                 Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          - Name: MethodContainer3
+                            Type: BaseObjectType
+                            Children:
+                            - Name: ObjectPointer
+                              Type: NodePointer
+                              DataType: NodeId
+                              Value: "/Objects/Commands/VariableCommands"
+                              Children:
+                              - Name: Kind
+                                Type: PropertyType
+                                DataType: NodeId
+                                Value: "/Types/ObjectTypes/BaseObjectType"
+                            - Name: Method
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Set"
+                            - Name: InputArguments
+                              Type: BaseObjectType
+                              Children:
+                              - Name: VariableToModify
+                                Type: BaseDataVariableType
+                                DataType: VariablePointer
+                                Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: String
+                                Value: ""
+                                Children:
+                                - Name: StringFormatter1
+                                  Type: StringFormatter
+                              - Name: ArrayIndex
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                ValueRank: ScalarOrOneDimension
+                                Value: 0
                         - Name: EventArguments
                           Type: MouseClickEvent
                           Children:
@@ -9749,6 +9819,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -9891,6 +9996,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -10036,6 +10176,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -10178,6 +10353,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -10323,6 +10533,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -10465,6 +10710,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -10610,6 +10890,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -10752,6 +11067,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -10897,6 +11247,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -11039,6 +11424,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -11184,6 +11604,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -11326,6 +11781,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -11471,6 +11961,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -11613,6 +12138,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -11758,6 +12318,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -11900,6 +12495,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -13947,6 +14577,41 @@ Children:
                                   DataType: NodeId
                                   ValueRank: ScalarOrOneDimension
                                   Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            - Name: MethodContainer3
+                              Type: BaseObjectType
+                              Children:
+                              - Name: ObjectPointer
+                                Type: NodePointer
+                                DataType: NodeId
+                                Value: "/Objects/Commands/VariableCommands"
+                                Children:
+                                - Name: Kind
+                                  Type: PropertyType
+                                  DataType: NodeId
+                                  Value: "/Types/ObjectTypes/BaseObjectType"
+                              - Name: Method
+                                Type: BaseDataVariableType
+                                DataType: String
+                                Value: "Set"
+                              - Name: InputArguments
+                                Type: BaseObjectType
+                                Children:
+                                - Name: VariableToModify
+                                  Type: BaseDataVariableType
+                                  DataType: VariablePointer
+                                  Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                - Name: Value
+                                  Type: BaseDataVariableType
+                                  DataType: String
+                                  Value: ""
+                                  Children:
+                                  - Name: StringFormatter1
+                                    Type: StringFormatter
+                                - Name: ArrayIndex
+                                  Type: BaseDataVariableType
+                                  DataType: UInt32
+                                  ValueRank: ScalarOrOneDimension
+                                  Value: 0
                           - Name: EventArguments
                             Type: MouseClickEvent
                             Children:
@@ -14069,6 +14734,41 @@ Children:
                                   DataType: NodeId
                                   ValueRank: ScalarOrOneDimension
                                   Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            - Name: MethodContainer3
+                              Type: BaseObjectType
+                              Children:
+                              - Name: ObjectPointer
+                                Type: NodePointer
+                                DataType: NodeId
+                                Value: "/Objects/Commands/VariableCommands"
+                                Children:
+                                - Name: Kind
+                                  Type: PropertyType
+                                  DataType: NodeId
+                                  Value: "/Types/ObjectTypes/BaseObjectType"
+                              - Name: Method
+                                Type: BaseDataVariableType
+                                DataType: String
+                                Value: "Set"
+                              - Name: InputArguments
+                                Type: BaseObjectType
+                                Children:
+                                - Name: VariableToModify
+                                  Type: BaseDataVariableType
+                                  DataType: VariablePointer
+                                  Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                - Name: Value
+                                  Type: BaseDataVariableType
+                                  DataType: String
+                                  Value: ""
+                                  Children:
+                                  - Name: StringFormatter1
+                                    Type: StringFormatter
+                                - Name: ArrayIndex
+                                  Type: BaseDataVariableType
+                                  DataType: UInt32
+                                  ValueRank: ScalarOrOneDimension
+                                  Value: 0
                           - Name: EventArguments
                             Type: MouseClickEvent
                             Children:
@@ -14118,7 +14818,7 @@ Children:
                           Type: BaseVariableType
                           DataType: Size
                           ModellingRule: Optional
-                          Value: 121.0
+                          Value: 119.0
                         - Name: TopMargin
                           Type: BaseVariableType
                           DataType: Size
@@ -23426,6 +24126,41 @@ Children:
                                 DataType: NodeId
                                 ValueRank: ScalarOrOneDimension
                                 Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          - Name: MethodContainer3
+                            Type: BaseObjectType
+                            Children:
+                            - Name: ObjectPointer
+                              Type: NodePointer
+                              DataType: NodeId
+                              Value: "/Objects/Commands/VariableCommands"
+                              Children:
+                              - Name: Kind
+                                Type: PropertyType
+                                DataType: NodeId
+                                Value: "/Types/ObjectTypes/BaseObjectType"
+                            - Name: Method
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Set"
+                            - Name: InputArguments
+                              Type: BaseObjectType
+                              Children:
+                              - Name: VariableToModify
+                                Type: BaseDataVariableType
+                                DataType: VariablePointer
+                                Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: String
+                                Value: ""
+                                Children:
+                                - Name: StringFormatter1
+                                  Type: StringFormatter
+                              - Name: ArrayIndex
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                ValueRank: ScalarOrOneDimension
+                                Value: 0
                         - Name: EventArguments
                           Type: MouseClickEvent
                           Children:
@@ -23556,6 +24291,41 @@ Children:
                                 DataType: NodeId
                                 ValueRank: ScalarOrOneDimension
                                 Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          - Name: MethodContainer3
+                            Type: BaseObjectType
+                            Children:
+                            - Name: ObjectPointer
+                              Type: NodePointer
+                              DataType: NodeId
+                              Value: "/Objects/Commands/VariableCommands"
+                              Children:
+                              - Name: Kind
+                                Type: PropertyType
+                                DataType: NodeId
+                                Value: "/Types/ObjectTypes/BaseObjectType"
+                            - Name: Method
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Set"
+                            - Name: InputArguments
+                              Type: BaseObjectType
+                              Children:
+                              - Name: VariableToModify
+                                Type: BaseDataVariableType
+                                DataType: VariablePointer
+                                Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: String
+                                Value: ""
+                                Children:
+                                - Name: StringFormatter1
+                                  Type: StringFormatter
+                              - Name: ArrayIndex
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                ValueRank: ScalarOrOneDimension
+                                Value: 0
                         - Name: EventArguments
                           Type: MouseClickEvent
                           Children:
@@ -23729,6 +24499,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -23871,6 +24676,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -24016,6 +24856,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -24158,6 +25033,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -24303,6 +25213,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -24445,6 +25390,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -24590,6 +25570,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -24732,6 +25747,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -24877,6 +25927,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -25019,6 +26104,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -25164,6 +26284,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -25306,6 +26461,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -25451,6 +26641,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -25593,6 +26818,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -25748,6 +27008,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -25890,6 +27185,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -26688,6 +28018,41 @@ Children:
                                   DataType: NodeId
                                   ValueRank: ScalarOrOneDimension
                                   Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            - Name: MethodContainer3
+                              Type: BaseObjectType
+                              Children:
+                              - Name: ObjectPointer
+                                Type: NodePointer
+                                DataType: NodeId
+                                Value: "/Objects/Commands/VariableCommands"
+                                Children:
+                                - Name: Kind
+                                  Type: PropertyType
+                                  DataType: NodeId
+                                  Value: "/Types/ObjectTypes/BaseObjectType"
+                              - Name: Method
+                                Type: BaseDataVariableType
+                                DataType: String
+                                Value: "Set"
+                              - Name: InputArguments
+                                Type: BaseObjectType
+                                Children:
+                                - Name: VariableToModify
+                                  Type: BaseDataVariableType
+                                  DataType: VariablePointer
+                                  Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                - Name: Value
+                                  Type: BaseDataVariableType
+                                  DataType: String
+                                  Value: ""
+                                  Children:
+                                  - Name: StringFormatter1
+                                    Type: StringFormatter
+                                - Name: ArrayIndex
+                                  Type: BaseDataVariableType
+                                  DataType: UInt32
+                                  ValueRank: ScalarOrOneDimension
+                                  Value: 0
                           - Name: EventArguments
                             Type: MouseClickEvent
                             Children:
@@ -26815,6 +28180,41 @@ Children:
                                   DataType: NodeId
                                   ValueRank: ScalarOrOneDimension
                                   Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            - Name: MethodContainer3
+                              Type: BaseObjectType
+                              Children:
+                              - Name: ObjectPointer
+                                Type: NodePointer
+                                DataType: NodeId
+                                Value: "/Objects/Commands/VariableCommands"
+                                Children:
+                                - Name: Kind
+                                  Type: PropertyType
+                                  DataType: NodeId
+                                  Value: "/Types/ObjectTypes/BaseObjectType"
+                              - Name: Method
+                                Type: BaseDataVariableType
+                                DataType: String
+                                Value: "Set"
+                              - Name: InputArguments
+                                Type: BaseObjectType
+                                Children:
+                                - Name: VariableToModify
+                                  Type: BaseDataVariableType
+                                  DataType: VariablePointer
+                                  Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                - Name: Value
+                                  Type: BaseDataVariableType
+                                  DataType: String
+                                  Value: ""
+                                  Children:
+                                  - Name: StringFormatter1
+                                    Type: StringFormatter
+                                - Name: ArrayIndex
+                                  Type: BaseDataVariableType
+                                  DataType: UInt32
+                                  ValueRank: ScalarOrOneDimension
+                                  Value: 0
                           - Name: EventArguments
                             Type: MouseClickEvent
                             Children:
@@ -36215,6 +37615,41 @@ Children:
                                 DataType: NodeId
                                 ValueRank: ScalarOrOneDimension
                                 Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          - Name: MethodContainer3
+                            Type: BaseObjectType
+                            Children:
+                            - Name: ObjectPointer
+                              Type: NodePointer
+                              DataType: NodeId
+                              Value: "/Objects/Commands/VariableCommands"
+                              Children:
+                              - Name: Kind
+                                Type: PropertyType
+                                DataType: NodeId
+                                Value: "/Types/ObjectTypes/BaseObjectType"
+                            - Name: Method
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Set"
+                            - Name: InputArguments
+                              Type: BaseObjectType
+                              Children:
+                              - Name: VariableToModify
+                                Type: BaseDataVariableType
+                                DataType: VariablePointer
+                                Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: String
+                                Value: ""
+                                Children:
+                                - Name: StringFormatter1
+                                  Type: StringFormatter
+                              - Name: ArrayIndex
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                ValueRank: ScalarOrOneDimension
+                                Value: 0
                         - Name: EventArguments
                           Type: MouseClickEvent
                           Children:
@@ -36345,6 +37780,41 @@ Children:
                                 DataType: NodeId
                                 ValueRank: ScalarOrOneDimension
                                 Value: {"IdType":0,"Id":0,"Namespace":-1}
+                          - Name: MethodContainer3
+                            Type: BaseObjectType
+                            Children:
+                            - Name: ObjectPointer
+                              Type: NodePointer
+                              DataType: NodeId
+                              Value: "/Objects/Commands/VariableCommands"
+                              Children:
+                              - Name: Kind
+                                Type: PropertyType
+                                DataType: NodeId
+                                Value: "/Types/ObjectTypes/BaseObjectType"
+                            - Name: Method
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "Set"
+                            - Name: InputArguments
+                              Type: BaseObjectType
+                              Children:
+                              - Name: VariableToModify
+                                Type: BaseDataVariableType
+                                DataType: VariablePointer
+                                Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                              - Name: Value
+                                Type: BaseDataVariableType
+                                DataType: String
+                                Value: ""
+                                Children:
+                                - Name: StringFormatter1
+                                  Type: StringFormatter
+                              - Name: ArrayIndex
+                                Type: BaseDataVariableType
+                                DataType: UInt32
+                                ValueRank: ScalarOrOneDimension
+                                Value: 0
                         - Name: EventArguments
                           Type: MouseClickEvent
                           Children:
@@ -36518,6 +37988,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -36660,6 +38165,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -36805,6 +38345,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -36947,6 +38522,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -37092,6 +38702,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -37234,6 +38879,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -37379,6 +39059,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -37521,6 +39236,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -37666,6 +39416,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -37808,6 +39593,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -37953,6 +39773,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -38095,6 +39950,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -38240,6 +40130,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -38382,6 +40307,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -38527,6 +40487,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -38669,6 +40664,41 @@ Children:
                                       Type: BaseDataVariableType
                                       DataType: NodeId
                                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                                - Name: MethodContainer3
+                                  Type: BaseObjectType
+                                  Children:
+                                  - Name: ObjectPointer
+                                    Type: NodePointer
+                                    DataType: NodeId
+                                    Value: "/Objects/Commands/VariableCommands"
+                                    Children:
+                                    - Name: Kind
+                                      Type: PropertyType
+                                      DataType: NodeId
+                                      Value: "/Types/ObjectTypes/BaseObjectType"
+                                  - Name: Method
+                                    Type: BaseDataVariableType
+                                    DataType: String
+                                    Value: "Set"
+                                  - Name: InputArguments
+                                    Type: BaseObjectType
+                                    Children:
+                                    - Name: VariableToModify
+                                      Type: BaseDataVariableType
+                                      DataType: VariablePointer
+                                      Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                    - Name: Value
+                                      Type: BaseDataVariableType
+                                      DataType: String
+                                      Value: ""
+                                      Children:
+                                      - Name: StringFormatter1
+                                        Type: StringFormatter
+                                    - Name: ArrayIndex
+                                      Type: BaseDataVariableType
+                                      DataType: UInt32
+                                      ValueRank: ScalarOrOneDimension
+                                      Value: 0
                               - Name: EventArguments
                                 Type: MouseClickEvent
                                 Children:
@@ -39854,6 +41884,41 @@ Children:
                                   DataType: NodeId
                                   ValueRank: ScalarOrOneDimension
                                   Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            - Name: MethodContainer3
+                              Type: BaseObjectType
+                              Children:
+                              - Name: ObjectPointer
+                                Type: NodePointer
+                                DataType: NodeId
+                                Value: "/Objects/Commands/VariableCommands"
+                                Children:
+                                - Name: Kind
+                                  Type: PropertyType
+                                  DataType: NodeId
+                                  Value: "/Types/ObjectTypes/BaseObjectType"
+                              - Name: Method
+                                Type: BaseDataVariableType
+                                DataType: String
+                                Value: "Set"
+                              - Name: InputArguments
+                                Type: BaseObjectType
+                                Children:
+                                - Name: VariableToModify
+                                  Type: BaseDataVariableType
+                                  DataType: VariablePointer
+                                  Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                - Name: Value
+                                  Type: BaseDataVariableType
+                                  DataType: String
+                                  Value: ""
+                                  Children:
+                                  - Name: StringFormatter1
+                                    Type: StringFormatter
+                                - Name: ArrayIndex
+                                  Type: BaseDataVariableType
+                                  DataType: UInt32
+                                  ValueRank: ScalarOrOneDimension
+                                  Value: 0
                           - Name: EventArguments
                             Type: MouseClickEvent
                             Children:
@@ -39971,6 +42036,41 @@ Children:
                                   DataType: NodeId
                                   ValueRank: ScalarOrOneDimension
                                   Value: {"IdType":0,"Id":0,"Namespace":-1}
+                            - Name: MethodContainer3
+                              Type: BaseObjectType
+                              Children:
+                              - Name: ObjectPointer
+                                Type: NodePointer
+                                DataType: NodeId
+                                Value: "/Objects/Commands/VariableCommands"
+                                Children:
+                                - Name: Kind
+                                  Type: PropertyType
+                                  DataType: NodeId
+                                  Value: "/Types/ObjectTypes/BaseObjectType"
+                              - Name: Method
+                                Type: BaseDataVariableType
+                                DataType: String
+                                Value: "Set"
+                              - Name: InputArguments
+                                Type: BaseObjectType
+                                Children:
+                                - Name: VariableToModify
+                                  Type: BaseDataVariableType
+                                  DataType: VariablePointer
+                                  Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+                                - Name: Value
+                                  Type: BaseDataVariableType
+                                  DataType: String
+                                  Value: ""
+                                  Children:
+                                  - Name: StringFormatter1
+                                    Type: StringFormatter
+                                - Name: ArrayIndex
+                                  Type: BaseDataVariableType
+                                  DataType: UInt32
+                                  ValueRank: ScalarOrOneDimension
+                                  Value: 0
                           - Name: EventArguments
                             Type: MouseClickEvent
                             Children:

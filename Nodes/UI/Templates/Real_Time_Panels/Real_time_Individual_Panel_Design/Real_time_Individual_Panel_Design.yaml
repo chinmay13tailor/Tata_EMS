@@ -1291,6 +1291,11 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../Follow/Checked"
             - Name: Window
               Type: BaseDataVariableType
               DataType: Duration
@@ -1299,10 +1304,46 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../Interactive/Checked"
             - Name: Time
               Type: BaseDataVariableType
               DataType: DateTime
               Value: "1601-01-01T00:00:00.0000000"
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Model/VoltagePanel_DateTime_Selection"
+                Children:
+                - Name: ConditionalConverter1
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Value: false
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../Follow/Checked"
+                  - Name: TrueValue
+                    Type: BaseDataVariableType
+                    DataType: NodePath
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: "/Objects/Tata_EMS/NetLogic/ClockLogic/Time"
+                  - Name: FalseValue
+                    Type: BaseDataVariableType
+                    DataType: NodePath
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: "/Objects/Tata_EMS/Model/Power_Panel_DateTime_Selection1"
             - Name: SnapPosition
               Type: BaseDataVariableType
               DataType: SnapPositionEnum
@@ -1318,11 +1359,11 @@ Children:
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Size
-              Value: -100.0
+              Value: 0.0
             - Name: MaxValue
               Type: BaseDataVariableType
               DataType: Size
-              Value: 100.0
+              Value: 4000.0
             - Name: AutoScale
               Type: BaseDataVariableType
               DataType: Boolean
@@ -1416,6 +1457,177 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+        - Name: Interactive
+          Type: Switch
+          Children:
+          - Name: Checked
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: false
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 70.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 310.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 410.0
+        - Name: Follow
+          Type: Switch
+          Children:
+          - Name: Checked
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: false
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 60.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 770.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 410.0
+        - Name: Label1
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"Interactive :"}
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 194.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 411.0
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 20.0
+          - Name: FontWeight
+            Type: BaseDataVariableType
+            DataType: FontWeightEnum
+            ModellingRule: Optional
+            Value: 700
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"Date : "}
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 440.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 411.0
+          - Name: FontWeight
+            Type: BaseDataVariableType
+            DataType: FontWeightEnum
+            ModellingRule: Optional
+            Value: 700
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 20.0
+        - Name: DateAndTime1
+          Type: DateTimePicker
+          Children:
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: DateTime
+            Value: "1601-01-01T00:00:00.0000000"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS/Model/Power_Panel_DateTime_Selection1"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: InputFormat
+            Type: BaseDataVariableType
+            DataType: DateTimePickerInputFormatEnum
+            ModellingRule: Optional
+            Value: 2
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 510.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 413.0
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 14.0
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 100.0
+        - Name: Label3
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"Follow : "}
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 682.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 410.0
+          - Name: FontWeight
+            Type: BaseDataVariableType
+            DataType: FontWeightEnum
+            ModellingRule: Optional
+            Value: 700
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 20.0
   - Name: FillColor
     Type: BaseDataVariableType
     DataType: Color
@@ -3715,6 +3927,16 @@ Children:
                 DataType: Color
                 ModellingRule: Optional
                 Value: "#eb001b"
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Phase_R_Current/LastValue"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
             - Name: Phase_Y_Current
               Type: TrendPen
               DataType: BaseDataType
@@ -3734,6 +3956,16 @@ Children:
                 DataType: Color
                 ModellingRule: Optional
                 Value: "#f8e71c"
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Phase_Y_Current/LastValue"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
             - Name: Phase_B_Current
               Type: TrendPen
               DataType: BaseDataType
@@ -3753,6 +3985,16 @@ Children:
                 DataType: Color
                 ModellingRule: Optional
                 Value: "#0fafff"
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Phase_B_Current/LastValue"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
           - Class: Reference
             Target: ns=5;i=1129
             Direction: Forward
@@ -6542,6 +6784,16 @@ Children:
                 DataType: Color
                 ModellingRule: Optional
                 Value: "#eb001b"
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Voltage_RN/LastValue"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
             - Name: Voltage_YN
               Type: TrendPen
               DataType: BaseDataType
@@ -6561,6 +6813,16 @@ Children:
                 DataType: Color
                 ModellingRule: Optional
                 Value: "#f8e71c"
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Voltage_YN/LastValue"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
             - Name: Voltage_BN
               Type: TrendPen
               DataType: BaseDataType
@@ -6580,6 +6842,16 @@ Children:
                 DataType: Color
                 ModellingRule: Optional
                 Value: "#0fafff"
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Voltage_BN/LastValue"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
           - Class: Reference
             Target: ns=5;i=1129
             Direction: Forward
@@ -9037,6 +9309,16 @@ Children:
                 DataType: LocalizedText
                 ModellingRule: Optional
                 Value: {"LocaleId":"en-US","Text":"Consumption"}
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Consumption/LastValue"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
           - Class: Reference
             Target: ns=5;i=1129
             Direction: Forward

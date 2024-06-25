@@ -312,6 +312,11 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../Follow/Checked"
             - Name: Window
               Type: BaseDataVariableType
               DataType: Duration
@@ -320,10 +325,34 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../Interactive/Checked"
             - Name: Time
               Type: BaseDataVariableType
               DataType: DateTime
               Value: "1601-01-01T00:00:00.0000000"
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Model/VoltagePanel_DateTime_Selection"
+                Children:
+                - Name: ConditionalConverter1
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Value: false
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../Follow/Checked"
           - Name: YAxis
             Type: ValueAxis
             Children:
@@ -334,11 +363,11 @@ Children:
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Size
-              Value: -100.0
+              Value: 0.0
             - Name: MaxValue
               Type: BaseDataVariableType
               DataType: Size
-              Value: 100.0
+              Value: 4000.0
             - Name: AutoScale
               Type: BaseDataVariableType
               DataType: Boolean
@@ -368,6 +397,38 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+        - Name: Interactive
+          Type: Switch
+          Children:
+          - Name: Checked
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: false
+        - Name: Follow
+          Type: Switch
+          Children:
+          - Name: Checked
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: false
+        - Name: Label1
+          Type: Label
+        - Name: Label2
+          Type: Label
+        - Name: DateAndTime1
+          Type: DateTimePicker
+          Children:
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: DateTime
+            Value: "1601-01-01T00:00:00.0000000"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS/Model/Power_Panel_DateTime_Selection1"
+        - Name: Label3
+          Type: Label
 - Name: Current_Panel39
   Id: g=00f3178498eda1f28b99f68743124590
   Supertype: Current_Panel
@@ -931,6 +992,10 @@ Children:
                 Value: true
               - Name: Thresholds
                 Type: BaseObjectType
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Phase_R_Current/LastValue"
             - Name: Phase_Y_Current
               Type: TrendPen
               DataType: BaseDataType
@@ -945,6 +1010,10 @@ Children:
                 Value: true
               - Name: Thresholds
                 Type: BaseObjectType
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Phase_Y_Current/LastValue"
             - Name: Phase_B_Current
               Type: TrendPen
               DataType: BaseDataType
@@ -959,6 +1028,10 @@ Children:
                 Value: true
               - Name: Thresholds
                 Type: BaseObjectType
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Phase_B_Current/LastValue"
           - Class: Reference
             Target: ns=5;i=1129
             Direction: Forward
@@ -1562,6 +1635,10 @@ Children:
                 Value: true
               - Name: Thresholds
                 Type: BaseObjectType
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Voltage_RN/LastValue"
             - Name: Voltage_YN
               Type: TrendPen
               DataType: BaseDataType
@@ -1576,6 +1653,10 @@ Children:
                 Value: true
               - Name: Thresholds
                 Type: BaseObjectType
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Voltage_YN/LastValue"
             - Name: Voltage_BN
               Type: TrendPen
               DataType: BaseDataType
@@ -1590,6 +1671,10 @@ Children:
                 Value: true
               - Name: Thresholds
                 Type: BaseObjectType
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Voltage_BN/LastValue"
           - Class: Reference
             Target: ns=5;i=1129
             Direction: Forward
@@ -2235,6 +2320,10 @@ Children:
                 Value: true
               - Name: Thresholds
                 Type: BaseObjectType
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Consumption/LastValue"
           - Class: Reference
             Target: ns=5;i=1129
             Direction: Forward

@@ -30144,3 +30144,8 @@ Children:
   Type: BaseDataVariableType
   DataType: DateTime
   Value: "2024-01-01T00:00:00.0000000"
+- Name: Power_Panel_DateTime_Selection1
+  Id: g=d7c76f3e6a0641295a3d3689023769c7
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2024-01-01T00:00:00.0000000"

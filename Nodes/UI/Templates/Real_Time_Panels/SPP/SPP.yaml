@@ -453,7 +453,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_3"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -1383,7 +1383,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_4"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_2"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -2313,7 +2313,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_5"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_3"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -3243,7 +3243,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_6"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_5"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -4178,7 +4178,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_7"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_4"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -5113,7 +5113,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_8"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_6"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -6043,7 +6043,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_9"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_8"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -6973,7 +6973,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_10"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_7"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -7903,7 +7903,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_11"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/SPP Shop/SPP_Panel_9"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId

@@ -11,6 +11,7 @@ using FTOptix.Core;
 using FTOptix.AuditSigning;
 using FTOptix.Alarm;
 using FTOptix.WebUI;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class GetUserStatus : BaseNetLogic

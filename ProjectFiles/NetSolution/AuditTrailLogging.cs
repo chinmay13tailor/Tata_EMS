@@ -9,6 +9,7 @@ using FTOptix.AuditSigning;
 using FTOptix.Alarm;
 using FTOptix.WebUI;
 using FTOptix.UI;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class AuditTrailLogging : BaseNetLogic

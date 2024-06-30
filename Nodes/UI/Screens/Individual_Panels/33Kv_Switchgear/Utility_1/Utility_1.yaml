@@ -387,11 +387,10 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: ""
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+          - Name: ReferenceTimeZone
+            Type: BaseDataVariableType
+            DataType: ReferenceTimeZone
+            Value: 1
         - Name: Interactive
           Type: Switch
           Children:
@@ -1117,11 +1116,6 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: ""
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
 - Name: Voltage_Panel210
   Id: g=56ed28d81befce84bbbb57c06df394bb
   Supertype: Voltage_Panel
@@ -1867,11 +1861,6 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: ""
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size
@@ -1927,6 +1916,18 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Trend1/Query"
       - Name: Object1
         Type: BaseObjectType
         Children:
@@ -2522,11 +2523,6 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "SELECT * FROM \"HomePage\""
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
         - Name: DateAndTime1
           Type: DateTimePicker
           Children:

@@ -20,6 +20,7 @@ using FTOptix.AuditSigning;
 using FTOptix.Alarm;
 using FTOptix.CommunicationDriver;
 using FTOptix.Core;
+using FTOptix.RAEtherNetIP;
 
 #endregion
 

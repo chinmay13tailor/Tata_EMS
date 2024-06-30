@@ -1397,7 +1397,6 @@ Children:
           - Name: ReferenceTimeZone
             Type: BaseDataVariableType
             DataType: ReferenceTimeZone
-            ModellingRule: Optional
             Value: 1
           - Name: Visible
             Type: BaseDataVariableType
@@ -1452,11 +1451,11 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: ""
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
+          - Name: Mode
+            Type: BaseDataVariableType
+            DataType: TrendModeEnum
+            ModellingRule: Optional
+            Value: 0
         - Name: Interactive
           Type: Switch
           Children:
@@ -4161,11 +4160,6 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: ""
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
   - Name: FillColor
     Type: BaseDataVariableType
     DataType: Color
@@ -7018,11 +7012,6 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: ""
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
         - Name: Interactive
           Type: Switch
           Children:
@@ -7256,6 +7245,38 @@ Children:
           - Class: Method
             Name: OnRefreshButtonClicked
             Id: g=cd80e8c69c0d81d1faa7685195f0ba98
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Trend1/Query"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 1180.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 90.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 575.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 30.0
       - Name: Object1
         Type: BaseObjectType
         Children:
@@ -9465,11 +9486,6 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "SELECT * FROM \"HomePage\""
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS/Model/Panel_Meter_Selection_For_Graph"
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -9594,12 +9610,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 40.0
+            Value: 20.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: -20.0
+            Value: 400.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size

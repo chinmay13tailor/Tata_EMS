@@ -13,6 +13,7 @@ using System.Linq;
 using FTOptix.UI;
 using FTOptix.AuditSigning;
 using FTOptix.Alarm;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class CSVToKeyValueConverter : BaseNetLogic

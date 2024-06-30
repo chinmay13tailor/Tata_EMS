@@ -9,6 +9,7 @@ using FTOptix.Recipe;
 using FTOptix.AuditSigning;
 using FTOptix.Alarm;
 using FTOptix.WebUI;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class PasswordChangeButtonLogic : BaseNetLogic

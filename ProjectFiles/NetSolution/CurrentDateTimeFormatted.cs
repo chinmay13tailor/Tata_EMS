@@ -14,6 +14,7 @@ using FTOptix.MicroController;
 using FTOptix.CommunicationDriver;
 using FTOptix.AuditSigning;
 using FTOptix.Alarm;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class CurrentDateTimeFormatted : BaseNetLogic

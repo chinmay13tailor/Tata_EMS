@@ -7,6 +7,7 @@ using FTOptix.Store;
 using FTOptix.SQLiteStore;
 using FTOptix.AuditSigning;
 using FTOptix.Alarm;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class AlarmGridLogic : BaseNetLogic

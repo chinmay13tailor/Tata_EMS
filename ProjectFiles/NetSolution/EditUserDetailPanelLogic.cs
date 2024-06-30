@@ -10,6 +10,7 @@ using System.Linq;
 using FTOptix.Recipe;
 using FTOptix.AuditSigning;
 using FTOptix.Alarm;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class EditUserDetailPanelLogic : BaseNetLogic

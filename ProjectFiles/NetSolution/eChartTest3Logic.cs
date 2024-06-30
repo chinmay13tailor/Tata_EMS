@@ -24,6 +24,7 @@ using System.IO;
 using FTOptix.OPCUAServer;
 using System.Threading;
 using System.Timers;
+using FTOptix.RAEtherNetIP;
 
 public class eChartTest3Logic : BaseNetLogic
 {

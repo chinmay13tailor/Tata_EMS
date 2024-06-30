@@ -4,6 +4,7 @@ using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.AuditSigning;
 using FTOptix.Alarm;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class AlarmGridLogic1 : BaseNetLogic

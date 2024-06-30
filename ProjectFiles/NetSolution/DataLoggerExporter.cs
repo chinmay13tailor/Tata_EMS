@@ -14,6 +14,7 @@ using FTOptix.ODBCStore;
 using FTOptix.OPCUAServer;
 using FTOptix.UI;
 using FTOptix.Alarm;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class DataLoggerExporter : BaseNetLogic {

@@ -15,6 +15,7 @@ using FTOptix.ODBCStore;
 using FTOptix.OPCUAServer;
 using FTOptix.UI;
 using FTOptix.Alarm;
+using FTOptix.RAEtherNetIP;
 using OpcUa = UAManagedCore.OpcUa;
 #endregion
 

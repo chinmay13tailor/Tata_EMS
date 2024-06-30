@@ -12,6 +12,7 @@ using FTOptix.CommunicationDriver;
 using FTOptix.UI;
 using FTOptix.AuditSigning;
 using FTOptix.Alarm;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class ManageRemotePdf : BaseNetLogic

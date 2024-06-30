@@ -15,6 +15,7 @@ using System.Timers;
 using FTOptix.EventLogger;
 using FTOptix.Alarm;
 using FTOptix.MicroController;
+using FTOptix.RAEtherNetIP;
 
 public class eChartTestLogic : BaseNetLogic
 {

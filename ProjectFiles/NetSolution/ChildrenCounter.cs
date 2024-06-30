@@ -10,6 +10,7 @@ using FTOptix.Alarm;
 using FTOptix.WebUI;
 using FTOptix.Core;
 using FTOptix.UI;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class ChildrenCounter : BaseNetLogic

@@ -396,7 +396,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: ""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J1_OG7_IN1_PAINTSHOP'"
           - Name: ReferenceTimeZone
             Type: BaseDataVariableType
             DataType: ReferenceTimeZone
@@ -1115,7 +1115,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: ""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J1_OG7_IN1_PAINTSHOP'"
 - Name: Voltage_Panel216
   Id: g=85bb8936858cc9b1235821a49260349e
   Supertype: Voltage_Panel
@@ -1774,7 +1774,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: ""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J1_OG7_IN1_PAINTSHOP'"
         - Name: Interactive
           Type: Switch
           Children:
@@ -2430,7 +2430,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: "SELECT * FROM \"HomePage\""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J1_OG7_IN1_PAINTSHOP'"
         - Name: DateAndTime1
           Type: DateTimePicker
           Children:

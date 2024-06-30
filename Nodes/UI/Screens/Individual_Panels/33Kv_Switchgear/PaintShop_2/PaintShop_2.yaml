@@ -386,7 +386,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: ""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J1_OG8_IN2_PAINTSHOP'"
           - Name: ReferenceTimeZone
             Type: BaseDataVariableType
             DataType: ReferenceTimeZone
@@ -935,7 +935,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 860.0
+        Value: 940.0
       - Name: HorizontalLayout2
         Type: RowLayout
         Children:
@@ -1110,7 +1110,12 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: ""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J1_OG8_IN2_PAINTSHOP'"
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
 - Name: Voltage_Panel217
   Id: g=777536fd8be57955943c7dff823c69e6
   Supertype: Voltage_Panel
@@ -1758,7 +1763,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: ""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J1_OG8_IN2_PAINTSHOP'"
         - Name: Interactive
           Type: Switch
           Children:
@@ -2414,7 +2419,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: "SELECT * FROM \"HomePage\""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J1_OG8_IN2_PAINTSHOP'"
         - Name: DateAndTime1
           Type: DateTimePicker
           Children:

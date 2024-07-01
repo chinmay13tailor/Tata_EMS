@@ -386,7 +386,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: ""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J2_MCB_MVS_01_O/G_F8'"
           - Name: ReferenceTimeZone
             Type: BaseDataVariableType
             DataType: ReferenceTimeZone
@@ -1105,7 +1105,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: ""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J2_MCB_MVS_01_O/G_F8'"
 - Name: Voltage_Panel5
   Id: g=ffff822012a6528a23875fff5a7ab877
   Supertype: Voltage_Panel
@@ -1753,7 +1753,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: ""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J2_MCB_MVS_01_O/G_F8'"
         - Name: Interactive
           Type: Switch
           Children:
@@ -2414,7 +2414,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: "SELECT * FROM \"HomePage\""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J2_MCB_MVS_01_O/G_F8'"
         - Name: DateAndTime1
           Type: DateTimePicker
           Children:
@@ -2445,6 +2445,16 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../Interactive/Checked"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 506.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 403.0
         - Name: Label1
           Type: Label
           Children:
@@ -2457,6 +2467,16 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "../../Trend1/Query"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 10.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 500.0
         - Name: Interactive
           Type: Switch
           Children:
@@ -2464,12 +2484,55 @@ Children:
             Type: BaseDataVariableType
             DataType: Boolean
             Value: false
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 309.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 400.0
         - Name: Label2
           Type: Label
+          Children:
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 396.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 403.0
         - Name: Label3
           Type: Label
+          Children:
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 171.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 402.0
         - Name: Label4
           Type: Label
+          Children:
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 636.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 403.0
         - Name: Follow
           Type: Switch
           Children:
@@ -2495,5 +2558,25 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../Interactive/Checked"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 760.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 399.0
       - Name: Rectangle9
         Type: Rectangle
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 850.0
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -40.0

@@ -146,10 +146,10 @@ Project:
    Module: FTOptix.MicroController.Net
    Version: 2.0
  Statistics:
-  TotalNodeCount: 398072
+  TotalNodeCount: 398088
   Objects: 110905
   ObjectTypes: 1298
-  Variables: 285756
+  Variables: 285772
   VariableTypes: 0
   DataTypes: 60
   Methods: 53

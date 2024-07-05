@@ -7528,7 +7528,7 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 6.0
-          - Name: Production1
+          - Name: Target33KV
             Type: TextBox
             Children:
             - Name: Text
@@ -7636,7 +7636,7 @@ Children:
               DataType: LocalizedText
               ModellingRule: Optional
               Value: {"LocaleId":"en-US","Text":"33KV Target"}
-          - Name: Production2
+          - Name: TargetUtility
             Type: TextBox
             Children:
             - Name: Text
@@ -7744,7 +7744,7 @@ Children:
               DataType: LocalizedText
               ModellingRule: Optional
               Value: {"LocaleId":"en-US","Text":"Utility Target"}
-          - Name: Production3
+          - Name: TargetStamping
             Type: TextBox
             Children:
             - Name: Text
@@ -7857,7 +7857,7 @@ Children:
               DataType: Color
               ModellingRule: Optional
               Value: "#000000"
-          - Name: Production4
+          - Name: TargetPaintshop
             Type: TextBox
             Children:
             - Name: Text
@@ -7965,7 +7965,7 @@ Children:
               DataType: LocalizedText
               ModellingRule: Optional
               Value: {"LocaleId":"en-US","Text":"Paintshop Target"}
-          - Name: Production5
+          - Name: TargetPumproom
             Type: TextBox
             Children:
             - Name: Text
@@ -8062,7 +8062,7 @@ Children:
               DataType: LocalizedText
               ModellingRule: Optional
               Value: {"LocaleId":"en-US","Text":"Pumproom Target"}
-          - Name: Production6
+          - Name: TargetSPP
             Type: TextBox
             Children:
             - Name: Text
@@ -8170,7 +8170,7 @@ Children:
               DataType: LocalizedText
               ModellingRule: Optional
               Value: {"LocaleId":"en-US","Text":"SPP Target"}
-          - Name: Production7
+          - Name: TargetBodyshop
             Type: TextBox
             Children:
             - Name: Text
@@ -8278,7 +8278,7 @@ Children:
               DataType: LocalizedText
               ModellingRule: Optional
               Value: {"LocaleId":"en-US","Text":"BodyShop Target"}
-          - Name: Production8
+          - Name: TargetTCF
             Type: TextBox
             Children:
             - Name: Text
@@ -8386,7 +8386,7 @@ Children:
               DataType: LocalizedText
               ModellingRule: Optional
               Value: {"LocaleId":"en-US","Text":"TCF Target"}
-          - Name: Production9
+          - Name: TargetAdmin
             Type: TextBox
             Children:
             - Name: Text

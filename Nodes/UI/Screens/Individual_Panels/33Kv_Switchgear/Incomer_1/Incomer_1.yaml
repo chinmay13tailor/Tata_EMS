@@ -1157,7 +1157,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
+        Value: -10.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size

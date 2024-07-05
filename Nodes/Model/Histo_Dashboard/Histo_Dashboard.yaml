@@ -8,11 +8,11 @@ Children:
 - Name: Datefrom
   Type: BaseDataVariableType
   DataType: DateTime
-  Value: "2024-02-16T00:00:00.0000000"
+  Value: "2024-01-01T00:00:00.0000000"
 - Name: Dateto
   Type: BaseDataVariableType
   DataType: DateTime
-  Value: "2024-02-16T23:59:59.0000000"
+  Value: "2024-01-02T23:59:59.0000000"
 - Class: DataType
   Name: Select_Comparision
   Id: g=400cd3110a29d0ef784fe37c335ccba9

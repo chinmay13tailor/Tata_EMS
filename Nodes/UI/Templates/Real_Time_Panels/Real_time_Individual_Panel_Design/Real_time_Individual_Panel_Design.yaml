@@ -1674,7 +1674,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 940.0
+      Value: 900.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -3508,12 +3508,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1610.0
+            Value: 2620.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: -300.0
+            Value: -330.0
           - Name: MouseClickEventHandler1
             Type: EventHandler
             Children:
@@ -3800,7 +3800,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
+        Value: -10.0
       - Name: HorizontalLayout2
         Type: RowLayout
         Children:

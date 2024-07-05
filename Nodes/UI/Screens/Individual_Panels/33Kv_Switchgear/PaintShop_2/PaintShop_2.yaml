@@ -1115,7 +1115,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
+        Value: -10.0
 - Name: Voltage_Panel217
   Id: g=777536fd8be57955943c7dff823c69e6
   Supertype: Voltage_Panel

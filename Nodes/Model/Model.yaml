@@ -14613,9 +14613,10 @@ Children:
   - Name: HomePageTagsLogic
     Type: NetLogic
   - Name: Button
+    Id: g=ac8db29a3ccbfbc939e265fe88a783b1
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: true
+    Value: false
   - Name: GuageMax
     Type: BaseDataVariableType
     DataType: Int32
@@ -14900,7 +14901,7 @@ Children:
   - Name: Button
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: true
+    Value: false
   - Name: GuageMax
     Type: BaseDataVariableType
     DataType: Int32
@@ -15184,7 +15185,7 @@ Children:
   - Name: Button
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: true
+    Value: false
   - Name: GuageMax
     Type: BaseDataVariableType
     DataType: Int32
@@ -15685,9 +15686,10 @@ Children:
   - Name: RuntimeNetLogic8
     Type: NetLogic
   - Name: Button
+    Id: g=11493ac115971671857bc75b8a9b8182
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: true
+    Value: false
   - Name: Date
     Type: BaseDataVariableType
     DataType: DateTime
@@ -16070,7 +16072,7 @@ Children:
   - Name: Button
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: true
+    Value: false
   - Name: Date
     Type: BaseDataVariableType
     DataType: DateTime
@@ -16399,7 +16401,7 @@ Children:
     Id: g=fe80e30153fa39641572bb7dffbe7cfc
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: true
+    Value: false
   - Name: Date
     Type: BaseDataVariableType
     DataType: DateTime
@@ -30680,3 +30682,8 @@ Children:
   Type: BaseDataVariableType
   DataType: DateTime
   Value: "2024-01-01T00:00:00.0000000"
+- Name: RefreshHomePage
+  Id: g=1130d3dc53f371d5c3d21b5ee65691bd
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

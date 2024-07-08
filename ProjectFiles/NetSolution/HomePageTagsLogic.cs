@@ -119,7 +119,7 @@ public class HomePageTagsLogic : BaseNetLogic
         day31Variable = owner.Day31Variable;
         jaceVariable = owner.JaceVariable;
 
-        periodicTask = new PeriodicTask(HomePageCalculationTask, 100, LogicObject);
+        periodicTask = new PeriodicTask(HomePageCalculationTask, 1000, LogicObject);
         periodicTask.Start();
     }
 
@@ -334,7 +334,7 @@ public class HomePageTagsLogic : BaseNetLogic
 
 
 
-        if (button)
+        if (button == true)
         {
             DateTime currentTime = DateTime.Now;
             string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
@@ -667,7 +667,8 @@ public class HomePageTagsLogic : BaseNetLogic
             {
                 guagemax = 100000000;
             }
-                  
+
+            button = false;
         }
 
 

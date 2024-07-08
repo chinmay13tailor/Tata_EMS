@@ -25,6 +25,7 @@ using System.Reflection.Emit;
 using FTOptix.MicroController;
 using FTOptix.AuditSigning;
 using FTOptix.Alarm;
+using System.Threading;
 #endregion
 public class RuntimeNetLogic8 : BaseNetLogic
 {
@@ -179,13 +180,15 @@ public class RuntimeNetLogic8 : BaseNetLogic
                 float.TryParse(resultSet5[0, 0]?.ToString(), out avgln);
 
             }
+
+
             
-
-           
-                float tod = (consumption / target) * 100;
+            float tod = (consumption / target) * 100;
             todconsumption = tod;
+            Thread.Sleep(500);
 
-
+            button = false;
+            
         }
 
         targetVariable.Value = target;
@@ -201,7 +204,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
         selectionVariable.Value = selection;
         buttonVariable.Value = button;
        
-
+        
 
 
     }

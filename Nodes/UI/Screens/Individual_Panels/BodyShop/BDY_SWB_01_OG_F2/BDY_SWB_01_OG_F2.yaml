@@ -830,7 +830,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "../../../../../../HorizontalLayout2/WebBrowser@NodeId"
+                    Value: "../../../../../../Rectangle4/HorizontalLayout2/WebBrowser@NodeId"
                 - Name: Method
                   Type: BaseDataVariableType
                   DataType: String
@@ -852,7 +852,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "../../../../../../HorizontalLayout2/eChartTest9Logic@NodeId"
+                    Value: "../../../../../../Rectangle4/HorizontalLayout2/eChartTest9Logic@NodeId"
                 - Name: Method
                   Type: BaseDataVariableType
                   DataType: String
@@ -892,23 +892,192 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
-        - Name: Interactive
-          Type: Switch
+      - Name: Object1
+        Type: BaseObjectType
+        Children:
+        - Name: X Axis
+          Type: BaseDataVariableType
+          DataType: Duration
+          Value: "0:00:00:0.0000000"
+      - Name: Rectangle4
+        Type: Rectangle
+        Children:
+        - Name: HorizontalLayout2
+          Type: RowLayout
           Children:
-          - Name: Checked
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: false
-        - Name: Follow
-          Type: Switch
-          Children:
-          - Name: Checked
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: false
-        - Name: Label1
-          Type: Label
-        - Name: Label2
+          - Name: WebBrowser
+            Type: WebBrowser
+            Children:
+            - Name: URL
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=36;%PROJECTDIR%/eCharts9/Test.html"
+            - Class: Reference
+              Target: ns=5;i=354
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=356
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=358
+              Direction: Forward
+          - Name: eChartTest9Logic
+            Type: NetLogic
+            Children:
+            - Class: Reference
+              Target: g=02aedbd508d81fd01e14b0bfada9c2fa
+              Direction: Forward
+          - Name: Trend1
+            Type: Trend
+            Children:
+            - Name: Pens
+              Type: BaseObjectType
+              Children:
+              - Name: Phase_R_Current
+                Type: TrendPen
+                DataType: BaseDataType
+                Children:
+                - Name: Thickness
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: 2.0
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: Thresholds
+                  Type: BaseObjectType
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Phase_R_Current/LastValue"
+              - Name: Phase_Y_Current
+                Type: TrendPen
+                DataType: BaseDataType
+                Children:
+                - Name: Thickness
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: 2.0
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: Thresholds
+                  Type: BaseObjectType
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Phase_Y_Current/LastValue"
+              - Name: Phase_B_Current
+                Type: TrendPen
+                DataType: BaseDataType
+                Children:
+                - Name: Thickness
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: 2.0
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: Thresholds
+                  Type: BaseObjectType
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Phase_B_Current/LastValue"
+            - Class: Reference
+              Target: ns=5;i=1129
+              Direction: Forward
+            - Name: XAxis
+              Type: DateTimeAxis
+              Children:
+              - Name: Follow
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../Follow/Checked"
+              - Name: Window
+                Type: BaseDataVariableType
+                DataType: Duration
+                Value: "0:00:24:0.0000000"
+              - Name: Interactive
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../Interactive/Checked"
+              - Name: Time
+                Type: BaseDataVariableType
+                DataType: DateTime
+                Value: "1601-01-01T00:00:00.0000000"
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_EMS/Model/VoltagePanel_DateTime_Selection"
+                  Children:
+                  - Name: ConditionalConverter1
+                    Type: ConditionalConverter
+                    Children:
+                    - Name: Condition
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ReferenceType: HasSource
+                      Value: false
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../../Interactive/Checked"
+            - Name: YAxis
+              Type: ValueAxis
+              Children:
+              - Name: Position
+                Type: BaseDataVariableType
+                DataType: HorizontalPositionEnum
+                Value: 0
+              - Name: MinValue
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: 0.0
+              - Name: MaxValue
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: 100.0
+              - Name: AutoScale
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Interactive
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: LegendVisible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Class: Reference
+              Target: ns=5;i=1201
+              Direction: Forward
+            - Name: TimeRanges
+              Type: BaseObjectType
+            - Class: Reference
+              Target: ns=5;i=1209
+              Direction: Forward
+            - Name: Query
+              Type: BaseDataVariableType
+              DataType: String
+              Value: ""
+        - Name: Label3
           Type: Label
         - Name: DateAndTime1
           Type: DateTimePicker
@@ -922,190 +1091,24 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "/Objects/Tata_EMS/Model/Current_Panel_DateTime_Selection"
-        - Name: Label3
+        - Name: Label2
           Type: Label
-      - Name: Object1
-        Type: BaseObjectType
-        Children:
-        - Name: X Axis
-          Type: BaseDataVariableType
-          DataType: Duration
-          Value: "0:00:00:0.0000000"
-      - Name: HorizontalLayout2
-        Type: RowLayout
-        Children:
-        - Name: WebBrowser
-          Type: WebBrowser
+        - Name: Label1
+          Type: Label
+        - Name: Follow
+          Type: Switch
           Children:
-          - Name: URL
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=36;%PROJECTDIR%/eCharts9/Test.html"
-          - Class: Reference
-            Target: ns=5;i=354
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=356
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=358
-            Direction: Forward
-        - Name: eChartTest9Logic
-          Type: NetLogic
-          Children:
-          - Class: Reference
-            Target: g=02aedbd508d81fd01e14b0bfada9c2fa
-            Direction: Forward
-        - Name: Trend1
-          Type: Trend
-          Children:
-          - Name: Pens
-            Type: BaseObjectType
-            Children:
-            - Name: Phase_R_Current
-              Type: TrendPen
-              DataType: BaseDataType
-              Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 2.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
-                Type: BaseObjectType
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Phase_R_Current/LastValue"
-            - Name: Phase_Y_Current
-              Type: TrendPen
-              DataType: BaseDataType
-              Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 2.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
-                Type: BaseObjectType
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Phase_Y_Current/LastValue"
-            - Name: Phase_B_Current
-              Type: TrendPen
-              DataType: BaseDataType
-              Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 2.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
-                Type: BaseObjectType
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Phase_B_Current/LastValue"
-          - Class: Reference
-            Target: ns=5;i=1129
-            Direction: Forward
-          - Name: XAxis
-            Type: DateTimeAxis
-            Children:
-            - Name: Follow
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Rectangle3/Follow/Checked"
-            - Name: Window
-              Type: BaseDataVariableType
-              DataType: Duration
-              Value: "0:00:24:0.0000000"
-            - Name: Interactive
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Rectangle3/Interactive/Checked"
-            - Name: Time
-              Type: BaseDataVariableType
-              DataType: DateTime
-              Value: "1601-01-01T00:00:00.0000000"
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/Tata_EMS/Model/VoltagePanel_DateTime_Selection"
-                Children:
-                - Name: ConditionalConverter1
-                  Type: ConditionalConverter
-                  Children:
-                  - Name: Condition
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    ReferenceType: HasSource
-                    Value: false
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../../../../../../../Rectangle3/Interactive/Checked"
-          - Name: YAxis
-            Type: ValueAxis
-            Children:
-            - Name: Position
-              Type: BaseDataVariableType
-              DataType: HorizontalPositionEnum
-              Value: 0
-            - Name: MinValue
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 0.0
-            - Name: MaxValue
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 100.0
-            - Name: AutoScale
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: Interactive
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-          - Name: LegendVisible
+          - Name: Checked
             Type: BaseDataVariableType
             DataType: Boolean
-            Value: true
-          - Class: Reference
-            Target: ns=5;i=1201
-            Direction: Forward
-          - Name: TimeRanges
-            Type: BaseObjectType
-          - Class: Reference
-            Target: ns=5;i=1209
-            Direction: Forward
-          - Name: Query
+            Value: false
+        - Name: Interactive
+          Type: Switch
+          Children:
+          - Name: Checked
             Type: BaseDataVariableType
-            DataType: String
-            Value: ""
+            DataType: Boolean
+            Value: false
 - Name: Voltage_Panel149
   Id: g=adb7d5b6cc8e4b5bcc367e6762dd5864
   Supertype: Voltage_Panel
@@ -1227,7 +1230,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "../../../../../../../../Rectangle3/WebBrowser@NodeId"
+                        Value: "../../../../../../../../Rectangle3/Rectangle1/HorizontalLayout1/WebBrowser@NodeId"
                     - Name: Method
                       Type: BaseDataVariableType
                       DataType: String
@@ -1529,7 +1532,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "../../../../../../Rectangle3/WebBrowser@NodeId"
+                    Value: "../../../../../../Rectangle3/Rectangle1/HorizontalLayout1/WebBrowser@NodeId"
                 - Name: Method
                   Type: BaseDataVariableType
                   DataType: String
@@ -1594,156 +1597,178 @@ Children:
       - Name: Rectangle3
         Type: Rectangle
         Children:
-        - Name: Trend1
-          Type: Trend
+        - Name: Rectangle1
+          Type: Rectangle
           Children:
-          - Name: Pens
-            Type: BaseObjectType
+          - Name: HorizontalLayout1
+            Type: RowLayout
             Children:
-            - Name: Voltage_RN
-              Type: TrendPen
-              DataType: BaseDataType
+            - Name: Trend1
+              Type: Trend
               Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 2.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
+              - Name: Pens
                 Type: BaseObjectType
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Voltage_RN/LastValue"
-            - Name: Voltage_YN
-              Type: TrendPen
-              DataType: BaseDataType
-              Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 2.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
-                Type: BaseObjectType
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Voltage_YN/LastValue"
-            - Name: Voltage_BN
-              Type: TrendPen
-              DataType: BaseDataType
-              Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 2.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
-                Type: BaseObjectType
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Voltage_BN/LastValue"
-          - Class: Reference
-            Target: ns=5;i=1129
-            Direction: Forward
-          - Name: XAxis
-            Type: DateTimeAxis
-            Children:
-            - Name: Follow
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../Follow/Checked"
-            - Name: Window
-              Type: BaseDataVariableType
-              DataType: Duration
-              Value: "0:00:24:0.0000000"
-            - Name: Interactive
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: Time
-              Type: BaseDataVariableType
-              DataType: DateTime
-              Value: "1601-01-01T00:00:00.0000000"
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/Tata_EMS/Model/VoltagePanel_DateTime_Selection"
                 Children:
-                - Name: ConditionalConverter1
-                  Type: ConditionalConverter
+                - Name: Voltage_RN
+                  Type: TrendPen
+                  DataType: BaseDataType
                   Children:
-                  - Name: Condition
+                  - Name: Thickness
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    Value: 2.0
+                  - Name: Enabled
                     Type: BaseDataVariableType
                     DataType: Boolean
-                    ReferenceType: HasSource
-                    Value: false
+                    Value: true
+                  - Name: Thresholds
+                    Type: BaseObjectType
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Voltage_RN/LastValue"
+                - Name: Voltage_YN
+                  Type: TrendPen
+                  DataType: BaseDataType
+                  Children:
+                  - Name: Thickness
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    Value: 2.0
+                  - Name: Enabled
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Thresholds
+                    Type: BaseObjectType
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Voltage_YN/LastValue"
+                - Name: Voltage_BN
+                  Type: TrendPen
+                  DataType: BaseDataType
+                  Children:
+                  - Name: Thickness
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    Value: 2.0
+                  - Name: Enabled
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Thresholds
+                    Type: BaseObjectType
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_EMS/Loggers/HomePage/VariablesToLog/Voltage_BN/LastValue"
+              - Class: Reference
+                Target: ns=5;i=1129
+                Direction: Forward
+              - Name: XAxis
+                Type: DateTimeAxis
+                Children:
+                - Name: Follow
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../Follow/Checked"
+                - Name: Window
+                  Type: BaseDataVariableType
+                  DataType: Duration
+                  Value: "0:00:24:0.0000000"
+                - Name: Interactive
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: Time
+                  Type: BaseDataVariableType
+                  DataType: DateTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_EMS/Model/VoltagePanel_DateTime_Selection"
                     Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../../../../../../Follow/Checked"
-          - Name: YAxis
-            Type: ValueAxis
-            Children:
-            - Name: Position
-              Type: BaseDataVariableType
-              DataType: HorizontalPositionEnum
-              Value: 0
-            - Name: MinValue
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: -100.0
-            - Name: MaxValue
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 100.0
-            - Name: AutoScale
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: Interactive
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
+                    - Name: ConditionalConverter1
+                      Type: ConditionalConverter
+                      Children:
+                      - Name: Condition
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        ReferenceType: HasSource
+                        Value: false
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../../../../../../Follow/Checked"
+              - Name: YAxis
+                Type: ValueAxis
+                Children:
+                - Name: Position
+                  Type: BaseDataVariableType
+                  DataType: HorizontalPositionEnum
+                  Value: 0
+                - Name: MinValue
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: -100.0
+                - Name: MaxValue
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: 100.0
+                - Name: AutoScale
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: Interactive
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../Interactive/Checked"
+              - Name: LegendVisible
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Class: Reference
+                Target: ns=5;i=1201
+                Direction: Forward
+              - Name: TimeRanges
+                Type: BaseObjectType
+              - Class: Reference
+                Target: ns=5;i=1209
+                Direction: Forward
+              - Name: Query
+                Type: BaseDataVariableType
+                DataType: String
+                Value: ""
+            - Name: WebBrowser
+              Type: WebBrowser
               Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../Interactive/Checked"
-          - Name: LegendVisible
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-          - Class: Reference
-            Target: ns=5;i=1201
-            Direction: Forward
-          - Name: TimeRanges
-            Type: BaseObjectType
-          - Class: Reference
-            Target: ns=5;i=1209
-            Direction: Forward
-          - Name: Query
-            Type: BaseDataVariableType
-            DataType: String
-            Value: ""
+              - Name: URL
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=36;%PROJECTDIR%/eCharts4/Test.html"
+              - Class: Reference
+                Target: ns=5;i=354
+                Direction: Forward
+              - Class: Reference
+                Target: ns=5;i=356
+                Direction: Forward
+              - Class: Reference
+                Target: ns=5;i=358
+                Direction: Forward
         - Name: Interactive
           Type: Switch
           Children:
@@ -1776,22 +1801,6 @@ Children:
               Value: "/Objects/Tata_EMS/Model/VoltagePanel_DateTime_Selection"
         - Name: Label3
           Type: Label
-        - Name: WebBrowser
-          Type: WebBrowser
-          Children:
-          - Name: URL
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=36;%PROJECTDIR%/eCharts4/Test.html"
-          - Class: Reference
-            Target: ns=5;i=354
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=356
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=358
-            Direction: Forward
         - Name: eChartTest4Logic
           Type: NetLogic
           Children:
@@ -1809,7 +1818,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "../../Trend1/Query"
+              Value: "../../Rectangle1/HorizontalLayout1/Trend1/Query"
       - Name: Object1
         Type: BaseObjectType
         Children:
@@ -2430,18 +2439,6 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../Interactive/Checked"
-        - Name: Label1
-          Type: Label
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../Trend1/Query"
         - Name: Interactive
           Type: Switch
           Children:
@@ -2480,5 +2477,17 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../Interactive/Checked"
+        - Name: Label1
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Trend1/Query"
       - Name: Rectangle9
         Type: Rectangle

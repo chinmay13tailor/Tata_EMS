@@ -386,7 +386,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: ""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'SELECT * FROM \"HomePage\" WHERE Meter = 'J6_TCF_SWB_01_OG_3F3'"
           - Name: ReferenceTimeZone
             Type: BaseDataVariableType
             DataType: ReferenceTimeZone
@@ -1076,7 +1076,7 @@ Children:
             - Name: Query
               Type: BaseDataVariableType
               DataType: String
-              Value: ""
+              Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'SELECT * FROM \"HomePage\" WHERE Meter = 'J6_TCF_SWB_01_OG_3F3'"
         - Name: Label3
           Type: Label
         - Name: DateAndTime1
@@ -1752,7 +1752,7 @@ Children:
               - Name: Query
                 Type: BaseDataVariableType
                 DataType: String
-                Value: ""
+                Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'SELECT * FROM \"HomePage\" WHERE Meter = 'J6_TCF_SWB_01_OG_3F3'"
             - Name: WebBrowser
               Type: WebBrowser
               Children:
@@ -2408,7 +2408,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: "SELECT * FROM \"HomePage\""
+            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'SELECT * FROM \"HomePage\" WHERE Meter = 'J6_TCF_SWB_01_OG_3F3'"
         - Name: DateAndTime1
           Type: DateTimePicker
           Children:

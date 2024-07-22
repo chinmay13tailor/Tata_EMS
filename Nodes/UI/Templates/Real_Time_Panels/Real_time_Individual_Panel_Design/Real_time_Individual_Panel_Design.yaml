@@ -15,7 +15,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 780.0
+    Value: 820.0
   - Name: BorderThickness
     Type: BaseDataVariableType
     DataType: Size
@@ -53,7 +53,7 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 0
+      Value: 3
     - Name: Layout
       Type: Rectangle
       Children:
@@ -66,7 +66,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 870.0
+        Value: 840.0
       - Name: BorderThickness
         Type: BaseDataVariableType
         DataType: Size
@@ -1198,7 +1198,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 900.0
+            Value: 1090.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -230.0
         - Name: eChartTest11Logic
           Type: NetLogic
           Children:
@@ -1641,12 +1646,12 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 1920.0
+    Value: 1280.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 940.0
+    Value: 900.0
   - Name: BorderThickness
     Type: BaseDataVariableType
     DataType: Size
@@ -1674,7 +1679,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 930.0
+      Value: 1100.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -1684,7 +1689,7 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 0
+      Value: 3
     - Name: Layout
       Type: Rectangle
       Children:
@@ -1697,7 +1702,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 960.0
+        Value: 920.0
       - Name: BorderThickness
         Type: BaseDataVariableType
         DataType: Size
@@ -1920,7 +1925,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 120.0
+              Value: 50.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -2059,7 +2064,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 120.0
+              Value: 50.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -2198,7 +2203,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 120.0
+              Value: 50.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -2332,7 +2337,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 120.0
+              Value: 50.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -2408,6 +2413,11 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 30.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 20.0
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
@@ -3544,7 +3554,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "../../../../../../Rectangle4/HorizontalLayout2/WebBrowser@NodeId"
+                    Value: "../../../../../../Echart/WebBrowser@NodeId"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
@@ -3629,7 +3639,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -10.0
+        Value: 0.0
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -3685,69 +3695,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 70.0
-          - Name: WebBrowser
-            Type: WebBrowser
-            Children:
-            - Name: URL
-              Type: BaseDataVariableType
-              DataType: ResourceUri
-              Value: "ns=36;%PROJECTDIR%/eCharts9/Test.html"
-            - Class: Reference
-              Target: ns=5;i=354
-              Direction: Forward
-            - Class: Reference
-              Target: ns=5;i=356
-              Direction: Forward
-            - Class: Reference
-              Target: ns=5;i=358
-              Direction: Forward
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 300.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 300.0
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: BottomMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 20.0
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 10.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 530.0
-            - Name: RightMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 1025.0
-          - Name: eChartTest9Logic
-            Type: NetLogic
-            Children:
-            - Class: Method
-              Name: OnRefreshButtonClicked
-              Id: g=02aedbd508d81fd01e14b0bfada9c2fa
+            Value: 80.0
           - Name: Trend1
             Type: Trend
             Children:
@@ -3855,7 +3803,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "../../../../Follow/Checked"
+                  Value: "../../../../HorizontalLayout1/Follow/Checked"
               - Name: Window
                 Type: BaseDataVariableType
                 DataType: Duration
@@ -3868,7 +3816,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "../../../../Interactive/Checked"
+                  Value: "../../../../HorizontalLayout1/Interactive/Checked"
               - Name: Time
                 Type: BaseDataVariableType
                 DataType: DateTime
@@ -3891,7 +3839,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "../../../../../../../Interactive/Checked"
+                        Value: "../../../../../../../HorizontalLayout1/Interactive/Checked"
                     - Name: TrueValue
                       Type: BaseDataVariableType
                       DataType: NodePath
@@ -3963,7 +3911,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1005.0
+              Value: 50.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -3988,7 +3936,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 150.0
+              Value: 50.0
             - Name: Model
               Type: NodePointer
               DataType: NodeId
@@ -4007,6 +3955,12 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               Value: ""
+          - Name: eChartTest9Logic
+            Type: NetLogic
+            Children:
+            - Class: Method
+              Name: OnRefreshButtonClicked
+              Id: g=02aedbd508d81fd01e14b0bfada9c2fa
           - Name: ContentAlignment
             Type: BaseVariableType
             DataType: ContentHorizontalAlignment
@@ -4022,182 +3976,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 450.0
-        - Name: Label3
-          Type: Label
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"Follow :"}
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 30.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 1091.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 380.0
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 700
-        - Name: DateAndTime1
-          Type: DateTimePicker
-          Children:
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: DateTime
-            Value: "1601-01-01T00:00:00.0000000"
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS/Model/Current_Panel_DateTime_Selection"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 921.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 380.0
-          - Name: InputFormat
-            Type: BaseDataVariableType
-            DataType: DateTimePickerInputFormatEnum
-            ModellingRule: Optional
-            Value: 2
-        - Name: Label2
-          Type: Label
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"Date :"}
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 30.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 851.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 380.0
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 700
-        - Name: Label1
-          Type: Label
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"Interactive :"}
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 30.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 591.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 380.0
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 700
-        - Name: Follow
-          Type: Switch
-          Children:
-          - Name: Checked
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: false
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 60.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 1181.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 379.0
-        - Name: Interactive
-          Type: Switch
-          Children:
-          - Name: Checked
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: false
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 60.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 731.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 380.0
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
@@ -4208,6 +3986,304 @@ Children:
           DataType: VerticalAlignment
           ModellingRule: Optional
           Value: 3
+        - Name: HorizontalLayout1
+          Type: RowLayout
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 380.0
+          - Name: Label1
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"Interactive :"}
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 200.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+          - Name: Interactive
+            Type: Switch
+            Children:
+            - Name: Checked
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: false
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 60.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+          - Name: Label2
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"Date :"}
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 200.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+          - Name: DateAndTime1
+            Type: DateTimePicker
+            Children:
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: DateTime
+              Value: "1601-01-01T00:00:00.0000000"
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Model/Current_Panel_DateTime_Selection"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 15.0
+            - Name: InputFormat
+              Type: BaseDataVariableType
+              DataType: DateTimePickerInputFormatEnum
+              ModellingRule: Optional
+              Value: 2
+          - Name: Label3
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"Follow :"}
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 200.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+          - Name: Follow
+            Type: Switch
+            Children:
+            - Name: Checked
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: false
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 60.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 200.0
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 20.0
+      - Name: Echart
+        Type: Rectangle
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: WebBrowser
+          Type: WebBrowser
+          Children:
+          - Name: URL
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/eCharts9/Test.html"
+          - Class: Reference
+            Target: ns=5;i=354
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=356
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=358
+            Direction: Forward
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 20.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 10.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 530.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 1025.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -100.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 1150.0
   - Name: FillColor
     Type: BaseDataVariableType
     DataType: Color
@@ -4278,7 +4354,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 750.0
+        Value: 970.0
       - Name: BorderThickness
         Type: BaseDataVariableType
         DataType: Size
@@ -4298,7 +4374,7 @@ Children:
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 3
+        Value: 0
       - Name: Rectangle5
         Type: Rectangle
         Children:
@@ -4954,7 +5030,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "../../../../../../../../Rectangle3/Rectangle1/HorizontalLayout1/WebBrowser@NodeId"
+                        Value: "../../../../../../../../Rectangle3/Echart/WebBrowser@NodeId"
                         Children:
                         - Name: Mode
                           Type: BaseVariableType
@@ -6674,7 +6750,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "../../../../../../Rectangle3/Rectangle1/HorizontalLayout1/WebBrowser@NodeId"
+                    Value: "../../../../../../Rectangle3/Echart/WebBrowser@NodeId"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
@@ -6963,7 +7039,7 @@ Children:
                 - Name: Window
                   Type: BaseDataVariableType
                   DataType: Duration
-                  Value: "0:00:24:0.0000000"
+                  Value: "1:00:00:0.0000000"
                 - Name: Interactive
                   Type: BaseDataVariableType
                   DataType: Boolean
@@ -7018,11 +7094,11 @@ Children:
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Size
-                  Value: -100.0
+                  Value: -1.0
                 - Name: MaxValue
                   Type: BaseDataVariableType
                   DataType: Size
-                  Value: 100.0
+                  Value: -1.0
                 - Name: AutoScale
                   Type: BaseDataVariableType
                   DataType: Boolean
@@ -7082,7 +7158,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: -890.0
+                Value: 0.0
               - Name: BottomMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -7111,62 +7187,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: String
                 Value: ""
-            - Name: WebBrowser
-              Type: WebBrowser
-              Children:
-              - Name: URL
-                Type: BaseDataVariableType
-                DataType: ResourceUri
-                Value: "ns=36;%PROJECTDIR%/eCharts4/Test.html"
-              - Class: Reference
-                Target: ns=5;i=354
-                Direction: Forward
-              - Class: Reference
-                Target: ns=5;i=356
-                Direction: Forward
-              - Class: Reference
-                Target: ns=5;i=358
-                Direction: Forward
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 1230.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 275.0
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: -1075.0
-              - Name: TopMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 550.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: RightMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 2020.0
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: BottomMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: -20.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -7421,6 +7441,90 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 30.0
+        - Name: Echart
+          Type: Rectangle
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
+          - Name: BorderThickness
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 1.0
+          - Name: WebBrowser
+            Type: WebBrowser
+            Children:
+            - Name: URL
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=36;%PROJECTDIR%/eCharts4/Test.html"
+            - Class: Reference
+              Target: ns=5;i=354
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=356
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=358
+              Direction: Forward
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 1230.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 275.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -1075.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 550.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 2020.0
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: BottomMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -20.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 520.0
       - Name: Object1
         Type: BaseObjectType
         Children:
@@ -7476,11 +7580,16 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 0.0
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -70.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: -50.0
+      Value: 0.0
   - Name: FillColor
     Type: BaseDataVariableType
     DataType: Color
@@ -9644,7 +9753,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: "SELECT * FROM \"HomePage\""
+            Value: ""
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment

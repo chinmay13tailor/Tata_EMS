@@ -183,7 +183,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1485.0
+          Value: 1495.0
         - Name: Height
           Type: BaseVariableType
           DataType: Size
@@ -193,12 +193,12 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1.0
+          Value: 0.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
+          Value: 2
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment

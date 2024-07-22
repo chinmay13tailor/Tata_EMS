@@ -30674,6 +30674,16 @@ Children:
   Type: BaseDataVariableType
   DataType: DateTime
   Value: "2024-01-01T00:00:00.0000000"
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../NetLogic/ClockLogic/TodayDate"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Current_Panel_DateTime_Selection
   Type: BaseDataVariableType
   DataType: DateTime

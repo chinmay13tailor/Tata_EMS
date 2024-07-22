@@ -193,12 +193,12 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1.0
+          Value: 0.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
-          Value: 0
+          Value: 2
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
@@ -1068,7 +1068,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"STP_MVS_01_IN_F1"}
+              Value: {"LocaleId":"en-US","Text":"J4_PNT_MVS_01_IN_F1"}
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -1998,7 +1998,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"STP_MVS_01_IN_F2"}
+              Value: {"LocaleId":"en-US","Text":"J4_PNT_MVS_01_IN_F2"}
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -3188,7 +3188,7 @@ Children:
           - Name: BorderColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: arrow_border
             Type: Image
             Children:
@@ -3239,7 +3239,7 @@ Children:
           - Name: BorderColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: arrow_border
             Type: Image
             Children:
@@ -3290,7 +3290,7 @@ Children:
           - Name: BorderColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: arrow_border
             Type: Image
             Children:
@@ -3341,7 +3341,7 @@ Children:
           - Name: BorderColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: arrow_border
             Type: Image
             Children:
@@ -3392,7 +3392,7 @@ Children:
           - Name: BorderColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: arrow_border
             Type: Image
             Children:
@@ -3443,7 +3443,7 @@ Children:
           - Name: BorderColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: arrow_border
             Type: Image
             Children:
@@ -3504,7 +3504,7 @@ Children:
           - Name: BorderColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: arrow_border
             Type: Image
             Children:
@@ -3555,7 +3555,7 @@ Children:
           - Name: BorderColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: arrow_border
             Type: Image
             Children:
@@ -3606,7 +3606,7 @@ Children:
           - Name: BorderColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: arrow_border
             Type: Image
             Children:
@@ -3657,7 +3657,7 @@ Children:
           - Name: BorderColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: arrow_border
             Type: Image
             Children:
@@ -3708,7 +3708,7 @@ Children:
           - Name: BorderColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: arrow_border
             Type: Image
             Children:
@@ -3882,7 +3882,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/Outgoing_Feeder_STP_MVS_OG_01_F4"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/J4_PNT_MVS_01_OG_F4"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -4617,7 +4617,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"STP_MVS_01_OG_F4"}
+              Value: {"LocaleId":"en-US","Text":"J4_PNT_MVS_01_OG_F4"}
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -4782,7 +4782,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/Outgoing_Feeder_STP_MVS_OG_01_F5"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/J4_PNT_MVS_01_OG_F5"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -5552,7 +5552,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"STP_MVS_01_OG_F5"}
+              Value: {"LocaleId":"en-US","Text":"J4_PNT_MVS_01_OG_F5"}
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -5747,7 +5747,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/Outgoing_Feeder_STP_MVS_OG_01_F6"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/J4_PNT_MVS_01_OG_F6"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -6482,7 +6482,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"STP_MVS_01_OG_F6"}
+              Value: {"LocaleId":"en-US","Text":"J4_PNT_MVS_01_OG_F6"}
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -6677,7 +6677,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/Outgoing_Feeder_STP_MVS_OG_01_F7"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/J4_PNT_MVS_01_OG_F7"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -7412,7 +7412,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"STP_MVS_01_OG_F7"}
+              Value: {"LocaleId":"en-US","Text":"J4_PNT_MVS_01_OG_F7"}
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -7607,7 +7607,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/Outgoing_Feeder_STP_MVS_OG_01_F8"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/J4_PNT_MVS_01_OG_F8"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -8342,7 +8342,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"STP_MVS_01_OG_F8"}
+              Value: {"LocaleId":"en-US","Text":"J4_PNT_MVS_01_OG_F8"}
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -8537,7 +8537,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/Outgoing_Feeder_STP_MVS_OG_01_F9"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/J4_PNT_MVS_01_OG_F9"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -9272,7 +9272,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"STP_MVS_01_OG_F9"}
+              Value: {"LocaleId":"en-US","Text":"J4_PNT_MVS_01_OG_F9"}
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -9467,7 +9467,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/Outgoing_Feeder_STP_MVS_OG_01_F10"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/J4_PNT_MVS_01_OG_F10"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -10202,7 +10202,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"STP_MVS_01_OG_F10"}
+              Value: {"LocaleId":"en-US","Text":"J4_PNT_MVS_01_OG_F10"}
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -10397,7 +10397,7 @@ Children:
                       Type: BaseDataVariableType
                       DataType: NodeId
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/Outgoing_Feeder_STP_MVS_OG_01_F11"
+                      Value: "/Objects/Tata_EMS/UI/Screens/JACE_Selected_Panel/PaintShop/J4_PNT_MVS_01_OG_F11"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
@@ -11132,7 +11132,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"STP_MVS_01_OG_F11"}
+              Value: {"LocaleId":"en-US","Text":"J4_PNT_MVS_01_OG_F11"}
             - Name: Width
               Type: BaseVariableType
               DataType: Size

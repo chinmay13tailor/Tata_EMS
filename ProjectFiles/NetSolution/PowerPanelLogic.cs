@@ -237,7 +237,7 @@ public class PowerPanelLogic : BaseNetLogic
         min54Variable = owner.Min54Variable;
         min55Variable = owner.Min55Variable;
         min56Variable = owner.Min56Variable;
-        min57Variable = owner.Min5Variable;
+        min57Variable = owner.Min57Variable;
         min58Variable = owner.Min58Variable;
         min59Variable = owner.Min59Variable;
         min60Variable = owner.Min60Variable;
@@ -1093,8 +1093,6 @@ public class PowerPanelLogic : BaseNetLogic
 
 
             string query1 = $"SELECT AVG(Active_Power_Total) FROM HomePage WHERE LocalTimestamp BETWEEN '" + currentDate + " 00:00:00' AND '" + currentDate + " 00:09:59' AND Meter = '" + meter1 + "' ";
-
-
             string query2 = $"SELECT AVG(Active_Power_Total) FROM HomePage WHERE LocalTimestamp BETWEEN '" + currentDate + " 00:10:00' AND '" + currentDate + " 00:19:59' AND Meter = '" + meter1 + "' ";
             string query3 = $"SELECT AVG(Active_Power_Total) FROM HomePage WHERE LocalTimestamp BETWEEN '" + currentDate + " 00:20:00' AND '" + currentDate + " 00:29:59' AND Meter = '" + meter1 + "' ";
             string query4 = $"SELECT AVG(Active_Power_Total) FROM HomePage WHERE LocalTimestamp BETWEEN '" + currentDate + " 00:30:00' AND '" + currentDate + " 00:39:59' AND Meter = '" + meter1 + "' ";
@@ -1681,33 +1679,33 @@ public class PowerPanelLogic : BaseNetLogic
                 float.TryParse(resultSet60[0, 0]?.ToString(), out min60);
             }
             // Day 61
-            if (resultSet62 != null && resultSet62.GetLength(0) > 0 && header62 != null && header62.Length > 0)
+            if (resultSet61 != null && resultSet61.GetLength(0) > 0 && header61 != null && header61.Length > 0)
             {
-                float.TryParse(resultSet62[0, 0]?.ToString(), out min61);
+                float.TryParse(resultSet61[0, 0]?.ToString(), out min61);
             }
 
             // Day 62
-            if (resultSet63 != null && resultSet63.GetLength(0) > 0 && header63 != null && header63.Length > 0)
+            if (resultSet62 != null && resultSet62.GetLength(0) > 0 && header62 != null && header62.Length > 0)
             {
-                float.TryParse(resultSet63[0, 0]?.ToString(), out min62);
+                float.TryParse(resultSet62[0, 0]?.ToString(), out min62);
             }
 
             // Day 63
-            if (resultSet64 != null && resultSet64.GetLength(0) > 0 && header64 != null && header64.Length > 0)
+            if (resultSet63 != null && resultSet63.GetLength(0) > 0 && header63 != null && header63.Length > 0)
             {
-                float.TryParse(resultSet64[0, 0]?.ToString(), out min63);
+                float.TryParse(resultSet63[0, 0]?.ToString(), out min63);
             }
 
             // Day 64
-            if (resultSet65 != null && resultSet65.GetLength(0) > 0 && header65 != null && header65.Length > 0)
+            if (resultSet64 != null && resultSet64.GetLength(0) > 0 && header64 != null && header64.Length > 0)
             {
-                float.TryParse(resultSet65[0, 0]?.ToString(), out min64);
+                float.TryParse(resultSet64[0, 0]?.ToString(), out min64);
             }
 
             // Day 65
-            if (resultSet66 != null && resultSet66.GetLength(0) > 0 && header66 != null && header66.Length > 0)
+            if (resultSet65 != null && resultSet65.GetLength(0) > 0 && header65 != null && header65.Length > 0)
             {
-                float.TryParse(resultSet66[0, 0]?.ToString(), out min65);
+                float.TryParse(resultSet65[0, 0]?.ToString(), out min65);
             }
 
 
@@ -1793,175 +1791,233 @@ public class PowerPanelLogic : BaseNetLogic
             {
                 float.TryParse(resultSet79[0, 0]?.ToString(), out min79);
             }
+            if (resultSet80 != null && resultSet80.GetLength(0) > 0 && header80 != null && header80.Length > 0)
+            {
+                float.TryParse(resultSet80[0, 0]?.ToString(), out min80);
+            }
+            if (resultSet81 != null && resultSet81.GetLength(0) > 0 && header81 != null && header81.Length > 0)
+            {
+                float.TryParse(resultSet81[0, 0]?.ToString(), out min81);
+            }
+            if (resultSet82 != null && resultSet82.GetLength(0) > 0 && header82 != null && header82.Length > 0)
+            {
+                float.TryParse(resultSet82[0, 0]?.ToString(), out min82);
+            }
+            if (resultSet83 != null && resultSet83.GetLength(0) > 0 && header83 != null && header83.Length > 0)
+            {
+                float.TryParse(resultSet83[0, 0]?.ToString(), out min83);
+            }
+            if (resultSet84 != null && resultSet84.GetLength(0) > 0 && header84 != null && header84.Length > 0)
+            {
+                float.TryParse(resultSet84[0, 0]?.ToString(), out min84);
+            }
+            if (resultSet85 != null && resultSet85.GetLength(0) > 0 && header85 != null && header85.Length > 0)
+            {
+                float.TryParse(resultSet85[0, 0]?.ToString(), out min85);
+            }
+            if (resultSet86 != null && resultSet86.GetLength(0) > 0 && header86 != null && header86.Length > 0)
+            {
+                float.TryParse(resultSet86[0, 0]?.ToString(), out min86);
+            }
+            if (resultSet87 != null && resultSet87.GetLength(0) > 0 && header87 != null && header87.Length > 0)
+            {
+                float.TryParse(resultSet87[0, 0]?.ToString(), out min87);
+            }
+            if (resultSet88 != null && resultSet88.GetLength(0) > 0 && header88 != null && header88.Length > 0)
+            {
+                float.TryParse(resultSet88[0, 0]?.ToString(), out min88);
+            }
+            if (resultSet89 != null && resultSet89.GetLength(0) > 0 && header89 != null && header89.Length > 0)
+            {
+                float.TryParse(resultSet89[0, 0]?.ToString(), out min89);
+            }
+            if (resultSet90 != null && resultSet90.GetLength(0) > 0 && header90 != null && header90.Length > 0)
+            {
+                float.TryParse(resultSet90[0, 0]?.ToString(), out min90);
+            }
+            if (resultSet91 != null && resultSet91.GetLength(0) > 0 && header91 != null && header91.Length > 0)
+            {
+                float.TryParse(resultSet91[0, 0]?.ToString(), out min91);
+            }
+            if (resultSet92 != null && resultSet92.GetLength(0) > 0 && header92 != null && header92.Length > 0)
+            {
+                float.TryParse(resultSet92[0, 0]?.ToString(), out min92);
+            }
+            if (resultSet93 != null && resultSet93.GetLength(0) > 0 && header93 != null && header93.Length > 0)
+            {
+                float.TryParse(resultSet93[0, 0]?.ToString(), out min93);
+            }
+            if (resultSet94 != null && resultSet94.GetLength(0) > 0 && header94 != null && header94.Length > 0)
+            {
+                float.TryParse(resultSet94[0, 0]?.ToString(), out min94);
+            }
 
-            // Day 94
+
             if (resultSet95 != null && resultSet95.GetLength(0) > 0 && header95 != null && header95.Length > 0)
             {
                 float.TryParse(resultSet95[0, 0]?.ToString(), out min95);
             }
 
-            // Day 95
+
             if (resultSet96 != null && resultSet96.GetLength(0) > 0 && header96 != null && header96.Length > 0)
             {
                 float.TryParse(resultSet96[0, 0]?.ToString(), out min96);
             }
 
-            // Day 96
+
             if (resultSet97 != null && resultSet97.GetLength(0) > 0 && header97 != null && header97.Length > 0)
             {
                 float.TryParse(resultSet97[0, 0]?.ToString(), out min97);
             }
 
-            // Day 97
+
             if (resultSet98 != null && resultSet98.GetLength(0) > 0 && header98 != null && header98.Length > 0)
             {
                 float.TryParse(resultSet98[0, 0]?.ToString(), out min98);
             }
 
-            // Day 98
+
             if (resultSet99 != null && resultSet99.GetLength(0) > 0 && header99 != null && header99.Length > 0)
             {
                 float.TryParse(resultSet99[0, 0]?.ToString(), out min99);
             }
 
-            // Day 99
+
             if (resultSet100 != null && resultSet100.GetLength(0) > 0 && header100 != null && header100.Length > 0)
             {
                 float.TryParse(resultSet100[0, 0]?.ToString(), out min100);
             }
 
-            // Day 100
+
             if (resultSet101 != null && resultSet101.GetLength(0) > 0 && header101 != null && header101.Length > 0)
             {
                 float.TryParse(resultSet101[0, 0]?.ToString(), out min101);
             }
 
-            // Day 101
+
             if (resultSet102 != null && resultSet102.GetLength(0) > 0 && header102 != null && header102.Length > 0)
             {
                 float.TryParse(resultSet102[0, 0]?.ToString(), out min102);
             }
 
-            // Day 102
+
             if (resultSet103 != null && resultSet103.GetLength(0) > 0 && header103 != null && header103.Length > 0)
             {
                 float.TryParse(resultSet103[0, 0]?.ToString(), out min103);
             }
 
-            // Day 103
             if (resultSet104 != null && resultSet104.GetLength(0) > 0 && header104 != null && header104.Length > 0)
             {
                 float.TryParse(resultSet104[0, 0]?.ToString(), out min104);
             }
 
-            // Day 104
+
             if (resultSet105 != null && resultSet105.GetLength(0) > 0 && header105 != null && header105.Length > 0)
             {
                 float.TryParse(resultSet105[0, 0]?.ToString(), out min105);
             }
 
-            // Day 105
             if (resultSet106 != null && resultSet106.GetLength(0) > 0 && header106 != null && header106.Length > 0)
             {
                 float.TryParse(resultSet106[0, 0]?.ToString(), out min106);
             }
 
-            // Day 106
+
             if (resultSet107 != null && resultSet107.GetLength(0) > 0 && header107 != null && header107.Length > 0)
             {
                 float.TryParse(resultSet107[0, 0]?.ToString(), out min107);
             }
 
-            // Day 107
+
             if (resultSet108 != null && resultSet108.GetLength(0) > 0 && header108 != null && header108.Length > 0)
             {
                 float.TryParse(resultSet108[0, 0]?.ToString(), out min108);
             }
 
-            // Day 108
+
             if (resultSet109 != null && resultSet109.GetLength(0) > 0 && header109 != null && header109.Length > 0)
             {
                 float.TryParse(resultSet109[0, 0]?.ToString(), out min109);
             }
-            // Day 109
+
             if (resultSet110 != null && resultSet110.GetLength(0) > 0 && header110 != null && header110.Length > 0)
             {
                 float.TryParse(resultSet110[0, 0]?.ToString(), out min110);
             }
 
-            // Day 110
+
             if (resultSet111 != null && resultSet111.GetLength(0) > 0 && header111 != null && header111.Length > 0)
             {
                 float.TryParse(resultSet111[0, 0]?.ToString(), out min111);
             }
 
-            // Day 111
+
             if (resultSet112 != null && resultSet112.GetLength(0) > 0 && header112 != null && header112.Length > 0)
             {
                 float.TryParse(resultSet112[0, 0]?.ToString(), out min112);
             }
 
-            // Day 112
+
             if (resultSet113 != null && resultSet113.GetLength(0) > 0 && header113 != null && header113.Length > 0)
             {
                 float.TryParse(resultSet113[0, 0]?.ToString(), out min113);
             }
 
-            // Day 113
+
             if (resultSet114 != null && resultSet114.GetLength(0) > 0 && header114 != null && header114.Length > 0)
             {
                 float.TryParse(resultSet114[0, 0]?.ToString(), out min114);
             }
 
-            // Day 114
+
             if (resultSet115 != null && resultSet115.GetLength(0) > 0 && header115 != null && header115.Length > 0)
             {
                 float.TryParse(resultSet115[0, 0]?.ToString(), out min115);
             }
 
-            // Day 115
+
             if (resultSet116 != null && resultSet116.GetLength(0) > 0 && header116 != null && header116.Length > 0)
             {
                 float.TryParse(resultSet116[0, 0]?.ToString(), out min116);
             }
 
-            // Day 116
+
             if (resultSet117 != null && resultSet117.GetLength(0) > 0 && header117 != null && header117.Length > 0)
             {
                 float.TryParse(resultSet117[0, 0]?.ToString(), out min117);
             }
 
-            // Day 117
+
             if (resultSet118 != null && resultSet118.GetLength(0) > 0 && header118 != null && header118.Length > 0)
             {
                 float.TryParse(resultSet118[0, 0]?.ToString(), out min118);
             }
 
-            // Day 118
+
             if (resultSet119 != null && resultSet119.GetLength(0) > 0 && header119 != null && header119.Length > 0)
             {
                 float.TryParse(resultSet119[0, 0]?.ToString(), out min119);
             }
 
-            // Day 119
+
             if (resultSet120 != null && resultSet120.GetLength(0) > 0 && header120 != null && header120.Length > 0)
             {
                 float.TryParse(resultSet120[0, 0]?.ToString(), out min120);
             }
 
-            // Day 120
+
             if (resultSet121 != null && resultSet121.GetLength(0) > 0 && header121 != null && header121.Length > 0)
             {
                 float.TryParse(resultSet121[0, 0]?.ToString(), out min121);
             }
 
-            // Day 121
+
             if (resultSet122 != null && resultSet122.GetLength(0) > 0 && header122 != null && header122.Length > 0)
             {
                 float.TryParse(resultSet122[0, 0]?.ToString(), out min122);
             }
 
-            // Day 122
+
             if (resultSet123 != null && resultSet123.GetLength(0) > 0 && header123 != null && header123.Length > 0)
             {
                 float.TryParse(resultSet123[0, 0]?.ToString(), out min123);
@@ -1971,73 +2027,73 @@ public class PowerPanelLogic : BaseNetLogic
                 float.TryParse(resultSet124[0, 0]?.ToString(), out min124);
             }
 
-            // Day 124
+
             if (resultSet125 != null && resultSet125.GetLength(0) > 0 && header125 != null && header125.Length > 0)
             {
                 float.TryParse(resultSet125[0, 0]?.ToString(), out min125);
             }
 
-            // Day 125
+
             if (resultSet126 != null && resultSet126.GetLength(0) > 0 && header126 != null && header126.Length > 0)
             {
                 float.TryParse(resultSet126[0, 0]?.ToString(), out min126);
             }
 
-            // Day 126
+
             if (resultSet127 != null && resultSet127.GetLength(0) > 0 && header127 != null && header127.Length > 0)
             {
                 float.TryParse(resultSet127[0, 0]?.ToString(), out min127);
             }
 
-            // Day 127
+
             if (resultSet128 != null && resultSet128.GetLength(0) > 0 && header128 != null && header128.Length > 0)
             {
                 float.TryParse(resultSet128[0, 0]?.ToString(), out min128);
             }
 
-            // Day 128
+
             if (resultSet129 != null && resultSet129.GetLength(0) > 0 && header129 != null && header129.Length > 0)
             {
                 float.TryParse(resultSet129[0, 0]?.ToString(), out min129);
             }
 
-            // Day 129
+
             if (resultSet130 != null && resultSet130.GetLength(0) > 0 && header130 != null && header130.Length > 0)
             {
                 float.TryParse(resultSet130[0, 0]?.ToString(), out min130);
             }
 
-            // Day 130
+
             if (resultSet131 != null && resultSet131.GetLength(0) > 0 && header131 != null && header131.Length > 0)
             {
                 float.TryParse(resultSet131[0, 0]?.ToString(), out min131);
             }
 
-            // Day 131
+
             if (resultSet132 != null && resultSet132.GetLength(0) > 0 && header132 != null && header132.Length > 0)
             {
                 float.TryParse(resultSet132[0, 0]?.ToString(), out min132);
             }
 
-            // Day 132
+
             if (resultSet133 != null && resultSet133.GetLength(0) > 0 && header133 != null && header133.Length > 0)
             {
                 float.TryParse(resultSet133[0, 0]?.ToString(), out min133);
             }
 
-            // Day 133
+
             if (resultSet134 != null && resultSet134.GetLength(0) > 0 && header134 != null && header134.Length > 0)
             {
                 float.TryParse(resultSet134[0, 0]?.ToString(), out min134);
             }
 
-            // Day 134
+
             if (resultSet135 != null && resultSet135.GetLength(0) > 0 && header135 != null && header135.Length > 0)
             {
                 float.TryParse(resultSet135[0, 0]?.ToString(), out min135);
             }
 
-            // Day 135
+
             if (resultSet136 != null && resultSet136.GetLength(0) > 0 && header136 != null && header136.Length > 0)
             {
                 float.TryParse(resultSet136[0, 0]?.ToString(), out min136);
@@ -2053,37 +2109,36 @@ public class PowerPanelLogic : BaseNetLogic
                 float.TryParse(resultSet138[0, 0]?.ToString(), out min138);
             }
 
-            // Day 138
+
             if (resultSet139 != null && resultSet139.GetLength(0) > 0 && header139 != null && header139.Length > 0)
             {
                 float.TryParse(resultSet139[0, 0]?.ToString(), out min139);
             }
 
-            // Day 139
+
             if (resultSet140 != null && resultSet140.GetLength(0) > 0 && header140 != null && header140.Length > 0)
             {
                 float.TryParse(resultSet140[0, 0]?.ToString(), out min140);
             }
 
-            // Day 140
+
             if (resultSet141 != null && resultSet141.GetLength(0) > 0 && header141 != null && header141.Length > 0)
             {
                 float.TryParse(resultSet141[0, 0]?.ToString(), out min141);
             }
 
-            // Day 141
+
             if (resultSet142 != null && resultSet142.GetLength(0) > 0 && header142 != null && header142.Length > 0)
             {
                 float.TryParse(resultSet142[0, 0]?.ToString(), out min142);
             }
 
-            // Day 142
+
             if (resultSet143 != null && resultSet143.GetLength(0) > 0 && header143 != null && header143.Length > 0)
             {
                 float.TryParse(resultSet143[0, 0]?.ToString(), out min142);
             }
 
-            // Day 143
             if (resultSet144 != null && resultSet144.GetLength(0) > 0 && header144 != null && header144.Length > 0)
             {
                 float.TryParse(resultSet144[0, 0]?.ToString(), out min143);

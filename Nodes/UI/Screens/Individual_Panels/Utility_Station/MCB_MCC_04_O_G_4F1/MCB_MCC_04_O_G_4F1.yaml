@@ -386,7 +386,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: "c"
+            Value: "SELECT * FROM \"Realtimetable\" WHERE Meter = 'J2_MCB_MCC_04_O/G_4F1'"
           - Name: ReferenceTimeZone
             Type: BaseDataVariableType
             DataType: ReferenceTimeZone
@@ -423,6 +423,11 @@ Children:
               Value: "/Objects/Tata_EMS/Model/Power_Panel_DateTime_Selection1"
         - Name: Label3
           Type: Label
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
 - Name: Current_Panel62
   Id: g=244f585071ee575140f0cd9bb2d035c0
   Supertype: Current_Panel
@@ -548,7 +553,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 120.0
+              Value: 50.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -850,7 +855,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "../../../../../../Rectangle4/HorizontalLayout2/WebBrowser@NodeId"
+                    Value: "../../../../../../Echart/WebBrowser@NodeId"
                 - Name: Method
                   Type: BaseDataVariableType
                   DataType: String
@@ -925,28 +930,6 @@ Children:
         - Name: HorizontalLayout2
           Type: RowLayout
           Children:
-          - Name: WebBrowser
-            Type: WebBrowser
-            Children:
-            - Name: URL
-              Type: BaseDataVariableType
-              DataType: ResourceUri
-              Value: "ns=36;%PROJECTDIR%/eCharts9/Test.html"
-            - Class: Reference
-              Target: ns=5;i=354
-              Direction: Forward
-            - Class: Reference
-              Target: ns=5;i=356
-              Direction: Forward
-            - Class: Reference
-              Target: ns=5;i=358
-              Direction: Forward
-          - Name: eChartTest9Logic
-            Type: NetLogic
-            Children:
-            - Class: Reference
-              Target: g=02aedbd508d81fd01e14b0bfada9c2fa
-              Direction: Forward
           - Name: Trend1
             Type: Trend
             Children:
@@ -1021,7 +1004,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "../../../../Follow/Checked"
+                  Value: "../../../../HorizontalLayout1/Follow/Checked"
               - Name: Window
                 Type: BaseDataVariableType
                 DataType: Duration
@@ -1034,7 +1017,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "../../../../Interactive/Checked"
+                  Value: "../../../../HorizontalLayout1/Interactive/Checked"
               - Name: Time
                 Type: BaseDataVariableType
                 DataType: DateTime
@@ -1057,7 +1040,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "../../../../../../../Interactive/Checked"
+                        Value: "../../../../../../../HorizontalLayout1/Interactive/Checked"
             - Name: YAxis
               Type: ValueAxis
               Children:
@@ -1096,39 +1079,67 @@ Children:
             - Name: Query
               Type: BaseDataVariableType
               DataType: String
-              Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J2_MCB_MCC_04_O/G_4F1'"
-        - Name: Label3
-          Type: Label
-        - Name: DateAndTime1
-          Type: DateTimePicker
-          Children:
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: DateTime
-            Value: "1601-01-01T00:00:00.0000000"
+              Value: "SELECT * FROM \"Realtimetable\" WHERE Meter = 'J2_MCB_MCC_04_O/G_4F1'"
+          - Name: eChartTest9Logic
+            Type: NetLogic
             Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Tata_EMS/Model/Current_Panel_DateTime_Selection"
-        - Name: Label2
-          Type: Label
-        - Name: Label1
-          Type: Label
-        - Name: Follow
-          Type: Switch
+            - Class: Reference
+              Target: g=02aedbd508d81fd01e14b0bfada9c2fa
+              Direction: Forward
+        - Name: HorizontalLayout1
+          Type: RowLayout
           Children:
-          - Name: Checked
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: false
-        - Name: Interactive
-          Type: Switch
+          - Name: Label1
+            Type: Label
+          - Name: Interactive
+            Type: Switch
+            Children:
+            - Name: Checked
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: false
+          - Name: Label2
+            Type: Label
+          - Name: DateAndTime1
+            Type: DateTimePicker
+            Children:
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: DateTime
+              Value: "1601-01-01T00:00:00.0000000"
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_EMS/Model/Current_Panel_DateTime_Selection"
+          - Name: Label3
+            Type: Label
+          - Name: Follow
+            Type: Switch
+            Children:
+            - Name: Checked
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: false
+      - Name: Echart
+        Type: Rectangle
+        Children:
+        - Name: WebBrowser
+          Type: WebBrowser
           Children:
-          - Name: Checked
+          - Name: URL
             Type: BaseDataVariableType
-            DataType: Boolean
-            Value: false
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/eCharts9/Test.html"
+          - Class: Reference
+            Target: ns=5;i=354
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=356
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=358
+            Direction: Forward
 - Name: Voltage_Panel62
   Id: g=af19bd5955e453fd27744f2c9803826e
   Supertype: Voltage_Panel
@@ -1250,7 +1261,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "../../../../../../../../Rectangle3/Rectangle1/HorizontalLayout1/WebBrowser@NodeId"
+                        Value: "../../../../../../../../Rectangle3/Echart/WebBrowser@NodeId"
                     - Name: Method
                       Type: BaseDataVariableType
                       DataType: String
@@ -1552,7 +1563,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "../../../../../../Rectangle3/Rectangle1/HorizontalLayout1/WebBrowser@NodeId"
+                    Value: "../../../../../../Rectangle3/Echart/WebBrowser@NodeId"
                 - Name: Method
                   Type: BaseDataVariableType
                   DataType: String
@@ -1701,7 +1712,7 @@ Children:
                 - Name: Window
                   Type: BaseDataVariableType
                   DataType: Duration
-                  Value: "0:00:24:0.0000000"
+                  Value: "1:00:00:0.0000000"
                 - Name: Interactive
                   Type: BaseDataVariableType
                   DataType: Boolean
@@ -1739,11 +1750,11 @@ Children:
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Size
-                  Value: -100.0
+                  Value: -1.0
                 - Name: MaxValue
                   Type: BaseDataVariableType
                   DataType: Size
-                  Value: 100.0
+                  Value: -1.0
                 - Name: AutoScale
                   Type: BaseDataVariableType
                   DataType: Boolean
@@ -1772,23 +1783,7 @@ Children:
               - Name: Query
                 Type: BaseDataVariableType
                 DataType: String
-                Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J2_MCB_MCC_04_O/G_4F1'"
-            - Name: WebBrowser
-              Type: WebBrowser
-              Children:
-              - Name: URL
-                Type: BaseDataVariableType
-                DataType: ResourceUri
-                Value: "ns=36;%PROJECTDIR%/eCharts4/Test.html"
-              - Class: Reference
-                Target: ns=5;i=354
-                Direction: Forward
-              - Class: Reference
-                Target: ns=5;i=356
-                Direction: Forward
-              - Class: Reference
-                Target: ns=5;i=358
-                Direction: Forward
+                Value: "SELECT * FROM \"Realtimetable\" WHERE Meter = 'J2_MCB_MCC_04_O/G_4F1'"
         - Name: Interactive
           Type: Switch
           Children:
@@ -1839,6 +1834,25 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "../../Rectangle1/HorizontalLayout1/Trend1/Query"
+        - Name: Echart
+          Type: Rectangle
+          Children:
+          - Name: WebBrowser
+            Type: WebBrowser
+            Children:
+            - Name: URL
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=36;%PROJECTDIR%/eCharts4/Test.html"
+            - Class: Reference
+              Target: ns=5;i=354
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=356
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=358
+              Direction: Forward
       - Name: Object1
         Type: BaseObjectType
         Children:
@@ -2428,7 +2442,7 @@ Children:
           - Name: Query
             Type: BaseDataVariableType
             DataType: String
-            Value: "SELECT * FROM \"HomePage\" WHERE Meter = 'J2_MCB_MCC_04_O/G_4F1'"
+            Value: "SELECT * FROM \"Realtimetable\" WHERE Meter = 'J2_MCB_MCC_04_O/G_4F1'"
         - Name: DateAndTime1
           Type: DateTimePicker
           Children:

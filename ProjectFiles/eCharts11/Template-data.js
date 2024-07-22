@@ -1,19 +1,22 @@
+
 var dom = document.getElementById('container');
 var myChart = echarts.init(dom, null, {
     renderer: 'canvas',
     useDirtyRect: false,
     backgroundColor: '#f0f0f0'
 });
-var app = {};
 
 var option;
 
-let date =[];
+let timeLabels = [];
 let data = [];
-for (let i = 1; i < 145; i++) { // Loop for 31 days
-    date.push('Min' + i); // Pushing day labels into the array
-    // data.push([Math.random() * 50 + 50, Math.random() * 60 + 60]); // Generate random data
+let baseTime = new Date();
+baseTime.setHours(0, 0, 0, 0); // Set base time to 00:00:00 of current day
 
+for (let i = 0; i < 144; i++) { // Loop for 144 intervals (10 minutes each)
+    let currentTime = new Date(baseTime.getTime() + i * 600000); // Add 10 minutes in milliseconds
+    timeLabels.push(formatTime(currentTime)); // Push formatted time string into the array
+    // data.push([Math.random() * 50 + 50, Math.random() * 60 + 60]); // Generate random data
 }
 
 option = {
@@ -21,12 +24,15 @@ option = {
         trigger: 'axis',
         position: function (pt) {
             return [pt[0], '10%'];
+        },
+        formatter: function (params) {
+            return params[0].name + '<br/>' + params[0].seriesName + ' : ' + params[0].value;
         }
     },
     title: {
         left: 'center',
         text: 'Power Curve',
-         textStyle: {
+        textStyle: {
             fontWeight: 'bold'
         }
     },
@@ -42,7 +48,7 @@ option = {
     xAxis: {
         type: 'category',
         boundaryGap: false,
-        data: date,
+        data: timeLabels,
         textStyle: {
             fontWeight: 'bold'
         }
@@ -53,7 +59,6 @@ option = {
         textStyle: {
             fontWeight: 'bold'
         }
-
     },
     dataZoom: [
         {
@@ -101,4 +106,14 @@ if (option && typeof option === 'object') {
     myChart.setOption(option);
 }
 
-window.addEventListener('resize', myChart.resize);
+window.addEventListener('resize', function () {
+    myChart.resize();
+});
+
+// Function to format time to 'HH:mm:ss' format
+function formatTime(date) {
+    var HH = String(date.getHours()).padStart(2, '0');
+    var mm = String(date.getMinutes()).padStart(2, '0');
+    var ss = String(date.getSeconds()).padStart(2, '0');
+    return `${HH}:${mm}:${ss}`;
+}

@@ -462,7 +462,7 @@ Children:
   - Name: WindowColor
     Type: BaseDataVariableType
     DataType: Color
-    Value: "#ffffff"
+    Value: "#f0f0f0"
   - Name: AccentColor
     Type: BaseDataVariableType
     DataType: Color

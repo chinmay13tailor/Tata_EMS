@@ -97,13 +97,14 @@ public class HomePageComparisionLogic : BaseNetLogic
     private IUAVariable gbuttonVariable;
     private PeriodicTask periodicTask;
     private IUAVariable monthyearVariable;
+    private IUAVariable productioncountVariable;
     private IUAVariable yearVariable;
 
     public override void Start()
     {
         // Insert code to be executed when the user-defined logic is started
         var owner = (HomePageComparisionPanel)LogicObject.Owner;
-
+        productioncountVariable = owner.ProductionCountVariable;
         monthyearVariable = owner.MonthyearVariable;
         yearVariable = owner.YearVariable;
         //Utility
@@ -287,6 +288,9 @@ public class HomePageComparisionLogic : BaseNetLogic
         int average33kv = average33kvVariable.Value;
         float consumption33kv = consumption33kvVariable.Value;
 
+        //////////////Production Count/////////////////
+        int productioncount = productioncountVariable.Value;
+
         // For Calculation
         float utilitypercentage = utilitypercentageVariable.Value;
         float stampingpercentage = stampingpercentageVariable.Value;
@@ -363,9 +367,9 @@ public class HomePageComparisionLogic : BaseNetLogic
         var myStore43 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
         var myStore44 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
         var myStore45 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
-                                                                                         //////////////////////////////////Target Update////////////////////////////////////////////////
+                                                                                         //////////////////////////////////Production Count Update Update////////////////////////////////////////////////
 
-
+        var myStore46 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Production Counts
 
         ////////////////////////////////*********************************************///////////////////////////////////////////////////////////////////////////
         // For Utility
@@ -478,6 +482,9 @@ public class HomePageComparisionLogic : BaseNetLogic
         object[,] resultSet45;
         string[] header45;
 
+        /////////////For Production Count//////////////
+        object[,] resultSet46;
+        string[] header46;
 
         ////////////////////////////////*********************************************///////////////////////////////////////////////////////////////////////////
         if (gbutton == true)
@@ -502,6 +509,9 @@ public class HomePageComparisionLogic : BaseNetLogic
             float targetpaintshop1 = targetpaintshopVariable.Value;
             float targetspp1 = targetsppVariable.Value;
             float targetutility1 = targetVariable.Value;
+            float productioncount1 = productioncountVariable.Value;
+
+            string old123 = endTime.ToString("yyyy-MM-dd"); 
 
 
 
@@ -588,6 +598,9 @@ public class HomePageComparisionLogic : BaseNetLogic
             string query44 = $"SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = '33KV' ";
             string query45 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = '33KV' ";
 
+            string query46 = $" UPDATE HomePage SET Production = '" + productioncount1 + "' WHERE LocalTimestamp BETWEEN '" + old123 + " 0:00:00' AND '" + old123 + " 23:59:59' ";
+            //throw new Exception(query46);
+
             ////////////////////////////////*********************************************/////////////////////////////////////////////////////////////////////////// 
             // For Utility
             myStore1.Query(query1, out header1, out resultSet1);
@@ -659,6 +672,7 @@ public class HomePageComparisionLogic : BaseNetLogic
             myStore44.Query(query44, out header44, out resultSet44);
             myStore45.Query(query45, out header45, out resultSet45);
 
+            myStore46.Query(query46, out header46, out resultSet46);  /////////////////For Production Count/////////////////////
 
             ////////////////////////////////*********************************************///////////////////////////////////////////////////////////////////////////
 

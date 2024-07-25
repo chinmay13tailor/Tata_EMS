@@ -16885,6 +16885,17 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/Datalogtag/ProductionCount"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
 - Name: HomePageComparisionPanel1
   Type: HomePageComparisionPanel
   Children:
@@ -17201,6 +17212,11 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/Datalogtag/ProductionCount"
 - Name: HomePageComparisionPanelInstance
   Type: HomePageComparisionPanel
   Children:
@@ -17527,6 +17543,11 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/Datalogtag/ProductionCount"
 - Name: MeterSelectionForPanels
   Id: g=325a923e224c701331f2ef17763539e8
   Type: BaseDataVariableType
@@ -30670,6 +30691,16 @@ Children:
   Type: BaseDataVariableType
   DataType: DateTime
   Value: "2024-01-01T00:00:00.0000000"
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../NetLogic/ClockLogic/TodayDate"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: VoltagePanel_DateTime_Selection
   Type: BaseDataVariableType
   DataType: DateTime
@@ -30688,10 +30719,30 @@ Children:
   Type: BaseDataVariableType
   DataType: DateTime
   Value: "2024-01-01T00:00:00.0000000"
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../NetLogic/ClockLogic/TodayDate"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Power_Panel_DateTime_Selection1
   Type: BaseDataVariableType
   DataType: DateTime
   Value: "2024-01-01T00:00:00.0000000"
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../NetLogic/ClockLogic/TodayDate"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: RefreshHomePage
   Id: g=1130d3dc53f371d5c3d21b5ee65691bd
   Type: BaseDataVariableType

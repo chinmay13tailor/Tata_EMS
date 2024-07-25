@@ -287,6 +287,12 @@ Children:
       - Name: Rectangle3
         Type: Rectangle
         Children:
+        - Name: eChartTest11Logic
+          Type: NetLogic
+          Children:
+          - Class: Reference
+            Target: g=f0e9aa17c388ce78762b9ea2a225cfec
+            Direction: Forward
         - Name: Trend1
           Type: Trend
           Children:
@@ -361,16 +367,11 @@ Children:
             - Name: Window
               Type: BaseDataVariableType
               DataType: Duration
-              Value: "0:00:24:0.0000000"
+              Value: "1:00:00:0.0000000"
             - Name: Interactive
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../Interactive/Checked"
             - Name: Time
               Type: BaseDataVariableType
               DataType: DateTime
@@ -404,11 +405,11 @@ Children:
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Size
-              Value: 0.0
+              Value: -1.0
             - Name: MaxValue
               Type: BaseDataVariableType
               DataType: Size
-              Value: 4000.0
+              Value: -1.0
             - Name: AutoScale
               Type: BaseDataVariableType
               DataType: Boolean
@@ -557,12 +558,6 @@ Children:
             Direction: Forward
           - Class: Reference
             Target: ns=5;i=358
-            Direction: Forward
-        - Name: eChartTest11Logic
-          Type: NetLogic
-          Children:
-          - Class: Reference
-            Target: g=f0e9aa17c388ce78762b9ea2a225cfec
             Direction: Forward
 - Name: Current_Panel201
   Id: g=e3d9a9b94b08274ce3b196e6f20043c5
@@ -1288,16 +1283,11 @@ Children:
               - Name: Window
                 Type: BaseDataVariableType
                 DataType: Duration
-                Value: "0:00:24:0.0000000"
+                Value: "1:00:00:0.0000000"
               - Name: Interactive
                 Type: BaseDataVariableType
                 DataType: Boolean
                 Value: true
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../HorizontalLayout1/Interactive/Checked"
               - Name: Time
                 Type: BaseDataVariableType
                 DataType: DateTime
@@ -1331,11 +1321,11 @@ Children:
               - Name: MinValue
                 Type: BaseDataVariableType
                 DataType: Size
-                Value: 0.0
+                Value: -1.0
               - Name: MaxValue
                 Type: BaseDataVariableType
                 DataType: Size
-                Value: 100.0
+                Value: -1.0
               - Name: AutoScale
                 Type: BaseDataVariableType
                 DataType: Boolean
@@ -2255,7 +2245,7 @@ Children:
                     - Name: To
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 0.800000011920929
+                      Value: 0.8500000238418579
                     - Name: Color
                       Type: BaseDataVariableType
                       DataType: Color
@@ -2266,7 +2256,7 @@ Children:
                     - Name: From
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 0.800000011920929
+                      Value: 0.8500000238418579
                     - Name: To
                       Type: BaseDataVariableType
                       DataType: Float
@@ -2435,7 +2425,7 @@ Children:
                 - Name: MaxValue
                   Type: BaseDataVariableType
                   DataType: Float
-                  Value: 70.0
+                  Value: 55.0
                 - Name: WarningZones
                   Type: BaseObjectType
                   Children:
@@ -2449,7 +2439,7 @@ Children:
                     - Name: To
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 1000.0
+                      Value: 47.0
                     - Name: Color
                       Type: BaseDataVariableType
                       DataType: Color
@@ -2460,11 +2450,11 @@ Children:
                     - Name: From
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 1000.0
+                      Value: 47.0
                     - Name: To
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 1500.0
+                      Value: 49.0
                     - Name: Color
                       Type: BaseDataVariableType
                       DataType: Color
@@ -2475,11 +2465,11 @@ Children:
                     - Name: From
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 1500.0
+                      Value: 49.0
                     - Name: To
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 3000.0
+                      Value: 50.0
                     - Name: Color
                       Type: BaseDataVariableType
                       DataType: Color
@@ -2671,7 +2661,7 @@ Children:
             - Name: Window
               Type: BaseDataVariableType
               DataType: Duration
-              Value: "0:00:24:0.0000000"
+              Value: "1:00:00:0.0000000"
             - Name: Interactive
               Type: BaseDataVariableType
               DataType: Boolean
@@ -2709,11 +2699,11 @@ Children:
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Size
-              Value: -100.0
+              Value: -1.0
             - Name: MaxValue
               Type: BaseDataVariableType
               DataType: Size
-              Value: 100.0
+              Value: -1.0
             - Name: AutoScale
               Type: BaseDataVariableType
               DataType: Boolean

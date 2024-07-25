@@ -1153,6 +1153,12 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 300.0
+        - Name: eChartTest11Logic
+          Type: NetLogic
+          Children:
+          - Class: Method
+            Name: OnRefreshButtonClicked
+            Id: g=f0e9aa17c388ce78762b9ea2a225cfec
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
@@ -1247,16 +1253,11 @@ Children:
             - Name: Window
               Type: BaseDataVariableType
               DataType: Duration
-              Value: "0:00:24:0.0000000"
+              Value: "1:00:00:0.0000000"
             - Name: Interactive
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../Interactive/Checked"
             - Name: Time
               Type: BaseDataVariableType
               DataType: DateTime
@@ -1307,11 +1308,11 @@ Children:
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Size
-              Value: 0.0
+              Value: -1.0
             - Name: MaxValue
               Type: BaseDataVariableType
               DataType: Size
-              Value: 4000.0
+              Value: -1.0
             - Name: AutoScale
               Type: BaseDataVariableType
               DataType: Boolean
@@ -1626,12 +1627,6 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: -230.0
-        - Name: eChartTest11Logic
-          Type: NetLogic
-          Children:
-          - Class: Method
-            Name: OnRefreshButtonClicked
-            Id: g=f0e9aa17c388ce78762b9ea2a225cfec
   - Name: FillColor
     Type: BaseDataVariableType
     DataType: Color
@@ -2417,7 +2412,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 20.0
+            Value: 0.0
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
@@ -3523,12 +3518,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 2620.0
+            Value: 2840.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: -330.0
+            Value: -275.0
           - Name: MouseClickEventHandler1
             Type: EventHandler
             Children:
@@ -3807,16 +3802,11 @@ Children:
               - Name: Window
                 Type: BaseDataVariableType
                 DataType: Duration
-                Value: "0:00:24:0.0000000"
+                Value: "1:00:00:0.0000000"
               - Name: Interactive
                 Type: BaseDataVariableType
                 DataType: Boolean
                 Value: true
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../HorizontalLayout1/Interactive/Checked"
               - Name: Time
                 Type: BaseDataVariableType
                 DataType: DateTime
@@ -3867,11 +3857,11 @@ Children:
               - Name: MinValue
                 Type: BaseDataVariableType
                 DataType: Size
-                Value: 0.0
+                Value: -1.0
               - Name: MaxValue
                 Type: BaseDataVariableType
                 DataType: Size
-                Value: 100.0
+                Value: -1.0
               - Name: AutoScale
                 Type: BaseDataVariableType
                 DataType: Boolean
@@ -7913,12 +7903,12 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 0.0
+                  Value: -7.0
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 20.0
+                  Value: -10.0
                 - Name: TextColor
                   Type: BaseDataVariableType
                   DataType: Color
@@ -8013,7 +8003,7 @@ Children:
                     - Name: To
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 0.800000011920929
+                      Value: 0.8500000238418579
                     - Name: Color
                       Type: BaseDataVariableType
                       DataType: Color
@@ -8024,7 +8014,7 @@ Children:
                     - Name: From
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 0.800000011920929
+                      Value: 0.8500000238418579
                     - Name: To
                       Type: BaseDataVariableType
                       DataType: Float
@@ -8047,12 +8037,12 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 0.0
+                  Value: -3.0
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 60.0
+                  Value: 40.0
                 - Name: MinorTickCount
                   Type: BaseDataVariableType
                   DataType: Float
@@ -8157,7 +8147,7 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 0.0
+                  Value: -3.0
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -8187,7 +8177,7 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 100.0
+                  Value: 120.0
                 - Name: TextHorizontalAlignment
                   Type: BaseVariableType
                   DataType: TextHorizontalAlignment
@@ -9029,7 +9019,7 @@ Children:
                 - Name: MaxValue
                   Type: BaseDataVariableType
                   DataType: Float
-                  Value: 70.0
+                  Value: 55.0
                 - Name: WarningZones
                   Type: BaseObjectType
                   Children:
@@ -9043,7 +9033,7 @@ Children:
                     - Name: To
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 1000.0
+                      Value: 47.0
                     - Name: Color
                       Type: BaseDataVariableType
                       DataType: Color
@@ -9054,11 +9044,11 @@ Children:
                     - Name: From
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 1000.0
+                      Value: 47.0
                     - Name: To
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 1500.0
+                      Value: 49.0
                     - Name: Color
                       Type: BaseDataVariableType
                       DataType: Color
@@ -9069,11 +9059,11 @@ Children:
                     - Name: From
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 1500.0
+                      Value: 49.0
                     - Name: To
                       Type: BaseDataVariableType
                       DataType: Float
-                      Value: 3000.0
+                      Value: 50.0
                     - Name: Color
                       Type: BaseDataVariableType
                       DataType: Color
@@ -9092,12 +9082,12 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 0.0
+                  Value: -3.0
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 60.0
+                  Value: 40.0
                 - Name: MinorTickCount
                   Type: BaseDataVariableType
                   DataType: Float
@@ -9222,7 +9212,7 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 0.0
+                  Value: -3.0
                 - Name: RightMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -9237,7 +9227,7 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 100.0
+                  Value: 120.0
                 - Name: FontWeight
                   Type: BaseDataVariableType
                   DataType: FontWeightEnum
@@ -9280,12 +9270,12 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 0.0
+                  Value: -7.0
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 20.0
+                  Value: -10.0
                 - Name: TextColor
                   Type: BaseDataVariableType
                   DataType: Color
@@ -9348,12 +9338,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1430.0
+            Value: 2670.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: -40.0
+            Value: -20.0
           - Name: MouseClickEventHandler1
             Type: EventHandler
             Children:
@@ -9626,7 +9616,7 @@ Children:
             - Name: Window
               Type: BaseDataVariableType
               DataType: Duration
-              Value: "0:00:24:0.0000000"
+              Value: "1:00:00:0.0000000"
             - Name: Interactive
               Type: BaseDataVariableType
               DataType: Boolean
@@ -9681,11 +9671,11 @@ Children:
             - Name: MinValue
               Type: BaseDataVariableType
               DataType: Size
-              Value: -100.0
+              Value: -1.0
             - Name: MaxValue
               Type: BaseDataVariableType
               DataType: Size
-              Value: 100.0
+              Value: -1.0
             - Name: AutoScale
               Type: BaseDataVariableType
               DataType: Boolean

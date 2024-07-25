@@ -1877,12 +1877,12 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 4.0
+          Value: 12.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -4.0
+          Value: -15.0
         - Name: Arrow1
           Type: Arrow
           Children:
@@ -14941,7 +14941,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 0.0
+              Value: -6.0
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
@@ -14961,7 +14961,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -3.0
+              Value: -5.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -20049,7 +20049,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 10.0
+              Value: 0.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -36849,7 +36849,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 9.0
+              Value: 0.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -37844,7 +37844,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 3.0
+              Value: 0.0
           - Name: Label2
             Type: Label
             Children:
@@ -49462,6 +49462,11 @@ Children:
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: true
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText

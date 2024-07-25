@@ -1153,63 +1153,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 300.0
-        - Name: WebBrowser
-          Type: WebBrowser
-          Children:
-          - Name: URL
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=36;%PROJECTDIR%/eCharts11/Test.html"
-          - Class: Reference
-            Target: ns=5;i=354
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=356
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=358
-            Direction: Forward
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 300.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 355.0
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 560.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 1090.0
-          - Name: BottomMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -230.0
-        - Name: eChartTest11Logic
-          Type: NetLogic
-          Children:
-          - Class: Method
-            Name: OnRefreshButtonClicked
-            Id: g=f0e9aa17c388ce78762b9ea2a225cfec
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
@@ -1632,6 +1575,63 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 20.0
+        - Name: WebBrowser
+          Type: WebBrowser
+          Children:
+          - Name: URL
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/eCharts11/Test.html"
+          - Class: Reference
+            Target: ns=5;i=354
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=356
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=358
+            Direction: Forward
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 300.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 355.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 560.0
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 1090.0
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -230.0
+        - Name: eChartTest11Logic
+          Type: NetLogic
+          Children:
+          - Class: Method
+            Name: OnRefreshButtonClicked
+            Id: g=f0e9aa17c388ce78762b9ea2a225cfec
   - Name: FillColor
     Type: BaseDataVariableType
     DataType: Color
@@ -4013,7 +4013,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 380.0
+            Value: 350.0
           - Name: Label1
             Type: Label
             Children:
@@ -4194,7 +4194,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 0.0
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size

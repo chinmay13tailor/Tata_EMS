@@ -287,28 +287,6 @@ Children:
       - Name: Rectangle3
         Type: Rectangle
         Children:
-        - Name: WebBrowser
-          Type: WebBrowser
-          Children:
-          - Name: URL
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=36;%PROJECTDIR%/eCharts11/Test.html"
-          - Class: Reference
-            Target: ns=5;i=354
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=356
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=358
-            Direction: Forward
-        - Name: eChartTest11Logic
-          Type: NetLogic
-          Children:
-          - Class: Reference
-            Target: g=f0e9aa17c388ce78762b9ea2a225cfec
-            Direction: Forward
         - Name: Trend1
           Type: Trend
           Children:
@@ -564,6 +542,28 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 459.0
+        - Name: WebBrowser
+          Type: WebBrowser
+          Children:
+          - Name: URL
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/eCharts11/Test.html"
+          - Class: Reference
+            Target: ns=5;i=354
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=356
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=358
+            Direction: Forward
+        - Name: eChartTest11Logic
+          Type: NetLogic
+          Children:
+          - Class: Reference
+            Target: g=f0e9aa17c388ce78762b9ea2a225cfec
+            Direction: Forward
 - Name: Current_Panel201
   Id: g=e3d9a9b94b08274ce3b196e6f20043c5
   Supertype: Current_Panel

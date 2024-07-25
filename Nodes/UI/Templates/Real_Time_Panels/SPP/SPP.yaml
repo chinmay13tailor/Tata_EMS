@@ -4306,12 +4306,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 1.0
+              Value: -18.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 5.0
+              Value: 0.0
           - Name: Label2
             Type: Label
             Children:
@@ -4528,7 +4528,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 29.0
+              Value: 28.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size

@@ -219,28 +219,6 @@ Children:
       - Name: Rectangle3
         Type: Rectangle
         Children:
-        - Name: WebBrowser
-          Type: WebBrowser
-          Children:
-          - Name: URL
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=36;%PROJECTDIR%/eCharts11/Test.html"
-          - Class: Reference
-            Target: ns=5;i=354
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=356
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=358
-            Direction: Forward
-        - Name: eChartTest11Logic
-          Type: NetLogic
-          Children:
-          - Class: Reference
-            Target: g=f0e9aa17c388ce78762b9ea2a225cfec
-            Direction: Forward
         - Name: Trend1
           Type: Trend
           Children:
@@ -428,6 +406,28 @@ Children:
               Value: "/Objects/Tata_EMS/Model/Power_Panel_DateTime_Selection1"
         - Name: Label3
           Type: Label
+        - Name: WebBrowser
+          Type: WebBrowser
+          Children:
+          - Name: URL
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/eCharts11/Test.html"
+          - Class: Reference
+            Target: ns=5;i=354
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=356
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=358
+            Direction: Forward
+        - Name: eChartTest11Logic
+          Type: NetLogic
+          Children:
+          - Class: Reference
+            Target: g=f0e9aa17c388ce78762b9ea2a225cfec
+            Direction: Forward
 - Name: Current_Panel160
   Id: g=cd216cc920e7e1babcf06da6e5665201
   Supertype: Current_Panel

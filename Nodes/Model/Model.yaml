@@ -14263,7 +14263,6 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-- File: HistoDashboardResult/HistoDashboardResult.yaml
 - Name: ConsumptionDistributionLoggerInstance
   Type: ConsumptionDistributionLogger
   Children:
@@ -14575,6 +14574,9 @@ Children:
       DataType: NodePath
       Value: "/Objects/Tata_EMS/Model/Comparision_Dashboard/MeterConsumption"
 - File: Retain_Variable/Retain_Variable.yaml
+- File: HistoDashboardResult/HistoDashboardResult.yaml
+- File: HomePageHistogram/HomePageHistogram.yaml
+- File: eCharts/eCharts.yaml
 - Name: AutoLogOutTrigger
   Type: BaseDataVariableType
   DataType: Int32
@@ -15483,7 +15485,6 @@ Children:
       DataType: DynamicLinkMode
       ReferenceType: HasComponent
       Value: 2
-- File: HomePageHistogram/HomePageHistogram.yaml
 - Name: HomePageNewInstance
   Type: HomePageNew
   Children:
@@ -16525,7 +16526,6 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "SPP"
-- File: eCharts/eCharts.yaml
 - Name: HomePageComparisionPanel
   Id: g=4130c04dc48e2f4b6a05645c7d2b48e1
   Supertype: BaseObjectType

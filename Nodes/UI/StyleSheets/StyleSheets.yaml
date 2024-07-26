@@ -648,7 +648,7 @@ Children:
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
-        Value: 18.0
+        Value: 12.0
       - Name: SelectionTextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -965,7 +965,19 @@ Children:
       - Name: GridColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#f8e71c"
+        Value: "#075982"
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f0f0f0"
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: ""
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 800
     - Name: ChartStyle2
       Type: ChartStyle
       Children:
@@ -980,15 +992,23 @@ Children:
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
-        Value: 20.0
+        Value: 12.0
       - Name: AxisColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#000000"
+        Value: "#ffffff"
       - Name: GridColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#075982"
+        Value: "#f0f0f0"
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+        Value: ""
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 800
   - Name: DataListStyles
     Type: BaseObjectType
     Children:
@@ -1042,7 +1062,7 @@ Children:
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
-        Value: 18.0
+        Value: 16.0
       - Name: HeaderFontSize
         Type: BaseDataVariableType
         DataType: Size
@@ -1076,6 +1096,18 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 5.0
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 800
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
     - Name: TooltipStyle1
       Type: ToolTipStyle
       Children:

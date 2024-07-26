@@ -2218,7 +2218,7 @@ Children:
 - Name: Dateto
   Type: BaseDataVariableType
   DataType: DateTime
-  Value: "2024-04-08T00:00:00.0000000"
+  Value: "2024-04-08T23:59:59.0000000"
 - Name: Jaceselected1
   Type: BaseDataVariableType
   DataType: String

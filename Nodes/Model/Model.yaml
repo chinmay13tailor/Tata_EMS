@@ -1120,11 +1120,11 @@ Children:
   - Name: TimeRange
     Type: BaseDataVariableType
     DataType: TimeString
-    Value: "0"
+    Value: "00:24:00:00"
   - Name: Duration
     Type: BaseDataVariableType
     DataType: Duration
-    Value: "0:00:00:0.0000000"
+    Value: "0:00:24:0.0000000"
 - Name: HistoDashboard
   Id: g=c92c97590d04d0688370490fb5310e7b
   Supertype: BaseObjectType
@@ -1226,7 +1226,7 @@ Children:
   - Name: TimeRange
     Type: BaseDataVariableType
     DataType: TimeString
-    Value: "0"
+    Value: "00:24:00:00"
   - Name: Duration
     Type: BaseDataVariableType
     DataType: Duration
@@ -2608,7 +2608,7 @@ Children:
   - Name: TimeRange
     Type: BaseDataVariableType
     DataType: TimeString
-    Value: "0"
+    Value: "000:24:00:00"
 - Name: ComparisionDashboard
   Id: g=0da78a672ae27b69ae302ef010613bd3
   Supertype: BaseObjectType
@@ -2760,7 +2760,7 @@ Children:
   - Name: TimeRange
     Type: BaseDataVariableType
     DataType: TimeString
-    Value: "0"
+    Value: "00:24:00:00"
 - Name: ComparisionDashboard1
   Type: ComparisionDashboard
   Children:
@@ -2875,7 +2875,7 @@ Children:
   - Name: TimeRange
     Type: BaseDataVariableType
     DataType: TimeString
-    Value: "0"
+    Value: "00:24:00:00"
 - File: Importer/Importer.yaml
 - Name: ButtonGenerator
   Type: BaseDataVariableType

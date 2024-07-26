@@ -1094,143 +1094,132 @@ Children:
       "Value": 63,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "J2_meter63"
+       "Text": "J2_MCB_MCC_01_OG_2F1"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "J2_meter63"
+       "Text": "J2_MCB_MCC_01_OG_2F1"
       }
      },{
       "Name": "Value64",
       "Value": 64,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "J2_meter64"
+       "Text": "J2_MCB_MCC_01_OG_2F2"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "J2_meter64"
+       "Text": "J2_MCB_MCC_01_OG_2F2"
       }
      },{
       "Name": "Value65",
       "Value": 65,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "J2_meter65"
+       "Text": "J2_MCB_MCC_01_OG_3F1"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "J2_meter65"
+       "Text": "J2_MCB_MCC_01_OG_3F1"
       }
      },{
       "Name": "Value66",
       "Value": 66,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "J2_meter66"
+       "Text": "J2_MCB_MCC_01_OG_3F2"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "J2_meter66"
+       "Text": "J2_MCB_MCC_01_OG_3F2"
       }
      },{
       "Name": "Value67",
       "Value": 67,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "J2_meter67"
+       "Text": "J2_MCB_MCC_01_OG_4F1"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "J2_meter67"
+       "Text": "J2_MCB_MCC_01_OG_4F1"
       }
      },{
       "Name": "Value68",
       "Value": 68,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "J2_meter68"
+       "Text": "J2_MCB_MCC_01_OG_5F1"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "J2_meter68"
+       "Text": "J2_MCB_MCC_01_OG_5F1"
       }
      },{
       "Name": "Value69",
       "Value": 69,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "J2_meter69"
+       "Text": "J2_MCB_MCC_01_OG_6F1"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "J2_meter69"
+       "Text": "J2_MCB_MCC_01_OG_6F1"
       }
      },{
       "Name": "Value70",
       "Value": 70,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "J2_meter70"
+       "Text": "J2_MCB_MCC_01_OG_6F4"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "J2_meter70"
+       "Text": "J2_MCB_MCC_01_OG_6F4"
       }
      },{
       "Name": "Value71",
       "Value": 71,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "J2_meter71"
+       "Text": "J2_MCB_MCC_01_OG_7F1"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "J2_meter71"
+       "Text": "J2_MCB_MCC_01_OG_7F1"
       }
      },{
       "Name": "Value72",
       "Value": 72,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "J2_meter72"
+       "Text": "J2_MCB_MCC_01_OG_7F4"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "J2_meter72"
+       "Text": "J2_MCB_MCC_01_OG_7F4"
       }
      },{
       "Name": "Value73",
       "Value": 73,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "J2_meter73"
+       "Text": "J2_MCB_MCC_01_OG_8F1"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "J2_meter73"
+       "Text": "J2_MCB_MCC_01_OG_8F1"
       }
      },{
       "Name": "Value74",
       "Value": 74,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "J2_meter74"
+       "Text": "J2_MCB_MCC_01_OG_8F4"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "J2_meter74"
-      }
-     },{
-      "Name": "Value75",
-      "Value": 75,
-      "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "J2_meter75"
-      },
-      "Description": {
-       "LocaleId": "en-US",
-       "Text": "J2_meter75"
+       "Text": "J2_MCB_MCC_01_OG_8F4"
       }
      }]
    }
@@ -1241,7 +1230,7 @@ Children:
     ModellingRule: None
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_IN1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_IN1"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_IN2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_IN2"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F4"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F4"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F5"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F5"}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F6"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F6"}}},{"TypeId":{"Id":7594},"Body":{"Value":5,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F7"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F7"}}},{"TypeId":{"Id":7594},"Body":{"Value":6,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F8"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F8"}}},{"TypeId":{"Id":7594},"Body":{"Value":7,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":8,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F3"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F3"}}},{"TypeId":{"Id":7594},"Body":{"Value":9,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F4"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F4"}}},{"TypeId":{"Id":7594},"Body":{"Value":10,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F5"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F5"}}},{"TypeId":{"Id":7594},"Body":{"Value":11,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F6"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F6"}}},{"TypeId":{"Id":7594},"Body":{"Value":12,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F7"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F7"}}},{"TypeId":{"Id":7594},"Body":{"Value":13,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F8"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F8"}}},{"TypeId":{"Id":7594},"Body":{"Value":14,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F9"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F9"}}},{"TypeId":{"Id":7594},"Body":{"Value":15,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":16,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_O/G_F3"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_O/G_F3"}}},{"TypeId":{"Id":7594},"Body":{"Value":17,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_O/G_F4"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_O/G_F4"}}},{"TypeId":{"Id":7594},"Body":{"Value":18,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_O/G_F5"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_O/G_F5"}}},{"TypeId":{"Id":7594},"Body":{"Value":19,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":20,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_2F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_2F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":21,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_3F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_3F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":22,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_4F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_4F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":23,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_5F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_5F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":24,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_4F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_4F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":25,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":26,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_2F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_2F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":27,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_2F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_2F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":28,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_3F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_3F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":29,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_3F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_3F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":30,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_4F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_4F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":31,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_4F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_4F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":32,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_5F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_5F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":33,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_03_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_03_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":34,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_03_O/G_2F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_03_O/G_2F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":35,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_03_O/G_3F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_03_O/G_3F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":36,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":37,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_2F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_2F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":38,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_2F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_2F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":39,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_3F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_3F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":40,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_3F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_3F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":41,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_4F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_4F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":42,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_4F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_4F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":43,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_5F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_5F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":44,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_5F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_5F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":45,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_6F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_6F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":46,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":47,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_2F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_2F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":48,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_3F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_3F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":49,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_4F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_4F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":50,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_5F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_5F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":51,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_6F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_6F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":52,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_7F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_7F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":53,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_8F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_8F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":54,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":55,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":56,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_2F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_2F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":57,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_3F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_3F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":58,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_4F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_4F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":59,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_5F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_5F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":60,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_6F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_6F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":61,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_7F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_7F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":62,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_8F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_8F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":63,"DisplayName":{"LocaleId":"en-US","Text":"J2_meter63"},"Description":{"LocaleId":"en-US","Text":"J2_meter63"}}},{"TypeId":{"Id":7594},"Body":{"Value":64,"DisplayName":{"LocaleId":"en-US","Text":"J2_meter64"},"Description":{"LocaleId":"en-US","Text":"J2_meter64"}}},{"TypeId":{"Id":7594},"Body":{"Value":65,"DisplayName":{"LocaleId":"en-US","Text":"J2_meter65"},"Description":{"LocaleId":"en-US","Text":"J2_meter65"}}},{"TypeId":{"Id":7594},"Body":{"Value":66,"DisplayName":{"LocaleId":"en-US","Text":"J2_meter66"},"Description":{"LocaleId":"en-US","Text":"J2_meter66"}}},{"TypeId":{"Id":7594},"Body":{"Value":67,"DisplayName":{"LocaleId":"en-US","Text":"J2_meter67"},"Description":{"LocaleId":"en-US","Text":"J2_meter67"}}},{"TypeId":{"Id":7594},"Body":{"Value":68,"DisplayName":{"LocaleId":"en-US","Text":"J2_meter68"},"Description":{"LocaleId":"en-US","Text":"J2_meter68"}}},{"TypeId":{"Id":7594},"Body":{"Value":69,"DisplayName":{"LocaleId":"en-US","Text":"J2_meter69"},"Description":{"LocaleId":"en-US","Text":"J2_meter69"}}},{"TypeId":{"Id":7594},"Body":{"Value":70,"DisplayName":{"LocaleId":"en-US","Text":"J2_meter70"},"Description":{"LocaleId":"en-US","Text":"J2_meter70"}}},{"TypeId":{"Id":7594},"Body":{"Value":71,"DisplayName":{"LocaleId":"en-US","Text":"J2_meter71"},"Description":{"LocaleId":"en-US","Text":"J2_meter71"}}},{"TypeId":{"Id":7594},"Body":{"Value":72,"DisplayName":{"LocaleId":"en-US","Text":"J2_meter72"},"Description":{"LocaleId":"en-US","Text":"J2_meter72"}}},{"TypeId":{"Id":7594},"Body":{"Value":73,"DisplayName":{"LocaleId":"en-US","Text":"J2_meter73"},"Description":{"LocaleId":"en-US","Text":"J2_meter73"}}},{"TypeId":{"Id":7594},"Body":{"Value":74,"DisplayName":{"LocaleId":"en-US","Text":"J2_meter74"},"Description":{"LocaleId":"en-US","Text":"J2_meter74"}}},{"TypeId":{"Id":7594},"Body":{"Value":75,"DisplayName":{"LocaleId":"en-US","Text":"J2_meter75"},"Description":{"LocaleId":"en-US","Text":"J2_meter75"}}}]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_IN1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_IN1"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_IN2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_IN2"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F4"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F4"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F5"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F5"}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F6"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F6"}}},{"TypeId":{"Id":7594},"Body":{"Value":5,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F7"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F7"}}},{"TypeId":{"Id":7594},"Body":{"Value":6,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F8"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_01_O/G_F8"}}},{"TypeId":{"Id":7594},"Body":{"Value":7,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":8,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F3"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F3"}}},{"TypeId":{"Id":7594},"Body":{"Value":9,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F4"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F4"}}},{"TypeId":{"Id":7594},"Body":{"Value":10,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F5"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F5"}}},{"TypeId":{"Id":7594},"Body":{"Value":11,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F6"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F6"}}},{"TypeId":{"Id":7594},"Body":{"Value":12,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F7"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F7"}}},{"TypeId":{"Id":7594},"Body":{"Value":13,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F8"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F8"}}},{"TypeId":{"Id":7594},"Body":{"Value":14,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F9"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_02_O/G_F9"}}},{"TypeId":{"Id":7594},"Body":{"Value":15,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":16,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_O/G_F3"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_O/G_F3"}}},{"TypeId":{"Id":7594},"Body":{"Value":17,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_O/G_F4"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_O/G_F4"}}},{"TypeId":{"Id":7594},"Body":{"Value":18,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_O/G_F5"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MVS_03_O/G_F5"}}},{"TypeId":{"Id":7594},"Body":{"Value":19,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":20,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_2F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_2F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":21,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_3F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_3F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":22,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_4F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_4F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":23,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_5F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_5F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":24,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_4F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_01_O/G_4F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":25,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":26,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_2F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_2F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":27,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_2F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_2F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":28,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_3F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_3F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":29,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_3F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_3F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":30,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_4F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_4F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":31,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_4F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_4F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":32,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_5F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_02_O/G_5F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":33,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_03_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_03_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":34,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_03_O/G_2F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_03_O/G_2F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":35,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_SWB_03_O/G_3F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_SWB_03_O/G_3F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":36,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":37,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_2F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_2F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":38,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_2F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_2F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":39,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_3F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_3F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":40,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_3F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_3F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":41,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_4F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_4F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":42,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_4F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_4F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":43,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_5F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_5F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":44,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_5F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_5F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":45,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_6F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_04_O/G_6F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":46,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":47,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_2F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_2F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":48,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_3F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_3F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":49,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_4F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_4F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":50,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_5F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_5F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":51,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_6F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_6F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":52,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_7F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_7F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":53,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_8F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_03_O/G_8F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":54,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":55,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_IN1F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_IN1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":56,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_2F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_2F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":57,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_3F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_3F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":58,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_4F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_4F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":59,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_5F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_5F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":60,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_6F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_6F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":61,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_7F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_7F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":62,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_8F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_05_O/G_8F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":63,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_2F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_2F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":64,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_2F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_2F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":65,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_3F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_3F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":66,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_3F2"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_3F2"}}},{"TypeId":{"Id":7594},"Body":{"Value":67,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_4F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_4F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":68,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_5F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_5F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":69,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_6F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_6F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":70,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_6F4"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_6F4"}}},{"TypeId":{"Id":7594},"Body":{"Value":71,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_7F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_7F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":72,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_7F4"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_7F4"}}},{"TypeId":{"Id":7594},"Body":{"Value":73,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_8F1"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_8F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":74,"DisplayName":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_8F4"},"Description":{"LocaleId":"en-US","Text":"J2_MCB_MCC_01_OG_8F4"}}}]
 - Class: Reference
   Target: g=d3c9af8799e3a10eef87b72929eedccf
 - Class: DataType
@@ -2131,6 +2120,115 @@ Children:
   Name: Selection_2_MeterSelection_SPP
   Id: g=dfe4caa37e9b998181f46b3b70c6cbc7
   Supertype: Enumeration
+  EnumDefinition: 
+   {
+    "Name": "Selection_2_MeterSelection_SPP",
+    "DataType": {
+     "IdType": 2,
+     "Id": "dfe4caa37e9b998181f46b3b70c6cbc7",
+     "Namespace": 36
+    },
+    "Fields": [{
+      "Name": "Value0",
+      "Value": 0,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "J9_SSP_MVS_IN1"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "J9_SSP_MVS_IN1"
+      }
+     },{
+      "Name": "Value1",
+      "Value": 1,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_MVS_IN2"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_MVS_IN2"
+      }
+     },{
+      "Name": "Value2",
+      "Value": 2,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_MVS_OG1"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_MVS_OG1"
+      }
+     },{
+      "Name": "Value3",
+      "Value": 3,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_MVS_OG2"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_MVS_OG2"
+      }
+     },{
+      "Name": "Value4",
+      "Value": 4,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_SWB_01_1F1"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_SWB_01_1F1"
+      }
+     },{
+      "Name": "Value5",
+      "Value": 5,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_SWB_01_4F1"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_SWB_01_4F1"
+      }
+     },{
+      "Name": "Value6",
+      "Value": 6,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_SWB_02_1F1"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_SWB_02_1F1"
+      }
+     },{
+      "Name": "Value7",
+      "Value": 7,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "J9_1_DB_0_01_1F1"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "J9_1_DB_0_01_1F1"
+      }
+     },{
+      "Name": "Value8",
+      "Value": 8,
+      "DisplayName": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_EDB_0_01_1F1"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "J9_SPP_EDB_0_01_1F1"
+      }
+     }]
+   }
   Children:
   - Name: ns=0;EnumValues
     Type: BaseDataVariableType
@@ -2138,7 +2236,7 @@ Children:
     ModellingRule: None
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"J8_ADM_DB_01_INF1"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"J8_ADM_EDB_01_INF2"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"J9_SSP_MVS_IN1"},"Description":{"LocaleId":"en-US","Text":"J9_SSP_MVS_IN1"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"J9_SPP_MVS_IN2"},"Description":{"LocaleId":"en-US","Text":"J9_SPP_MVS_IN2"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"J9_SPP_MVS_OG1"},"Description":{"LocaleId":"en-US","Text":"J9_SPP_MVS_OG1"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"J9_SPP_MVS_OG2"},"Description":{"LocaleId":"en-US","Text":"J9_SPP_MVS_OG2"}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"LocaleId":"en-US","Text":"J9_SPP_SWB_01_1F1"},"Description":{"LocaleId":"en-US","Text":"J9_SPP_SWB_01_1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":5,"DisplayName":{"LocaleId":"en-US","Text":"J9_SPP_SWB_01_4F1"},"Description":{"LocaleId":"en-US","Text":"J9_SPP_SWB_01_4F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":6,"DisplayName":{"LocaleId":"en-US","Text":"J9_SPP_SWB_02_1F1"},"Description":{"LocaleId":"en-US","Text":"J9_SPP_SWB_02_1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":7,"DisplayName":{"LocaleId":"en-US","Text":"J9_1_DB_0_01_1F1"},"Description":{"LocaleId":"en-US","Text":"J9_1_DB_0_01_1F1"}}},{"TypeId":{"Id":7594},"Body":{"Value":8,"DisplayName":{"LocaleId":"en-US","Text":"J9_SPP_EDB_0_01_1F1"},"Description":{"LocaleId":"en-US","Text":"J9_SPP_EDB_0_01_1F1"}}}]
 - Name: Selection1_33KV
   Type: BaseDataVariableType
   DataType: Int32
@@ -7514,7 +7612,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M1"
+                  Value: "J9_SSP_MVS_IN1"
               - Name: Pair1
                 Type: ValueMapPair
                 Children:
@@ -7525,7 +7623,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M2"
+                  Value: "J9_SPP_MVS_IN2"
               - Name: Pair2
                 Type: ValueMapPair
                 Children:
@@ -7536,7 +7634,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M3"
+                  Value: "J9_SPP_MVS_OG1"
               - Name: Pair3
                 Type: ValueMapPair
                 Children:
@@ -7547,7 +7645,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M4"
+                  Value: "J9_SPP_MVS_OG2"
               - Name: Pair4
                 Type: ValueMapPair
                 Children:
@@ -7558,7 +7656,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M5"
+                  Value: "J9_SPP_SWB_01_1F1"
               - Name: Pair5
                 Type: ValueMapPair
                 Children:
@@ -7569,7 +7667,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M6"
+                  Value: "J9_SPP_SWB_01_4F1"
               - Name: Pair6
                 Type: ValueMapPair
                 Children:
@@ -7580,7 +7678,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M7"
+                  Value: "J9_SPP_SWB_02_1F1"
               - Name: Pair7
                 Type: ValueMapPair
                 Children:
@@ -7591,7 +7689,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M8"
+                  Value: "J9_1_DB_0_01_1F1"
               - Name: Pair8
                 Type: ValueMapPair
                 Children:
@@ -7602,7 +7700,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M9"
+                  Value: "J9_SPP_EDB_0_01_1F1"
 - Name: JaceConsumption
   Type: BaseDataVariableType
   DataType: String

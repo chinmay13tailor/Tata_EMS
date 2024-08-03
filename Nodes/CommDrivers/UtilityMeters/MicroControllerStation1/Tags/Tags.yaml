@@ -144,6 +144,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_01_OG_8F4"
+- Name: MCB_MCC_01_IN1F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_01_IN1F1_STS"
+- Name: MCB_MCC_01_IN1F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_01_IN1F1_STS_Co"
 - Name: MCB_MCC_03_IN1F1
   Type: MicroControllerTag
   DataType: Double
@@ -155,6 +173,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_03_IN1F1"
+- Name: MCB_MCC_03_IN1F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_IN1F1_STS"
+- Name: MCB_MCC_03_IN1F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_IN1F1_STS_Co"
 - Name: MCB_MCC_03_OG_2F1
   Type: MicroControllerTag
   DataType: Double
@@ -166,6 +202,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_03_OG_2F1"
+- Name: MCB_MCC_03_OG_2F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_2F1_STS"
+- Name: MCB_MCC_03_OG_2F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_2F1_STS_Co"
 - Name: MCB_MCC_03_OG_3F1
   Type: MicroControllerTag
   DataType: Double
@@ -177,6 +231,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_03_OG_3F1"
+- Name: MCB_MCC_03_OG_3F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_3F1_STS"
+- Name: MCB_MCC_03_OG_3F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_3F1_STS_Co"
 - Name: MCB_MCC_03_OG_4F1
   Type: MicroControllerTag
   DataType: Double
@@ -188,6 +260,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_03_OG_4F1"
+- Name: MCB_MCC_03_OG_4F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_4F1_STS"
+- Name: MCB_MCC_03_OG_4F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_4F1_STS_Co"
 - Name: MCB_MCC_03_OG_5F1
   Type: MicroControllerTag
   DataType: Double
@@ -199,6 +289,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_03_OG_5F1"
+- Name: MCB_MCC_03_OG_5F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_5F1_STS"
+- Name: MCB_MCC_03_OG_5F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_5F1_STS_Co"
 - Name: MCB_MCC_03_OG_6F1
   Type: MicroControllerTag
   DataType: Double
@@ -210,6 +318,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_03_OG_6F1"
+- Name: MCB_MCC_03_OG_6F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_6F1_STS"
+- Name: MCB_MCC_03_OG_6F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_6F1_STS_Co"
 - Name: MCB_MCC_03_OG_7F1
   Type: MicroControllerTag
   DataType: Double
@@ -221,6 +347,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_03_OG_7F1"
+- Name: MCB_MCC_03_OG_7F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_7F1_STS"
+- Name: MCB_MCC_03_OG_7F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_7F1_STS_Co"
 - Name: MCB_MCC_03_OG_8F1
   Type: MicroControllerTag
   DataType: Double
@@ -232,6 +376,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_03_OG_8F1"
+- Name: MCB_MCC_03_OG_8F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_8F1_STS"
+- Name: MCB_MCC_03_OG_8F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_03_OG_8F1_STS_Co"
 - Name: MCB_MCC_04_IN1F1
   Type: MicroControllerTag
   DataType: Double
@@ -243,6 +405,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_04_IN1F1"
+- Name: MCB_MCC_04_IN1F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_IN1F1_STS"
+- Name: MCB_MCC_04_IN1F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_IN1F1_STS_Co"
 - Name: MCB_MCC_04_OG_2F1
   Type: MicroControllerTag
   DataType: Double
@@ -254,6 +434,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_04_OG_2F1"
+- Name: MCB_MCC_04_OG_2F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_2F1_STS"
+- Name: MCB_MCC_04_OG_2F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_2F1_STS_Co"
 - Name: MCB_MCC_04_OG_2F2
   Type: MicroControllerTag
   DataType: Double
@@ -265,6 +463,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_04_OG_2F2"
+- Name: MCB_MCC_04_OG_2F2_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_2F2_STS"
+- Name: MCB_MCC_04_OG_2F2_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_2F2_STS_Co"
 - Name: MCB_MCC_04_OG_3F1
   Type: MicroControllerTag
   DataType: Double
@@ -276,6 +492,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_04_OG_3F1"
+- Name: MCB_MCC_04_OG_3F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_3F1_STS"
+- Name: MCB_MCC_04_OG_3F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_3F1_STS_Co"
 - Name: MCB_MCC_04_OG_3F2
   Type: MicroControllerTag
   DataType: Double
@@ -287,6 +521,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_04_OG_3F2"
+- Name: MCB_MCC_04_OG_3F2_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_3F2_STS"
+- Name: MCB_MCC_04_OG_3F2_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_3F2_STS_Co"
 - Name: MCB_MCC_04_OG_4F1
   Type: MicroControllerTag
   DataType: Double
@@ -298,6 +550,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_04_OG_4F1"
+- Name: MCB_MCC_04_OG_4F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_4F1_STS"
+- Name: MCB_MCC_04_OG_4F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_4F1_STS_Co"
 - Name: MCB_MCC_04_OG_4F2
   Type: MicroControllerTag
   DataType: Double
@@ -309,6 +579,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_04_OG_4F2"
+- Name: MCB_MCC_04_OG_4F2_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_4F2_STS"
+- Name: MCB_MCC_04_OG_4F2_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_4F2_STS_Co"
 - Name: MCB_MCC_04_OG_5F1
   Type: MicroControllerTag
   DataType: Double
@@ -320,6 +608,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_04_OG_5F1"
+- Name: MCB_MCC_04_OG_5F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_5F1_STS"
+- Name: MCB_MCC_04_OG_5F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_5F1_STS_Co"
 - Name: MCB_MCC_04_OG_5F2
   Type: MicroControllerTag
   DataType: Double
@@ -331,6 +637,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_04_OG_5F2"
+- Name: MCB_MCC_04_OG_5F2_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_5F2_STS"
+- Name: MCB_MCC_04_OG_5F2_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_5F2_STS_Co"
 - Name: MCB_MCC_04_OG_6F2
   Type: MicroControllerTag
   DataType: Double
@@ -342,6 +666,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_04_OG_6F2"
+- Name: MCB_MCC_04_OG_6F2_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_6F2_STS"
+- Name: MCB_MCC_04_OG_6F2_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_04_OG_6F2_STS_Co"
 - Name: MCB_MCC_05_IN1F1
   Type: MicroControllerTag
   DataType: Double
@@ -353,6 +695,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_05_IN1F1"
+- Name: MCB_MCC_05_IN1F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_IN1F1_STS"
+- Name: MCB_MCC_05_IN1F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_IN1F1_STS_Co"
 - Name: MCB_MCC_05_OG_2F1
   Type: MicroControllerTag
   DataType: Double
@@ -364,6 +724,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_05_OG_2F1"
+- Name: MCB_MCC_05_OG_2F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_2F1_STS"
+- Name: MCB_MCC_05_OG_2F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_2F1_STS_Co"
 - Name: MCB_MCC_05_OG_3F1
   Type: MicroControllerTag
   DataType: Double
@@ -375,6 +753,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_05_OG_3F1"
+- Name: MCB_MCC_05_OG_3F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_3F1_STS"
+- Name: MCB_MCC_05_OG_3F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_3F1_STS_Co"
 - Name: MCB_MCC_05_OG_4F1
   Type: MicroControllerTag
   DataType: Double
@@ -386,6 +782,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_05_OG_4F1"
+- Name: MCB_MCC_05_OG_4F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_4F1_STS"
+- Name: MCB_MCC_05_OG_4F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_4F1_STS_Co"
 - Name: MCB_MCC_05_OG_5F1
   Type: MicroControllerTag
   DataType: Double
@@ -397,6 +811,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_05_OG_5F1"
+- Name: MCB_MCC_05_OG_5F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_5F1_STS"
+- Name: MCB_MCC_05_OG_5F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_5F1_STS_Co"
 - Name: MCB_MCC_05_OG_6F1
   Type: MicroControllerTag
   DataType: Double
@@ -408,6 +840,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_05_OG_6F1"
+- Name: MCB_MCC_05_OG_6F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_6F1_STS"
+- Name: MCB_MCC_05_OG_6F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_6F1_STS_Co"
 - Name: MCB_MCC_05_OG_7F1
   Type: MicroControllerTag
   DataType: Double
@@ -419,6 +869,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MCC_05_OG_7F1"
+- Name: MCB_MCC_05_OG_7F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_7F1_STS"
+- Name: MCB_MCC_05_OG_7F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_7F1_STS_Co"
 - Name: MCB_MCC_05_OG_8F1
   Type: MicroControllerTag
   DataType: Double
@@ -639,6 +1107,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_MVS_03_OG_F5"
+- Name: MCB_MCC_05_OG_8F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_8F1_STS"
+- Name: MCB_MCC_05_OG_8F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_MCC_05_OG_8F1_STS_Co"
 - Name: MCB_SWB_01_IN1F1
   Type: MicroControllerTag
   DataType: Double
@@ -650,6 +1136,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_01_IN1F1"
+- Name: MCB_SWB_01_IN1F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_01_IN1F1_STS"
+- Name: MCB_SWB_01_IN1F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_01_IN1F1_STS_Co"
 - Name: MCB_SWB_01_OG_2F1
   Type: MicroControllerTag
   DataType: Double
@@ -661,6 +1165,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_01_OG_2F1"
+- Name: MCB_SWB_01_OG_2F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_01_OG_2F1_STS"
+- Name: MCB_SWB_01_OG_2F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_01_OG_2F1_STS_Co"
 - Name: MCB_SWB_01_OG_3F1
   Type: MicroControllerTag
   DataType: Double
@@ -672,6 +1194,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_01_OG_3F1"
+- Name: MCB_SWB_01_OG_3F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_01_OG_3F1_STS"
+- Name: MCB_SWB_01_OG_3F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_01_OG_3F1_STS_Co"
 - Name: MCB_SWB_01_OG_4F1
   Type: MicroControllerTag
   DataType: Double
@@ -683,6 +1223,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_01_OG_4F1"
+- Name: MCB_SWB_01_OG_4F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_01_OG_4F1_STS"
+- Name: MCB_SWB_01_OG_4F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_01_OG_4F1_STS_Co"
 - Name: MCB_SWB_01_OG_4F2
   Type: MicroControllerTag
   DataType: Double
@@ -694,6 +1252,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_01_OG_4F2"
+- Name: MCB_SWB_01_OG_4F2_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_01_OG_4F2_STS"
+- Name: MCB_SWB_01_OG_4F2_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_01_OG_4F2_STS_Co"
 - Name: MCB_SWB_01_OG_5F2
   Type: MicroControllerTag
   DataType: Double
@@ -705,6 +1281,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_01_OG_5F2"
+- Name: MCB_SWB_01_OG_5F2_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_01_OG_5F2_STS"
+- Name: MCB_SWB_01_OG_5F2_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_01_OG_5F2_STS_Co"
 - Name: MCB_SWB_02_IN1F1
   Type: MicroControllerTag
   DataType: Double
@@ -716,6 +1310,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_02_IN1F1"
+- Name: MCB_SWB_02_IN1F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_IN1F1_STS"
+- Name: MCB_SWB_02_IN1F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_IN1F1_STS_Co"
 - Name: MCB_SWB_02_OG_2F1
   Type: MicroControllerTag
   DataType: Double
@@ -727,6 +1339,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_02_OG_2F1"
+- Name: MCB_SWB_02_OG_2F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_2F1_STS"
+- Name: MCB_SWB_02_OG_2F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_2F1_STS_Co"
 - Name: MCB_SWB_02_OG_2F2
   Type: MicroControllerTag
   DataType: Double
@@ -738,6 +1368,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_02_OG_2F2"
+- Name: MCB_SWB_02_OG_2F2_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_2F2_STS"
+- Name: MCB_SWB_02_OG_2F2_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_2F2_STS_Co"
 - Name: MCB_SWB_02_OG_3F1
   Type: MicroControllerTag
   DataType: Double
@@ -749,6 +1397,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_02_OG_3F1"
+- Name: MCB_SWB_02_OG_3F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_3F1_STS"
+- Name: MCB_SWB_02_OG_3F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_3F1_STS_Co"
 - Name: MCB_SWB_02_OG_3F2
   Type: MicroControllerTag
   DataType: Double
@@ -760,6 +1426,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_02_OG_3F2"
+- Name: MCB_SWB_02_OG_3F2_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_3F2_STS"
+- Name: MCB_SWB_02_OG_3F2_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_3F2_STS_Co"
 - Name: MCB_SWB_02_OG_4F1
   Type: MicroControllerTag
   DataType: Double
@@ -771,6 +1455,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_02_OG_4F1"
+- Name: MCB_SWB_02_OG_4F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_4F1_STS"
+- Name: MCB_SWB_02_OG_4F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_4F1_STS_Co"
 - Name: MCB_SWB_02_OG_4F2
   Type: MicroControllerTag
   DataType: Double
@@ -782,6 +1484,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_02_OG_4F2"
+- Name: MCB_SWB_02_OG_4F2_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_4F2_STS"
+- Name: MCB_SWB_02_OG_4F2_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_4F2_STS_Co"
 - Name: MCB_SWB_02_OG_5F1
   Type: MicroControllerTag
   DataType: Double
@@ -793,6 +1513,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_02_OG_5F1"
+- Name: MCB_SWB_02_OG_5F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_5F1_STS"
+- Name: MCB_SWB_02_OG_5F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_02_OG_5F1_STS_Co"
 - Name: MCB_SWB_03_IN1F1
   Type: MicroControllerTag
   DataType: Double
@@ -804,6 +1542,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_03_IN1F1"
+- Name: MCB_SWB_03_IN1F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_03_IN1F1_STS"
+- Name: MCB_SWB_03_IN1F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_03_IN1F1_STS_Co"
 - Name: MCB_SWB_03_OG_2F1
   Type: MicroControllerTag
   DataType: Double
@@ -815,6 +1571,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_03_OG_2F1"
+- Name: MCB_SWB_03_OG_2F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_03_OG_2F1_STS"
+- Name: MCB_SWB_03_OG_2F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_03_OG_2F1_STS_Co"
 - Name: MCB_SWB_03_OG_3F1
   Type: MicroControllerTag
   DataType: Double
@@ -826,3 +1600,21 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MCB_SWB_03_OG_3F1"
+- Name: MCB_SWB_03_OG_3F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_03_OG_3F1_STS"
+- Name: MCB_SWB_03_OG_3F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MCB_SWB_03_OG_3F1_STS_Co"

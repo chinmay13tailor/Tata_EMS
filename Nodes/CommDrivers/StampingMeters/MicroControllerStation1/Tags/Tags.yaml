@@ -12,6 +12,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_MVS_01_IN_F1"
+- Name: STP_MVS_01_IN_F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_IN_F1_STS"
+- Name: STP_MVS_01_IN_F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_IN_F1_STS_Co"
 - Name: STP_MVS_01_IN_F2
   Type: MicroControllerTag
   DataType: Double
@@ -23,6 +41,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_MVS_01_IN_F2"
+- Name: STP_MVS_01_IN_F2_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_IN_F2_STS"
+- Name: STP_MVS_01_IN_F2_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_IN_F2_STS_Co"
 - Name: STP_MVS_01_OG_F4
   Type: MicroControllerTag
   DataType: Double
@@ -34,6 +70,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_MVS_01_OG_F4"
+- Name: STP_MVS_01_OG_F4_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_OG_F4_STS"
+- Name: STP_MVS_01_OG_F4_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_OG_F4_STS_Co"
 - Name: STP_MVS_01_OG_F5
   Type: MicroControllerTag
   DataType: Double
@@ -45,6 +99,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_MVS_01_OG_F5"
+- Name: STP_MVS_01_OG_F5_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_OG_F5_STS"
+- Name: STP_MVS_01_OG_F5_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_OG_F5_STS_Co"
 - Name: STP_MVS_01_OG_F6
   Type: MicroControllerTag
   DataType: Double
@@ -56,6 +128,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_MVS_01_OG_F6"
+- Name: STP_MVS_01_OG_F6_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_OG_F6_STS"
+- Name: STP_MVS_01_OG_F6_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_OG_F6_STS_Co"
 - Name: STP_MVS_01_OG_F7
   Type: MicroControllerTag
   DataType: Double
@@ -67,6 +157,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_MVS_01_OG_F7"
+- Name: STP_MVS_01_OG_F7_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_OG_F7_STS"
+- Name: STP_MVS_01_OG_F7_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_OG_F7_STS_Co"
 - Name: STP_MVS_01_OG_F8
   Type: MicroControllerTag
   DataType: Double
@@ -78,6 +186,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_MVS_01_OG_F8"
+- Name: STP_MVS_01_OG_F8_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_OG_F8_STS"
+- Name: STP_MVS_01_OG_F8_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_MVS_01_OG_F8_STS_Co"
 - Name: STP_SWB_01_INF1
   Type: MicroControllerTag
   DataType: Double
@@ -100,6 +226,53 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_SWB_01_OG_3F"
+- Name: STP_SWB_01_INF1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_01_INF1_STS"
+- Name: STP_SWB_01_INF1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_01_INF1_STS_Co"
+- Name: STP_SWB_01_OG_3F1
+  Type: MicroControllerTag
+  DataType: Double
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_01_OG_3F1"
+- Name: STP_SWB_01_OG_3F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_01_OG_3F1_STS"
+- Name: STP_SWB_01_OG_3F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_01_OG_3F1_STS_Co"
 - Name: STP_SWB_02_INF1
   Type: MicroControllerTag
   DataType: Double
@@ -111,6 +284,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_SWB_02_INF1"
+- Name: STP_SWB_02_INF1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_INF1_STS"
+- Name: STP_SWB_02_INF1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_INF1_STS_Co"
 - Name: STP_SWB_02_OG_2F
   Type: MicroControllerTag
   DataType: Double
@@ -122,6 +313,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_SWB_02_OG_2F"
+- Name: STP_SWB_02_OG_2F_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_OG_2F_STS"
+- Name: STP_SWB_02_OG_2F_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_OG_2F_STS_Co"
 - Name: STP_SWB_02_OG_3F1
   Type: MicroControllerTag
   DataType: Double
@@ -133,6 +342,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_SWB_02_OG_3F1"
+- Name: STP_SWB_02_OG_3F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_OG_3F1_STS"
+- Name: STP_SWB_02_OG_3F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_OG_3F1_STS_Co"
 - Name: STP_SWB_02_OG_3F2
   Type: MicroControllerTag
   DataType: Double
@@ -144,6 +371,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_SWB_02_OG_3F2"
+- Name: STP_SWB_02_OG_3F2_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_OG_3F2_STS"
+- Name: STP_SWB_02_OG_3F2_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_OG_3F2_STS_Co"
 - Name: STP_SWB_02_OG_4F1
   Type: MicroControllerTag
   DataType: Double
@@ -155,6 +400,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_SWB_02_OG_4F1"
+- Name: STP_SWB_02_OG_4F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_OG_4F1_STS"
+- Name: STP_SWB_02_OG_4F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_OG_4F1_STS_Co"
 - Name: STP_SWB_02_OG_4F2
   Type: MicroControllerTag
   DataType: Double
@@ -166,6 +429,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_SWB_02_OG_4F2"
+- Name: STP_SWB_02_OG_4F2_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_OG_4F2_STS"
+- Name: STP_SWB_02_OG_4F2_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_OG_4F2_STS_Co"
 - Name: STP_SWB_02_OG_5F1
   Type: MicroControllerTag
   DataType: Double
@@ -177,6 +458,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_SWB_02_OG_5F1"
+- Name: STP_SWB_02_OG_5F1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_OG_5F1_STS"
+- Name: STP_SWB_02_OG_5F1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_02_OG_5F1_STS_Co"
 - Name: STP_SWB_03_INF1
   Type: MicroControllerTag
   DataType: Double
@@ -188,6 +487,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_SWB_03_INF1"
+- Name: STP_SWB_03_INF1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_03_INF1_STS"
+- Name: STP_SWB_03_INF1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_03_INF1_STS_Co"
 - Name: STP_SWB_04_INF1
   Type: MicroControllerTag
   DataType: Double
@@ -199,6 +516,24 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_SWB_04_INF1"
+- Name: STP_SWB_04_INF1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_04_INF1_STS"
+- Name: STP_SWB_04_INF1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_04_INF1_STS_Co"
 - Name: STP_SWB_05_INF1
   Type: MicroControllerTag
   DataType: Double
@@ -210,3 +545,21 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "STP_SWB_05_INF1"
+- Name: STP_SWB_05_INF1_STS
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_05_INF1_STS"
+- Name: STP_SWB_05_INF1_STS_Co
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STP_SWB_05_INF1_STS_Co"

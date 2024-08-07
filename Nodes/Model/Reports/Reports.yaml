@@ -18,7 +18,7 @@ Children:
   Id: g=93646b81b86d94244c506fe53aac81f6
   Type: BaseDataVariableType
   DataType: String
-  Value: "D:\\Jatin Bhai\\DataLogReport.pdf"
+  Value: "D:\\Daily_Energy_Reports\\Daily_Consumption_Report.pdf"
 - Name: DailyDateFrom
   Type: BaseDataVariableType
   DataType: DateTime

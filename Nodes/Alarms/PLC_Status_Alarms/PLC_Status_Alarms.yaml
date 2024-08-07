@@ -84,6 +84,11 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Utility  Jace_01 is Disconnected"}
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
 - Name: Utility_Jace_02_Status_Alarm
   Type: OffNormalAlarmController
   Children:
@@ -162,6 +167,11 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"PaintShop  Jace is Disconnected"}
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
 - Name: SPP_Jace_Status_Alarm
   Type: OffNormalAlarmController
   Children:
@@ -201,6 +211,11 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"SPP_Shop  Jace is Disconnected"}
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
 - Name: BodyShop_Jace_Status_Alarm
   Type: OffNormalAlarmController
   Children:
@@ -240,6 +255,11 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"BodyShop  Jace is Disconnected"}
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
 - Name: Stamping_Jace_Status_Alarm
   Type: OffNormalAlarmController
   Children:
@@ -279,6 +299,11 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping  Jace is Disconnected"}
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
 - Name: TCF_Jace_Status_Alarm
   Type: OffNormalAlarmController
   Children:
@@ -318,3 +343,8 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"TCF  Jace is Disconnected"}
+  - Name: Active
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false

@@ -446,7 +446,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 171.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -643,7 +643,7 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               ModellingRule: Optional
-              Value: "DataListStyle1"
+              Value: "Default"
             - Name: ScrollBarStyle
               Type: BaseDataVariableType
               DataType: String
@@ -713,7 +713,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 171.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -910,7 +910,7 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               ModellingRule: Optional
-              Value: "DataListStyle1"
+              Value: "Default"
             - Name: ScrollBarStyle
               Type: BaseDataVariableType
               DataType: String
@@ -980,7 +980,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 171.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -1177,7 +1177,7 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               ModellingRule: Optional
-              Value: "DataListStyle1"
+              Value: "Default"
             - Name: ScrollBarStyle
               Type: BaseDataVariableType
               DataType: String
@@ -1247,7 +1247,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 171.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -1444,7 +1444,7 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               ModellingRule: Optional
-              Value: "DataListStyle1"
+              Value: "Default"
             - Name: ScrollBarStyle
               Type: BaseDataVariableType
               DataType: String
@@ -1514,7 +1514,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 171.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -1711,7 +1711,7 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               ModellingRule: Optional
-              Value: "DataListStyle1"
+              Value: "Default"
             - Name: ScrollBarStyle
               Type: BaseDataVariableType
               DataType: String
@@ -1781,7 +1781,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 171.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -1978,7 +1978,7 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               ModellingRule: Optional
-              Value: "DataListStyle1"
+              Value: "Default"
             - Name: ScrollBarStyle
               Type: BaseDataVariableType
               DataType: String
@@ -2048,7 +2048,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 171.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -2245,7 +2245,7 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               ModellingRule: Optional
-              Value: "DataListStyle1"
+              Value: "Default"
             - Name: ScrollBarStyle
               Type: BaseDataVariableType
               DataType: String
@@ -2320,7 +2320,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 171.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -2517,7 +2517,7 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               ModellingRule: Optional
-              Value: "DataListStyle1"
+              Value: "Default"
             - Name: ScrollBarStyle
               Type: BaseDataVariableType
               DataType: String
@@ -2587,7 +2587,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 171.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -2601,7 +2601,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 707.0
+              Value: 709.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -2784,7 +2784,7 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               ModellingRule: Optional
-              Value: "DataListStyle1"
+              Value: "Default"
             - Name: ScrollBarStyle
               Type: BaseDataVariableType
               DataType: String
@@ -2843,6 +2843,11 @@ Children:
               DataType: TextVerticalAlignment
               ModellingRule: Optional
               Value: 1
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 100.0
           - Name: DateAndTime2
             Type: DateTimePicker
             Children:
@@ -2891,6 +2896,11 @@ Children:
               DataType: TextVerticalAlignment
               ModellingRule: Optional
               Value: 1
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 100.0
           - Name: Label2
             Type: Label
             Children:
@@ -4950,7 +4960,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 8.0
+              Value: -441.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -5129,7 +5139,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 300.0
+              Value: -163.0
           - Name: Generate05
             Type: Button
             Children:
@@ -11523,12 +11533,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 539.0
+              Value: 549.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 770.0
+              Value: -470.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -11590,7 +11600,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 809.0
+            Value: -431.0
           - Name: TextHorizontalAlignment
             Type: BaseVariableType
             DataType: TextHorizontalAlignment
@@ -11981,6 +11991,16 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 164.0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
+          - Name: Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: true
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment

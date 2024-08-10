@@ -153,7 +153,7 @@ Children:
   Supertype: Enumeration
   EnumDefinition: 
    {
-    "Name": "J03Meter",
+    "Name": "J01Meter",
     "DataType": {
      "IdType": 2,
      "Id": "af89b706cc8437bf842003e0ce616902",
@@ -168,7 +168,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "Incomer_1"
+       "Text": ""
       }
      },{
       "Name": "Value1",
@@ -179,7 +179,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "Incomer_2"
+       "Text": ""
       }
      },{
       "Name": "Value2",
@@ -190,7 +190,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "SPARE_IN1_OG1"
+       "Text": ""
       }
      },{
       "Name": "Value3",
@@ -201,7 +201,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "UTILITY_IN1_OG2"
+       "Text": ""
       }
      },{
       "Name": "Value4",
@@ -212,7 +212,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "STAMPING_IN1_OG3"
+       "Text": ""
       }
      },{
       "Name": "Value5",
@@ -223,7 +223,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "TCF_IN1_OG4"
+       "Text": ""
       }
      },{
       "Name": "Value6",
@@ -234,7 +234,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "BODY_SHOP_IN1_OG5"
+       "Text": ""
       }
      },{
       "Name": "Value7",
@@ -245,7 +245,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "ENGINE_SHOP_IN1_OG6"
+       "Text": ""
       }
      },{
       "Name": "Value8",
@@ -256,7 +256,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "PAINT_SHOP_IN1_OG7"
+       "Text": ""
       }
      },{
       "Name": "Value9",
@@ -267,7 +267,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "PAINT_SHOP_IN2_OG8"
+       "Text": ""
       }
      },{
       "Name": "Value10",
@@ -278,7 +278,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "ENGINE_SHOP_IN2_OG9"
+       "Text": ""
       }
      },{
       "Name": "Value11",
@@ -289,7 +289,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "BODY_SHOP_IN2_G10"
+       "Text": ""
       }
      },{
       "Name": "Value12",
@@ -300,7 +300,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "TCF_IN2_OG11"
+       "Text": ""
       }
      },{
       "Name": "Value13",
@@ -311,7 +311,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "STAMPING_IN2_OG12"
+       "Text": ""
       }
      },{
       "Name": "Value14",
@@ -322,7 +322,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "UTILITY_IN2_OG13"
+       "Text": ""
       }
      },{
       "Name": "Value15",
@@ -333,7 +333,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "SPARE_IN2_OG14"
+       "Text": ""
       }
      },{
       "Name": "Value16",
@@ -344,7 +344,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "OG15_IN2_SPP_Shop"
+       "Text": ""
       }
      },{
       "Name": "Value17",
@@ -355,7 +355,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "SPP_Shop_IN1_OG16"
+       "Text": ""
       }
      },{
       "Name": "Value18",
@@ -366,7 +366,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "EB_IN1"
+       "Text": ""
       }
      },{
       "Name": "Value19",
@@ -377,7 +377,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "DG_IN2"
+       "Text": ""
       }
      }]
    }
@@ -388,7 +388,7 @@ Children:
     ModellingRule: None
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"J1_INCOMER1"},"Description":{"LocaleId":"en-US","Text":"J1_INCOMER1"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"J1_INCOMER2"},"Description":{"LocaleId":"en-US","Text":"J1_INCOMER2"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG1_IN1_SPARE"},"Description":{"LocaleId":"en-US","Text":"J1_OG1_IN1_SPARE"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG2_IN1_UTILITY"},"Description":{"LocaleId":"en-US","Text":"J1_OG2_IN1_UTILITY"}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG3_IN1_STAMPING"},"Description":{"LocaleId":"en-US","Text":"J1_OG3_IN1_STAMPING"}}},{"TypeId":{"Id":7594},"Body":{"Value":5,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG4_IN1_TCF"},"Description":{"LocaleId":"en-US","Text":"J1_OG4_IN1_TCF"}}},{"TypeId":{"Id":7594},"Body":{"Value":6,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG5_IN1_BODYSHOP"},"Description":{"LocaleId":"en-US","Text":"J1_OG5_IN1_BODYSHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":7,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG6_IN1_ENGINESHOP"},"Description":{"LocaleId":"en-US","Text":"J1_OG6_IN1_ENGINESHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":8,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG7_IN1_PAINTSHOP"},"Description":{"LocaleId":"en-US","Text":"J1_OG7_IN1_PAINTSHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":9,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG8_IN2_PAINTSHOP"},"Description":{"LocaleId":"en-US","Text":"J1_OG8_IN2_PAINTSHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":10,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG9_IN2_ENGINESHOP"},"Description":{"LocaleId":"en-US","Text":"J1_OG9_IN2_ENGINESHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":11,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG10_IN2_BODYSHOP"},"Description":{"LocaleId":"en-US","Text":"J1_OG10_IN2_BODYSHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":12,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG11_IN2_TCF"},"Description":{"LocaleId":"en-US","Text":"J1_OG11_IN2_TCF"}}},{"TypeId":{"Id":7594},"Body":{"Value":13,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG12_IN2_STAMPING"},"Description":{"LocaleId":"en-US","Text":"J1_OG12_IN2_STAMPING"}}},{"TypeId":{"Id":7594},"Body":{"Value":14,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG13_IN2_UTILITY"},"Description":{"LocaleId":"en-US","Text":"J1_OG13_IN2_UTILITY"}}},{"TypeId":{"Id":7594},"Body":{"Value":15,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG14_IN2_SPARE"},"Description":{"LocaleId":"en-US","Text":"J1_OG14_IN2_SPARE"}}},{"TypeId":{"Id":7594},"Body":{"Value":16,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG15_IN2_SPP"},"Description":{"LocaleId":"en-US","Text":"J1_OG15_IN2_SPP"}}},{"TypeId":{"Id":7594},"Body":{"Value":17,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG16_IN1_SPP"},"Description":{"LocaleId":"en-US","Text":"J1_OG16_IN1_SPP"}}},{"TypeId":{"Id":7594},"Body":{"Value":18,"DisplayName":{"LocaleId":"en-US","Text":"J1_DG_PANEL_EB_IN1"},"Description":{"LocaleId":"en-US","Text":"J1_DG_PANEL_EB_IN1"}}},{"TypeId":{"Id":7594},"Body":{"Value":19,"DisplayName":{"LocaleId":"en-US","Text":"J1_DG_PANEL_DG_IN2"},"Description":{"LocaleId":"en-US","Text":"J1_DG_PANEL_DG_IN2"}}}]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"J1_INCOMER1"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"J1_INCOMER2"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG1_IN1_SPARE"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG2_IN1_UTILITY"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG3_IN1_STAMPING"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":5,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG4_IN1_TCF"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":6,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG5_IN1_BODYSHOP"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":7,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG6_IN1_ENGINESHOP"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":8,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG7_IN1_PAINTSHOP"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":9,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG8_IN2_PAINTSHOP"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":10,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG9_IN2_ENGINESHOP"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":11,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG10_IN2_BODYSHOP"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":12,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG11_IN2_TCF"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":13,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG12_IN2_STAMPING"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":14,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG13_IN2_UTILITY"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":15,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG14_IN2_SPARE"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":16,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG15_IN2_SPP"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":17,"DisplayName":{"LocaleId":"en-US","Text":"J1_OG16_IN1_SPP"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":18,"DisplayName":{"LocaleId":"en-US","Text":"J1_DG_PANEL_EB_IN1"},"Description":{"LocaleId":"en-US","Text":""}}},{"TypeId":{"Id":7594},"Body":{"Value":19,"DisplayName":{"LocaleId":"en-US","Text":"J1_DG_PANEL_DG_IN2"},"Description":{"LocaleId":"en-US","Text":""}}}]
 - Class: DataType
   Name: J02Meter
   Id: g=59cdc7f0a3f061cfbf0d78df9da8d7a2

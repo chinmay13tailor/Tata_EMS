@@ -10172,7 +10172,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=36;%PROJECTDIR%/imgs/Tata_Map.png"
+          Value: "ns=36;%PROJECTDIR%/imgs/tata motors google image.png"
         - Name: Width
           Type: BaseVariableType
           DataType: Size

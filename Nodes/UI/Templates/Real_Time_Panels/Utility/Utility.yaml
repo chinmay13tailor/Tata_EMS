@@ -5666,11 +5666,6 @@ Children:
                   Type: PropertyType
                   DataType: UInt16
                   Value: 0
-          - Name: CornerRadius
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 15.0
           - Name: Image1
             Type: Image
             Children:
@@ -5717,12 +5712,17 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1502.0
+              Value: -2.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 448.0
+              Value: 4.0
+          - Name: CornerRadius
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 15.0
           - Name: Label2
             Type: Label
             Children:

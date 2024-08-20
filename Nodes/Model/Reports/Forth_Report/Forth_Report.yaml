@@ -268,7 +268,7 @@ Children:
   Id: g=f1f54b8f86d31117149edd991faf7335
   Type: BaseDataVariableType
   DataType: String
-  Value: "C:\\Alarm_Report\\AlarmReport.pdf"
+  Value: "D:\\AlarmReport\\AlarmReport.pdf"
 - Name: 33KVComboselection
   Type: BaseDataVariableType
   DataType: Int32

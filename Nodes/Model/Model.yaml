@@ -30752,3 +30752,262 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+- Name: Target_Production_HomepageInstance
+  Type: Target_Production_Homepage
+  Children:
+  - Name: Target
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/Target"
+  - Name: TargetStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetStamping"
+  - Name: TargetTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetTCF"
+  - Name: TargetBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetBodyshop"
+  - Name: TargetPaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetPaintShop"
+  - Name: TargetSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSPP"
+  - Name: Target33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/Target33KV"
+  - Name: TargetEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TodayConsumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TodayConsumptionCost
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AverageFrequency
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AveragePowerFactor
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: MonthConsumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: MonthConsumptionCost
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TargetProduction
+    Type: NetLogic
+  - Name: ProductionCount
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: GuageMax
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Target_Production_Homepage
+  Id: g=a969e86dea6939e75e70c61ca8cf62cf
+  Supertype: BaseObjectType
+  Children:
+  - Name: Target
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/Target"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: TargetStamping
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetStamping"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: TargetTcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetTCF"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: TargetBodyshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetBodyshop"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: TargetPaintshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetPaintShop"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: TargetSpp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/TargetSPP"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Target33KV
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS/Model/HomePageHistogram/HomePage2/Target33KV"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: TargetEngineshop
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TodayConsumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TodayConsumptionCost
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AverageFrequency
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AveragePowerFactor
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: MonthConsumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: MonthConsumptionCost
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TargetProduction
+    Type: NetLogic
+  - Name: ProductionCount
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: GuageMax
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0

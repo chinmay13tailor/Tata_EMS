@@ -9148,8 +9148,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
+                          DataType: Boolean
+                          Value: false
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -9159,19 +9159,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_EMS/Model/Alarms/PLC_Status/33KVPLCStatus"
-                            Children:
-                            - Name: Mode
-                              Type: BaseVariableType
-                              DataType: DynamicLinkMode
-                              ModellingRule: Optional
-                              Value: 2
+                          DataType: Boolean
+                          Value: true
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -9253,8 +9242,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
+                          DataType: Boolean
+                          Value: false
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -9264,19 +9253,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_EMS/Model/Alarms/PLC_Status/Utility1PLCStatus"
-                            Children:
-                            - Name: Mode
-                              Type: BaseVariableType
-                              DataType: DynamicLinkMode
-                              ModellingRule: Optional
-                              Value: 2
+                          DataType: Boolean
+                          Value: true
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -9343,8 +9321,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
+                          DataType: Boolean
+                          Value: false
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -9354,19 +9332,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_EMS/Model/Alarms/PLC_Status/SPPPLCStatus"
-                            Children:
-                            - Name: Mode
-                              Type: BaseVariableType
-                              DataType: DynamicLinkMode
-                              ModellingRule: Optional
-                              Value: 2
+                          DataType: Boolean
+                          Value: true
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -9443,8 +9410,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
+                          DataType: Boolean
+                          Value: false
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -9454,19 +9421,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_EMS/Model/Alarms/PLC_Status/PaintshopPLCStatus"
-                            Children:
-                            - Name: Mode
-                              Type: BaseVariableType
-                              DataType: DynamicLinkMode
-                              ModellingRule: Optional
-                              Value: 2
+                          DataType: Boolean
+                          Value: true
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -9847,8 +9803,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
+                          DataType: Boolean
+                          Value: false
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -9858,19 +9814,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_EMS/Model/Alarms/PLC_Status/BodyShopPLCStatus"
-                            Children:
-                            - Name: Mode
-                              Type: BaseVariableType
-                              DataType: DynamicLinkMode
-                              ModellingRule: Optional
-                              Value: 2
+                          DataType: Boolean
+                          Value: true
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -9942,8 +9887,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
+                          DataType: Boolean
+                          Value: false
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -9953,19 +9898,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_EMS/Model/Alarms/PLC_Status/StampingPLCStatus"
-                            Children:
-                            - Name: Mode
-                              Type: BaseVariableType
-                              DataType: DynamicLinkMode
-                              ModellingRule: Optional
-                              Value: 2
+                          DataType: Boolean
+                          Value: true
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -10032,8 +9966,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
+                          DataType: Boolean
+                          Value: false
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color
@@ -10043,19 +9977,8 @@ Children:
                         Children:
                         - Name: Key
                           Type: BaseDataVariableType
-                          DataType: UInt32
-                          Value: 0
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_EMS/Model/Alarms/PLC_Status/TCFPLCStatus"
-                            Children:
-                            - Name: Mode
-                              Type: BaseVariableType
-                              DataType: DynamicLinkMode
-                              ModellingRule: Optional
-                              Value: 2
+                          DataType: Boolean
+                          Value: true
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: Color

@@ -77,13 +77,13 @@ public class HomePageTagsLogic : BaseNetLogic
         // Insert code to be executed when the user-defined logic is started
         var owner = (HomePageTags)LogicObject.Owner;
 
-        todayConsumptionVariable = owner.TodayConsumptionVariable;
-        todayConsumptionCostVariable = owner.TodayConsumptionCostVariable;
-        averageFrequencyVariable = owner.AverageFrequencyVariable;
-        avgPowerFactorVariable = owner.AvgPowerFactorVariable;
-        maxDemandVariable = owner.MaxDemandVariable;
-        monthConsumptionVariable = owner.MonthConsumptionVariable;
-        monthConsumptionCostVariable = owner.MonthConsumptionCostVariable;
+      //  todayConsumptionVariable = owner.TodayConsumptionVariable;
+       // todayConsumptionCostVariable = owner.TodayConsumptionCostVariable;
+       // averageFrequencyVariable = owner.AverageFrequencyVariable;
+       // avgPowerFactorVariable = owner.AvgPowerFactorVariable;
+      //  maxDemandVariable = owner.MaxDemandVariable;
+      //  monthConsumptionVariable = owner.MonthConsumptionVariable;
+      //  monthConsumptionCostVariable = owner.MonthConsumptionCostVariable;
         buttonVariable = owner.ButtonVariable;
         guageMaxVariable = owner.GuageMaxVariable;
         day1Variable = owner.Day1Variable;
@@ -131,18 +131,18 @@ public class HomePageTagsLogic : BaseNetLogic
 
     public void HomePageCalculationTask()
     {
-        float todayconsumption = todayConsumptionVariable.Value;
-        float monthconsumption = monthConsumptionVariable.Value;
-        float monthconsumptioncost = monthConsumptionCostVariable.Value;
-        float todayconsumptioncost = todayConsumptionCostVariable.Value;
-        float averagefrequency = averageFrequencyVariable.Value;
-        float avgpowerfactor = avgPowerFactorVariable.Value;
+     //   float todayconsumption = todayConsumptionVariable.Value;
+     //   float monthconsumption = monthConsumptionVariable.Value;
+     //   float monthconsumptioncost = monthConsumptionCostVariable.Value;
+     //   float todayconsumptioncost = todayConsumptionCostVariable.Value;
+        //float averagefrequency = averageFrequencyVariable.Value;
+      //  float avgpowerfactor = avgPowerFactorVariable.Value;
         bool button = buttonVariable.Value;
         int guagemax = guageMaxVariable.Value;
-        float IN1Consumption = 0; // Declare outside the if block
-        float IN2Consumption = 0; // Declare outside the if block
-        float MIN1Consumption = 0; // Declare outside the if block
-        float MIN2Consumption = 0; // Declare outside the if block
+        //float IN1Consumption = 0; // Declare outside the if block
+       // float IN2Consumption = 0; // Declare outside the if block
+       // float MIN1Consumption = 0; // Declare outside the if block
+       // float MIN2Consumption = 0; // Declare outside the if block
         float day1 = day1Variable.Value;
         float day2 = day2Variable.Value;
         float day3 = day3Variable.Value;
@@ -348,12 +348,12 @@ public class HomePageTagsLogic : BaseNetLogic
             string new1 = startTime.ToString("dd");
             string jace1 = jace.ToString();
 
-            string query1 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
-            string query2 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER2'";
-            string query3 =  $"SELECT Frequency FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
-            string query4 =  $"SELECT Avg_PF FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
-            string query5 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE MonthYear = '" + new12 + "' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
-            string query6 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE MonthYear = '" + new12 + "' AND Jace = '33KV' AND Meter = 'J1_INCOMER2'";
+       //     string query1 =  $"SELECT Consumption FROM DailyJaceDataLogger WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV'";
+           // string query2 =  $"SELECT Consumption FROM DailyJaceDataLogger WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV'";
+       //     string query3 =  $"SELECT Frequency FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
+        //    string query4 =  $"SELECT Avg_PF FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
+        //    string query5 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE MonthYear = '" + new12 + "' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
+            //string query6 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE MonthYear = '" + new12 + "' AND Jace = '33KV' AND Meter = 'J1_INCOMER2'";
             string query7 =  $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '1' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
             string query8 =  $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '2' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
             string query9 =  $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '3' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
@@ -389,12 +389,12 @@ public class HomePageTagsLogic : BaseNetLogic
 
 
 
-            myStore1.Query(query1, out header1, out resultSet1);
-            myStore2.Query(query2, out header2, out resultSet2);
-            myStore3.Query(query3, out header3, out resultSet3);
-            myStore4.Query(query4, out header4, out resultSet4);
-            myStore5.Query(query5, out header5, out resultSet5);
-            myStore6.Query(query6, out header6, out resultSet6);
+          //  myStore1.Query(query1, out header1, out resultSet1);
+           // myStore2.Query(query2, out header2, out resultSet2);
+        //    myStore3.Query(query3, out header3, out resultSet3);
+         //   myStore4.Query(query4, out header4, out resultSet4);
+          //  myStore5.Query(query5, out header5, out resultSet5);
+           // myStore6.Query(query6, out header6, out resultSet6);
             myStore7.Query(query7, out header7, out resultSet7);
             myStore8.Query(query8, out header8, out resultSet8);
 
@@ -431,17 +431,17 @@ public class HomePageTagsLogic : BaseNetLogic
             myStore36.Query(query36, out header36, out resultSet36);
             myStore37.Query(query37, out header37, out resultSet37);
 
-
+            /*
 
             if (resultSet1 != null && resultSet1.GetLength(0) > 0 && header1 != null && header1.Length > 0)
             {
-                float.TryParse(resultSet1[0, 0]?.ToString(), out IN1Consumption);
+                float.TryParse(resultSet1[0, 0]?.ToString(), out todayconsumption);
             }
 
-            if (resultSet2 != null && resultSet2.GetLength(0) > 0 && header2 != null && header2.Length > 0)
-            {
-                float.TryParse(resultSet2[0, 0]?.ToString(), out IN2Consumption);
-            }
+           // if (resultSet2 != null && resultSet2.GetLength(0) > 0 && header2 != null && header2.Length > 0)
+           // {
+           //     float.TryParse(resultSet2[0, 0]?.ToString(), out IN2Consumption);
+          //  }
             // Process resultSet3 (Frequency)
             if (resultSet3 != null && resultSet3.GetLength(0) > 0 && header3 != null && header3.Length > 0)
             {
@@ -456,14 +456,14 @@ public class HomePageTagsLogic : BaseNetLogic
 
             if (resultSet5 != null && resultSet5.GetLength(0) > 0 && header5 != null && header5.Length > 0)
             {
-                float.TryParse(resultSet5[0, 0]?.ToString(), out MIN1Consumption);
+                float.TryParse(resultSet5[0, 0]?.ToString(), out monthconsumption);
             }
 
-            if (resultSet6 != null && resultSet6.GetLength(0) > 0 && header6 != null && header6.Length > 0)
-            {
-                float.TryParse(resultSet6[0, 0]?.ToString(), out MIN2Consumption);
-            }
-
+          //  if (resultSet6 != null && resultSet6.GetLength(0) > 0 && header6 != null && header6.Length > 0)
+         //   {
+           //     float.TryParse(resultSet6[0, 0]?.ToString(), out MIN2Consumption);
+           // }
+            */
             if (resultSet7 != null && resultSet7.GetLength(0) > 0 && header7 != null && header7.Length > 0)
             {
                 float.TryParse(resultSet7[0, 0]?.ToString(), out day1);
@@ -604,41 +604,16 @@ public class HomePageTagsLogic : BaseNetLogic
             {
                 float.TryParse(resultSet37[0, 0]?.ToString(), out day31);
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             // Calculate today consumption based on IN1Consumption and IN2Consumption
-            todayconsumption = IN1Consumption + IN2Consumption;
-            monthconsumption = MIN1Consumption + MIN2Consumption;
+           // todayconsumption = IN1Consumption + IN2Consumption;
+           // monthconsumption = MIN1Consumption + MIN2Consumption;
 
             // Calculate today consumption cost
-            todayconsumptioncost = todayconsumption * 752;
-            todayconsumptioncost = todayconsumptioncost / 100 + 1608.4f;
-            monthconsumptioncost = monthconsumption * 752;
-            monthconsumptioncost = monthconsumptioncost / 100 + 1608.4f;
-
+          //  todayconsumptioncost = todayconsumption * 752;
+          //  todayconsumptioncost = todayconsumptioncost / 100 + 1608.4f;
+          //  monthconsumptioncost = monthconsumption * 752;
+          //  monthconsumptioncost = monthconsumptioncost / 100 + 1608.4f;
+          /*
             if (monthconsumption < 99)
             {
                 guagemax = 100;
@@ -667,19 +642,19 @@ public class HomePageTagsLogic : BaseNetLogic
             {
                 guagemax = 100000000;
             }
-
+          */
             button = false;
         }
 
 
         // Update variable values
         buttonVariable.Value = button;
-        todayConsumptionVariable.Value = todayconsumption;
-        todayConsumptionCostVariable.Value = todayconsumptioncost;
-        averageFrequencyVariable.Value = averagefrequency;
-        avgPowerFactorVariable.Value = avgpowerfactor;
-        monthConsumptionVariable.Value = monthconsumption;  
-        monthConsumptionCostVariable.Value =monthconsumptioncost;
+       // todayConsumptionVariable.Value = todayconsumption;
+       // todayConsumptionCostVariable.Value = todayconsumptioncost;
+      //  averageFrequencyVariable.Value = averagefrequency;
+      //  avgPowerFactorVariable.Value = avgpowerfactor;
+      //  monthConsumptionVariable.Value = monthconsumption;  
+      //  monthConsumptionCostVariable.Value =monthconsumptioncost;
         guageMaxVariable.Value = guagemax;
         day1Variable.Value = day1;
         day2Variable.Value = day2;

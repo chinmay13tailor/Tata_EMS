@@ -1489,12 +1489,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 570.0
+            Value: 490.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 420.0
+            Value: 991.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -1532,12 +1532,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 640.0
+            Value: 560.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 422.0
+            Value: 993.0
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -4076,12 +4076,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 200.0
+              Value: 194.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 20.0
+              Value: 580.0
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -4114,12 +4114,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 20.0
+              Value: 10.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 15.0
+              Value: 575.0
             - Name: InputFormat
               Type: BaseDataVariableType
               DataType: DateTimePickerInputFormatEnum
@@ -7349,12 +7349,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 854.0
+            Value: 794.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 399.0
+            Value: 1020.0
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -7377,12 +7377,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 784.0
+            Value: 724.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 399.0
+            Value: 1020.0
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -9801,12 +9801,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 609.0
+            Value: 613.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 348.0
+            Value: 914.0
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -9896,12 +9896,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 496.0
+            Value: 500.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 353.0
+            Value: 919.0
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color

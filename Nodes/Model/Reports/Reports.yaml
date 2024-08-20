@@ -18,7 +18,7 @@ Children:
   Id: g=93646b81b86d94244c506fe53aac81f6
   Type: BaseDataVariableType
   DataType: String
-  Value: "C:\\Daily_Energy_Reports\\Daily_Consumption_Report.pdf"
+  Value: "D:\\DailyReports\\Daily_Consumption_Report.pdf"
 - Name: DailyDateFrom
   Type: BaseDataVariableType
   DataType: DateTime
@@ -166,7 +166,7 @@ Children:
   Id: g=9c65529da80d76d6ccbe960388136f49
   Type: BaseDataVariableType
   DataType: String
-  Value: "C:\\Monthly_Consumption_Report\\MonthlyConsumptionReportReport.csv"
+  Value: "D:\\MonthlyReport\\MonthlyConsumptionReportReport.csv"
 - Name: Monthlyconsumptionreportpath_As_Excel
   Id: g=818ec53a729f646df889d7098f59859c
   Type: BaseDataVariableType

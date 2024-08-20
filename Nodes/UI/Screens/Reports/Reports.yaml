@@ -3843,7 +3843,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Daily_Energy_Reports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\DailyReports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -4391,7 +4391,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Daily_Energy_Reports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\DailyReports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -6179,7 +6179,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Daily_Energy_Reports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\DailyReports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -6711,7 +6711,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Daily_Energy_Reports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\DailyReports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -7438,7 +7438,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Daily_Energy_Reports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\DailyReports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -8421,7 +8421,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Daily_Energy_Reports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\DailyReports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -9184,7 +9184,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Daily_Energy_Reports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\DailyReports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -9914,7 +9914,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Daily_Energy_Reports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\DailyReports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -10457,7 +10457,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Daily_Energy_Reports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\DailyReports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -11077,7 +11077,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"C:\\Daily_Energy_Reports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\DailyReports\\Daily_Consumption_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -11154,13 +11154,19 @@ Children:
                     Type: BaseDataVariableType
                     DataType: String
                     Value: "GeneratePdf"
+                  - Name: OutputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: OperationId
+                      Type: BaseDataVariableType
+                      DataType: Guid
+                      Value: "00000000000000000000000000000000"
                   - Name: InputArguments
                     Type: BaseObjectType
                     Children:
                     - Name: OutputPath
                       Type: BaseDataVariableType
                       DataType: ResourceUri
-                      Description: {"NamespaceIndex":17,"TextId":"GeneratePdfOutputPathDescription"}
                       Value: ""
                       Children:
                       - Name: StringFormatter1
@@ -11184,16 +11190,7 @@ Children:
                     - Name: LocaleId
                       Type: BaseDataVariableType
                       DataType: LocaleId
-                      Description: {"NamespaceIndex":17,"TextId":"GeneratePdfLocaleIdDescription"}
                       Value: ""
-                  - Name: OutputArguments
-                    Type: BaseObjectType
-                    Children:
-                    - Name: OperationId
-                      Type: BaseDataVariableType
-                      DataType: Guid
-                      Description: {"NamespaceIndex":17,"TextId":"GeneratePdfOperationIdDescription"}
-                      Value: "00000000000000000000000000000000"
               - Name: EventArguments
                 Type: MouseClickEvent
                 Children:
@@ -15354,7 +15351,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Jatin Bhai\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\MonthlyReport\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -16281,7 +16278,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Jatin Bhai\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\MonthlyReport\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -17589,7 +17586,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Jatin Bhai\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\MonthlyReport\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -19098,7 +19095,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Jatin Bhai\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\MonthlyReport\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -19782,7 +19779,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Jatin Bhai\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\MonthlyReport\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pd.f"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -20664,7 +20661,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Jatin Bhai\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\MonthlyReport\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -21799,7 +21796,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Jatin Bhai\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\MonthlyReport\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -22714,7 +22711,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Jatin Bhai\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\MonthlyReport\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -23596,7 +23593,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"D:\\Jatin Bhai\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\MonthlyReport\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -24291,7 +24288,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"C:\\Monthly_Consumption_Report\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                          Value: {"LocaleId":"en-US","Text":"D:\\MonthlyReport\\MonthlyConsumptionReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -26478,7 +26475,7 @@ Children:
                         DataType: LocalizedText
                         ReferenceType: HasParameter
                         ModellingRule: Optional
-                        Value: {"LocaleId":"en-US","Text":"C:\\Consumption_Report\\Consumption_Distribution_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                        Value: {"LocaleId":"en-US","Text":"D:\\ConsumptionReport\\Consumption_Distribution_Report_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                       - Name: ns=3;Source0
                         Type: BaseDataVariableType
                         DataType: BaseDataType
@@ -27823,7 +27820,7 @@ Children:
                         DataType: LocalizedText
                         ReferenceType: HasParameter
                         ModellingRule: Optional
-                        Value: {"LocaleId":"en-US","Text":"C:\\Alarm_Report\\AlarmReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                        Value: {"LocaleId":"en-US","Text":"D:\\AlarmReport\\AlarmReport_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                       - Name: ns=3;Source0
                         Type: BaseDataVariableType
                         DataType: BaseDataType

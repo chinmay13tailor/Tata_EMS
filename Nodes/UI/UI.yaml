@@ -54,15 +54,15 @@ Children:
   - Name: Protocol
     Type: BaseDataVariableType
     DataType: Protocol
-    Value: 1
+    Value: 0
   - Name: IPAddress
     Type: BaseDataVariableType
     DataType: String
-    Value: "0.0.0.0"
+    Value: "172.29.135.126"
   - Name: Port
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
+    Value: 8080
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -178,6 +178,14 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/SessionType/UISession"
+  - Name: Hostname
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "WIN-I3FK2N5M9LQ"
+  - Name: MaxNumberOfConnections
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 3
 - Name: CustomUISession
   Id: g=7a72d14bf62ef6760f7b98497372717c
   Supertype: UISession
